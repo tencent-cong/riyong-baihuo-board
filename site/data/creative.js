@@ -4209,9 +4209,30 @@ window.CREATIVE_DATA = {
           "ctr": 0.96,
           "cvr": 20.62,
           "cpm": 45.05,
-          "duration": "未提供",
+          "duration": "约132s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3ymackaaaweai4fcl3fvbvqyeexbqajka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-01.jpg",
+              "time": "7.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-02.jpg",
+              "time": "31.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-03.jpg",
+              "time": "56.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-04.jpg",
+              "time": "82.1s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-05.jpg",
+              "time": "108.6s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4233,7 +4254,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'防串味、干净卫生'，强调'500只装'量大实惠，配合'点击购买'指令，承接CID链路，用囤货心理和实用价值促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 6,
