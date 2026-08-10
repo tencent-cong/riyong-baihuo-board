@@ -4428,9 +4428,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.553371579046365,
           "cvr": 25.481332663653106,
           "cpm": 116.10458008088028,
-          "duration": "未提供",
+          "duration": "约73s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3umagaaaajialjdlrwjvbviyemcrqayca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-01.jpg",
+              "time": "4.4s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-02.jpg",
+              "time": "17.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-03.jpg",
+              "time": "31.4s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-04.jpg",
+              "time": "45.2s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-05.jpg",
+              "time": "59.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4452,7 +4473,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'加厚耐用，密封防漏'，字幕'大卷装，限时特价'，配合点击链接购买，承接小店链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 8,
