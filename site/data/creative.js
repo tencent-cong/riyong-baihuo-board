@@ -170,9 +170,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.8215183095110596,
           "cvr": 6.049582322824037,
           "cpm": 169.69848323516086,
-          "duration": "未提供",
+          "duration": "约87s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532mcn2aaeeeadwyr4tnvb5uye3xjqjxka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-01.jpg",
+              "time": "5.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-02.jpg",
+              "time": "21s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-03.jpg",
+              "time": "37.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-04.jpg",
+              "time": "54.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-05.jpg",
+              "time": "71.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -194,7 +215,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "再次强调'天然汉麻，凉而不刺骨，空调房不开空调都合适'，配合'直播专享价'与'送枕套'福利，催促点击直播间下单，承接直播链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
