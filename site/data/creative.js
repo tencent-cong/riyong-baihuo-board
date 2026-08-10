@@ -3856,9 +3856,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.598159695,
           "cvr": 8.333333333,
           "cpm": 545.3786549,
-          "duration": "未提供",
+          "duration": "约54s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534abgcaacjeaov7tg6rvbryaemhqaeyka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-12-ac8616f360/frame-01.jpg",
+              "time": "3.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-12-ac8616f360/frame-02.jpg",
+              "time": "12.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-12-ac8616f360/frame-03.jpg",
+              "time": "23.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-12-ac8616f360/frame-04.jpg",
+              "time": "33.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-12-ac8616f360/frame-05.jpg",
+              "time": "44s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3880,7 +3901,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'多功能、整洁、安全'，福利：限时特价，话术'点击链接，立即购买'，承接CID链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         }
       ]
     },
