@@ -157,9 +157,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.82,
           "cvr": 6.05,
           "cpm": 169.7,
-          "duration": "未提供",
+          "duration": "约87s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532mcn2aaeeeadwyr4tnvb5uye3xjqjxka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-01.jpg",
+              "time": "5.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-02.jpg",
+              "time": "21s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-03.jpg",
+              "time": "37.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-04.jpg",
+              "time": "54.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-05.jpg",
+              "time": "71.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -181,7 +202,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'透气吸湿、凉而不冰'，强调'加厚送枕套'的福利，口播'直播间下单享优惠'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
