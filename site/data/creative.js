@@ -4329,9 +4329,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.55,
           "cvr": 25.48,
           "cpm": 116.1,
-          "duration": "未提供",
+          "duration": "约73s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3umagaaaajialjdlrwjvbviyemcrqayca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-01.jpg",
+              "time": "4.4s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-02.jpg",
+              "time": "17.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-03.jpg",
+              "time": "31.4s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-04.jpg",
+              "time": "45.2s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-07-96f20b1f7e/frame-05.jpg",
+              "time": "59.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4353,7 +4374,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'加厚耐用、密封防漏'，强调'大卷装'量足，配合'点击购买'指令，承接小店链路，用囤货心理和实用价值促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 8,
