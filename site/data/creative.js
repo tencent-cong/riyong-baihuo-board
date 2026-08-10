@@ -3796,9 +3796,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.448901257,
           "cvr": 11.91222571,
           "cpm": 65.33074478,
-          "duration": "未提供",
+          "duration": "约69s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53rebwwaadkiajjwb66zvbtcienoeqg22a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-01.jpg",
+              "time": "4.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-02.jpg",
+              "time": "16.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-03.jpg",
+              "time": "29.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-04.jpg",
+              "time": "43s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-05.jpg",
+              "time": "56.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3820,7 +3841,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'泼油、辅食、防烫'，福利：直播间立减，话术'点击下方，立即抢购'，承接直播链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 12,
