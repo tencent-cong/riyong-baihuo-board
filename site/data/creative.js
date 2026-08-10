@@ -410,9 +410,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.654096441,
           "cvr": 4.320987654,
           "cpm": 122.5024656,
-          "duration": "未提供",
+          "duration": "约63s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53cma6oaabsmaa2lrslzvbweye44jqdz2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-01.jpg",
+              "time": "3.8s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-02.jpg",
+              "time": "15s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-03.jpg",
+              "time": "26.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-04.jpg",
+              "time": "38.8s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-05.jpg",
+              "time": "51.3s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -434,7 +455,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'明星同款、护颈护肩'，口播'直播间有专属优惠，赶紧下单'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 6,
