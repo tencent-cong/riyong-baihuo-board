@@ -4089,9 +4089,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.34,
           "cvr": 14.37,
           "cpm": 234.59,
-          "duration": "未提供",
+          "duration": "约115s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53jyam6aaadqaipispuvvbutqez5habt2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-01.jpg",
+              "time": "6.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-02.jpg",
+              "time": "27.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-03.jpg",
+              "time": "49.3s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-04.jpg",
+              "time": "71.1s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-05.jpg",
+              "time": "94s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4113,7 +4134,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'强力去油污、耐用不伤锅'，配合'限时特价''点击购买'指令，承接CID链路，用实用性和性价比促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 4,
