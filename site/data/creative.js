@@ -3105,9 +3105,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.82,
           "cvr": 3.58,
           "cpm": 191.71,
-          "duration": "未提供",
+          "duration": "约290s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53aaa7eaablyagl2k4v5vbwaae6iaad4sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-01.jpg",
+              "time": "17.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-02.jpg",
+              "time": "69.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-03.jpg",
+              "time": "124.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-04.jpg",
+              "time": "179.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-05.jpg",
+              "time": "237.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3129,7 +3150,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'健康烹饪，从一口好锅开始'，画面显示直播间限时立减、下单送锅盖铲，引导点击直播间抢购，承接直播链路转化，强调'今天下单才有的福利'制造紧迫感。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
