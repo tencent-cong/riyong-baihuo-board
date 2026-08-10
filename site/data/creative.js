@@ -697,9 +697,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.71,
           "cvr": 5.72,
           "cpm": 47.79,
-          "duration": "未提供",
+          "duration": "约55s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534mbduaaco4akjpy4ijvbryyehlrqeosa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-10-d008f668b8/frame-01.jpg",
+              "time": "3.3s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-10-d008f668b8/frame-02.jpg",
+              "time": "13.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-10-d008f668b8/frame-03.jpg",
+              "time": "23.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-10-d008f668b8/frame-04.jpg",
+              "time": "34s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-10-d008f668b8/frame-05.jpg",
+              "time": "45s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -721,7 +742,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'夏季凉爽、告别闷热'，强调'三件套'，口播'点击购物车购买'，引导转化。"
             }
-          }
+          },
+          "sourceType": "video"
         }
       ]
     },
