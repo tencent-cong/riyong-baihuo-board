@@ -230,9 +230,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.31312846006101,
           "cvr": 9.01269090126909,
           "cpm": 67.36574940684669,
-          "duration": "未提供",
+          "duration": "约77s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc35abv6aadpuanyytt65vbt2ael7uagx2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-01.jpg",
+              "time": "4.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-02.jpg",
+              "time": "18.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-03.jpg",
+              "time": "33.3s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-04.jpg",
+              "time": "48s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-05.jpg",
+              "time": "63.4s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -254,7 +275,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "总结'睡醒腰酸试试护腰枕'，强调'深睡整晚'的改善效果，配合直播间优惠与限时福利，引导点击购物车或进入直播间，承接直播链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 3,
