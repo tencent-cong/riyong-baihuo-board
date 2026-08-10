@@ -3969,9 +3969,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.77,
           "cvr": 16.42,
           "cpm": 222.68,
-          "duration": "未提供",
+          "duration": "约147s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53hyahcaaa3qafutthmbvbupqeoe7aa4ka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-01.jpg",
+              "time": "8.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-02.jpg",
+              "time": "35.2s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-03.jpg",
+              "time": "63s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-04.jpg",
+              "time": "90.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-05.jpg",
+              "time": "120.2s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3993,7 +4014,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'一把搞定切丝削皮，厨房小白变大厨'，配合'限时特价''点击下方链接购买'的指令，承接CID链路直接下单，用低门槛价格和实用价值促转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
