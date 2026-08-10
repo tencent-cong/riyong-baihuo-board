@@ -3316,9 +3316,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.682192949,
           "cvr": 12.19745433,
           "cpm": 53.99829477,
-          "duration": "未提供",
+          "duration": "约189s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xybdgaacwqakfllcnbvbtpqego7aem2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-03-58330509ab/frame-01.jpg",
+              "time": "11.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-58330509ab/frame-02.jpg",
+              "time": "45.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-58330509ab/frame-03.jpg",
+              "time": "81.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-58330509ab/frame-04.jpg",
+              "time": "117.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-58330509ab/frame-05.jpg",
+              "time": "154.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3340,7 +3361,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'防滑、通用、安全'，福利：小店特价，话术'点击下方，立即购买'，承接小店链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 4,
