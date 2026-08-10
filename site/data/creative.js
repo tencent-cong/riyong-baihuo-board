@@ -470,9 +470,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.86989657,
           "cvr": 9.749620637,
           "cpm": 179.0341006,
-          "duration": "未提供",
+          "duration": "约51s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nqaciaaa54ajyy3rzrvbu3aeerwaajca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-01.jpg",
+              "time": "3.1s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-02.jpg",
+              "time": "12.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-03.jpg",
+              "time": "21.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-04.jpg",
+              "time": "31.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-05.jpg",
+              "time": "41.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -494,7 +515,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'免铺床、防滑透气'，口播'直播专享价，赶紧抢购'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 7,
