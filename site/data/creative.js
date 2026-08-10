@@ -4548,9 +4548,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.3112362915713476,
           "cvr": 12.131237937689551,
           "cpm": 41.35396686824402,
-          "duration": "未提供",
+          "duration": "约295s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3mqa6waab24aduic4qjvbuzae5nsad22a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-01.jpg",
+              "time": "17.7s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-02.jpg",
+              "time": "70.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-03.jpg",
+              "time": "126.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-04.jpg",
+              "time": "183s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-05.jpg",
+              "time": "242s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4572,7 +4593,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'防尘防潮防虫，大开口取米便捷'，字幕'限时特价，速来抢购'，配合点击链接购买，承接小店链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 10,
