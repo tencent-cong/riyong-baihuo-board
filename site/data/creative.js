@@ -3496,9 +3496,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.092351522,
           "cvr": 17.80568895,
           "cpm": 102.2905486,
-          "duration": "未提供",
+          "duration": "约54s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3fyaouaaa24abemdtr5vbulqe5ixab2sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-06-bbfca03f76/frame-01.jpg",
+              "time": "3.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-bbfca03f76/frame-02.jpg",
+              "time": "12.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-bbfca03f76/frame-03.jpg",
+              "time": "23.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-bbfca03f76/frame-04.jpg",
+              "time": "33.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-bbfca03f76/frame-05.jpg",
+              "time": "44.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3520,7 +3541,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'多功能、防滑、省空间'，福利：源头工厂直供，话术'点击链接，立即抢购'，承接CID链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 7,
