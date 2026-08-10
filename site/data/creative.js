@@ -3285,9 +3285,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.04,
           "cvr": 16.98,
           "cpm": 119.3,
-          "duration": "未提供",
+          "duration": "约90s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qycv2aaf64acclsg5bvb7bqelwdakxka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-04-3901a0b332/frame-01.jpg",
+              "time": "5.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-04-3901a0b332/frame-02.jpg",
+              "time": "21.5s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-04-3901a0b332/frame-03.jpg",
+              "time": "38.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-04-3901a0b332/frame-04.jpg",
+              "time": "55.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-04-3901a0b332/frame-05.jpg",
+              "time": "73.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3309,7 +3330,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'真的太有用了'，画面显示限时折扣和包邮，引导点击购买，承接CID链路，用'小工具解决大麻烦'的实用价值促成下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 5,
