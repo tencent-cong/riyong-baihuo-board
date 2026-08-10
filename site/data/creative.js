@@ -3436,9 +3436,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.040666237,
           "cvr": 16.98272229,
           "cpm": 119.2961615,
-          "duration": "未提供",
+          "duration": "约90s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qycv2aaf64acclsg5bvb7bqelwdakxka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-05-3901a0b332/frame-01.jpg",
+              "time": "5.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-3901a0b332/frame-02.jpg",
+              "time": "21.5s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-3901a0b332/frame-03.jpg",
+              "time": "38.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-3901a0b332/frame-04.jpg",
+              "time": "55.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-3901a0b332/frame-05.jpg",
+              "time": "73.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3460,7 +3481,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'快速开刃，锋利持久'，福利：限时优惠，话术'点击链接，立即购买'，承接CID链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 6,
