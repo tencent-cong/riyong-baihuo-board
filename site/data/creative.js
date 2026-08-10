@@ -3616,9 +3616,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.905465594,
           "cvr": 2.918941621,
           "cpm": 56.68357396,
-          "duration": "未提供",
+          "duration": "约52s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532aaccaaaqualuqdn4rvbvuaeehiaaika.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-08-405284707d/frame-01.jpg",
+              "time": "3.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-405284707d/frame-02.jpg",
+              "time": "12.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-405284707d/frame-03.jpg",
+              "time": "22.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-405284707d/frame-04.jpg",
+              "time": "32.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-405284707d/frame-05.jpg",
+              "time": "42.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3640,7 +3661,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'锋利、仪式感、高品质'，福利：直播间优惠，话术'点击下方，立即抢购'，承接直播链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 9,
