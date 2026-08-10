@@ -508,9 +508,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.6723434538014637,
           "cvr": 4.866850321395776,
           "cpm": 98.49950951822973,
-          "duration": "未提供",
+          "duration": "约124s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nyabeaaakuacelamh5vbu3qecjxaaesa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-01.jpg",
+              "time": "7.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-02.jpg",
+              "time": "29.8s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-03.jpg",
+              "time": "53.4s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-04.jpg",
+              "time": "77s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-05.jpg",
+              "time": "101.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -532,7 +553,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "再次强调'清仓价直出'与'冰丝透气'，配合'卖完就没有了'的紧迫感，引导点击购买链接，承接CID链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 8,
