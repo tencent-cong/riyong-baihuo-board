@@ -448,9 +448,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.869896570495373,
           "cvr": 9.749620637329286,
           "cpm": 179.0341005988024,
-          "duration": "未提供",
+          "duration": "约51s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nqaciaaa54ajyy3rzrvbu3aeerwaajca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-01.jpg",
+              "time": "3.1s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-02.jpg",
+              "time": "12.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-03.jpg",
+              "time": "21.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-04.jpg",
+              "time": "31.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-05.jpg",
+              "time": "41.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -472,7 +493,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "再次强调'不用频繁折腾铺床'，配合'A类母婴级'安全认证与优惠价格，引导点击购物车或进入直播间，承接直播链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 7,
