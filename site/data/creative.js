@@ -3225,9 +3225,30 @@ window.CREATIVE_DATA = {
           "ctr": 5.35,
           "cvr": 3.97,
           "cpm": 139.12,
-          "duration": "未提供",
+          "duration": "约180s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3aeakuaaaaiaar52rljvbuaieviaqbksa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-03-ae9ec68018/frame-01.jpg",
+              "time": "10.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-ae9ec68018/frame-02.jpg",
+              "time": "43.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-ae9ec68018/frame-03.jpg",
+              "time": "77.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-ae9ec68018/frame-04.jpg",
+              "time": "111.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-03-ae9ec68018/frame-05.jpg",
+              "time": "147.4s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3249,7 +3270,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'关键只要这个价！'，画面显示特价标签和限时优惠，引导点击链接购买，承接CID链路直接下单，用价格锚点和紧迫感促成转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 4,
