@@ -3645,9 +3645,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.25,
           "cvr": 1.37,
           "cpm": 49.79,
-          "duration": "未提供",
+          "duration": "约58s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53iuagiaaaveahqi3gsfvburiemrcqazca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-10-bdd423b500/frame-01.jpg",
+              "time": "3.5s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-bdd423b500/frame-02.jpg",
+              "time": "13.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-bdd423b500/frame-03.jpg",
+              "time": "24.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-bdd423b500/frame-04.jpg",
+              "time": "36s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-bdd423b500/frame-05.jpg",
+              "time": "47.6s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3669,7 +3690,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'真安全'，画面显示直播间新品发布优惠，引导点击直播间购买，承接直播链路，用'安全+省时'促成转化。"
             }
-          }
+          },
+          "sourceType": "video"
         }
       ]
     },
