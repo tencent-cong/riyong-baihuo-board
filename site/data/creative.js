@@ -4188,9 +4188,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.3448033296207282,
           "cvr": 14.365384615384615,
           "cpm": 234.59332150410114,
-          "duration": "未提供",
+          "duration": "约115s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53jyam6aaadqaipispuvvbutqez5habt2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-01.jpg",
+              "time": "6.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-02.jpg",
+              "time": "27.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-03.jpg",
+              "time": "49.3s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-04.jpg",
+              "time": "71.1s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-03-ddb0f2f0a6/frame-05.jpg",
+              "time": "94s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4212,7 +4233,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'强力去油污，实心手柄耐用'，字幕'限时特价，速来抢购'，配合点击链接购买，承接CID链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 4,
