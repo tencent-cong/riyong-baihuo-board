@@ -4389,9 +4389,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.31,
           "cvr": 18.39,
           "cpm": 32.51,
-          "duration": "未提供",
+          "duration": "约93s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc34mabiaaau4abuptmuvvbvyyectrqafca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-08-1e10c7154d/frame-01.jpg",
+              "time": "5.6s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-08-1e10c7154d/frame-02.jpg",
+              "time": "22.3s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-08-1e10c7154d/frame-03.jpg",
+              "time": "39.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-08-1e10c7154d/frame-04.jpg",
+              "time": "57.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-08-1e10c7154d/frame-05.jpg",
+              "time": "76.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4413,7 +4434,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'轻松挤水、包饺子不破皮'，配合'限时优惠''点击购买'指令，承接小店链路，用实用性和效果促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 9,
