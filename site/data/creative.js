@@ -4509,9 +4509,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.4,
           "cvr": 9.54,
           "cpm": 240.56,
-          "duration": "未提供",
+          "duration": "约120s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53c4afeaaayuabixb6knvbufyekilqausa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-10-922d5e8850/frame-01.jpg",
+              "time": "7.2s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-10-922d5e8850/frame-02.jpg",
+              "time": "28.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-10-922d5e8850/frame-03.jpg",
+              "time": "51.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-10-922d5e8850/frame-04.jpg",
+              "time": "74.3s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-10-922d5e8850/frame-05.jpg",
+              "time": "98.2s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4533,7 +4554,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'防烫防滑、一夹多用'，配合'限时特价''点击购买'指令，承接CID链路，用实用性和安全性促单。"
             }
-          }
+          },
+          "sourceType": "video"
         }
       ]
     },
