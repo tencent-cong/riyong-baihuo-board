@@ -3256,9 +3256,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.149303067,
           "cvr": 8.404219122,
           "cpm": 457.5051833,
-          "duration": "未提供",
+          "duration": "约218s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3emaayaaayuadmk3lszvbwiyebqrqadca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-01.jpg",
+              "time": "13.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-02.jpg",
+              "time": "52.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-03.jpg",
+              "time": "93.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-04.jpg",
+              "time": "135.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-05.jpg",
+              "time": "179.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3280,7 +3301,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'不粘、少油烟、易清洗'，福利：限时特价，话术'点击链接，抢购德国陶瓷锅'，承接CID链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 3,
