@@ -590,9 +590,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.279874814,
           "cvr": 3.37103819,
           "cpm": 47.40318224,
-          "duration": "未提供",
+          "duration": "约23s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534qbkiaacquapcrdezzvbrzaeutsafjca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-01.jpg",
+              "time": "1.4s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-02.jpg",
+              "time": "5.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-03.jpg",
+              "time": "9.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-04.jpg",
+              "time": "14.3s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-05.jpg",
+              "time": "18.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -614,7 +635,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'软凉席、四季通用'，口播'开学提前准备好，直播间有优惠'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 9,
