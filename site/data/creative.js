@@ -3736,9 +3736,30 @@ window.CREATIVE_DATA = {
           "ctr": 5.007813081,
           "cvr": 5.954966282,
           "cpm": 69.79546441,
-          "duration": "未提供",
+          "duration": "约97s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53eiap4aaazeaj5t2qvzvbuiqe7yrab7sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-10-15b848c563/frame-01.jpg",
+              "time": "5.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-15b848c563/frame-02.jpg",
+              "time": "23.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-15b848c563/frame-03.jpg",
+              "time": "41.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-15b848c563/frame-04.jpg",
+              "time": "60.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-10-15b848c563/frame-05.jpg",
+              "time": "79.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3760,7 +3781,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'耐高温、干烧不裂、锁鲜'，福利：直播间优惠，话术'点击下方，立即抢购'，承接直播链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 11,
