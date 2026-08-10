@@ -3142,9 +3142,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.15,
           "cvr": 8.4,
           "cpm": 457.51,
-          "duration": "未提供",
+          "duration": "约218s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3emaayaaayuadmk3lszvbwiyebqrqadca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-01.jpg",
+              "time": "13.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-02.jpg",
+              "time": "52.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-03.jpg",
+              "time": "93.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-04.jpg",
+              "time": "135.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-d785dd93ab/frame-05.jpg",
+              "time": "179.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3166,7 +3187,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'德国陶瓷不粘、全能锅'，强调今日特价、限时抢购，引导点击链接下单。链路承接CID，直接跳转购买页。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 3,
