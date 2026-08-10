@@ -3405,9 +3405,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.56,
           "cvr": 2.62,
           "cpm": 57.83,
-          "duration": "未提供",
+          "duration": "约44s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3p4aciaaabaap5kkuq5vbu7yeer7qajca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-06-141261b88d/frame-01.jpg",
+              "time": "2.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-141261b88d/frame-02.jpg",
+              "time": "10.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-141261b88d/frame-03.jpg",
+              "time": "19s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-141261b88d/frame-04.jpg",
+              "time": "27.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-06-141261b88d/frame-05.jpg",
+              "time": "36.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3429,7 +3450,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'健康烹饪更轻松'，画面显示直播间新品发布会优惠，引导点击直播间抢购，承接直播链路，用'新品+福利'促成转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 7,
