@@ -457,9 +457,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.87,
           "cvr": 9.75,
           "cpm": 179.03,
-          "duration": "未提供",
+          "duration": "约51s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nqaciaaa54ajyy3rzrvbu3aeerwaajca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-01.jpg",
+              "time": "3.1s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-02.jpg",
+              "time": "12.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-03.jpg",
+              "time": "21.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-04.jpg",
+              "time": "31.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-06-8d7ad3e499/frame-05.jpg",
+              "time": "41.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -481,7 +502,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'不用每天铺床、A类母婴级'，强调'直播专享价'，口播'点击购物车下单'，引导转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 7,
