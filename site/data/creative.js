@@ -4248,9 +4248,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.1840721568840853,
           "cvr": 13.999857580289111,
           "cpm": 77.59277052596255,
-          "duration": "未提供",
+          "duration": "约140s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53taajaaaageacq4lrejvbvgaescmabeca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-01.jpg",
+              "time": "8.4s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-02.jpg",
+              "time": "33.6s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-03.jpg",
+              "time": "60.1s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-04.jpg",
+              "time": "86.7s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-05.jpg",
+              "time": "114.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4272,7 +4293,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'铝箔密封，冷冻锁鲜'，字幕'到手100只，限时特价'，配合点击链接购买，承接小店链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 5,
