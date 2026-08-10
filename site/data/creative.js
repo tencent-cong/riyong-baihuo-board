@@ -4308,9 +4308,30 @@ window.CREATIVE_DATA = {
           "ctr": 0.9587671139929848,
           "cvr": 20.615384615384617,
           "cpm": 45.046882635105035,
-          "duration": "未提供",
+          "duration": "约132s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3ymackaaaweai4fcl3fvbvqyeexbqajka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-01.jpg",
+              "time": "7.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-02.jpg",
+              "time": "31.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-03.jpg",
+              "time": "56.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-04.jpg",
+              "time": "82.1s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-05-2e6d5e66f7/frame-05.jpg",
+              "time": "108.6s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4332,7 +4353,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'500只装，密封防串味'，字幕'限时特价，速来抢购'，配合点击链接购买，承接CID链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 6,
