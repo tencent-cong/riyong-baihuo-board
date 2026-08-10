@@ -388,9 +388,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.6540964413102077,
           "cvr": 4.320987654320987,
           "cpm": 122.50246555667492,
-          "duration": "未提供",
+          "duration": "约63s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53cma6oaabsmaa2lrslzvbweye44jqdz2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-01.jpg",
+              "time": "3.8s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-02.jpg",
+              "time": "15s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-03.jpg",
+              "time": "26.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-04.jpg",
+              "time": "38.8s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-05-f7f98d36ca/frame-05.jpg",
+              "time": "51.3s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -412,7 +433,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "总结'守护舒适好眠'，强调'明星同款'与'新品上市'，配合直播间专属优惠，引导点击购物车或进入直播间，承接直播链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 6,
