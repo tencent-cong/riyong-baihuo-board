@@ -328,9 +328,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.37314699893078,
           "cvr": 3.695444409047467,
           "cpm": 97.5081289726355,
-          "duration": "未提供",
+          "duration": "约34s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53h4afkaaa3eadgjsltrvbupyeku7qavka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-01.jpg",
+              "time": "2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-02.jpg",
+              "time": "8.1s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-03.jpg",
+              "time": "14.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-04.jpg",
+              "time": "20.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-05.jpg",
+              "time": "27.6s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -352,7 +373,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "再次强调'开学季必备，拎包入住'，配合'限时优惠'与'孩子多睡20分钟'的情感诉求，引导点击购物车或进入直播间，承接直播链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 5,
