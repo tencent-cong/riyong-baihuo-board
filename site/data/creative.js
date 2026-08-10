@@ -568,9 +568,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.2798748144991845,
           "cvr": 3.371038190166872,
           "cpm": 47.40318223893974,
-          "duration": "未提供",
+          "duration": "约23s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534qbkiaacquapcrdezzvbrzaeutsafjca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-01.jpg",
+              "time": "1.4s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-02.jpg",
+              "time": "5.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-03.jpg",
+              "time": "9.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-04.jpg",
+              "time": "14.3s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-08-923b1328cf/frame-05.jpg",
+              "time": "18.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -592,7 +613,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "再次强调'开学炎热的夏天，这款凉席款床垫太舒服了'，配合'开学提前准备好'的节点提示，引导点击购物车或进入直播间，承接直播链路转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 9,
