@@ -3165,9 +3165,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.68,
           "cvr": 12.2,
           "cpm": 54,
-          "duration": "未提供",
+          "duration": "约189s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xybdgaacwqakfllcnbvbtpqego7aem2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-02-58330509ab/frame-01.jpg",
+              "time": "11.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-58330509ab/frame-02.jpg",
+              "time": "45.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-58330509ab/frame-03.jpg",
+              "time": "81.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-58330509ab/frame-04.jpg",
+              "time": "117.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-02-58330509ab/frame-05.jpg",
+              "time": "154.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3189,7 +3210,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'家用太省心'，画面显示小店优惠价格和包邮，引导点击购买，承接小店链路，用'小件不贵、解决大问题'的性价比促成下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 3,
