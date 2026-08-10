@@ -4128,9 +4128,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.4208945287933923,
           "cvr": 9.978274363749223,
           "cpm": 49.52806213479017,
-          "duration": "未提供",
+          "duration": "约148s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xibwaaadfmabapdtzfvbtoqemc5agyca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-02-7b499dc901/frame-01.jpg",
+              "time": "8.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-02-7b499dc901/frame-02.jpg",
+              "time": "35.5s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-02-7b499dc901/frame-03.jpg",
+              "time": "63.6s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-02-7b499dc901/frame-04.jpg",
+              "time": "91.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-02-7b499dc901/frame-05.jpg",
+              "time": "121.4s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4152,7 +4173,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'一把顶五把，切丝削皮开盖全能'，字幕'限时特价，速来抢购'，配合点击链接购买，承接CID链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 3,
