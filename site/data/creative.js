@@ -3676,9 +3676,30 @@ window.CREATIVE_DATA = {
           "ctr": 4.75939003,
           "cvr": 12.37047226,
           "cpm": 73.36369508,
-          "duration": "未提供",
+          "duration": "约166s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3wuah4aaadmaa2bkm5rvbxniep22qa7sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-09-3090001fa9/frame-01.jpg",
+              "time": "10s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-09-3090001fa9/frame-02.jpg",
+              "time": "39.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-09-3090001fa9/frame-03.jpg",
+              "time": "71.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-09-3090001fa9/frame-04.jpg",
+              "time": "103s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-09-3090001fa9/frame-05.jpg",
+              "time": "136.2s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3700,7 +3721,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'智能感应、安全便捷'，福利：小店特价，话术'点击下方，立即购买'，承接小店链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 10,
