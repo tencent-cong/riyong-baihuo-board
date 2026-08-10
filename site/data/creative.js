@@ -650,9 +650,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.502220482,
           "cvr": 10.03816794,
           "cpm": 104.6753854,
-          "duration": "未提供",
+          "duration": "约32s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3h4a4caab7eajl7yuvvvbwpyeye7qdqka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-09-101897779b/frame-01.jpg",
+              "time": "1.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-09-101897779b/frame-02.jpg",
+              "time": "7.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-09-101897779b/frame-03.jpg",
+              "time": "13.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-09-101897779b/frame-04.jpg",
+              "time": "19.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-09-101897779b/frame-05.jpg",
+              "time": "25.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -674,7 +695,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'分区护颈、高回弹'，口播'直播间下单有优惠，赶紧抢'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 10,
