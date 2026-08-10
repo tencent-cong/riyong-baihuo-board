@@ -3556,9 +3556,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.564818694,
           "cvr": 2.617250931,
           "cpm": 57.82554419,
-          "duration": "未提供",
+          "duration": "约44s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3p4aciaaabaap5kkuq5vbu7yeer7qajca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-07-141261b88d/frame-01.jpg",
+              "time": "2.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-141261b88d/frame-02.jpg",
+              "time": "10.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-141261b88d/frame-03.jpg",
+              "time": "19s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-141261b88d/frame-04.jpg",
+              "time": "27.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-141261b88d/frame-05.jpg",
+              "time": "36.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3580,7 +3601,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'无涂层、防锈、少油烟'，福利：直播间优惠，话术'点击下方，立即抢购'，承接直播链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 8,
