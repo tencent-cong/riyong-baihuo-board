@@ -350,9 +350,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.373146999,
           "cvr": 3.695444409,
           "cpm": 97.50812897,
-          "duration": "未提供",
+          "duration": "约34s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53h4afkaaa3eadgjsltrvbupyeku7qavka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-01.jpg",
+              "time": "2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-02.jpg",
+              "time": "8.1s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-03.jpg",
+              "time": "14.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-04.jpg",
+              "time": "20.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-04-d9e3366615/frame-05.jpg",
+              "time": "27.6s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -374,7 +395,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'一步到位、纯棉舒适'，口播'开学季特惠，直播间下单立减'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 5,
