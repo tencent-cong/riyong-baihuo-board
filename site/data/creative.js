@@ -3196,9 +3196,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.823884746,
           "cvr": 3.579572344,
           "cpm": 191.7072602,
-          "duration": "未提供",
+          "duration": "约290s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53aaa7eaablyagl2k4v5vbwaae6iaad4sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-01.jpg",
+              "time": "17.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-02.jpg",
+              "time": "69.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-03.jpg",
+              "time": "124.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-04.jpg",
+              "time": "179.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-01-3ac67c4100/frame-05.jpg",
+              "time": "237.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3220,7 +3241,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "核心利益复述：'0涂层，物理不粘，健康耐用'，福利：直播间限时优惠，话术'点击下方链接，立即抢购'，承接直播链路，引导下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
