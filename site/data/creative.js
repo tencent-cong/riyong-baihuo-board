@@ -277,9 +277,30 @@ window.CREATIVE_DATA = {
           "ctr": 0.88,
           "cvr": 3.45,
           "cpm": 67.71,
-          "duration": "未提供",
+          "duration": "约44s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b533iaqkaabqqaid23k3fvbxwqeaxnacbka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-03-926023552a/frame-01.jpg",
+              "time": "2.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-03-926023552a/frame-02.jpg",
+              "time": "10.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-03-926023552a/frame-03.jpg",
+              "time": "18.9s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-03-926023552a/frame-04.jpg",
+              "time": "27.3s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-03-926023552a/frame-05.jpg",
+              "time": "36s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -301,7 +322,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'深睡枕Pro 4.0，动态稳压'，强调品牌和升级，口播'直播间下单享新品价'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 4,
