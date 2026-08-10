@@ -517,9 +517,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.67,
           "cvr": 4.87,
           "cpm": 98.5,
-          "duration": "未提供",
+          "duration": "约124s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nyabeaaakuacelamh5vbu3qecjxaaesa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-01.jpg",
+              "time": "7.5s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-02.jpg",
+              "time": "29.8s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-03.jpg",
+              "time": "53.4s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-04.jpg",
+              "time": "77s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-07-66939e19f3/frame-05.jpg",
+              "time": "101.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -541,7 +562,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'清仓价、冰丝透气'，强调'卖完就没有'，口播'点击购物车抢购'，引导转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 8,
