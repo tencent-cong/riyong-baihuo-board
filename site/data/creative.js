@@ -3345,9 +3345,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.09,
           "cvr": 17.81,
           "cpm": 102.29,
-          "duration": "未提供",
+          "duration": "约54s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3fyaouaaa24abemdtr5vbulqe5ixab2sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-05-bbfca03f76/frame-01.jpg",
+              "time": "3.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-bbfca03f76/frame-02.jpg",
+              "time": "12.9s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-bbfca03f76/frame-03.jpg",
+              "time": "23.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-bbfca03f76/frame-04.jpg",
+              "time": "33.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-05-bbfca03f76/frame-05.jpg",
+              "time": "44.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3369,7 +3390,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'正品保障，源头工厂'，画面显示套装优惠价和限时活动，引导点击购买，承接CID链路，用'一套解决所有'的性价比促成下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 6,
