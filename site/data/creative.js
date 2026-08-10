@@ -230,9 +230,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.31312846,
           "cvr": 9.012690901,
           "cpm": 67.36574941,
-          "duration": "未提供",
+          "duration": "约77s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc35abv6aadpuanyytt65vbt2ael7uagx2a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-01.jpg",
+              "time": "4.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-02.jpg",
+              "time": "18.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-03.jpg",
+              "time": "33.3s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-04.jpg",
+              "time": "48s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-02-b821719d32/frame-05.jpg",
+              "time": "63.4s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -254,7 +275,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'护腰、侧睡不悬空'，口播'直播间有优惠，赶紧下单'，引导点击购物车，承接直播转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 3,
