@@ -3550,9 +3550,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.45,
           "cvr": 11.91,
           "cpm": 65.33,
-          "duration": "未提供",
+          "duration": "约69s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53rebwwaadkiajjwb66zvbtcienoeqg22a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-01.jpg",
+              "time": "4.2s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-02.jpg",
+              "time": "16.6s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-03.jpg",
+              "time": "29.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-04.jpg",
+              "time": "43s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-11-b422a7522f/frame-05.jpg",
+              "time": "56.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3574,7 +3595,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'百年品牌、泼油锅'，强调直播间优惠，引导点击购物车。链路承接直播，主播推荐。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 12,
