@@ -4068,9 +4068,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.774518372154881,
           "cvr": 16.41684511063526,
           "cpm": 222.67913015667946,
-          "duration": "未提供",
+          "duration": "约147s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53hyahcaaa3qafutthmbvbupqeoe7aa4ka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-01.jpg",
+              "time": "8.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-02.jpg",
+              "time": "35.2s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-03.jpg",
+              "time": "63s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-04.jpg",
+              "time": "90.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-01-2b1521bd28/frame-05.jpg",
+              "time": "120.2s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4092,7 +4113,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述核心利益'刨丝削皮开盖三合一，一把顶五把'，字幕'限时特价，速来抢购'，配合点击链接购买，承接CID链路，引导立即下单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
