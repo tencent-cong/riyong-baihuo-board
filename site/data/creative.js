@@ -3525,9 +3525,30 @@ window.CREATIVE_DATA = {
           "ctr": 5.01,
           "cvr": 5.95,
           "cpm": 69.8,
-          "duration": "未提供",
+          "duration": "约97s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53eiap4aaazeaj5t2qvzvbuiqe7yrab7sa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-08-15b848c563/frame-01.jpg",
+              "time": "5.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-15b848c563/frame-02.jpg",
+              "time": "23.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-15b848c563/frame-03.jpg",
+              "time": "41.8s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-15b848c563/frame-04.jpg",
+              "time": "60.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-08-15b848c563/frame-05.jpg",
+              "time": "79.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3549,7 +3570,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'烹饪无忧'，画面显示直播间优惠和赠品，引导点击直播间购买，承接直播链路，用'安全+美味'促成转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 9,
