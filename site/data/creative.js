@@ -4269,9 +4269,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.42,
           "cvr": 14.4,
           "cpm": 250.26,
-          "duration": "未提供",
+          "duration": "约112s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53z4ao6aaa7eagik4mebubvtye57hqb32a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-06-addb3866d5/frame-01.jpg",
+              "time": "6.7s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-06-addb3866d5/frame-02.jpg",
+              "time": "26.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-06-addb3866d5/frame-03.jpg",
+              "time": "48s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-06-addb3866d5/frame-04.jpg",
+              "time": "69.3s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-06-addb3866d5/frame-05.jpg",
+              "time": "91.6s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4293,7 +4314,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'保鲜防串味、冰箱更整洁'，配合'成套购买更划算''点击购买'指令，承接CID链路，用实用性和整洁效果促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 7,
