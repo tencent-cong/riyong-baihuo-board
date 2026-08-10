@@ -170,9 +170,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.82151831,
           "cvr": 6.049582323,
           "cpm": 169.6984832,
-          "duration": "未提供",
+          "duration": "约87s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532mcn2aaeeeadwyr4tnvb5uye3xjqjxka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-01.jpg",
+              "time": "5.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-02.jpg",
+              "time": "21s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-03.jpg",
+              "time": "37.6s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-04.jpg",
+              "time": "54.2s"
+            },
+            {
+              "src": "assets/frames/upload-5d3a00c7-01-407e611dcb/frame-05.jpg",
+              "time": "71.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -194,7 +215,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'透气吸湿、凉而不冰'核心利益，口播'现在下单送枕套，直播间专享价'，引导点击购物车或进入直播间，承接直播链路。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 2,
