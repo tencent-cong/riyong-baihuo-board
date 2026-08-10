@@ -4449,9 +4449,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.31,
           "cvr": 12.13,
           "cpm": 41.35,
-          "duration": "未提供",
+          "duration": "约295s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3mqa6waab24aduic4qjvbuzae5nsad22a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-01.jpg",
+              "time": "17.7s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-02.jpg",
+              "time": "70.8s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-03.jpg",
+              "time": "126.9s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-04.jpg",
+              "time": "183s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-09-460b68b5fe/frame-05.jpg",
+              "time": "242s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4473,7 +4494,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'防虫防潮、取米便捷'，配合'限时优惠''点击购买'指令，承接小店链路，用实用性和安心感促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 10,
