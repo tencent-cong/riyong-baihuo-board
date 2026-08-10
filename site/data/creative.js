@@ -3465,9 +3465,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.91,
           "cvr": 2.92,
           "cpm": 56.68,
-          "duration": "未提供",
+          "duration": "约52s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532aaccaaaqualuqdn4rvbvuaeehiaaika.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-dc74f65e-07-405284707d/frame-01.jpg",
+              "time": "3.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-405284707d/frame-02.jpg",
+              "time": "12.4s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-405284707d/frame-03.jpg",
+              "time": "22.3s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-405284707d/frame-04.jpg",
+              "time": "32.1s"
+            },
+            {
+              "src": "assets/frames/upload-dc74f65e-07-405284707d/frame-05.jpg",
+              "time": "42.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3489,7 +3510,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "口播'下厨的仪式感'，画面显示直播间新品发布优惠，引导点击直播间购买，承接直播链路，用'品质生活'的情感诉求促成转化。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 8,
