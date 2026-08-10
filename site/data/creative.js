@@ -4149,9 +4149,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.18,
           "cvr": 14,
           "cpm": 77.59,
-          "duration": "未提供",
+          "duration": "约140s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53taajaaaageacq4lrejvbvgaescmabeca.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-01.jpg",
+              "time": "8.4s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-02.jpg",
+              "time": "33.6s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-03.jpg",
+              "time": "60.1s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-04.jpg",
+              "time": "86.7s"
+            },
+            {
+              "src": "assets/frames/upload-ebf4f87f-04-eb15ced0cb/frame-05.jpg",
+              "time": "114.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4173,7 +4194,8 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述'密封锁鲜、防串味'，强调'100只装'量大划算，配合'点击下方链接购买'指令，承接小店链路，用囤货心理和实用价值促单。"
             }
-          }
+          },
+          "sourceType": "video"
         },
         {
           "rank": 5,
