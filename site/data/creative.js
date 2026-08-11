@@ -2745,9 +2745,30 @@ window.CREATIVE_DATA = {
           "ctr": 1.87,
           "cvr": 8.94,
           "cpm": 34.71,
-          "duration": "未提供",
+          "duration": "约214s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3quaowaaas4ao35ssibvbvbie5ocqb22a.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-f510a169e8ea95892721/frame-01.jpg",
+              "time": "12.8s"
+            },
+            {
+              "src": "assets/frames/upload-f510a169e8ea95892721/frame-02.jpg",
+              "time": "51.4s"
+            },
+            {
+              "src": "assets/frames/upload-f510a169e8ea95892721/frame-03.jpg",
+              "time": "92.0s"
+            },
+            {
+              "src": "assets/frames/upload-f510a169e8ea95892721/frame-04.jpg",
+              "time": "132.7s"
+            },
+            {
+              "src": "assets/frames/upload-f510a169e8ea95892721/frame-05.jpg",
+              "time": "175.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -2769,7 +2790,10 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述：“免泵、大容量、防潮防蛀。”福利：“直播间专属价，买就送收纳袋！”指令：“点击下方小黄车，换季收纳一步到位。”对应直播链路，引导下单。"
             }
-          }
+          },
+          "materialId": "f510a169e8ea95892721",
+          "sourceType": "video",
+          "frameStatus": "ready"
         },
         {
           "rank": 3,
@@ -2782,9 +2806,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.18,
           "cvr": 10.56,
           "cpm": 52.01,
-          "duration": "未提供",
+          "duration": "约130s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3syaz4aab3yanld2zzrvbxfqet2ladhsa.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-835c29bedd2a342bcc47/frame-01.jpg",
+              "time": "7.8s"
+            },
+            {
+              "src": "assets/frames/upload-835c29bedd2a342bcc47/frame-02.jpg",
+              "time": "31.3s"
+            },
+            {
+              "src": "assets/frames/upload-835c29bedd2a342bcc47/frame-03.jpg",
+              "time": "56.0s"
+            },
+            {
+              "src": "assets/frames/upload-835c29bedd2a342bcc47/frame-04.jpg",
+              "time": "80.7s"
+            },
+            {
+              "src": "assets/frames/upload-835c29bedd2a342bcc47/frame-05.jpg",
+              "time": "106.8s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -2806,7 +2851,10 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述：“免抽气、防尘防潮、节省空间。”福利：“限时特价，买二送一！”指令：“点击下方链接，换季收纳不再愁。”对应CID链路。"
             }
-          }
+          },
+          "materialId": "835c29bedd2a342bcc47",
+          "sourceType": "video",
+          "frameStatus": "ready"
         },
         {
           "rank": 4,
@@ -2819,9 +2867,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.54,
           "cvr": 5.79,
           "cpm": 42.08,
-          "duration": "未提供",
+          "duration": "约57s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53m4ag2aaao4ab3ckpsfvbwzyenvtqa3ka.f0.mp4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-726db590c690309dc32f/frame-01.jpg",
+              "time": "3.4s"
+            },
+            {
+              "src": "assets/frames/upload-726db590c690309dc32f/frame-02.jpg",
+              "time": "13.7s"
+            },
+            {
+              "src": "assets/frames/upload-726db590c690309dc32f/frame-03.jpg",
+              "time": "24.5s"
+            },
+            {
+              "src": "assets/frames/upload-726db590c690309dc32f/frame-04.jpg",
+              "time": "35.3s"
+            },
+            {
+              "src": "assets/frames/upload-726db590c690309dc32f/frame-05.jpg",
+              "time": "46.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -2843,7 +2912,10 @@ window.CREATIVE_DATA = {
               "time": "27-30S",
               "desc": "复述：“多层储物、实木桌面、万向轮。”福利：“新品上市，领券立减20元！”指令：“点击下方链接，让家变整洁。”对应小店链路。"
             }
-          }
+          },
+          "materialId": "726db590c690309dc32f",
+          "sourceType": "video",
+          "frameStatus": "ready"
         },
         {
           "rank": 5,
