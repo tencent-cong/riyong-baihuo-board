@@ -4702,159 +4702,254 @@ window.CREATIVE_DATA = {
       "key": "daily-other",
       "owner": "",
       "metrics": {
-        "creativeCount": 27,
-        "ctr": 3.86,
-        "play3s": 26.62,
-        "cvr": 4.6,
-        "cpm": 23.26
+        "creativeCount": 30,
+        "ctr": 2.6,
+        "play3s": 35.2,
+        "cvr": 11.2,
+        "cpm": 55.3
       },
       "sellingWords": [
         {
-          "word": "源头厂家",
+          "word": "免手洗",
           "weight": 100
         },
         {
-          "word": "今日特价",
-          "weight": 92
+          "word": "一擦即净",
+          "weight": 94
         },
         {
-          "word": "防水防漏",
-          "weight": 85
+          "word": "防漏电",
+          "weight": 90
         },
         {
-          "word": "便携",
-          "weight": 80
+          "word": "护眼防近视",
+          "weight": 86
         },
         {
-          "word": "手工制作",
+          "word": "不遮字",
+          "weight": 82
+        },
+        {
+          "word": "高透材质",
           "weight": 78
         },
         {
-          "word": "超轻",
-          "weight": 75
+          "word": "科学角度",
+          "weight": 74
         },
         {
-          "word": "防霉",
-          "weight": 72
-        },
-        {
-          "word": "大容量",
+          "word": "解放双手",
           "weight": 70
         },
         {
-          "word": "透气",
-          "weight": 68
+          "word": "轻松固定",
+          "weight": 66
         },
         {
-          "word": "静心",
-          "weight": 65
-        },
-        {
-          "word": "益智",
+          "word": "防触电",
           "weight": 62
         },
         {
-          "word": "防晒",
-          "weight": 60
-        },
-        {
-          "word": "加厚",
+          "word": "绝缘",
           "weight": 58
         },
         {
-          "word": "包边打孔",
-          "weight": 55
+          "word": "多功能",
+          "weight": 54
+        },
+        {
+          "word": "便携",
+          "weight": 50
+        },
+        {
+          "word": "应急必备",
+          "weight": 46
+        },
+        {
+          "word": "寓意吉祥",
+          "weight": 42
+        },
+        {
+          "word": "厂家直销",
+          "weight": 38
         }
       ],
       "painWords": [
         {
-          "word": "漏水烦恼",
+          "word": "看书低头累",
           "weight": 90
         },
         {
-          "word": "收纳杂乱",
+          "word": "书本自动翻页",
           "weight": 85
         },
         {
-          "word": "夏季闷热",
+          "word": "用电安全隐患",
           "weight": 80
         },
         {
-          "word": "旅行卫生",
+          "word": "墙面起皮脱落",
           "weight": 75
         },
         {
-          "word": "孩子沉迷屏幕",
+          "word": "备菜速度慢",
           "weight": 70
+        },
+        {
+          "word": "车内导航不稳",
+          "weight": 65
         }
       ],
       "sellingContext": [
         {
-          "driver": "梅雨季/老旧房屋·屋顶外墙漏水",
-          "need": "急需一种简单、快速、自己就能操作的补漏方案，避免请工人高额费用和麻烦",
+          "driver": "学生党·长时间看书低头颈椎酸痛",
+          "need": "需要一种能固定书本、抬高视线、避免低头的工具，保护视力和颈椎",
           "words": [
-            "防水防漏",
-            "一喷轻松止漏"
+            "护眼防近视",
+            "科学角度",
+            "解放双手",
+            "轻松固定"
           ]
         },
         {
-          "driver": "夏季高温·久坐办公/开车",
-          "need": "想要物理降温、透气不闷热的坐垫，缓解臀部闷热出汗",
+          "driver": "家庭用电·电热水器漏电隐患",
+          "need": "需要一种能自动断电、防漏电的插座面板，保障家人安全",
           "words": [
-            "透气",
-            "冰垫",
-            "物理降温"
+            "防漏电",
+            "防触电",
+            "绝缘"
           ]
         },
         {
-          "driver": "短途出差/旅行·洗漱用品卫生",
-          "need": "需要便携、卫生、能收纳牙刷牙膏的洗漱套装，避免使用酒店一次性用品",
+          "driver": "厨房备菜·削皮切丝费时费力",
+          "need": "需要一种多功能削皮器，能快速削皮、切丝、开瓶盖，提高备菜效率",
           "words": [
-            "便携",
-            "旅行洗漱套装",
-            "卫生"
+            "多功能",
+            "一擦即净",
+            "免手洗"
           ]
         }
       ],
       "scripts": [
-        "源头厂家，厂家直销，今日特价，速来抢购！",
-        "漏水别用手抠，用这款新型防水喷剂，轻松解决漏水问题",
-        "这款超轻小伞，方便携带，有降温黑科技，随时助力做好防晒",
-        "出差在外旅行什么的，洗漱这块还是用自己的才卫生！",
-        "动手拼搭乐趣多，远离屏幕更健康，助力孩子快乐成长每一天！",
-        "这么结实的防雨布我还是第一次见，防晒遮阳还不漏雨，能用好几年"
+        "轻松固定书本页面，高透材质不遮字，科学角度护视力",
+        "这个魔力清洁球不用清洁剂，就可以去污除垢！真的太好用了！",
+        "墙面起皮别急着找人修，用墙面自喷漆，轻轻一喷，旧墙变新墙！",
+        "双缸高效充气设计，胎压显示清晰，四季适用，车内应急必备工具！",
+        "一放即稳不惧颠簸，360度自由旋转，驾驶导航更轻松",
+        "用电安全别大意，戴绝缘手套合闸才安心！"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用反常识画面抓眼球：如防水涂料素材中，直接展示漏水场景（屋顶滴水、墙面渗水），然后手持喷剂一喷即止，形成“漏水烦恼 vs 轻松解决”的强烈对比。或使用“源头厂家”低价话术，配合工厂实拍，制造价格冲击。"
+          "desc": "开场3秒用强视觉冲击或前后对比抓住眼球。例如书夹素材首帧展示书本自动翻页的烦躁，随后用书夹一夹即稳，形成'翻页vs固定'的冲突；清洁球素材展示油污灶台与一擦即净的对比；补墙膏展示墙面起皮与喷后焕新的反差。用'别急着找人修''卖爆了'等口语化钩子制造好奇，快速锁定目标人群。"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定梅雨季、夏季高温、开学季等节点：梅雨季放大漏水焦虑；夏季主推冰垫、超轻伞防晒；开学季推蘑菇插钉益智玩具，强调“远离屏幕”。旅行季推洗漱套装、旅行包。"
+          "desc": "绑定具体场景痛点：学生开学季强调护眼防近视、矫正坐姿；梅雨季或回南天强调墙面起皮、地面返潮；夏季用电高峰强调漏电隐患；雨天强调骑行雨衣安全。放大'不处理会怎样'的焦虑，如'漏电可能危及生命''墙面越掉越大'，让需求紧迫化。"
         },
         {
           "title": "福利/紧迫",
-          "desc": "常用“源头厂家、厂家直销、今日特价、速来抢购”制造紧迫感；防水涂料用“拍一发四”多件优惠；粉条用“买5袋送5袋”加赠福利。价格锚点通过对比请工人费用或商场价格体现。"
+          "desc": "价格锚点用'69.9''厂家直销''今日特价'制造超值感；用'限时抢购''卖爆了''买一送一'制造紧迫；赠品策略如'买一送一'提升转化。话术如'源头厂家，厂家直销，今日特价，速来抢购！'直接给行动指令，配合小店或CID链路承接下单。"
         },
         {
           "title": "明星/IP",
-          "desc": "本赛道素材未见明显明星/IP背书。信任建立主要依靠“源头工厂直销”“纯手工制作”“德国红点奖”等品质标签，以及高消耗素材中反复出现的“厂家”身份。"
+          "desc": "部分素材用'老师推荐''大师手工打造'等信任背书，虽非明星但借权威身份提升可信度。可强化'北极绒品牌'等品牌标识，或强调'厂家直销'建立源头信任。后续可尝试与家居生活类达人合作，用真实使用场景增强说服力。"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
-          "title": "钥匙包·百福缸挂件大师手工",
-          "product": "钥匙包",
-          "customer": "渔歌子",
+          "sourceId": "S1R1",
+          "title": "书夹·透明护眼固定器",
+          "product": "书夹",
+          "customer": "",
           "chain": "小店",
-          "tag": "手工工艺 · 送礼自用",
-          "spend": 53084.15,
-          "ctr": 1.9,
-          "cvr": 12.47,
-          "cpm": 53.68,
-          "duration": "约132s",
+          "tag": "功能演示·护眼防近视",
+          "spend": 36361.85,
+          "ctr": 2.109128701,
+          "cvr": 20.96251326,
+          "cpm": 22.60162132,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3oqagyaaamqaelpaeavvbu5aenr2aa3ca.f0.mp4",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧特写学生低头看书、书本自动翻页的烦躁画面，配话术'看书总低头？'，制造'翻页+低头'双重痛点冲突，瞬间抓住学生家长人群，引发'我家孩子也这样'的共鸣。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "展示孩子长期低头导致颈椎酸痛、视力下降的焦虑场景，传统方案如压书石、手按均失效，强调'解放双手'的需求，放大'护眼防近视'的紧迫感，让家长产生必须解决的冲动。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "书夹出场，展示高透材质不遮字、科学12度角度支撑，一夹即固定页面，孩子抬头挺胸看书，画面切换对比，突出'轻松固定、科学角度'的机制，回应痛点，建立价值锚点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实际拍摄孩子使用书夹看书，页面不翻、视线平视，再展示不同厚度书本均适用，强化'解放双手'效果，同时用'老师推荐'字幕增强信任，让家长看到实际效果。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述'护眼防近视、解放双手'核心利益，强调'学生必备'，配合'限时优惠'字幕，引导点击小店链接下单，承接转化。"
+            }
+          },
+          "materialId": "a9ef85031c7a8ea0161e",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 2,
+          "sourceId": "S1R2",
+          "title": "清洁球·魔力·免洗去污",
+          "product": "清洁球",
+          "customer": "",
+          "chain": "CID",
+          "tag": "效果演示·免清洁剂",
+          "spend": 28232.13556,
+          "ctr": 5.486082591,
+          "cvr": 3.546966109,
+          "cpm": 39.43773773,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b5344aamaaafaafue3uf5vbvzyea3tqabsa.f0.mp4",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧展示油腻灶台或水垢水龙头的脏污特写，配话术'不用清洁剂就能去污？'，制造'不可能'的悬念，吸引家庭主妇停留，激发好奇。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "放大传统清洁需喷清洁剂、戴手套、反复擦洗的麻烦，展示化学残留担忧，强调'免手洗、免清洁剂'的需求，让用户觉得'原来可以这么省事'。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "清洁球出场，展示其特殊纤维结构，沾水一擦油污即净，无需清洁剂，画面中污渍瞬间消失，突出'一擦即净'的机制，回应'去污除垢'痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实际拍摄擦洗灶台、水龙头、瓷砖缝隙等多个场景，均一擦即净，对比普通抹布需反复搓洗，强化'免手洗'优势，并展示水冲即净，方便卫生。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述'不用清洁剂、一擦即净'核心卖点，强调'居家必备'，配合'今日特价'字幕，引导点击CID链接购买，促进转化。"
+            }
+          },
+          "materialId": "90936d573507e5a175cc",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 3,
+          "sourceId": "S1R3",
+          "title": "钥匙包·百福缸挂件",
+          "product": "钥匙包",
+          "customer": "",
+          "chain": "小店",
+          "tag": "情感营销·寓意吉祥",
+          "spend": 21224.76262,
+          "ctr": 1.290500729,
+          "cvr": 13.75078666,
+          "cpm": 43.0940397,
+          "duration": "未提供",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3ymaf4aaa6uamalkmxbvbvqyel3bqaxsa.f0.mp4",
           "frames": [
             {
@@ -4881,557 +4976,308 @@ window.CREATIVE_DATA = {
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧特写百福缸挂件，古朴质感，配话术“一夜爆火！百福缸挂件”，用“爆火”制造从众心理，抓住喜欢传统文化或追求吉祥寓意的人群。"
+              "desc": "首帧展示古朴典雅的百福缸挂件特写，配话术'一夜爆火！'，用'爆火'制造从众心理，吸引追求吉祥寓意和送礼的人群，引发好奇。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示日常钥匙杂乱、单调，传统钥匙扣缺乏特色，暗示生活缺少趣味和祝福，放大“平凡无奇”的焦虑。"
+              "desc": "暗示生活需要福气、财运，传统饰品缺乏新意，送礼不知选什么，放大'寓意美好'的情感需求，让用户觉得'这个挂件能带来好运'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：大师手工打造的百福缸，细节雕刻，开口葫芦造型寓意福禄。强调“古朴典雅，送礼自用皆宜”，建立价值锚点。"
+              "desc": "展示挂件细节，大师手工打造、黄铜材质、内含七粒米，强调'古朴典雅、寓意吉祥'，回应情感痛点，建立价值感。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际使用：将钥匙串入挂件，随身携带，展示不同角度，搭配复古服饰场景，强化装饰性和实用性。"
+              "desc": "实际佩戴在钥匙、包包上展示效果，搭配复古服装，突出'送礼自用皆宜'，并展示包装精美，强化送礼场景，增强购买欲。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述核心卖点“百福缸，大师手工”，引导点击购买，链路为小店，直接转化。"
+              "desc": "复述'大师手工、寓意吉祥'，强调'送礼佳品'，配合'买一送一'福利，引导小店下单，促进转化。"
             }
           },
-          "sourceType": "video"
-        },
-        {
-          "rank": 2,
-          "title": "粉条·葛根粉条手工劲道",
-          "product": "粉条",
-          "customer": "蓝灯塔",
-          "chain": "直播",
-          "tag": "手工食品 · 源头工厂",
-          "spend": 34492.34,
-          "ctr": 2.88,
-          "cvr": 9.27,
-          "cpm": 41.41,
-          "duration": "约181s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3qaagqaaa34adyecl7jvbxaaencaaa2ca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-02-93a27a4ba7/frame-01.jpg",
-              "time": "10.8s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-02-93a27a4ba7/frame-02.jpg",
-              "time": "43.4s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-02-93a27a4ba7/frame-03.jpg",
-              "time": "77.7s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-02-93a27a4ba7/frame-04.jpg",
-              "time": "112.1s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-02-93a27a4ba7/frame-05.jpg",
-              "time": "148.2s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示大别山葛根粉条原料或制作过程，配话术“大别山葛根粉条，天然碱性食材”，用产地和天然属性吸引健康饮食人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "对比普通粉条易断、不劲道、添加剂多的问题，暗示市面产品不健康，放大对食品安全的担忧。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：纯手工制作，劲道爽滑，营养美味。强调“天然碱性食材”，突出健康价值。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实际烹饪：煮粉条、捞起、展示弹性，搭配调料，呈现食欲感，强化口感优势。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“手工制作，劲道爽滑”，引导进入直播间下单，链路为直播，承接福利。"
-            }
-          },
-          "sourceType": "video"
-        },
-        {
-          "rank": 3,
-          "title": "建材胶·防霉密封塑钢泥",
-          "product": "建材胶",
-          "customer": "淦时",
-          "chain": "CID",
-          "tag": "家装维修 · 防水防霉",
-          "spend": 19759.4,
-          "ctr": 1.31,
-          "cvr": 7.04,
-          "cpm": 92.33,
-          "duration": "约120s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qycpqaaebaajax2h65vb5bqe7cdaj6ca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-03-d6d6049462/frame-01.jpg",
-              "time": "7.2s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-03-d6d6049462/frame-02.jpg",
-              "time": "28.8s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-03-d6d6049462/frame-03.jpg",
-              "time": "51.6s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-03-d6d6049462/frame-04.jpg",
-              "time": "74.4s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-03-d6d6049462/frame-05.jpg",
-              "time": "98.4s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示灶台、马桶、门框等缝隙发霉漏水特写，配话术“防水防霉塑钢泥”，用视觉不适抓住有家装维修需求的人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "传统玻璃胶易发霉、脱落，自己处理麻烦，请人费用高，放大“漏水发霉”的焦虑和无力感。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：塑钢泥，可塑性强，安全环保无异味。展示挤出、涂抹、刮平过程，强调“一用就管好几年”。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实际施工：在灶台边缘、马桶底座、门框收缝处涂抹，对比处理前后，展示密封效果。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“防水防霉，安全环保”，引导点击购买，链路为CID，直接转化。"
-            }
-          },
-          "sourceType": "video"
+          "materialId": "58c8cf74481f06b58539",
+          "sourceType": "video",
+          "frameStatus": "ready"
         },
         {
           "rank": 4,
-          "title": "晴雨伞·超轻碳纤铅笔伞",
-          "product": "晴雨伞",
-          "customer": "上海义莎贸易有限公司",
-          "chain": "直播",
-          "tag": "防晒降温 · 便携",
-          "spend": 18832.64,
-          "ctr": 2.45,
-          "cvr": 7.4,
-          "cpm": 65.68,
-          "duration": "约42s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3xecf4aaeyiajuebt4bvb5oiel24qixsa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-04-eb3d95efc5/frame-01.jpg",
-              "time": "2.5s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-04-eb3d95efc5/frame-02.jpg",
-              "time": "10.2s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-04-eb3d95efc5/frame-03.jpg",
-              "time": "18.2s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-04-eb3d95efc5/frame-04.jpg",
-              "time": "26.3s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-04-eb3d95efc5/frame-05.jpg",
-              "time": "34.7s"
-            }
-          ],
+          "sourceId": "S1R4",
+          "title": "绝缘手套·防触电安全",
+          "product": "绝缘手套",
+          "customer": "",
+          "chain": "小店",
+          "tag": "安全警示·防触电",
+          "spend": 20840.79,
+          "ctr": 2.366912022,
+          "cvr": 16.78330576,
+          "cpm": 62.76665783,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53ymadmaaay4adtmk67bvbvqyeg3bqansa.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示超轻小伞折叠后放入口袋或小包，配话术“这款超轻小伞，方便携带”，用“超轻”“便携”吸引通勤、旅行人群。"
+              "desc": "首帧展示电工操作电闸的紧张画面，配话术'用电安全别大意'，用'安全'警示制造紧迫感，吸引电工、家庭维修人群，引发对触电风险的恐惧。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "传统雨伞笨重、占空间，夏天遮阳不降温，出门携带麻烦，放大“累赘”感。"
+              "desc": "放大日常用电中触电事故的严重后果，传统手套厚重不灵活，普通手套不绝缘，强调'防触电'的刚性需求，让用户意识到必须专业防护。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：碳纤维伞骨，超轻三折，加大伞面，有降温黑科技。强调德国红点奖，建立品质信任。"
+              "desc": "绝缘手套出场，展示400V绝缘、薄款透气、皱纹防滑设计，戴上手部灵活，强调'防触电、灵活操作'的机制，回应安全痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际使用：撑开伞面，展示防晒效果（如紫外线测试卡），对比普通伞，体现降温功能。"
+              "desc": "实际拍摄戴手套操作电钻、开关等，展示灵活性和防滑性，对比普通手套，突出'专业防护'，并展示透气材质，长时间佩戴不闷汗。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“超轻便携，防晒降温”，引导进入直播间下单，链路为直播。"
+              "desc": "复述'防触电、灵活透气'，强调'电工必备'，配合'限时优惠'，引导小店下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "13ac94be752507021cb0",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
-          "title": "蘑菇插钉·儿童益智玩具",
-          "product": "蘑菇插钉",
-          "customer": "厦门珍品佳佳电子商务有限公司",
-          "chain": "小店",
-          "tag": "益智 · 远离屏幕",
-          "spend": 17541.84,
-          "ctr": 2.05,
-          "cvr": 8.69,
-          "cpm": 43.64,
-          "duration": "约30s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc34yapyaaalaacce2vbrvbvzqe7ttab7ca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-05-71da36c60e/frame-01.jpg",
-              "time": "1.8s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-05-71da36c60e/frame-02.jpg",
-              "time": "7.3s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-05-71da36c60e/frame-03.jpg",
-              "time": "13.1s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-05-71da36c60e/frame-04.jpg",
-              "time": "18.8s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-05-71da36c60e/frame-05.jpg",
-              "time": "24.9s"
-            }
-          ],
+          "sourceId": "S1R5",
+          "title": "插座面板·防漏电保护",
+          "product": "插座面板",
+          "customer": "",
+          "chain": "CID",
+          "tag": "促销热卖·防漏电",
+          "spend": 18683.34098,
+          "ctr": 1.264432209,
+          "cvr": 7.557401638,
+          "cpm": 27.25720331,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534yajqaaa6qaarslujvvbvzqetdtabgca.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示孩子专注拼插蘑菇钉的画面，配话术“动手拼搭乐趣多，远离屏幕更健康”，用“远离屏幕”直击家长痛点。"
+              "desc": "首帧展示电热水器漏电事故新闻截图，配话术'卖爆了！'，用'热卖'和'安全'双重吸引，抓住家庭用户对漏电的恐惧，制造紧迫。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "孩子沉迷手机、平板，缺乏专注力，传统玩具易腻，放大“屏幕依赖”的焦虑。"
+              "desc": "放大电热水器漏电导致触电的严重后果，普通插座无保护，传统方案需专业电工安装，强调'防漏电'的迫切需求，让用户觉得'必须换'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：立体蘑菇钉拼插玩具，480件套，培养专注力、动手能力。强调“升级豪华款”，价值感强。"
+              "desc": "插座面板出场，展示其漏电保护机制，自动断电，安装简单，强调'防漏电、自动断电'的机制，回应安全痛点，建立信任。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际玩法：孩子动手拼出各种图案，展示成品，家长陪伴场景，强化亲子互动和益智效果。"
+              "desc": "实际拍摄安装过程，无需专业电工，插上即用，再模拟漏电场景，展示自动断电，对比普通插座，突出'安全可靠'。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“远离屏幕，快乐成长”，引导购买，链路为小店，直接转化。"
+              "desc": "复述'防漏电、自动断电'，强调'厂家直销、今日特价'，配合'限时抢购'，引导CID链接下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "f260dcdb58d008f64934",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
-          "title": "防水涂料·防水补漏喷雾",
-          "product": "防水涂料",
-          "customer": "郑州市郑东新区逛理百货商行(个体工商户)",
-          "chain": "CID",
-          "tag": "家装维修 · 一喷止漏",
-          "spend": 14054.92,
-          "ctr": 1.64,
-          "cvr": 16.69,
-          "cpm": 47.82,
-          "duration": "约76s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53t4cpqaaezqaiex2eebvb5hye7cpqj6ca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-06-10f7006a8f/frame-01.jpg",
-              "time": "4.5s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-06-10f7006a8f/frame-02.jpg",
-              "time": "18.2s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-06-10f7006a8f/frame-03.jpg",
-              "time": "32.6s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-06-10f7006a8f/frame-04.jpg",
-              "time": "46.9s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-06-10f7006a8f/frame-05.jpg",
-              "time": "62.1s"
-            }
-          ],
+          "sourceId": "S1R6",
+          "title": "车载充气泵·应急必备",
+          "product": "车载充气泵",
+          "customer": "",
+          "chain": "小店",
+          "tag": "功能演示·应急充气",
+          "spend": 18206.04,
+          "ctr": 2.873665292,
+          "cvr": 5.330006804,
+          "cpm": 29.66549402,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3wuaniaaabyacuotsrrvbvnie2s2qbvca.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示屋顶、外墙漏水画面，配话术“漏水别用手抠，用这款新型防水喷剂”，用“别用手抠”制造反常识冲突。"
+              "desc": "首帧展示轮胎漏气、车主焦急的画面，配话术'轮胎没气怎么办？'，用'应急'场景制造紧迫，吸引车主人群，引发'我也遇到过'的共鸣。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "漏水导致墙面发霉、脱落，自己修不好，请人贵，放大“束手无策”的烦恼。"
+              "desc": "放大高速上轮胎漏气的危险，传统打气筒费力且无法测压，去维修店费时费钱，强调'应急必备'的需求，让用户觉得'车里必须备一个'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：防水补漏喷雾，一喷轻松止漏，室内外通用。强调“拍一发四”多件优惠，降低决策门槛。"
+              "desc": "充气泵出场，展示双缸高效充气、胎压显示清晰、自动停充，操作简单，强调'精准快速、四季适用'的机制，回应应急痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际施工：对准漏水处喷射，展示止漏效果，对比前后，证明简单有效。"
+              "desc": "实际拍摄连接轮胎、设定胎压、一键充气，几分钟完成，对比传统打气筒，突出'省时省力'，并展示延长管设计，适用多种气嘴。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“一喷止漏，省事省力”，引导点击购买，链路为CID，直接转化。"
+              "desc": "复述'双缸高效、胎压精准'，强调'车内应急必备'，配合'限时优惠'，引导小店下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "103082c3654a94a79f78",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
-          "title": "智纳生活斜挎包·妈妈出游包",
-          "product": "智纳生活斜挎包",
-          "customer": "浦江县呈信家居用品有限公司",
-          "chain": "小店",
-          "tag": "实用 · 多隔层",
-          "spend": 14002.01,
-          "ctr": 3.49,
-          "cvr": 5.16,
-          "cpm": 46.77,
-          "duration": "约42s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3readeaaadyaehwz7hrvbvciegkeqamsa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-07-03e1f26f56/frame-01.jpg",
-              "time": "2.5s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-07-03e1f26f56/frame-02.jpg",
-              "time": "10.1s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-07-03e1f26f56/frame-03.jpg",
-              "time": "18.1s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-07-03e1f26f56/frame-04.jpg",
-              "time": "26s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-07-03e1f26f56/frame-05.jpg",
-              "time": "34.4s"
-            }
-          ],
+          "sourceId": "S1R7",
+          "title": "工具·水管开丝器·万能开孔",
+          "product": "工具",
+          "customer": "",
+          "chain": "CID",
+          "tag": "功能演示·万能开丝",
+          "spend": 16022.92384,
+          "ctr": 1.995135309,
+          "cvr": 8.341855369,
+          "cpm": 23.35127912,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3buaowaaagualf3dum5vbudie5mgqb22a.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示中老年妈妈背着斜挎包，配话术“精致绣花点缀，多隔层实用设计”，用“妈妈”场景吸引子女或中老年群体。"
+              "desc": "首帧展示水管漏水、维修困难的场景，配话术'水管开丝难？'，用'维修'痛点吸引动手能力强的人群，引发'自己也能修'的念头。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "传统妈妈包款式老、功能单一，东西难找，出门不便，放大“不实用”的痛点。"
+              "desc": "放大传统开丝工具操作复杂、易损坏水管，请师傅费用高，强调'万能开丝'的需求，让用户觉得'有了它省心省钱'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：轻便防水的双肩胸包，多隔层设计，单肩双肩自由切换，精致绣花。"
+              "desc": "开丝器出场，展示内外一体设计，适配4分6分水管，电钻安装即可使用，强调'万能、便捷'的机制，回应维修痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际使用：展示收纳手机、钱包、钥匙等物品，切换背法，体现便捷性和美观。"
+              "desc": "实际拍摄安装到电钻上，在水管上轻松开丝，对比传统工具，展示操作简单、丝口均匀，突出'智能便捷'。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“实用百搭，妈妈出游必备”，引导购买，链路为小店。"
+              "desc": "复述'万能开丝、操作简单'，强调'维修必备'，配合'厂家直销'，引导CID链接下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "6c76eca2febefe7751c6",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
-          "title": "通用人群旅行洗漱套装·便携卫生",
-          "product": "通用人群旅行洗漱套装",
-          "customer": "耒阳市云定百货店(个体工商户)",
-          "chain": "小店",
-          "tag": "旅行 · 卫生",
-          "spend": 13441.02,
-          "ctr": 1.44,
-          "cvr": 25.9,
-          "cpm": 93.34,
-          "duration": "约92s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53l4abqaaa44adlaz24rvbuxyedbpqagca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-08-006ceeea50/frame-01.jpg",
-              "time": "5.5s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-08-006ceeea50/frame-02.jpg",
-              "time": "22s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-08-006ceeea50/frame-03.jpg",
-              "time": "39.4s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-08-006ceeea50/frame-04.jpg",
-              "time": "56.9s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-08-006ceeea50/frame-05.jpg",
-              "time": "75.2s"
-            }
-          ],
+          "sourceId": "S1R8",
+          "title": "瓜果刨·多功能削皮器",
+          "product": "瓜果刨",
+          "customer": "",
+          "chain": "CID",
+          "tag": "功能演示·多功能",
+          "spend": 15972.89667,
+          "ctr": 2.896755771,
+          "cvr": 12.6682502,
+          "cpm": 183.1733199,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53ieaneaaa2yagjlcqorvbuqie2jaqbusa.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示酒店一次性洗漱用品或杂乱洗漱台，配话术“出差在外旅行什么的，洗漱这块还是用自己的才卫生！”，用“卫生”直击痛点。"
+              "desc": "首帧展示厨房备菜手忙脚乱的场景，配话术'备菜太慢？'，用'效率'痛点吸引家庭主妇，引发'我也想要省时工具'的共鸣。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "酒店牙刷硬、牙膏差、杯子不干净，放大“不卫生”的担忧。"
+              "desc": "放大传统削皮器功能单一，削皮、切丝需多个工具，浪费时间，强调'多功能'的需求，让用户觉得'一把搞定'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：便携旅行漱口杯，三合一收纳牙刷牙膏，高颜值，轻便。"
+              "desc": "削皮器出场，展示削皮、切丝、开瓶盖三合一功能，不锈钢材质，操作流畅，强调'一把多用、备菜超快'的机制，回应效率痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际使用：展示打开套装、取出牙刷、刷牙、收纳过程，体现便捷和卫生。"
+              "desc": "实际拍摄削土豆皮、切黄瓜丝、开啤酒瓶盖，均轻松完成，对比传统工具，突出'省时省力'，并展示易清洗。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“用自己的才卫生”，引导购买，链路为小店，高CVR说明转化强。"
+              "desc": "复述'三合一、备菜快'，强调'厨房好帮手'，配合'厂家直发'，引导CID链接下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "2f2a5b911c78127439e3",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
-          "title": "冰垫·蜂窝凝胶坐垫",
-          "product": "冰垫",
-          "customer": "深圳市世创企业管理服务有限公司",
-          "chain": "小店",
-          "tag": "夏季降温 · 透气",
-          "spend": 13247.7,
-          "ctr": 0.65,
-          "cvr": 15.69,
-          "cpm": 29.7,
-          "duration": "约57s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53eiao4aaakuac3tsqqrvbuiqe5yrab3sa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-09-d44f14ba2d/frame-01.jpg",
-              "time": "3.4s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-09-d44f14ba2d/frame-02.jpg",
-              "time": "13.6s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-09-d44f14ba2d/frame-03.jpg",
-              "time": "24.4s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-09-d44f14ba2d/frame-04.jpg",
-              "time": "35.2s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-09-d44f14ba2d/frame-05.jpg",
-              "time": "46.5s"
-            }
-          ],
+          "sourceId": "S1R9",
+          "title": "雨衣·一体式骑行安全",
+          "product": "雨衣",
+          "customer": "",
+          "chain": "CID",
+          "tag": "场景演示·安全出行",
+          "spend": 14476.19651,
+          "ctr": 1.641421231,
+          "cvr": 7.703747769,
+          "cpm": 35.33839424,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53imacaaaa3yaoikrtzfvbuqyeebbqaica.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示夏季炎热场景，人坐在椅子上出汗，配话术“创新蜂窝结构透气不闷热”，用“闷热”痛点吸引久坐人群。"
+              "desc": "首帧展示雨天电动车骑行、雨衣被风吹起的危险画面，配话术'雨天骑行安全吗？'，用'安全'痛点吸引电动车用户，引发担忧。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "普通坐垫不透气，久坐臀部闷热出汗，甚至长痱子，放大“不适”感。"
+              "desc": "放大传统分体雨衣易被风吹翻、遮挡视线，普通雨衣不防水，强调'一体式'的需求，让用户觉得'必须换更安全的'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：双层加厚蜂窝凝胶坐垫，物理降温，立体承托分散压力。"
+              "desc": "一体式雨衣出场，展示全身覆盖、防风设计，透明面罩不挡视线，强调'一体式、安全出行'的机制，回应安全痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际使用：展示坐垫放在汽车座椅或办公椅上，用手按压回弹，对比普通坐垫温度。"
+              "desc": "实际拍摄雨中骑行，雨衣贴合身体，不飘不翻，视线清晰，对比普通雨衣，突出'安心'，并展示收纳方便。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“透气降温，久坐不累”，引导购买，链路为小店。"
+              "desc": "复述'一体式、安全防护'，强调'骑行必备'，配合'限时优惠'，引导CID链接下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "2d510f3352b90319ed60",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
-          "title": "包挂件·百福缸钥匙扣",
-          "product": "包挂件",
-          "customer": "渔歌子",
-          "chain": "小店",
-          "tag": "源头厂家 · 特价",
-          "spend": 12242.81,
-          "ctr": 2.76,
-          "cvr": 14.04,
-          "cpm": 89.99,
-          "duration": "约146s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53zyammaaasiambwsravvbvtqey3habrsa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fd0f5561-10-fca0b15914/frame-01.jpg",
-              "time": "8.8s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-10-fca0b15914/frame-02.jpg",
-              "time": "35s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-10-fca0b15914/frame-03.jpg",
-              "time": "62.8s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-10-fca0b15914/frame-04.jpg",
-              "time": "90.5s"
-            },
-            {
-              "src": "assets/frames/upload-fd0f5561-10-fca0b15914/frame-05.jpg",
-              "time": "119.7s"
-            }
-          ],
+          "sourceId": "S1R10",
+          "title": "开关插座·防漏电保护器",
+          "product": "开关插座",
+          "customer": "",
+          "chain": "CID",
+          "tag": "促销热卖·防漏电",
+          "spend": 14176.90923,
+          "ctr": 2.419459946,
+          "cvr": 12.16944172,
+          "cpm": 83.9874242,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534yajqaaa6qaarslujvvbvzqetdtabgca.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示百福缸挂件特写，配话术“源头厂家，厂家直销，今日特价”，用“源头”“特价”制造价格冲击。"
+              "desc": "首帧展示电热水器插头冒火花的危险画面，配话术'漏电保护，刻不容缓！'，用'危险'制造紧迫，吸引家庭用户，引发恐惧。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "传统钥匙扣单调，缺乏寓意，送礼没新意，放大“普通”的遗憾。"
+              "desc": "放大电热水器漏电导致触电事故的新闻，传统插座无保护，强调'防漏电'的刚性需求，让用户觉得'必须立即更换'。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：百福缸创意小米缸，复古开口葫芦，寓意福禄，源头厂家直销，价格低。"
+              "desc": "开关插座出场，展示其漏电保护功能，自动断电，插头耐用，强调'防漏电、自动断电'的机制，回应安全痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际使用：挂在包上或钥匙上，展示不同角度，体现精致和吉祥。"
+              "desc": "实际拍摄安装过程，简单替换，再模拟漏电，展示自动断电，对比普通插座，突出'安全可靠'。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“源头厂家，今日特价，速来抢购”，引导购买，链路为小店。"
+              "desc": "复述'防漏电、自动断电'，强调'厂家直销、今日特价'，配合'速来抢购'，引导CID链接下单，促进转化。"
             }
           },
-          "sourceType": "video"
+          "materialId": "731d15f3e73039104ad7",
+          "frameStatus": "pending"
         }
       ]
     },
