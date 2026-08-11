@@ -268,9 +268,14 @@ const totalCre = activeTracks.reduce((a,b)=>a+(b.metrics?.creativeCount||0),0);
 const avgMetric = field => activeTracks.length
   ? activeTracks.reduce((sum,track)=>sum+(track.metrics?.[field]||0),0)/activeTracks.length
   : 0;
-const avgCtr = avgMetric('ctr').toFixed(1);
-const avgP3 = avgMetric('play3s').toFixed(0);
-const avgCvr = avgMetric('cvr').toFixed(1);
+const fmtMetric = value => {
+  if(value===undefined || value===null || value==='') return '—';
+  const number = Number(value);
+  return Number.isFinite(number) ? number.toFixed(2) : '—';
+};
+const avgCtr = fmtMetric(avgMetric('ctr'));
+const avgP3 = fmtMetric(avgMetric('play3s'));
+const avgCvr = fmtMetric(avgMetric('cvr'));
 document.getElementById('creKv').innerHTML =
   box(totalCre,'创意素材条数')+
   box(avgCtr+'%','平均点击率')+
@@ -296,9 +301,9 @@ document.getElementById('creTracks').innerHTML = CREATIVE_GROUPS.map(group=>{
       <div class="tm-words">${words}</div>
       <div class="tm-metrics">
         <span>创意 <b>${m.creativeCount||0}</b></span>
-        <span>CTR <b>${m.ctr||0}%</b></span>
-        <span>3s <b>${m.play3s||0}%</b></span>
-        <span>CVR <b>${m.cvr||0}%</b></span>
+        <span>CTR <b>${fmtMetric(m.ctr)}%</b></span>
+        <span>3s <b>${fmtMetric(m.play3s)}%</b></span>
+        <span>CVR <b>${fmtMetric(m.cvr)}%</b></span>
       </div>
     </a>`;
   }).join('');

@@ -217,10 +217,28 @@ export function dumpCreative(data) {
   ].join("\n");
 }
 
+const DECIMAL_METRIC_FIELDS = ["ctr", "cvr", "play3s", "cpm", "spend"];
+
+function roundMetricValues(target) {
+  if (!target || typeof target !== "object") return target;
+  const rounded = { ...target };
+  for (const field of DECIMAL_METRIC_FIELDS) {
+    if (rounded[field] === undefined || rounded[field] === null || rounded[field] === "") continue;
+    const value = Number(String(rounded[field]).replace(/[,%￥¥,]/g, ""));
+    if (Number.isFinite(value)) rounded[field] = Math.round((value + Number.EPSILON) * 100) / 100;
+  }
+  return rounded;
+}
+
 // 分析字段按本次上传替换；相同素材的已生成关键帧继续保留，后台成功后再替换
 export function mergeTrack(data, track) {
   const name = (track.name || "").trim();
   if (!name) throw new Error("track 缺少 name（赛道名）");
+  track = {
+    ...track,
+    metrics: roundMetricValues(track.metrics),
+    topMaterials: Array.isArray(track.topMaterials) ? track.topMaterials.map(roundMetricValues) : [],
+  };
   data.tracks = data.tracks || [];
   const existingIndex = data.tracks.findIndex(t => t.name === name);
   const existing = existingIndex >= 0 ? data.tracks[existingIndex] : null;

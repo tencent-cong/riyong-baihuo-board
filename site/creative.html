@@ -116,6 +116,12 @@ function imgFallback(el){
   if(tip) tip.style.display='grid';
 }
 
+function fmtMetric(value){
+  if(value===undefined || value===null || value==='') return '—';
+  const number = Number(value);
+  return Number.isFinite(number) ? number.toFixed(2) : '—';
+}
+
 /* ===== 二层：赛道概览卡片 ===== */
 function trackCard(config){
   const t = findTrack(config);
@@ -135,9 +141,9 @@ function trackCard(config){
     <div class="chips">${words}</div>
     <div class="track-kpis">
       <div class="track-kpi"><b>${m.creativeCount||0}</b><span>创意条数</span></div>
-      <div class="track-kpi"><b>${m.ctr||0}%</b><span>点击率</span></div>
-      <div class="track-kpi"><b>${m.play3s||0}%</b><span>3s完播</span></div>
-      <div class="track-kpi"><b>${m.cvr||0}%</b><span>CVR</span></div>
+      <div class="track-kpi"><b>${fmtMetric(m.ctr)}%</b><span>点击率</span></div>
+      <div class="track-kpi"><b>${fmtMetric(m.play3s)}%</b><span>3s完播</span></div>
+      <div class="track-kpi"><b>${fmtMetric(m.cvr)}%</b><span>CVR</span></div>
     </div>
     <div class="enter">查看赛道详情 →</div>
   </div>`;
@@ -262,9 +268,9 @@ function materialBlock(mt){
       <div class="tagp">${mt.tag||'产品展示'}</div>
     </div>
     <div class="mat-metrics">
-      <span class="mm g">CTR ${mt.ctr||'—'}%</span>
-      <span class="mm gr">CVR ${mt.cvr||'—'}%</span>
-      <span class="mm p">CPM ¥${mt.cpm||'—'}</span>
+      <span class="mm g">CTR ${fmtMetric(mt.ctr)}%</span>
+      <span class="mm gr">CVR ${fmtMetric(mt.cvr)}%</span>
+      <span class="mm p">CPM ¥${fmtMetric(mt.cpm)}</span>
       <span class="mm">⏱ ${mt.duration||'—'}</span>
     </div>
     <div class="frames-label">🎞 关键帧轮播</div>
@@ -294,10 +300,10 @@ function showDetail(key){
   const m=t.metrics;
   document.getElementById('dMetrics').innerHTML =
     metricBox(m.creativeCount,'创意条数','g')+
-    metricBox(m.ctr+'%','点击率','b')+
-    metricBox(m.play3s+'%','3s完播率','gr')+
-    metricBox(m.cvr+'%','CVR','p')+
-    metricBox('¥'+m.cpm,'CPM','');
+    metricBox(fmtMetric(m.ctr)+'%','点击率','b')+
+    metricBox(fmtMetric(m.play3s)+'%','3s完播率','gr')+
+    metricBox(fmtMetric(m.cvr)+'%','CVR','p')+
+    metricBox('¥'+fmtMetric(m.cpm),'CPM','');
   // 词云
   document.getElementById('dCloud').innerHTML = renderCloud(t.sellingWords);
   // 卖点动因 / 背景支撑

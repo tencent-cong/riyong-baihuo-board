@@ -160,6 +160,12 @@ async function saveActivity(){
   finally{ btn.disabled = false; }
 }
 
+function fmtMetric(value){
+  if(value===undefined || value===null || value==="") return "-";
+  const number = Number(value);
+  return Number.isFinite(number) ? number.toFixed(2) : "-";
+}
+
 async function load(){
   const token = getToken();
   if(!token) return show("err","请输入审核口令");
@@ -244,10 +250,10 @@ function render(){
       ${rec.notes?`<div class="notes">📝 上传备注：${rec.notes}</div>`:""}
       <div class="metrics">
         <span>创意 <b>${m.creativeCount||"-"}</b></span>
-        <span>CTR <b>${m.ctr||"-"}%</b></span>
-        <span>3s完播 <b>${m.play3s||"-"}%</b></span>
-        <span>CVR <b>${m.cvr||"-"}%</b></span>
-        <span>CPM <b>${m.cpm||"-"}</b></span>
+        <span>CTR <b>${fmtMetric(m.ctr)}%</b></span>
+        <span>3s完播 <b>${fmtMetric(m.play3s)}%</b></span>
+        <span>CVR <b>${fmtMetric(m.cvr)}%</b></span>
+        <span>CPM <b>${fmtMetric(m.cpm)}</b></span>
       </div>
       <div class="sect"><div class="t">卖点词云</div><div class="tags">${sw}</div></div>
       ${pw?`<div class="sect"><div class="t">用户痛点</div><div class="tags">${pw}</div></div>`:""}

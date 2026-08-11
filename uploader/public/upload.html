@@ -533,6 +533,12 @@ submitBtnSel.onclick = async () => {
   } finally { submitBtnSel.disabled = false; }
 };
 
+function fmtMetric(value){
+  if(value===undefined || value===null || value==="") return "-";
+  const number = Number(value);
+  return Number.isFinite(number) ? number.toFixed(2) : "-";
+}
+
 function renderPreview(t){
   if(!t) return;
   const m = t.metrics||{};
@@ -541,7 +547,7 @@ function renderPreview(t){
   const scripts = (t.scripts||[]).slice(0,4).map(s=>`<div class="pv-row">· ${s}</div>`).join("");
   preview.innerHTML = `
     <h4>AI 产出预览（${t.name}）</h4>
-    <div class="pv-row">指标：创意 <b>${m.creativeCount||"-"}</b> · CTR <b>${m.ctr||"-"}%</b> · 3s完播 <b>${m.play3s||"-"}%</b> · CVR <b>${m.cvr||"-"}%</b> · CPM <b>${m.cpm||"-"}</b></div>
+    <div class="pv-row">指标：创意 <b>${m.creativeCount||"-"}</b> · CTR <b>${fmtMetric(m.ctr)}%</b> · 3s完播 <b>${fmtMetric(m.play3s)}%</b> · CVR <b>${fmtMetric(m.cvr)}%</b> · CPM <b>${fmtMetric(m.cpm)}</b></div>
     <div class="pv-row" style="margin-top:8px">卖点词：</div><div class="tags">${sw}</div>
     <div class="pv-row" style="margin-top:8px">卖点动因：</div>${ctx}
     <div class="pv-row" style="margin-top:8px">爆款话术：</div>${scripts}
