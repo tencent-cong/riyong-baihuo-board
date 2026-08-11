@@ -2,6 +2,7 @@
 // 共享工具库：GitHub 读写 / creative.js 解析合并 / AI 调用 / 鉴权
 // 所有敏感配置走环境变量，不写死在代码里。
 // ============================================================
+import { createHash } from "node:crypto";
 
 // ---- 环境变量（在 Vercel 项目 Settings → Environment Variables 配置）----
 export const ENV = {
@@ -167,13 +168,30 @@ export async function ghDispatchFrameWorkflow(trackName) {
 // 上传负责的完整赛道字段；字段即使为空也必须写入，用本次结果清除旧内容
 export const OWNED_FIELDS = ["metrics", "sellingWords", "painWords", "sellingContext", "scripts", "keyPoints"];
 
-function replaceTopMaterials(incoming = []) {
-  return incoming.map((item, index) => ({
-    ...item,
-    rank: index + 1,
-    videoUrl: item.videoUrl || "",
-    frames: Array.isArray(item.frames) ? item.frames : [],
-  }));
+export function materialId(trackName, item = {}) {
+  const raw = [trackName, item.videoUrl || "", item.sourceId || "", item.product || item.title || ""].join("\n");
+  return createHash("sha256").update(raw).digest("hex").slice(0, 20);
+}
+
+function replaceTopMaterials(trackName, incoming = [], existing = []) {
+  return incoming.map((item, index) => {
+    const videoUrl = String(item.videoUrl || "").trim();
+    const id = materialId(trackName, { ...item, videoUrl });
+    const previous = existing.find(old =>
+      String(old.videoUrl || "") === videoUrl &&
+      ((old.materialId && old.materialId === id) || (!old.materialId && videoUrl))
+    );
+    const reusableFrames = Array.isArray(previous?.frames) ? previous.frames : [];
+    return {
+      ...item,
+      materialId: id,
+      rank: index + 1,
+      videoUrl,
+      frames: reusableFrames.length ? reusableFrames : [],
+      sourceType: previous?.sourceType || item.sourceType,
+      frameStatus: videoUrl ? (reusableFrames.length ? "ready" : "pending") : "missing_source",
+    };
+  });
 }
 
 // 从 creative.js 文本解析出 CREATIVE_DATA 对象
@@ -193,13 +211,13 @@ export function parseCreative(text) {
 export function dumpCreative(data) {
   return [
     "/* 卖点 & 创意分析数据层（Creative Board） */",
-    "/* 由在线上传后端自动写入；关键帧按每次上传的素材URL异步重建 */",
+    "/* 由在线上传后端自动写入；关键帧由后台任务生成并校验后替换 */",
     "window.CREATIVE_DATA = " + JSON.stringify(data, null, 2) + ";",
     "",
   ].join("\n");
 }
 
-// 按赛道全量替换：同名赛道先整体移除，再仅写入本次上传产物，不保留任何旧字段或旧素材
+// 分析字段按本次上传替换；相同素材的已生成关键帧继续保留，后台成功后再替换
 export function mergeTrack(data, track) {
   const name = (track.name || "").trim();
   if (!name) throw new Error("track 缺少 name（赛道名）");
@@ -211,7 +229,7 @@ export function mergeTrack(data, track) {
     key: track.key || existing?.key || "",
     owner: track.owner || "",
     ...Object.fromEntries(OWNED_FIELDS.map(field => [field, track[field] ?? (field === "metrics" ? {} : [])])),
-    topMaterials: replaceTopMaterials(Array.isArray(track.topMaterials) ? track.topMaterials : []),
+    topMaterials: replaceTopMaterials(name, Array.isArray(track.topMaterials) ? track.topMaterials : [], existing?.topMaterials || []),
   };
   if (existingIndex >= 0) data.tracks.splice(existingIndex, 1, replacement);
   else data.tracks.push(replacement);

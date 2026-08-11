@@ -234,6 +234,10 @@ function renderMaterials(t, chain){
 }
 
 function materialBlock(mt){
+  const emptyFrameText = mt.frameStatus==='pending' ? '关键帧后台生成中'
+    : mt.frameStatus==='failed' ? '关键帧生成失败，系统将重试'
+    : mt.frameStatus==='missing_source' ? '素材链接未识别'
+    : '关键帧待补充';
   const frames = (mt.frames&&mt.frames.length)
     ? mt.frames.map((f,i)=>{
         const frame = typeof f==='string' ? {src:f,time:''} : f;
@@ -244,7 +248,7 @@ function materialBlock(mt){
           <span class="frame-error">图片加载失败</span>
         </div>`;
       }).join('')
-    : `<div class="frame empty"><span class="no">1</span>关键帧待补充</div>`;
+    : `<div class="frame empty"><span class="no">1</span>${emptyFrameText}</div>`;
   const g=mt.golden5;
   const seg=(cls,label,d)=>`<div class="seg ${cls}"><div class="sh"><span class="seg-label">${label}</span><span class="tm">${d.time}</span></div><div class="sd">${d.desc}</div></div>`;
   const chainTag = mt.chain ? `<span class="chain-tag" data-chain="${mt.chain}">【${mt.chain}】</span>` : '';

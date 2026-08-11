@@ -2,7 +2,7 @@
 // body: { token, id, track? }   token=ADMIN_TOKEN；track 可选（管理员在审核页微调后的最终版）
 // 流程：读 creative.js → 合并该 track → 写回（触发 Pages 重建）→ 删除待审记录
 import {
-  ENV, ghGetFile, ghPutFile, ghDeleteFile,
+  ENV, ghGetFile, ghPutFile, ghDeleteFile, ghDispatchFrameWorkflow,
   parseCreative, dumpCreative, mergeTrack,
   SELECTION_PATH, parseSelection, dumpSelection, mergeSelection,
   setCors, readJsonBody, checkToken,
@@ -71,7 +71,9 @@ export default async function handler(req, res) {
         cur.sha
       );
 
-      finalMessage = `已${action === "update" ? "更新" : "新增"}赛道「${name}」创意分析并推送上线，看板几十秒后刷新。`;
+      const hasMedia = (track.topMaterials || []).some(item => /^https?:\/\//i.test(String(item.videoUrl || "")));
+      if (hasMedia) await ghDispatchFrameWorkflow(name);
+      finalMessage = `已${action === "update" ? "更新" : "新增"}赛道「${name}」创意分析并推送上线${hasMedia ? "，关键帧后台任务已启动" : ""}。`;
     }
 
     // 3) 删除待审记录
