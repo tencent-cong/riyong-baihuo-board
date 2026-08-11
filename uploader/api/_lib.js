@@ -275,7 +275,7 @@ export function extractJson(text) {
 export function setCors(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type, X-Token, X-Selection-Module, X-Selection-Target, X-Selection-Label, X-File-Name");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, X-Token, X-Selection-Module, X-Selection-Target, X-Selection-Label, X-Selection-Period, X-File-Name");
 }
 
 // ============================================================
@@ -322,6 +322,32 @@ function hashString(str) {
     hash |= 0;
   }
   return hash;
+}
+
+export function updateSelectionPeriod(data, items = [], requestedPeriod = "") {
+  const periods = [];
+  for (const item of items) {
+    const raw = item?.createdAt;
+    let date = null;
+    if (typeof raw === "number" || /^\d{5}(?:\.\d+)?$/.test(String(raw || "").trim())) {
+      const serial = Number(raw);
+      if (serial > 30000 && serial < 100000) date = new Date(Date.UTC(1899, 11, 30) + serial * 86400000);
+    } else {
+      const match = String(raw || "").match(/(20\d{2})\D{1,3}(\d{1,2})/);
+      if (match) date = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, 1));
+    }
+    if (date && !Number.isNaN(date.getTime())) periods.push(`${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`);
+  }
+  const inferred = periods.sort().at(-1);
+  const requested = String(requestedPeriod || "").match(/^(20\d{2})-(0[1-9]|1[0-2])$/)?.[0];
+  const period = inferred || requested;
+  data.meta = data.meta || {};
+  data.meta.updatedAt = new Date().toISOString().slice(0, 10);
+  if (period) {
+    const [year, month] = period.split("-");
+    data.meta.period = `${year}年${Number(month)}月榜单（真实数据自选品台）`;
+  }
+  return period;
 }
 
 // 兼容旧版整包上传：三个链路均以本次文件为准全量替换，不保留线上旧商品

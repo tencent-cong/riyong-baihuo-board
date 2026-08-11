@@ -4,7 +4,7 @@
 import {
   ENV, ghGetFile, ghPutFile, ghDeleteFile, ghDispatchFrameWorkflow,
   parseCreative, dumpCreative, mergeTrack,
-  SELECTION_PATH, parseSelection, dumpSelection, mergeSelection,
+  SELECTION_PATH, parseSelection, dumpSelection, mergeSelection, updateSelectionPeriod,
   setCors, readJsonBody, checkToken,
 } from "./_lib.js";
 
@@ -37,9 +37,7 @@ export default async function handler(req, res) {
       const data = parseSelection(cur.text);
       const items = body.items || record.items; // 支持微调或默认
       const stats = mergeSelection(data, record.trackName, items);
-
-      data.meta = data.meta || {};
-      data.meta.updatedAt = new Date().toISOString().slice(0, 10);
+      updateSelectionPeriod(data, [...(items.nonClosed || []), ...(items.quanyutong || []), ...(items.adq || [])], record.selectionPeriod);
       
       const newText = dumpSelection(data);
       await ghPutFile(

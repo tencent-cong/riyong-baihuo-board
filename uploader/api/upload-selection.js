@@ -6,7 +6,7 @@ import CFB from "cfb";
 import * as XLSX from "xlsx";
 import {
   ENV, ghGetFile, ghCommitFiles, setCors, readJsonBody, checkToken,
-  SELECTION_PATH, parseSelection, dumpSelection, mergeSelection, mergeSelectionByTarget,
+  SELECTION_PATH, parseSelection, dumpSelection, mergeSelection, mergeSelectionByTarget, updateSelectionPeriod,
 } from "./_lib.js";
 
 const PRODUCT_ASSETS_PATH = "site/data/product-assets.js";
@@ -189,12 +189,13 @@ export default async function handler(req, res) {
   try {
     const isBinary = String(req.headers["content-type"] || "").includes("application/octet-stream");
     let token, trackName, notes, filename, buf;
-    let selectionModule, selectionTarget, selectionLabel;
+    let selectionModule, selectionTarget, selectionLabel, selectionPeriod;
     if (isBinary) {
       token = String(req.headers["x-token"] || "");
       selectionModule = decodeURIComponent(String(req.headers["x-selection-module"] || ""));
       selectionTarget = decodeURIComponent(String(req.headers["x-selection-target"] || ""));
       selectionLabel = decodeURIComponent(String(req.headers["x-selection-label"] || ""));
+      selectionPeriod = decodeURIComponent(String(req.headers["x-selection-period"] || ""));
       trackName = selectionLabel || decodeURIComponent(String(req.headers["x-track-name"] || ""));
       filename = decodeURIComponent(String(req.headers["x-file-name"] || "selection.xlsx"));
       notes = "";
@@ -209,7 +210,7 @@ export default async function handler(req, res) {
       }
     } else {
       const body = await readJsonBody(req);
-      ({ token, trackName, notes, filename, selectionModule, selectionTarget, selectionLabel } = body);
+      ({ token, trackName, notes, filename, selectionModule, selectionTarget, selectionLabel, selectionPeriod } = body);
       buf = body.fileBase64 ? Buffer.from(body.fileBase64, "base64") : null;
     }
     trackName = trackName || selectionLabel;
@@ -272,8 +273,7 @@ export default async function handler(req, res) {
       if (!cur) return res.status(500).json({ error: "线上 selection.js 读取失败" });
       const data = parseSelection(cur.text);
       const result = mergeSelectionByTarget(data, selectionModule, selectionTarget, selectionLabel || trackName, deduped);
-      data.meta = data.meta || {};
-      data.meta.updatedAt = new Date().toISOString().slice(0, 10);
+      updateSelectionPeriod(data, deduped, selectionPeriod);
       const files = [
         ...imageFiles,
         { path: PRODUCT_ASSETS_PATH, content: dumpProductAssets(productAssets), encoding: "utf-8" },
@@ -333,8 +333,7 @@ export default async function handler(req, res) {
     if (!cur) return res.status(500).json({ error: "线上 selection.js 读取失败" });
     const data = parseSelection(cur.text);
     const stats = mergeSelection(data, trackName.trim(), payload);
-    data.meta = data.meta || {};
-    data.meta.updatedAt = new Date().toISOString().slice(0, 10);
+    updateSelectionPeriod(data, allItems, selectionPeriod);
     const newText = dumpSelection(data);
     await ghCommitFiles([
       ...imageFiles,

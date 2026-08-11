@@ -130,6 +130,9 @@
         <option value="cycle">热点周期 / 节气选品</option>
       </select>
 
+      <label>榜单月份 <span style="color:var(--gold)">*</span></label>
+      <input type="month" id="selectionPeriod" style="margin-bottom:8px">
+
       <label>具体归属 <span style="color:var(--gold)">*</span></label>
       <select id="selectionTarget" style="margin-bottom:8px"></select>
 
@@ -455,6 +458,7 @@ function updateSelectionTargets(){
     .map(([value, label]) => `<option value="${value}">${label}</option>`).join("");
 }
 updateSelectionTargets();
+document.getElementById("selectionPeriod").value = new Date().toISOString().slice(0, 7);
 
 let selectionFile = null, fileNameSel = "";
 const fileZoneSel = document.getElementById("fileZoneSel");
@@ -490,8 +494,10 @@ submitBtnSel.onclick = async () => {
   const targetSelect = document.getElementById("selectionTarget");
   const selectionTarget = targetSelect.value;
   const selectionLabel = targetSelect.options[targetSelect.selectedIndex]?.text || "";
+  const selectionPeriod = document.getElementById("selectionPeriod").value;
   const notes = document.getElementById("notesSel").value.trim();
 
+  if(!selectionPeriod) return show("err","请选择榜单月份");
   if(!selectionTarget) return show("err","请选择具体归属");
   if(!selectionFile) return show("err","请选择选品 Excel 文件");
 
@@ -508,6 +514,7 @@ submitBtnSel.onclick = async () => {
         "X-Selection-Module":encodeURIComponent(selectionModule),
         "X-Selection-Target":encodeURIComponent(selectionTarget),
         "X-Selection-Label":encodeURIComponent(selectionLabel),
+        "X-Selection-Period":encodeURIComponent(selectionPeriod),
         "X-File-Name":encodeURIComponent(fileNameSel)
       },
       body:selectionFile

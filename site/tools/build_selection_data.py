@@ -4,10 +4,13 @@
 用法: python3 build_selection_data.py
 """
 import pandas as pd, json, math, re, os
+from datetime import date
 from urllib.parse import quote
 
 SRC = "/Users/congjiang/Downloads/2026年日百家居行业选品台.xlsx"
 OUT = "/Users/congjiang/CodeBuddy/葱葱AI学习营地/日百打工人/site/data/selection.js"
+PERIOD = os.environ.get("SELECTION_PERIOD", date.today().strftime("%Y-%m"))
+PERIOD_YEAR, PERIOD_MONTH = PERIOD.split("-", 1)
 
 # 联网商品参考图：pollinations 免费AI生图直链（<img src>可直接显示，无需key）
 # 行业运营只需填商品名，图片由脚本自动按商品名生成，无需手动补充。
@@ -144,7 +147,7 @@ qyt_final = enrich_images(dedup(topn(qyt, 200)))
 adq_final = enrich_images(dedup(topn(adq, 200)))
 
 data = {
-    "meta": {"period": "2026年7月榜单（真实数据自选品台）", "updatedAt": "2026-07-14",
+    "meta": {"period": f"{PERIOD_YEAR}年{int(PERIOD_MONTH)}月榜单（真实数据自选品台）", "updatedAt": date.today().isoformat(),
              "source": "2026年日百家居行业选品台.xlsx", "owner": "投放运营组",
              "cidTotal": len(cid_items), "liveTotal": len(live),
              "imageNote": "商品参考图由系统按商品名自动联网生成，行业运营仅需维护商品名等基础信息"},
