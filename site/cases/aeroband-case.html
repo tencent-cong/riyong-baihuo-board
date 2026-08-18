@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AEROBAND · 全店托管 CPA 案例</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; background: #efedf4; display: flex; justify-content: center; padding: 20px; }
+  .card {
+    width: 600px; height: 850px; background: #fff; border-radius: 20px;
+    padding: 26px 30px; display: flex; flex-direction: column; gap: 13px;
+    box-shadow: 0 8px 30px rgba(90,70,140,.15); overflow: hidden;
+  }
+  .hook { font-size: 14px; color: #8f89a3; font-weight: 600; letter-spacing: 1px; }
+  h1 { font-size: 23px; color: #241d3a; line-height: 1.4; }
+  h1 em { font-style: normal; color: #6c53c9; }
+  .tags { display: flex; gap: 8px; }
+  .tag { font-size: 12px; padding: 4px 14px; border-radius: 999px; font-weight: 600; background: #f0ecfa; color: #5b4a9e; }
+  /* 核心大数字横幅 */
+  .banner {
+    background: linear-gradient(120deg,#2c2350,#54418f); border-radius: 16px;
+    padding: 16px 18px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .banner .b-item { text-align: center; flex: 1; }
+  .banner .b-num { font-size: 27px; font-weight: 800; color: #ffd98a; }
+  .banner .b-num span { font-size: 15px; }
+  .banner .b-label { font-size: 12px; color: rgba(255,255,255,.78); margin-top: 4px; }
+  .banner .b-div { width: 1px; height: 38px; background: rgba(255,255,255,.2); }
+  /* 优势区 */
+  .sec-title { font-size: 16px; font-weight: 800; color: #2c2350; display: flex; align-items: center; gap: 8px; }
+  .sec-title::before { content: ""; width: 5px; height: 16px; background: linear-gradient(180deg,#8f7cd4,#5b4a9e); border-radius: 3px; }
+  .p-title { font-size: 14.5px; font-weight: 700; color: #2c2350; display: flex; align-items: center; gap: 8px; }
+  .p-num { width: 21px; height: 21px; border-radius: 50%; background: linear-gradient(135deg,#8f7cd4,#5b4a9e); color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .p-desc { font-size: 12px; color: #6e6884; line-height: 1.65; }
+  .p-desc b { color: #6c53c9; }
+  /* 优势1：通栏 */
+  .point-full { background: #fbfaff; border: 1px solid #e8e4f2; border-radius: 14px; padding: 12px 16px; display: flex; flex-direction: column; gap: 5px; }
+  /* 优势2/3：双卡 */
+  .duo { display: flex; gap: 13px; flex: 1; min-height: 0; }
+  .duo-card { flex: 1; background: #fbfaff; border: 1px solid #e8e4f2; border-radius: 14px; padding: 13px 15px; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .duo-card .visual { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; }
+  /* 产品方图 + 泡泡 */
+  .prod-box { position: relative; width: 100%; max-width: 218px; border-radius: 12px; overflow: hidden; border: 1px solid #eae5f4; }
+  .prod-box img { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; background: #f7f5fc; display: block; }
+  .bubble {
+    position: absolute; border-radius: 50%; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+    background: rgba(44,35,80,.62); backdrop-filter: blur(2px);
+    border: 1.5px solid rgba(217,201,255,.75); color: #fff;
+    box-shadow: 0 4px 12px rgba(44,35,80,.3);
+  }
+  .bubble .bb-num { font-weight: 800; color: #ffd98a; line-height: 1.1; }
+  .bubble .bb-label { line-height: 1.2; opacity: .92; }
+  .bubble-1 { width: 88px; height: 88px; top: 8px; right: 8px; }
+  .bubble-1 .bb-num { font-size: 19px; }
+  .bubble-1 .bb-label { font-size: 9.5px; margin-top: 2px; }
+  .bubble-2 { width: 80px; height: 80px; bottom: 8px; left: 8px; }
+  .bubble-2 .bb-num { font-size: 13.5px; }
+  .bubble-2 .bb-label { font-size: 9.5px; margin-top: 2px; }
+  /* 增长示意 */
+  .grow-box { width: 100%; max-width: 218px; }
+  .grow-box svg { width: 100%; display: block; }
+  /* 收束 CTA */
+  .cta { background: #f5f2fc; border-left: 4px solid #8f7cd4; border-radius: 10px; padding: 12px 18px; font-size: 13.5px; color: #453c66; line-height: 1.7; }
+  .cta b { color: #6c53c9; }
+  .cta .cta-tag { display: inline-block; background: linear-gradient(90deg,#5b4a9e,#8f7cd4); color: #fff; font-size: 12px; font-weight: 700; padding: 2px 10px; border-radius: 999px; margin-right: 8px; vertical-align: 1px; }
+  .note { font-size: 10.5px; color: #a49dbb; text-align: right; margin-top: -6px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="hook">客单价高，投放波动大、不敢放量？</div>
+  <h1>高客单也能稳投：CPA 保成本托管，<br><em>整体规模环比 +140%</em></h1>
+  <div class="tags">
+    <span class="tag">AEROBAND · 品牌优质商家</span>
+    <span class="tag">全店托管 CPA</span>
+  </div>
+
+  <div class="banner">
+    <div class="b-item"><div class="b-num">+140<span>%</span></div><div class="b-label">整体规模环比</div></div>
+    <div class="b-div"></div>
+    <div class="b-item"><div class="b-num">+36<span>%</span></div><div class="b-label">ROI 全线最优</div></div>
+    <div class="b-div"></div>
+    <div class="b-item"><div class="b-num">37<span>%</span></div><div class="b-label">纯增量贡献广告 GMV</div></div>
+  </div>
+
+  <div class="sec-title">全店托管好在哪？</div>
+
+  <div class="point-full">
+    <div class="p-title"><span class="p-num">1</span>CPA 保成本，高客单也敢投</div>
+    <div class="p-desc">按转化结算、<b>不转化不扣费</b>。高客单商品告别成本波动焦虑，投放确定性拉满，<b>低门槛起投</b>。</div>
+  </div>
+
+  <div class="duo">
+    <div class="duo-card">
+      <div class="p-title"><span class="p-num">2</span>单投客户跃迁稳定双投，贡献增量 GMV</div>
+      <div class="p-desc">历史只能单投小店广告，托管后<b>稳定跃迁双投</b>：ADQ 消耗为<b>纯增量</b>，贡献 <b>37% 广告 GMV</b>。</div>
+      <div class="visual">
+        <div class="prod-box">
+          <img src="assets/aeroband-product.png" alt="商品">
+          <div class="bubble bubble-1"><div class="bb-num">37%</div><div class="bb-label">增量广告 GMV</div></div>
+          <div class="bubble bubble-2"><div class="bb-num">双投</div><div class="bb-label">稳定引入</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="duo-card">
+      <div class="p-title"><span class="p-num">3</span>全店起投提投产，全盘规模持续放大</div>
+      <div class="p-desc">全店托管拉高投产后，直播链路放量空间打开，<b>直播消耗翻番</b>，整体规模环比 <b>+140%</b>。</div>
+      <div class="visual">
+        <div class="grow-box">
+          <svg viewBox="0 0 218 150">
+            <defs>
+              <linearGradient id="barLive" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#b5a3ec"/>
+                <stop offset="100%" stop-color="#8f7cd4"/>
+              </linearGradient>
+              <linearGradient id="barShop" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#ffd98a"/>
+                <stop offset="100%" stop-color="#e6b45c"/>
+              </linearGradient>
+            </defs>
+            <line x1="14" y1="120" x2="204" y2="120" stroke="#e3ddf0" stroke-width="1"/>
+            <rect x="46" y="90" width="44" height="30" rx="5" fill="url(#barLive)" opacity=".55"/>
+            <text x="68" y="136" font-size="10" fill="#8f89a3" text-anchor="middle">托管前 · 仅直播</text>
+            <rect x="128" y="60" width="44" height="60" rx="5" fill="url(#barLive)"/>
+            <rect x="128" y="30" width="44" height="27" rx="5" fill="url(#barShop)"/>
+            <text x="150" y="136" font-size="10" fill="#8f89a3" text-anchor="middle">托管后 · 直播+全店</text>
+            <text x="150" y="20" font-size="13" font-weight="800" fill="#5b4a9e" text-anchor="middle">+140%</text>
+            <path d="M92,84 C106,68 116,54 124,44" fill="none" stroke="#8f7cd4" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round"/>
+            <path d="M120,42 L126,42 L124,49 Z" fill="#8f7cd4"/>
+            <rect x="44" y="142" width="8" height="8" rx="2" fill="#8f7cd4"/>
+            <text x="56" y="149" font-size="9" fill="#8f89a3">直播</text>
+            <rect x="86" y="142" width="8" height="8" rx="2" fill="#e6b45c"/>
+            <text x="98" y="149" font-size="9" fill="#8f89a3">全店托管</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+<span class="cta-tag">适配客户</span>商品客单高、效果广告难稳定投放？<b>全店托管 CPA</b> 用保成本帮你<b>稳稳跨出第一步</b>，把单点投放做成<b>全盘增长</b>。
+  </div>
+  <div class="note">*CPA 为内测能力，欢迎联系销运开白使用</div>
+</div>
+</body>
+</html>

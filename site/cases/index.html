@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>案例集锦 · 日百行业情报台</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"PingFang SC","Microsoft YaHei",sans-serif; background:#12131a; color:#e8e6f0; min-height:100vh; }
+  .topbar { background:#191b25; border-bottom:1px solid #262837; padding:14px 0; position:sticky; top:0; z-index:10; }
+  .topbar .wrap { display:flex; align-items:center; gap:10px; }
+  .wrap { max-width:1360px; margin:0 auto; padding:0 24px; }
+  .dot { display:inline-flex; width:28px; height:28px; border-radius:8px; background:linear-gradient(135deg,#e8b34b,#c9862c); color:#191b25; font-weight:800; font-size:14px; align-items:center; justify-content:center; }
+  .brand { font-weight:700; font-size:16px; }
+  .back { margin-left:auto; font-size:13px; color:#a7a3bd; text-decoration:none; border:1px solid #33364a; border-radius:999px; padding:6px 16px; }
+  .back:hover { color:#e8b34b; border-color:#e8b34b; }
+  .page-head { padding:34px 0 6px; }
+  .page-head h1 { font-size:26px; }
+  .page-head h1 b { color:#e8b34b; }
+  .page-head .sub { color:#a7a3bd; font-size:13.5px; margin-top:8px; line-height:1.8; max-width:760px; }
+  .meta { margin-top:12px; display:flex; gap:8px; flex-wrap:wrap; }
+  .pill { font-size:12px; color:#c9c5dd; background:#1e2030; border:1px solid #2c2f42; padding:4px 12px; border-radius:999px; }
+  .pill b { color:#e8b34b; }
+  .gallery { display:flex; gap:28px; flex-wrap:wrap; justify-content:center; padding:28px 0 60px; }
+  .case-slot { display:flex; flex-direction:column; gap:12px; }
+  .case-label { display:flex; align-items:center; gap:10px; }
+  .case-label .no { font-size:12px; font-weight:800; color:#191b25; background:linear-gradient(135deg,#e8b34b,#c9862c); border-radius:6px; padding:2px 8px; }
+  .case-label .nm { font-size:14.5px; font-weight:700; }
+  .case-label .tg { font-size:11.5px; color:#a7a3bd; border:1px solid #33364a; border-radius:999px; padding:2px 10px; }
+  .case-frame { width:640px; height:912px; border:1px solid #2c2f42; border-radius:16px; overflow:hidden; background:#f0ede8; }
+  .case-frame iframe { width:640px; height:912px; border:0; transform-origin:0 0; }
+  .open-link { font-size:12.5px; color:#a7a3bd; text-decoration:none; align-self:flex-end; }
+  .open-link:hover { color:#e8b34b; }
+  .footer { text-align:center; color:#5d5a72; font-size:12px; padding:20px 0 40px; }
+  @media (max-width:1400px){ .gallery{ gap:20px; } }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span class="dot">日</span><span class="brand">日百行业情报台 · 案例集锦</span>
+  <a class="back" href="../index.html">← 返回总览</a>
+</div></div>
+
+<div class="wrap">
+  <div class="page-head">
+    <h1>案例集锦 · <b>全店托管</b>标杆客户</h1>
+    <div class="sub">把店铺低成本托管给系统，系统帮你筛品、补素材、稳成本。两类典型客户画像的真实跑量案例：<b style="color:#e8b34b">多品货架商家</b>靠全店托管跑出一批新品；<b style="color:#e8b34b">高客单商家</b>靠 CPA 保成本实现稳定放量。</div>
+    <div class="meta">
+      <span class="pill">能力 <b>全店托管 / CPA 保成本</b></span>
+      <span class="pill">更新 <b>2026-08-18</b></span>
+      <span class="pill">案例数 <b>2</b></span>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="case-slot">
+      <div class="case-label"><span class="no">CASE 01</span><span class="nm">元气达人</span><span class="tg">多品货架 · 全店托管</span></div>
+      <div class="case-frame"><iframe src="genki-case.html" title="元气达人 · 全店托管案例" scrolling="no"></iframe></div>
+      <a class="open-link" href="genki-case.html" target="_blank">单独打开 ↗</a>
+    </div>
+    <div class="case-slot">
+      <div class="case-label"><span class="no">CASE 02</span><span class="nm">AEROBAND</span><span class="tg">高客单 · 全店托管 CPA</span></div>
+      <div class="case-frame"><iframe src="aeroband-case.html" title="AEROBAND · 全店托管 CPA 案例" scrolling="no"></iframe></div>
+      <a class="open-link" href="aeroband-case.html" target="_blank">单独打开 ↗</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">案例数据为客户投放期真实表现 · *CPA 为内测能力，欢迎联系销运开白使用</div>
+
+</body>
+</html>
