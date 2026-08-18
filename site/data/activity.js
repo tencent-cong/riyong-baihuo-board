@@ -3,11 +3,11 @@ window.ACTIVITY_DATA = {
   items: [
     {
       tag: "限时活动",
-      title: "鹅选美好生活节",
-      image: "assets/activity/goose-life-festival.png",
-      text: "正在火热进行中，点击查看活动详情",
-      link: "https://doc.weixin.qq.com/doc/w3_AQkAEwaMADECNqzmTeL9RSAiQPLlR?scode=AJEAIQdfAAo6hKfAAhAQkAEwaMADE",
-      updatedAt: "2026-07-20"
+      title: "鹅选国货焕新节",
+      image: "assets/activity/goose-national-renewal-festival.png",
+      text: "一件国货，焕新一个家。点击查看活动详情",
+      link: "https://docs.qq.com/pdf/DZmNyWFNuZmNjcm5i",
+      updatedAt: "2026-08-18"
     }
   ]
 };
