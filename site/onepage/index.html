@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全店托管 / 多品托管 · 对客 One Page</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif;
+    background: #f4f6fb;
+    color: #23324d;
+    padding: 28px 36px 48px;
+  }
+  .page-title { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .page-sub { font-size: 13px; color: #7a8aa6; margin-bottom: 26px; }
+  .sec-title { font-size: 18px; font-weight: 700; margin: 0 0 14px; display: flex; align-items: center; gap: 8px; }
+  .sec-title .num {
+    width: 26px; height: 26px; border-radius: 8px; background: #2f6bff; color: #fff;
+    font-size: 14px; display: inline-flex; align-items: center; justify-content: center;
+  }
+  .sec-gap { margin-bottom: 36px; }
+
+  /* ===== 好处 ===== */
+  .benefit-grid { display: flex; gap: 16px; flex-wrap: wrap; }
+  .benefit-card {
+    flex: 1; min-width: 260px;
+    background: #fff; border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(35,50,77,.07);
+    padding: 20px 22px;
+  }
+  .benefit-card .b-icon { font-size: 26px; margin-bottom: 8px; }
+  .benefit-card h4 { font-size: 15.5px; font-weight: 700; margin-bottom: 8px; }
+  .benefit-card p { font-size: 13px; color: #46587a; line-height: 1.8; }
+  .benefit-card p b { color: #23324d; }
+  .benefit-card .b-num { color: #e5484d; font-weight: 700; }
+  .benefit-card .b-src { display: block; margin-top: 8px; font-size: 11.5px; color: #93a3bd; }
+
+  /* ===== 案例 showcase ===== */
+  .case-grid { display: flex; gap: 16px; flex-wrap: wrap; }
+  .case-card {
+    flex: 1; min-width: 320px;
+    background: #fff; border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(35,50,77,.07);
+    overflow: hidden;
+  }
+  .case-head { padding: 16px 22px 12px; color: #fff; }
+  .case-head.gold { background: linear-gradient(135deg, #b8860b, #e6a817); }
+  .case-head.purple { background: linear-gradient(135deg, #5b3fd4, #8b6ff0); }
+  .case-head .c-who { font-size: 12px; opacity: .9; margin-bottom: 4px; }
+  .case-head h4 { font-size: 16px; font-weight: 700; line-height: 1.5; }
+  .case-body { padding: 16px 22px 20px; }
+  .case-nums { display: flex; gap: 10px; margin-bottom: 14px; }
+  .case-nums .cn {
+    flex: 1; background: #f7f9fd; border-radius: 8px; padding: 10px 8px; text-align: center;
+  }
+  .case-nums .cn b { display: block; font-size: 18px; color: #e5484d; }
+  .case-nums .cn span { font-size: 11px; color: #7a8aa6; line-height: 1.4; display: block; margin-top: 3px; }
+  .case-how { font-size: 12.5px; color: #46587a; line-height: 1.9; }
+  .case-how b { color: #23324d; }
+
+  /* ===== 概念对比 ===== */
+  .concept-card {
+    background: #fff; border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(35,50,77,.07);
+    overflow-x: auto; margin-bottom: 18px;
+  }
+  .concept-card table { width: 100%; min-width: 860px; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+  .concept-card thead th {
+    background: #23324d; color: #fff; font-weight: 600;
+    padding: 10px 14px; text-align: center; font-size: 13px;
+  }
+  .concept-card thead th:first-child { width: 110px; }
+  .concept-card tbody th {
+    padding: 13px 14px; text-align: center; color: #fff;
+    font-size: 13.5px; font-weight: 700; line-height: 1.5;
+  }
+  .concept-card tbody tr.row-full th { background: #2f6bff; }
+  .concept-card tbody tr.row-multi th { background: #10a89e; }
+  .concept-card tbody td {
+    padding: 12px 14px; border-bottom: 1px solid #eef1f7; border-left: 1px solid #eef1f7;
+    line-height: 1.7; vertical-align: middle; color: #46587a;
+  }
+  .concept-card tbody tr:last-child td { border-bottom: none; }
+  .concept-card td b { color: #23324d; }
+  .pill {
+    display: inline-block; font-size: 11px; font-weight: 700; border-radius: 4px;
+    padding: 1px 7px; vertical-align: middle; white-space: nowrap;
+  }
+  .pill-yes { background: #e2f6ea; color: #23a55a; }
+  .pill-no  { background: #ffe3e4; color: #d43a40; }
+
+  /* ===== 适配客户 ===== */
+  .fit-grid { display: flex; gap: 16px; flex-wrap: wrap; }
+  .fit-card {
+    flex: 1; min-width: 280px;
+    background: #fff; border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(35,50,77,.07);
+    padding: 20px 22px;
+    border-top: 4px solid #10a89e;
+    display: flex; flex-direction: column;
+  }
+  .fit-card.full { border-top-color: #2f6bff; }
+  .fit-card.both { border-top: 4px solid; border-image: linear-gradient(90deg,#10a89e,#2f6bff) 1; }
+  .fit-card .ctype { font-size: 12px; font-weight: 700; color: #93a3bd; letter-spacing: 1px; margin-bottom: 6px; }
+  .fit-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 12px; line-height: 1.6; }
+  .fit-card h4 b { color: #e5484d; }
+  .rec-badge {
+    display: inline-block; font-size: 12.5px; font-weight: 700;
+    border-radius: 6px; padding: 5px 12px; margin-bottom: 12px; margin-right: 6px;
+  }
+  .rec-multi { background: #e9f8f6; color: #0d968d; border: 1px solid #b5e3de; }
+  .rec-full { background: #eef3ff; color: #2f6bff; border: 1px solid #cbdcff; }
+  .fit-item {
+    font-size: 13px; line-height: 1.8; color: #46587a;
+    padding: 12px 14px; background: #f7f9fd; border-radius: 8px;
+  }
+  .fit-item b { color: #23324d; }
+  .fit-item .act { color: #e5484d; font-weight: 700; }
+
+  /* ===== 流程 ===== */
+  .step-card {
+    background: #fff; border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(35,50,77,.07);
+    padding: 18px 22px;
+  }
+  .step-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .step-no {
+    flex: none; width: 30px; height: 30px; border-radius: 50%;
+    background: #2f6bff; color: #fff; font-size: 14px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step-head h3 { font-size: 15.5px; font-weight: 700; }
+  .step-head .tag { font-size: 11px; font-weight: 700; border-radius: 4px; padding: 2px 8px; }
+  .tag-build { background: #e5ecfb; color: #2f6bff; }
+  .tag-mat { background: #fff3df; color: #c47f13; }
+  .step-desc { font-size: 13px; color: #46587a; line-height: 1.8; margin-bottom: 12px; }
+  .step-desc b { color: #23324d; }
+  .step-desc .full { color: #2f6bff; font-weight: 700; }
+  .step-desc .multi { color: #10a89e; font-weight: 700; }
+  .flow-arrow { text-align: center; font-size: 18px; color: #b9c5da; line-height: 1; padding: 8px 0; }
+  .shot-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .shot {
+    flex: 1; min-width: 260px; max-width: 480px;
+    border: 1px solid #eef1f7; border-radius: 10px; overflow: hidden;
+    background: #f7f9fd;
+  }
+  .shot img { width: 100%; display: block; }
+  .shot .cap {
+    font-size: 12px; color: #46587a; padding: 8px 12px; line-height: 1.6;
+    border-top: 1px solid #eef1f7; background: #fff;
+  }
+  .shot .cap b { color: #23324d; }
+  .shot.full-mode .cap { border-top: 3px solid #2f6bff; }
+  .shot.multi-mode .cap { border-top: 3px solid #10a89e; }
+  .branch { display: flex; gap: 14px; flex-wrap: wrap; }
+  .branch-col { flex: 1; min-width: 300px; border-radius: 10px; padding: 14px 16px; }
+  .branch-col.full { background: #eef3ff; border: 1px solid #d5e2ff; }
+  .branch-col.multi { background: #e9f8f6; border: 1px solid #c8ece8; }
+  .branch-col h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+  .branch-col.full h4 { color: #2f6bff; }
+  .branch-col.multi h4 { color: #10a89e; }
+  .branch-col p { font-size: 12.5px; color: #46587a; line-height: 1.7; margin-bottom: 10px; }
+
+  .foot-note { font-size: 11.5px; color: #93a3bd; margin-top: 14px; }
+
+  @media (max-width: 900px) {
+    body { padding: 18px 14px 36px; }
+    .shot { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="page-title">微信小店 · 全店托管 / 多品托管 上手指南（对客 One Page）</div>
+  <div class="page-sub">一页看懂：托管有什么好处 → 真实案例 → 你适合哪种托管方式 → 怎么搭建、怎么传素材</div>
+
+  <!-- 1. 托管投放的好处 -->
+  <div class="sec-title"><span class="num">1</span>为什么要用托管投放？</div>
+  <div class="benefit-grid sec-gap">
+    <div class="benefit-card">
+      <div class="b-icon">🤖</div>
+      <h4>省心：系统帮你选品、补素材</h4>
+      <p>系统自动判断和理解商品，<b>智能筛选跑品</b>；素材靠<b>全库智选 + AIGC</b> 自动拉取补充，单账户创意填充效率是普通广告的 <span class="b-num">10 倍</span>，素材筛选更优（3s 快滑率 <span class="b-num">-34%</span>）。</p>
+      <span class="b-src">— 来自元气达人案例</span>
+    </div>
+    <div class="benefit-card">
+      <div class="b-icon">🛡️</div>
+      <h4>稳定：CPA 保成本，敢投了</h4>
+      <p>全店托管支持 <b>CPA 保成本</b>结算：不转化就不扣费。高客单、投放波动大的客户也能<b>稳定起投</b>，把过去"来 ADQ 必死"的链路变成可持续的增量场。</p>
+      <span class="b-src">— 来自 AEROBAND 案例 ·CPA为内测能力，联系销运开白</span>
+    </div>
+    <div class="benefit-card">
+      <div class="b-icon">📈</div>
+      <h4>增量：跑出新品、放大全盘</h4>
+      <p>一键托管全店，<b>7 天消耗爬升 3 倍</b>帮你跑出货架里的下一个爆款；托管带来的都是<b>纯增量</b>，还能给直播等其他链路腾出放量空间，整体规模最高 <span class="b-num">+140%</span>。</p>
+      <span class="b-src">— 来自两个案例的共同验证</span>
+    </div>
+  </div>
+
+  <!-- 2. 案例 showcase -->
+  <div class="sec-title"><span class="num">2</span>真实案例：他们已经跑出来了</div>
+  <div class="case-grid sec-gap">
+    <div class="case-card">
+      <div class="case-head gold">
+        <div class="c-who">日百 · 多品货架客户 · 元气达人</div>
+        <h4>商品多、没爆品、缺素材？<br>一键托管全店铺，7 天跑出一批新品</h4>
+      </div>
+      <div class="case-body">
+        <div class="case-nums">
+          <div class="cn"><b>3成</b><span>贡献广告GMV</span></div>
+          <div class="cn"><b>+7%</b><span>ROI 优于整体</span></div>
+          <div class="cn"><b>10倍</b><span>创意填充效率</span></div>
+        </div>
+        <div class="case-how">
+          <b>怎么做到的：</b>店铺商品多但无爆品，整店托管后系统智能选品，跑出一批无素材主推品；素材靠全库智选 + AIGC 创意衍生自动填充（AIGC 创意 CTR 2.2%，全店 3s 快滑率 -34%）；7 天消耗爬升 3 倍至 1w+ 水位。
+        </div>
+      </div>
+    </div>
+    <div class="case-card">
+      <div class="case-head purple">
+        <div class="c-who">品牌 · 高客单客户 · AEROBAND</div>
+        <h4>客单价高，投放波动大、不敢放量？<br>全店托管 CPA 帮你稳稳跨出第一步</h4>
+      </div>
+      <div class="case-body">
+        <div class="case-nums">
+          <div class="cn"><b>+140%</b><span>整体规模环比</span></div>
+          <div class="cn"><b>+36%</b><span>ROI 全线最优</span></div>
+          <div class="cn"><b>37%</b><span>纯增量广告GMV</span></div>
+        </div>
+        <div class="case-how">
+          <b>怎么做到的：</b>历史只能单投小店广告，客单高导致 ADQ 一直投不稳；用全店托管 CPA 保成本稳定跃迁双投，ADQ 消耗为纯增量、贡献 37% 广告 GMV；投产稳住后直播链路放量翻番，全盘规模持续放大。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 选对托管方式 -->
+  <div class="sec-title"><span class="num">3</span>你适合什么样的托管方式？</div>
+  <div class="concept-card">
+    <table>
+      <thead>
+        <tr>
+          <th>模式</th>
+          <th style="width:22%;">选品</th>
+          <th style="width:26%;">素材供给</th>
+          <th style="width:90px;">CPA 开白</th>
+          <th>单次托管商品数</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row-full">
+          <th>全店托管<br>（真全店）</th>
+          <td><b>系统自动选品</b>，帮客户跑潜力品</td>
+          <td>系统<b>全库智选 + AIGC</b> 自动拉取补充，鼓励做素材关联</td>
+          <td style="text-align:center;"><span class="pill pill-yes">✓ 支持</span></td>
+          <td>托管<b>整店所有商品</b>，最多可排除 10 个</td>
+        </tr>
+        <tr class="row-multi">
+          <th>多品托管<br>（手动商品）</th>
+          <td>客户<b>已选定</b>哪些品去做跑出</td>
+          <td>与普通单品投放一样，<b>客户自己补充素材</b></td>
+          <td style="text-align:center;"><span class="pill pill-no">✗ 不支持</span></td>
+          <td>一次最多勾选 <b>50 个</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="fit-grid sec-gap">
+    <div class="fit-card">
+      <div class="ctype">客户类型 1</div>
+      <h4>店内有单爆品，SPU &gt; 2，但<b>全店内考核差异大</b></h4>
+      <div><span class="rec-badge rec-multi">建议使用：多品托管</span></div>
+      <div class="fit-item">
+        客户可<b>手动选品组合</b>进行测投，<span class="act">先把托管消耗做起来</span>。
+      </div>
+    </div>
+    <div class="fit-card full">
+      <div class="ctype">客户类型 2</div>
+      <h4>高客单类：原全域通高客单，<b>来 ADQ 必死型</b></h4>
+      <div><span class="rec-badge rec-full">建议使用：全店托管</span></div>
+      <div class="fit-item">
+        全店 <b>CPA</b> 可帮助客户<span class="act">稳定整体投产</span>，也可给<b>其他链路放量</b>增加空间。
+      </div>
+    </div>
+    <div class="fit-card both">
+      <div class="ctype">客户类型 3</div>
+      <h4>真多品：店铺内<b>没爆品但商品数量多</b>，ROI 考核相对一致</h4>
+      <div>
+        <span class="rec-badge rec-multi">建议使用：多品托管</span>
+        <span class="rec-badge rec-full">+ 全店托管</span>
+      </div>
+      <div class="fit-item">
+        这类客户<b>两类场景均建议使用</b>，相较客户<b>单品测投</b>，<span class="act">效率更优</span>。
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. 创编流程 -->
+  <div class="sec-title"><span class="num">4</span>一条路径搭完：怎么搭建 + 怎么传素材</div>
+  <div class="sec-gap">
+    <div class="step-card">
+      <div class="step-head"><span class="step-no">1</span><h3>新建项目，投放场景选【全店托管智投】</h3><span class="tag tag-build">怎么搭建</span></div>
+      <div class="step-desc">两种模式的<b>第一步完全相同</b>：只需要创建一个项目，就可以实现店铺商品托管，系统精准推荐、自动优化投放策略。</div>
+    </div>
+    <div class="flow-arrow">▼</div>
+    <div class="step-card">
+      <div class="step-head"><span class="step-no">2</span><h3>推广产品二选一：这一步决定你是"全店"还是"多品"</h3><span class="tag tag-build">怎么搭建</span></div>
+      <div class="branch">
+        <div class="branch-col full">
+          <h4>🏪 全店托管 → 选【微信小店店铺】</h4>
+          <p>系统自动优选店内在售商品进行投放，提升整体店铺成交；不想投的品用"排除商品"（最多排除 10 个）。</p>
+          <div class="shot full-mode">
+            <img src="assets/step-full-store.png" alt="全店托管：推广产品选微信小店店铺">
+            <div class="cap"><b>图 1</b>｜推广产品选"微信小店店铺"，红框处可排除商品</div>
+          </div>
+        </div>
+        <div class="branch-col multi">
+          <h4>🛒 多品托管 → 选【微信小店商品】</h4>
+          <p>客户自行勾选想跑出的商品做组合测投，一次最多勾选 50 个。</p>
+          <div class="shot multi-mode">
+            <img src="assets/step-multi-select.png" alt="多品托管：手动勾选商品">
+            <div class="cap"><b>图 2</b>｜弹窗中手动勾选商品（示例已选 4/50）</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flow-arrow">▼</div>
+    <div class="step-card">
+      <div class="step-head"><span class="step-no">3</span><h3>选择优化目标 + 设置定向，开启全库智选 + AIGC</h3><span class="tag tag-build">怎么搭建</span></div>
+      <div class="step-desc">按转化诉求选择优化目标（如下单-下单ROI）、完成定向设置后，在<b>智能创意设置</b>中开启 <b>AIGC 创意（妙思AIGC）</b>和<b>组件全库智选</b>，点击"提交并新建创意"即完成搭建。</div>
+      <div class="shot-row">
+        <div class="shot">
+          <img src="assets/step-aigc.png" alt="智能创意设置：开启AIGC与全库智选">
+          <div class="cap"><b>图 3</b>｜开启 AIGC 创意 + 组件全库智选，提交并新建创意</div>
+        </div>
+      </div>
+    </div>
+    <div class="flow-arrow">▼</div>
+    <div class="step-card">
+      <div class="step-head"><span class="step-no">4</span><h3>创意素材怎么来：系统自动拉取 + 客户自主上传</h3><span class="tag tag-mat">怎么传素材</span></div>
+      <div class="step-desc">
+        <span class="full">全店托管</span>主要依赖<b>全库智选自动拉取素材</b>（素材需先<b>关联推广产品</b>才能被拉取，见图 4）+ <b>AIGC 自动补充</b>；<br>
+        客户想<b>自己上传素材</b>：走全店项目下对应商品的<b>"+ 素材"按钮</b>上传（见图 5）；<span class="multi">多品托管</span>与普通单品投放一样，由客户自行补充素材。
+      </div>
+      <div class="shot-row">
+        <div class="shot">
+          <img src="assets/step-material-link.png" alt="创意素材关联推广产品">
+          <div class="cap"><b>图 4</b>｜Creative+ → 创意素材：在"关联推广产品"列完成素材与商品的关联，全库智选才能拉取</div>
+        </div>
+        <div class="shot">
+          <img src="assets/step-material-upload.png" alt="全店项目下商品素材上传">
+          <div class="cap"><b>图 5</b>｜自主上传：全店项目 → 展开在投商品列表 → 点对应商品的"+ 素材"上传</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot-note">* CPA 为内测能力，欢迎联系销运开白使用。案例数据来源于客户实际投放周期，不构成效果承诺。</div>
+
+</body>
+</html>
