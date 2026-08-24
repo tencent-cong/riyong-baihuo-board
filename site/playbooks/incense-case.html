@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>香薰线香赛道机会 × 客户案例</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #2b2118;
+    display: flex; justify-content: center; padding: 24px 0;
+  }
+  .card {
+    width: 640px;
+    background: linear-gradient(175deg, #fdf9f2 0%, #faf3e6 45%, #f6ecd9 100%);
+    border-radius: 18px; overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,.45);
+  }
+  /* ============ 头部 ============ */
+  .head {
+    background: linear-gradient(135deg, #3a2c1c 0%, #59421f 55%, #7a5a24 100%);
+    padding: 30px 34px 26px; position: relative; overflow: hidden;
+  }
+  .head::after {
+    content: "香"; position: absolute; right: 6px; top: -28px;
+    font-size: 150px; color: rgba(214,178,110,.10); font-weight: 700;
+  }
+  .hook { font-size: 13.5px; color: #d8c294; letter-spacing: 1px; font-weight: 600; margin-bottom: 10px; }
+  .head h1 { font-size: 29px; color: #fdf6e6; line-height: 1.38; font-weight: 700; }
+  .head h1 em { font-style: normal; color: #f0c471; }
+  .head p.sub { margin-top: 12px; font-size: 14px; color: rgba(253,246,230,.85); line-height: 1.75; }
+  .head p.sub b { color: #f0c471; font-weight: 700; }
+  /* ============ 通用节标题 ============ */
+  .sec { padding: 24px 30px 6px; }
+  .sec-tt { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .sec-tt .no {
+    width: 26px; height: 26px; border-radius: 8px; flex: none;
+    background: linear-gradient(135deg, #b8863b, #8f6524);
+    color: #fff; font-size: 14px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .sec-tt h2 { font-size: 19px; color: #4a3416; font-weight: 700; }
+  .sec-tt span.hint { font-size: 12px; color: #a08a63; margin-left: auto; }
+  /* ============ 表现指标 ============ */
+  .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .kpi {
+    background: #fff; border: 1px solid #eddfc2; border-radius: 12px;
+    padding: 16px 10px 14px; text-align: center;
+  }
+  .kpi .v { font-size: 24px; font-weight: 800; color: #9a6b1f; }
+  .kpi .v small { font-size: 13px; font-weight: 700; }
+  .kpi .k { font-size: 12px; color: #8d7a58; margin-top: 6px; line-height: 1.5; }
+  /* ============ 链路机会 ============ */
+  .chain {
+    margin-top: 12px; background: linear-gradient(90deg, #fff8ea, #fdf3dd);
+    border: 1px solid #ecd9ae; border-radius: 12px; padding: 13px 16px;
+    font-size: 13px; color: #6b5327; line-height: 1.85;
+  }
+  .chain b { color: #9a6b1f; }
+  .chain .flow {
+    display: inline-block; background: #fff; border: 1px solid #e3cf9e;
+    border-radius: 8px; padding: 1px 9px; font-size: 12.5px;
+    color: #8a6414; font-weight: 700; margin: 0 2px;
+  }
+  /* ============ 扇形图 ============ */
+  .pie-wrap { background: #fff; border: 1px solid #eddfc2; border-radius: 12px; padding: 18px 20px; display: flex; align-items: center; gap: 24px; }
+  .donut {
+    width: 168px; height: 168px; border-radius: 50%; flex: none; position: relative;
+    background: conic-gradient(#a9762c 0 62%, #d9a84e 62% 76%, #eecb84 76% 77.5%, #f3e7c8 77.5% 100%);
+    box-shadow: inset 0 0 0 1px rgba(154,107,31,.12);
+  }
+  .donut::after {
+    content: ""; position: absolute; inset: 44px; border-radius: 50%;
+    background: #fff; box-shadow: 0 0 0 1px rgba(154,107,31,.08);
+  }
+  .donut .center {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; z-index: 1; text-align: center;
+  }
+  .donut .center b { font-size: 15px; color: #4a3416; }
+  .donut .center span { font-size: 10.5px; color: #a08a63; margin-top: 2px; }
+  .legend { flex: 1; }
+  .lg-row { display: flex; align-items: flex-start; gap: 9px; padding: 7px 0; }
+  .lg-row + .lg-row { border-top: 1px dashed #f0e4c8; }
+  .lg-dot { width: 12px; height: 12px; border-radius: 4px; flex: none; margin-top: 3px; }
+  .lg-txt { flex: 1; }
+  .lg-txt b { font-size: 13.5px; color: #4a3416; }
+  .lg-txt b i { font-style: normal; color: #9a6b1f; margin-left: 6px; }
+  .lg-txt small { display: block; font-size: 11px; color: #a08a63; line-height: 1.55; margin-top: 1px; }
+  /* ============ 三类客户 · 五段式 ============ */
+  .play {
+    background: #fff; border: 1px solid #eddfc2; border-radius: 14px;
+    overflow: hidden; margin-bottom: 16px; display: flex;
+  }
+  .play .pic { width: 168px; flex: none; position: relative; }
+  .play .pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .play .pic .lab {
+    position: absolute; left: 0; top: 10px; background: rgba(58,44,28,.88);
+    color: #f3dfb6; font-size: 11px; padding: 3px 10px; border-radius: 0 10px 10px 0;
+  }
+  .play .txt { flex: 1; padding: 13px 15px 11px; }
+  .play .txt h3 { font-size: 15.5px; color: #4a3416; margin-bottom: 3px; }
+  .play .txt h3 i {
+    font-style: normal; font-size: 11px; color: #fff; vertical-align: 2px;
+    background: linear-gradient(135deg, #c1913f, #9a6b1f);
+    border-radius: 6px; padding: 2px 8px; margin-right: 7px;
+  }
+  .play .fit { font-size: 11px; color: #a08a63; margin-bottom: 8px; }
+  .pic .cat {
+    position: absolute; left: 8px; bottom: 8px;
+    font-size: 10.5px; font-weight: 600; color: #fff;
+    border-radius: 999px; padding: 2.5px 10px;
+    background: rgba(58,44,28,.78);
+  }
+  .pic .cat::before {
+    content: ""; display: inline-block; width: 7px; height: 7px;
+    border-radius: 50%; margin-right: 5px; vertical-align: 0.5px;
+  }
+  .pic .cat.xx::before { background: #e8b95c; }
+  .pic .cat.cw::before { background: #d9a84e; }
+  .steps { display: flex; flex-direction: column; gap: 4.5px; }
+  .step { display: flex; align-items: flex-start; gap: 7px; }
+  .step .st {
+    flex: none; width: 40px; text-align: center; font-size: 10.5px; font-weight: 700;
+    color: #fff; border-radius: 5px; padding: 1.5px 0; margin-top: 1px;
+  }
+  .st.c1 { background: #d9a84e; } .st.c2 { background: #c96f52; }
+  .st.c3 { background: #7fa36b; } .st.c4 { background: #6b8cae; }
+  .st.c5 { background: #9b7fb6; }
+  .step p { flex: 1; font-size: 11.5px; color: #77653f; line-height: 1.55; }
+  .step p b { color: #9a6b1f; }
+  .play .data {
+    margin-top: 9px; display: flex; gap: 6px;
+  }
+  .play .data .m {
+    flex: 1; background: #fdf6e4; border: 1px solid #f0dfb4;
+    border-radius: 8px; padding: 6px 4px; text-align: center;
+  }
+  .play .data .m .mv { font-size: 15px; font-weight: 800; color: #9a6b1f; line-height: 1.2; }
+  .play .data .m .mk { font-size: 10px; color: #a08a63; margin-top: 2px; }
+  /* ============ 底部 ============ */
+  .foot {
+    margin: 22px 30px 0; background: linear-gradient(135deg, #3a2c1c, #59421f);
+    border-radius: 14px; padding: 18px 22px; color: #f5e9cd;
+  }
+  .foot h3 { font-size: 15px; color: #f0c471; margin-bottom: 8px; }
+  .foot p { font-size: 12.5px; line-height: 1.8; color: rgba(245,233,205,.9); }
+  .note { padding: 12px 34px 22px; font-size: 10.5px; color: #b3a37e; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <!-- 头部：赛道判断 -->
+  <div class="head">
+    <div class="hook">还在觉得香薰线香是门小生意？</div>
+    <h1>一炷香点燃新增量<br><em>香薰线香类目</em>进入放量窗口期</h1>
+    <p class="sub">头部客户已跑通 <b>ADQ + 小店广告"双擎"模式</b>，整体 ROI <b>高于其他类目大盘</b>，量效齐涨、增速可观——现在入局，正当其时。</p>
+  </div>
+
+  <!-- 01 当下机会点 -->
+  <div class="sec">
+    <div class="sec-tt"><div class="no">01</div><h2>当下的机会点：量效齐涨</h2><span class="hint">近30天投放数据</span></div>
+    <div class="kpis">
+      <div class="kpi"><div class="v">800<small>+ 家</small></div><div class="k">有消耗客户数<br>同行都已入场</div></div>
+      <div class="kpi"><div class="v">+35<small>%</small></div><div class="k">消耗环比增速<br>规模快速爬升</div></div>
+      <div class="kpi"><div class="v">+25<small>%</small></div><div class="k">下单 ROI 环比增速<br>越跑越赚</div></div>
+    </div>
+  </div>
+
+  <!-- 02 链路与类目机会 -->
+  <div class="sec">
+    <div class="sec-tt"><div class="no">02</div><h2>链路与类目机会</h2><span class="hint">按消耗占比排序</span></div>
+    <div class="chain">🔗 <b>链路打法已验证：</b>先用 <span class="flow">小店广告</span> 低门槛验证品类，跑出效率后向 <span class="flow">ADQ 直播</span> + <span class="flow">小店直购</span> 双引擎模式复制放大。</div>
+    <div class="pie-wrap" style="margin-top:12px;">
+      <div class="donut">
+        <div class="center"><b>类目消耗</b><span>结构占比</span></div>
+      </div>
+      <div class="legend">
+        <div class="lg-row">
+          <div class="lg-dot" style="background:#a9762c;"></div>
+          <div class="lg-txt"><b>香薰香氛类<i>62%</i></b><small>精油 / 无火香薰 / 香薰机·炉 / 蜡烛 / 线香·供香 / 空气清新 —— 规模基本盘</small></div>
+        </div>
+        <div class="lg-row">
+          <div class="lg-dot" style="background:#d9a84e;"></div>
+          <div class="lg-txt"><b>沉香文玩类<i>14%</i></b><small>沉香手串 / 吊坠 / 沉香制品 —— 高客单效率盘</small></div>
+        </div>
+        <div class="lg-row">
+          <div class="lg-dot" style="background:#eecb84;"></div>
+          <div class="lg-txt"><b>车载香氛类<i>1.5%</i></b><small>车载香薰 / 香膏 —— 待挖掘增量</small></div>
+        </div>
+        <div class="lg-row">
+          <div class="lg-dot" style="background:#f3e7c8; border:1px solid #e3cf9e;"></div>
+          <div class="lg-txt"><b>其他细分<i>蓝海位</i></b><small>蚊香液·片 / 留香珠 / 衣物清洁 —— 小预算测款首选</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03 不同类型的客户怎么跑 -->
+  <div class="sec">
+    <div class="sec-tt"><div class="no">03</div><h2>不同类型的客户，到底怎么跑？</h2><span class="hint">实跑素材 · 五段式拆解</span></div>
+
+    <!-- 第一类：品牌力强 -->
+    <div class="play">
+      <div class="pic"><img src="assets/incense-v4.jpg" alt="明星代言素材"><div class="lab">实跑素材 · 香氛罐</div><div class="cat xx">香薰香氛类</div></div>
+      <div class="txt">
+        <h3><i>第一类</i>明星背书 · 品质信任型</h3>
+        <div class="fit">适配：空气清新剂 / 香薰精油 / 香薰机 / 留香珠等有品牌与工艺沉淀的商家</div>
+        <div class="steps">
+          <div class="step"><span class="st c1">钩子</span><p>艺人出镜+一开门"就是<b>豪宅的高级香气</b>"，身份反差抓住停留</p></div>
+          <div class="step"><span class="st c2">痛点</span><p>卫生间返味、"以香盖臭"越盖越难闻，戳中居家隐性尴尬</p></div>
+          <div class="step"><span class="st c3">解药</span><p>代言人亲口背书"<b>我选品非常严格</b>"，品质自信到"同款尽管比价"</p></div>
+          <div class="step"><span class="st c4">演示</span><p>倒置香氛实测 10 分钟，开门瞬间闻香，效果眼见为实</p></div>
+          <div class="step"><span class="st c5">收尾</span><p>多香型组合装集中亮相，"尽管比价"承接下单，信任闭环</p></div>
+        </div>
+        <div class="data">
+          <div class="m"><div class="mv">-15%</div><div class="mk">快滑率 低于大盘</div></div>
+          <div class="m"><div class="mv">+40%</div><div class="mk">直播间下单率 高于大盘</div></div>
+          <div class="m"><div class="mv">翻 4 倍</div><div class="mk">消耗环比 · 一周内</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第二类：美好寓意 -->
+    <div class="play">
+      <div class="pic"><img src="assets/incense-v3.jpg" alt="香囊美好寓意素材"><div class="lab">实跑素材 · 香囊</div><div class="cat cw">沉香文玩类</div></div>
+      <div class="txt">
+        <h3><i>第二类</i>传统香事 · 美好寓意型</h3>
+        <div class="fit">适配：香囊 / 香包 / 供香 / 沉香手串·吊坠等承载祝福的商家</div>
+        <div class="steps">
+          <div class="step"><span class="st c1">钩子</span><p>长者一声"<b>闺女</b>"温情开场，长辈叙事天然拉近距离</p></div>
+          <div class="step"><span class="st c2">痛点</span><p>"您为了子女的心情，自然能懂"——为儿女婚姻幸福操心的父母心</p></div>
+          <div class="step"><span class="st c3">解药</span><p>一只<b>婚姻囊 / 平安囊</b>装下祝福，把心意变成看得见的仪式感</p></div>
+          <div class="step"><span class="st c4">演示</span><p>香囊摆放讲究娓娓道来："长期放着不要动"，强化珍视感</p></div>
+          <div class="step"><span class="st c5">收尾</span><p>"过段时间你自然明白"留白式收尾，只送祝福、不拉踩不承诺</p></div>
+        </div>
+        <div class="data">
+          <div class="m"><div class="mv">1w+</div><div class="mk">3 天起量</div></div>
+          <div class="m"><div class="mv">+40%</div><div class="mk">CTR 高于大盘</div></div>
+          <div class="m"><div class="mv">2</div><div class="mk">ROI</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第三类：功能卖点 -->
+    <div class="play">
+      <div class="pic"><img src="assets/incense-v1.jpg" alt="线香功效素材"><div class="lab">实跑素材 · 线香</div><div class="cat xx">香薰香氛类</div></div>
+      <div class="txt">
+        <h3><i>第三类</i>场景种草 · 功能卖点型</h3>
+        <div class="fit">适配：线香 / 无火香薰 / 空气净化剂 / 蚊香液 / 车载香薰等功能明确的商家</div>
+        <div class="steps">
+          <div class="step"><span class="st c1">钩子</span><p>"<b>点香还可以少玩游戏？</b>香友们都夸爆了！"反常识提问 3 秒留人</p></div>
+          <div class="step"><span class="st c2">痛点</span><p>"你家有孩子要打游戏了"——孩子坐不住、静不下来的家长焦虑</p></div>
+          <div class="step"><span class="st c3">解药</span><p>非遗好物天然香材，"<b>一点化学添加剂都没有</b>"，用料客观可查</p></div>
+          <div class="step"><span class="st c4">演示</span><p>点香前后对比：游戏放一边，孩子安静看书喝茶，场景眼见为实</p></div>
+          <div class="step"><span class="st c5">收尾</span><p>"不好用原路给我返回"售后兜底，打消顾虑轻松转化</p></div>
+        </div>
+        <div class="data">
+          <div class="m"><div class="mv">+23%</div><div class="mk">CTR 高于大盘</div></div>
+          <div class="m"><div class="mv">2.4+</div><div class="mk">ROI</div></div>
+          <div class="m"><div class="mv">商品托管</div><div class="mk">轻松达成投产</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部结论 -->
+  <div class="foot">
+    <h3>🎯 一句话总结</h3>
+<p>香薰线香赛道量效齐涨、双引擎链路已被验证：香薰香氛承规模、沉香文玩提效率、车载与细分品类做蓝海增量。无论你是明星背书的品质信任型、传统香事的美好寓意型，还是场景种草的功能卖点型客户，都有对应的成熟打法可直接复用，现在正是入局窗口期。</p>
+  </div>
+
+  <div class="note">* 数据为该类目近 30 天投放样本（截至 2026-08-23），不构成效果承诺；素材表达需遵守平台规则：寓意类仅作传统文化祝福表述，功效类表述需有客观依据。</div>
+</div>
+</body>
+</html>

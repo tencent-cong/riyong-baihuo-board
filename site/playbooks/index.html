@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>节点作战手册 · 日百行业情报台</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"PingFang SC","Microsoft YaHei",sans-serif; background:#12131a; color:#e8e6f0; min-height:100vh; }
+  .topbar { background:#191b25; border-bottom:1px solid #262837; padding:14px 0; position:sticky; top:0; z-index:10; }
+  .topbar .wrap { display:flex; align-items:center; gap:10px; }
+  .wrap { max-width:1360px; margin:0 auto; padding:0 24px; }
+  .dot { display:inline-flex; width:28px; height:28px; border-radius:8px; background:linear-gradient(135deg,#e8b34b,#c9862c); color:#191b25; font-weight:800; font-size:14px; align-items:center; justify-content:center; }
+  .brand { font-weight:700; font-size:16px; }
+  .back { margin-left:auto; font-size:13px; color:#a7a3bd; text-decoration:none; border:1px solid #33364a; border-radius:999px; padding:6px 16px; }
+  .back:hover { color:#e8b34b; border-color:#e8b34b; }
+  .page-head { padding:34px 0 6px; }
+  .page-head h1 { font-size:26px; }
+  .page-head h1 b { color:#e8b34b; }
+  .page-head .sub { color:#a7a3bd; font-size:13.5px; margin-top:8px; line-height:1.8; max-width:760px; }
+  .meta { margin-top:12px; display:flex; gap:8px; flex-wrap:wrap; }
+  .pill { font-size:12px; color:#c9c5dd; background:#1e2030; border:1px solid #2c2f42; padding:4px 12px; border-radius:999px; }
+  .pill b { color:#e8b34b; }
+  .sec-h { display:flex; align-items:center; gap:10px; margin:30px 0 16px; }
+  .sec-h .no { font-size:12px; font-weight:800; color:#191b25; background:linear-gradient(135deg,#e8b34b,#c9862c); border-radius:6px; padding:2px 8px; }
+  .sec-h h2 { font-size:18px; }
+  .sec-h .tg { font-size:11.5px; color:#a7a3bd; border:1px solid #33364a; border-radius:999px; padding:2px 10px; }
+  /* 手册列表 */
+  .book-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+  .book { display:grid; grid-template-columns:64px minmax(0,1fr) auto; align-items:center; gap:14px; padding:16px; border:1px solid #2c2f42; border-radius:14px; background:#191b25; color:#e8e6f0; text-decoration:none; transition:.18s; }
+  .book:hover { border-color:#e8b34b; background:#1e2030; transform:translateY(-2px); }
+  .book img, .book .sym { width:64px; height:64px; border-radius:14px; box-shadow:0 8px 24px rgba(0,0,0,.34); object-fit:cover; }
+  .book .sym { display:grid; place-items:center; background:linear-gradient(145deg,#d93b32,#8d171d); color:#ffd887; border:1px solid rgba(255,216,135,.45); font-family:serif; font-size:32px; font-weight:800; }
+  .book-copy b { display:block; font-size:14.5px; line-height:1.4; }
+  .book-copy span { display:block; margin-top:5px; font-size:12px; color:#a7a3bd; line-height:1.55; }
+  .book-cta { color:#e8b34b; font-size:13px; font-weight:700; white-space:nowrap; }
+  /* 案例区 */
+  .gallery { display:flex; gap:28px; flex-wrap:wrap; padding:6px 0 50px; }
+  .case-slot { display:flex; flex-direction:column; gap:12px; }
+  .case-frame { width:640px; height:1900px; border:1px solid #2c2f42; border-radius:16px; overflow:hidden; background:#f6ecd9; }
+  .case-frame iframe { width:688px; height:1900px; margin-left:-24px; border:0; }
+  .open-link { font-size:12.5px; color:#a7a3bd; text-decoration:none; align-self:flex-end; }
+  .open-link:hover { color:#e8b34b; }
+  .footer { text-align:center; color:#5d5a72; font-size:12px; padding:20px 0 40px; }
+  @media (max-width:960px){ .book-list{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span class="dot">日</span><span class="brand">日百行业情报台 · 节点作战手册</span>
+  <a class="back" href="../index.html">← 返回总览</a>
+</div></div>
+
+<div class="wrap">
+  <div class="page-head">
+    <h1>节点作战手册 · <b>全部细分内容</b></h1>
+    <div class="sub">按节点与类目沉淀的作战打法全集：覆盖<b style="color:#e8b34b">类目机会洞察、选品方向、素材五段式、链路打法与合规要点</b>。当期主推手册在首页直达，往期与细分手册在本页统一收纳查阅。</div>
+    <div class="meta">
+      <span class="pill">手册数 <b>3</b></span>
+      <span class="pill">更新 <b>2026-08-24</b></span>
+      <span class="pill">当期主推 <b>香薰线香类目</b></span>
+    </div>
+  </div>
+
+  <div class="sec-h"><span class="no">01</span><h2>手册目录</h2><span class="tg">点击查看完整内容</span></div>
+  <div class="book-list">
+    <a class="book" href="incense-case.html" target="_blank">
+      <img src="assets/incense-icon.jpg" alt="香薰线香类目作战案例">
+      <div class="book-copy"><b>日百行业香薰线香类目作战案例 <span style="color:#e8b34b">· 当期主推</span></b><span>赛道机会 + 三类客户五段式素材打法，ADQ + 小店广告双擎放量</span></div>
+      <span class="book-cta">立即查看 ↗</span>
+    </a>
+    <a class="book" href="http://1.14.180.193:8093/adq" target="_blank" rel="noopener noreferrer">
+      <span class="sym">福</span>
+      <div class="book-copy"><b>日百行业美好寓意类目商品作战手册</b><span>覆盖美好寓意选品、素材、直播运营、投放与合规打法</span></div>
+      <span class="book-cta">立即查看 ↗</span>
+    </a>
+    <a class="book" href="http://1.14.180.193:8888/index.html" target="_blank" rel="noopener noreferrer">
+      <img src="../assets/activity/sanfu-playbook-icon.png" alt="日百行业三伏天夏季养生作战手册">
+      <div class="book-copy"><b>日百行业三伏天夏季养生作战手册 <span style="color:#5d5a72">· 往期</span></b><span>洞察周期机会，查看本期选品、内容与投放打法</span></div>
+      <span class="book-cta">立即查看 ↗</span>
+    </a>
+  </div>
+
+  <div class="sec-h"><span class="no">02</span><h2>当期代表案例 · 香薰线香类目</h2><span class="tg">赛道机会 × 客户案例</span></div>
+  <div class="gallery">
+    <div class="case-slot">
+      <div class="case-frame"><iframe src="incense-case.html" title="香薰线香赛道机会与客户案例" scrolling="no"></iframe></div>
+      <a class="open-link" href="incense-case.html" target="_blank">单独打开 ↗</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">日百行业情报台 · 节点作战手册</div>
+</body>
+</html>
