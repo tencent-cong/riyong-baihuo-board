@@ -2413,7 +2413,7 @@ window.SELECTION_DATA = {
         {
           "name": "老鼠夹",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E8%80%81%E9%BC%A0%E5%A4%B9%20%E9%A9%B1%E9%BC%A0%2F%E7%81%AD%E9%BC%A0%E7%94%A8%E5%93%81%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=65094",
+          "image": "",
           "leaf": "驱鼠/灭鼠用品",
           "price": 29.19,
           "roi": 4.54,
@@ -2430,7 +2430,7 @@ window.SELECTION_DATA = {
         {
           "name": "冰丝席",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%86%B0%E4%B8%9D%E5%B8%AD%20%E5%86%B0%E4%B8%9D%E5%B8%AD%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=68992",
+          "image": "",
           "leaf": "冰丝席",
           "price": 95.25,
           "roi": 4.48,
@@ -2447,7 +2447,7 @@ window.SELECTION_DATA = {
         {
           "name": "除螨喷雾",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E9%99%A4%E8%9E%A8%E5%96%B7%E9%9B%BE%20%E9%99%A4%E8%8F%8C%2F%E9%99%A4%E8%9E%A8%E5%96%B7%E9%9B%BE%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=83773",
+          "image": "",
           "leaf": "除菌/除螨喷雾",
           "price": 22.39,
           "roi": 4.09,
@@ -2498,7 +2498,7 @@ window.SELECTION_DATA = {
         {
           "name": "藤席",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E8%97%A4%E5%B8%AD%20%E7%AB%B9%E5%B8%AD%2F%E8%97%A4%E5%B8%AD%2F%E8%8D%89%E5%B8%AD%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=48186",
+          "image": "",
           "leaf": "竹席/藤席/草席",
           "price": 70.67,
           "roi": 3.43,
@@ -2532,7 +2532,7 @@ window.SELECTION_DATA = {
         {
           "name": "植物大师/PLANT MASTER暖宫贴/暖腹宝",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E6%A4%8D%E7%89%A9%E5%A4%A7%E5%B8%88%2FPLANT%20MASTER%E6%9A%96%E5%AE%AB%E8%B4%B4%2F%E6%9A%96%E8%85%B9%E5%AE%9D%20%E6%9A%96%E5%AE%AB%E8%B4%B4%2F%E6%9A%96%E8%85%B9%E5%AE%9D%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=26027",
+          "image": "",
           "leaf": "暖宫贴/暖腹宝",
           "price": 57.9,
           "roi": 2.8,
@@ -2600,7 +2600,7 @@ window.SELECTION_DATA = {
         {
           "name": "雪尼尔沙发垫",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E9%9B%AA%E5%B0%BC%E5%B0%94%E6%B2%99%E5%8F%91%E5%9E%AB%20%E6%B2%99%E5%8F%91%E5%9E%AB%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=90180",
+          "image": "",
           "leaf": "沙发垫",
           "price": 99,
           "roi": 2.09,
@@ -2651,7 +2651,7 @@ window.SELECTION_DATA = {
         {
           "name": "鞋盒",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E9%9E%8B%E7%9B%92%20%E9%9E%8B%E7%9B%92%2F%E9%9E%8B%E6%9E%B6%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=99942",
+          "image": "",
           "leaf": "鞋盒/鞋架",
           "price": 99,
           "roi": 1.98,
@@ -2668,7 +2668,7 @@ window.SELECTION_DATA = {
         {
           "name": "单人雨披",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%8D%95%E4%BA%BA%E9%9B%A8%E6%8A%AB%20%E9%AA%91%E8%A1%8C%E9%9B%A8%E6%8A%AB%2F%E5%8F%8C%E4%BA%BA%E9%9B%A8%E6%8A%AB%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=87350",
+          "image": "",
           "leaf": "骑行雨披/双人雨披",
           "price": 53.62,
           "roi": 1.96,
@@ -2685,7 +2685,7 @@ window.SELECTION_DATA = {
         {
           "name": "艾灸盒/艾灸罐/悬灸筒",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E8%89%BE%E7%81%B8%E7%9B%92%2F%E8%89%BE%E7%81%B8%E7%BD%90%2F%E6%82%AC%E7%81%B8%E7%AD%92%20%E8%89%BE%E7%81%B8%2F%E8%89%BE%E8%8D%89%2F%E8%89%BE%E6%9D%A1%2F%E8%89%BE%E5%88%B6%E5%93%81%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=22090",
+          "image": "",
           "leaf": "艾灸/艾草/艾条/艾制品",
           "price": 399,
           "roi": 1.87,
@@ -2719,7 +2719,7 @@ window.SELECTION_DATA = {
         {
           "name": "暖宫贴/暖腹宝",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E6%9A%96%E5%AE%AB%E8%B4%B4%2F%E6%9A%96%E8%85%B9%E5%AE%9D%20%E6%9A%96%E5%AE%AB%E8%B4%B4%2F%E6%9A%96%E8%85%B9%E5%AE%9D%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=97036",
+          "image": "",
           "leaf": "暖宫贴/暖腹宝",
           "price": 59.85,
           "roi": 1.78,
@@ -2770,7 +2770,7 @@ window.SELECTION_DATA = {
         {
           "name": "春禾驱鼠/灭鼠用品",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E6%98%A5%E7%A6%BE%E9%A9%B1%E9%BC%A0%2F%E7%81%AD%E9%BC%A0%E7%94%A8%E5%93%81%20%E9%A9%B1%E9%BC%A0%2F%E7%81%AD%E9%BC%A0%E7%94%A8%E5%93%81%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=56223",
+          "image": "",
           "leaf": "驱鼠/灭鼠用品",
           "price": 33.41,
           "roi": 1.59,
@@ -2838,7 +2838,7 @@ window.SELECTION_DATA = {
         {
           "name": "管道疏通剂",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E7%AE%A1%E9%81%93%E7%96%8F%E9%80%9A%E5%89%82%20%E7%AE%A1%E9%81%93%E7%96%8F%E9%80%9A%E5%89%82%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=72042",
+          "image": "",
           "leaf": "管道疏通剂",
           "price": 37.29,
           "roi": 1.37,
@@ -2872,7 +2872,7 @@ window.SELECTION_DATA = {
         {
           "name": "除菌喷雾",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E9%99%A4%E8%8F%8C%E5%96%B7%E9%9B%BE%20%E9%99%A4%E8%8F%8C%2F%E9%99%A4%E8%9E%A8%E5%96%B7%E9%9B%BE%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=34079",
+          "image": "",
           "leaf": "除菌/除螨喷雾",
           "price": 44.18,
           "roi": 1.33,
@@ -2957,7 +2957,7 @@ window.SELECTION_DATA = {
         {
           "name": "喷雾空气净化剂/空气芳香剂",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%96%B7%E9%9B%BE%E7%A9%BA%E6%B0%94%E5%87%80%E5%8C%96%E5%89%82%2F%E7%A9%BA%E6%B0%94%E8%8A%B3%E9%A6%99%E5%89%82%20%E7%A9%BA%E6%B0%94%E5%87%80%E5%8C%96%E5%89%82%2F%E7%A9%BA%E6%B0%94%E8%8A%B3%E9%A6%99%E5%89%82%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=79133",
+          "image": "",
           "leaf": "空气净化剂/空气芳香剂",
           "price": 69,
           "roi": 0.82,
@@ -2991,7 +2991,7 @@ window.SELECTION_DATA = {
         {
           "name": "艾条/艾柱",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E8%89%BE%E6%9D%A1%2F%E8%89%BE%E6%9F%B1%20%E8%89%BE%E7%81%B8%2F%E8%89%BE%E8%8D%89%2F%E8%89%BE%E6%9D%A1%2F%E8%89%BE%E5%88%B6%E5%93%81%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=31123",
+          "image": "",
           "leaf": "艾灸/艾草/艾条/艾制品",
           "price": 29.94,
           "roi": 0.59,
@@ -3049,7 +3049,7 @@ window.SELECTION_DATA = {
         {
           "name": "冰丝席",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%86%B0%E4%B8%9D%E5%B8%AD%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E5%86%B0%E4%B8%9D%E5%B8%AD%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=68992",
+          "image": "",
           "leaf": "冰丝席",
           "price": 91.11,
           "spend": 185357.46,
@@ -3085,7 +3085,7 @@ window.SELECTION_DATA = {
         {
           "name": "湿巾用品",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%85%B6%E4%BB%96%E6%B9%BF%E5%B7%BE%E7%94%A8%E5%93%81%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E5%85%B6%E4%BB%96%E6%B9%BF%E5%B7%BE%E7%94%A8%E5%93%81%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=43040",
+          "image": "",
           "leaf": "其他湿巾用品",
           "price": 79.94,
           "spend": 146083.92,
@@ -3157,7 +3157,7 @@ window.SELECTION_DATA = {
         {
           "name": "带封口保鲜袋",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E4%BF%9D%E9%B2%9C%E8%A2%8B%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E4%BF%9D%E9%B2%9C%E8%A2%8B%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=69072",
+          "image": "",
           "leaf": "保鲜袋",
           "price": 90.43,
           "spend": 103302.75,
@@ -3193,7 +3193,7 @@ window.SELECTION_DATA = {
         {
           "name": "鞋盒",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E9%9E%8B%E7%9B%92%2F%E9%9E%8B%E6%9E%B6%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E9%9E%8B%E7%9B%92%2F%E9%9E%8B%E6%9E%B6%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=99942",
+          "image": "",
           "leaf": "鞋盒/鞋架",
           "price": 79,
           "spend": 89995.28,
@@ -3247,7 +3247,7 @@ window.SELECTION_DATA = {
         {
           "name": "40抽(含)-60抽(不含)常规湿巾",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%B8%B8%E8%A7%84%E6%B9%BF%E5%B7%BE%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E5%B8%B8%E8%A7%84%E6%B9%BF%E5%B7%BE%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=50014",
+          "image": "",
           "leaf": "常规湿巾",
           "price": 42.56,
           "spend": 66305.17,
@@ -3319,7 +3319,7 @@ window.SELECTION_DATA = {
         {
           "name": "纱窗刷",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E7%BA%B1%E7%AA%97%E5%88%B7%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E7%BA%B1%E7%AA%97%E5%88%B7%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=25598",
+          "image": "",
           "leaf": "纱窗刷",
           "price": 99,
           "spend": 57240.18,
@@ -3337,7 +3337,7 @@ window.SELECTION_DATA = {
         {
           "name": "地刮",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E5%9C%B0%E5%88%AE%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E5%9C%B0%E5%88%AE%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=60992",
+          "image": "",
           "leaf": "地刮",
           "price": 40.74,
           "spend": 53352.12,
@@ -3427,7 +3427,7 @@ window.SELECTION_DATA = {
         {
           "name": "除螨喷雾",
           "industry": "家居日用",
-          "image": "https://image.pollinations.ai/prompt/%E9%99%A4%E8%8F%8C%2F%E9%99%A4%E8%9E%A8%E5%96%B7%E9%9B%BE%20%E5%95%86%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E5%8F%AA%E5%B1%95%E7%A4%BA%E9%99%A4%E8%8F%8C%2F%E9%99%A4%E8%9E%A8%E5%96%B7%E9%9B%BE%E4%BA%A7%E5%93%81%E6%9C%AC%E4%BD%93%2C%20%E4%B8%8D%E5%B1%95%E7%A4%BA%E5%93%81%E7%89%8Clogo%E5%92%8C%E6%96%87%E5%AD%97%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E?width=500&height=500&nologo=true&seed=83773",
+          "image": "",
           "leaf": "除菌/除螨喷雾",
           "price": 20.11,
           "spend": 45596.95,
