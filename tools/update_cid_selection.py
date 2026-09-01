@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """从「商品选品表格模板-CID」xlsx 更新 selection.js 的非闭环(CID)链路选品。
 - 有投流数据(消耗/ROI/CTR/CVR 任一非空)的商品 -> 归入 8 个标准赛道
-- 无投流数据的商品 -> 归入「外部趋势机会品推荐」（大盘趋势品）
+- 两率(CTR/CVR)无数据的商品 -> 归入「外部趋势机会品推荐」（大盘趋势品）
 - 单个标准赛道最多 10 个（按消耗降序），趋势品补足至链路 60 个 quota
 用法: python3 tools/update_cid_selection.py <xlsx路径> [期次标签]
 """
@@ -96,7 +96,7 @@ def build(r, is_trend):
     return item
 
 for _, r in df.iterrows():
-    has_metric = any(num(r.get(c)) is not None for c in ["消耗(元)", "ROI", "CTR", "CVR"])
+    has_metric = any(num(r.get(c)) is not None for c in ["CTR", "CVR"])  # 两率有数据才算站内投流品
     (metric_items if has_metric else trend_items).append(build(r, not has_metric))
 
 # 去重：投流品按消耗保留最高；趋势品保留首条；趋势品与投流品重名时剔除

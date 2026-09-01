@@ -417,7 +417,7 @@ export function mergeSelectionByTarget(data, module, target, label, items) {
   data.closed.channels.quanyutong = data.closed.channels.quanyutong || { items: [] };
   data.closed.channels.adq = data.closed.channels.adq || { items: [] };
 
-  const list = replaceItems(40);
+  const list = replaceItems(60);
   if (target === "nonClosed") data.nonClosed.items = list;
   else if (target === "quanyutong") data.closed.channels.quanyutong.items = list;
   else if (target === "adq") data.closed.channels.adq.items = list;

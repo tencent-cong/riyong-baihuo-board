@@ -268,6 +268,15 @@ export default async function handler(req, res) {
 
     // 新版选品归属由上传者明确选择，不再依赖 Sheet 名猜测或自动平分
     if (selectionModule && selectionTarget) {
+      // 外循环：两率(CTR/CVR)均无数据的商品判定为「外部趋势机会品推荐」；有两率数据的正常按类目划分
+      if (selectionModule === "link" && selectionTarget === "nonClosed") {
+        for (const x of allItems) {
+          if (!x.ctr && !x.cvr) {
+            x.trend = true;
+            x.category2 = "外部趋势机会品推荐";
+          }
+        }
+      }
       const deduped = dedup(allItems);
       const cur = await ghGetFile(SELECTION_PATH);
       if (!cur) return res.status(500).json({ error: "线上 selection.js 读取失败" });
@@ -283,7 +292,7 @@ export default async function handler(req, res) {
       const payload = selectionModule === "cycle"
         ? { nonClosed: [], quanyutong: [], adq: [], cycle: deduped.slice(0, 25) }
         : {
-            nonClosed: selectionTarget === "nonClosed" ? deduped.slice(0, 40) : [],
+            nonClosed: selectionTarget === "nonClosed" ? deduped.slice(0, 60) : [],
             quanyutong: selectionTarget === "quanyutong" ? deduped.slice(0, 40) : [],
             adq: selectionTarget === "adq" ? deduped.slice(0, 40) : [],
           };
