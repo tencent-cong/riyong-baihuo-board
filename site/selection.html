@@ -162,7 +162,9 @@ function productCard(x, linkKey){
   const img = imageUrl
     ? `<img src="${imageUrl}" loading="lazy" alt="${esc(x.name)}" title="点击查看大图" onclick="event.stopPropagation();openImage(this)" onerror="imgFallback(this)">`
     : `<span class="ph">商品图待补充</span>`;
-  const roi = x.roi? `<div class="roi-badge">ROI ${x.roi}</div>`:'';
+  const roi = x.trend
+    ? `<div class="roi-badge" style="background:rgba(75,139,245,.9)">🌊 趋势</div>`
+    : (x.roi? `<div class="roi-badge">ROI ${x.roi}</div>`:'');
   // 只有非闭环 CID/小程序展示落地页按钮；闭环全域通与 ADQ 不展示链接区域
   const isUrl = v => v && v!=='-' && /^(https?:|#小程序|weixin:|\/\/)/i.test(v);
   const landUrl = linkKey==='nonClosed' ? (isUrl(x.landing) ? x.landing : (isUrl(x.link) ? x.link : '')) : '';
@@ -181,11 +183,12 @@ function productCard(x, linkKey){
     <div class="body">
       <div class="name">${esc(x.name)}</div>
       <div class="leaf">${esc(x.leaf||'')}</div>
-      <div class="row core-kpis">
-        <span class="kpi">客单 <b>¥${fmt(x.price)}</b></span>
+      <div class="row core-kpis">${x.trend
+        ? `<span class="kpi">客单 <b>¥${fmt(x.price)}</b></span><span class="kpi" style="color:#4b8bf5">大盘趋势品 · 暂无投流数据</span>`
+        : `<span class="kpi">客单 <b>¥${fmt(x.price)}</b></span>
         <span class="kpi">CTR <b>${fmt(x.ctr)}${x.ctr?'%':''}</b></span>
         <span class="kpi">CVR <b>${fmt(x.cvr)}${x.cvr?'%':''}</b></span>
-        <span class="kpi">ROI <b>${fmt(x.roi)}</b></span>
+        <span class="kpi">ROI <b>${fmt(x.roi)}</b></span>`}
       </div>
       <div class="mat">素材：${esc((x.placement||x.material)?'短视频/图文':'—')}</div>
       ${actions}
@@ -195,6 +198,10 @@ function productCard(x, linkKey){
 
 function catId(cat){ return 'cat_' + encodeURIComponent(cat).replace(/%/g,''); }
 
+/* 展示配额：每条链路最多 60 个选品；单个标准赛道最多 10 个（避免上传不均刷屏）。
+   「外部趋势机会品推荐」为大盘趋势品（无投流数据），不受单赛道 10 个限制，用剩余 quota 补足。 */
+const LINK_QUOTA = 60, TRACK_QUOTA = 10, TREND_CAT = '外部趋势机会品推荐';
+
 function renderLink(key){
   const items = getLinkItems(key);
   document.getElementById('nonClosedFrequency').style.display = key==='nonClosed' ? '' : 'none';
@@ -203,10 +210,19 @@ function renderLink(key){
   items.forEach(x=>{ (groups[x.category2]=groups[x.category2]||[]).push(x); });
   Object.values(groups).forEach(arr=>arr.sort((a,b)=>(b.spend||0)-(a.spend||0) || (b.roi||0)-(a.roi||0)));
   const orderIndex = cat => {
+    if(cat===TREND_CAT) return TRACK_ORDER.length + 1; // 趋势品永远排最后
     const index = TRACK_ORDER.indexOf(cat);
     return index < 0 ? TRACK_ORDER.length : index;
   };
-  const order = Object.entries(groups).sort((a,b)=>orderIndex(a[0])-orderIndex(b[0]) || b[1].length-a[1].length);
+  let order = Object.entries(groups).sort((a,b)=>orderIndex(a[0])-orderIndex(b[0]) || b[1].length-a[1].length);
+  // 应用配额：标准赛道每组截断至 10 个，再按链路总量 60 截断（趋势品用剩余 quota）
+  let used = 0;
+  order = order.map(([cat,arr])=>{
+    const capped = cat===TREND_CAT ? arr : arr.slice(0,TRACK_QUOTA);
+    const take = capped.slice(0, Math.max(0, LINK_QUOTA - used));
+    used += take.length;
+    return [cat, take];
+  }).filter(([,arr])=>arr.length);
 
   // ---- 二级类目导航栏（与卖点&创意看板赛道同名、同序） ----
   const nav = document.getElementById('catNav');
@@ -218,9 +234,14 @@ function renderLink(key){
   // ---- 分组卡片 ----
   let html = '';
   order.forEach(([cat,arr])=>{
+    const isTrend = cat===TREND_CAT;
+    const trendNote = isTrend
+      ? `<div class="notice" style="margin:8px 0 12px">🌊 <b>大盘趋势机会品：</b>来自平台外的大盘趋势洞察，暂无站内投流数据（CTR/CVR/ROI），适合作为新品测试与蓝海选品参考。</div>`
+      : '';
     html += `<div class="cat-block" id="${catId(cat)}">
-      <div class="cat-h"><span class="bar" style="width:4px;height:15px;background:var(--gold);border-radius:2px"></span>
-        ${cat} <span class="cnt">· ${arr.length} 个选品</span></div>
+      <div class="cat-h"><span class="bar" style="width:4px;height:15px;background:${isTrend?'#4b8bf5':'var(--gold)'};border-radius:2px"></span>
+        ${isTrend?'🌊 ':''}${cat} <span class="cnt">· ${arr.length} 个选品</span></div>
+      ${trendNote}
       <div class="grid-cards">${arr.map(x=>productCard(x,key)).join('')}</div>
     </div>`;
   });
