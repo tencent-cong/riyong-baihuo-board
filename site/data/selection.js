@@ -17,7 +17,7 @@ window.SELECTION_DATA = {
       {
         "name": "金钱龟贴",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E9%87%91%E9%92%B1%E9%BE%9F%E8%B4%B4%20%E8%A3%85%E9%A5%B0%E6%91%86%E4%BB%B6%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=49499",
+        "image": "",
         "leaf": "日用百货＞家居饰品＞装饰摆件",
         "price": 39.9,
         "spend": 25.23,
@@ -35,7 +35,7 @@ window.SELECTION_DATA = {
       {
         "name": "葫芦贴纸",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E8%91%AB%E8%8A%A6%E8%B4%B4%E7%BA%B8%20%E8%A3%85%E9%A5%B0%E6%91%86%E4%BB%B6%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=23840",
+        "image": "",
         "leaf": "日用百货＞家居饰品＞装饰摆件",
         "price": 39.9,
         "spend": 23.79,
@@ -71,7 +71,7 @@ window.SELECTION_DATA = {
       {
         "name": "客厅挂画",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E5%AE%A2%E5%8E%85%E6%8C%82%E7%94%BB%20%E8%A3%85%E9%A5%B0%E7%94%BB%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=43091",
+        "image": "",
         "leaf": "日用百货＞家居饰品＞装饰画",
         "price": 39.9,
         "spend": 7.69,
@@ -89,7 +89,7 @@ window.SELECTION_DATA = {
       {
         "name": "贝瓷煎锅",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E8%B4%9D%E7%93%B7%E7%85%8E%E9%94%85%20%E7%82%92%E9%94%85%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=19692",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞烹饪用具＞炒锅",
         "price": 99,
         "spend": 7.58,
@@ -161,7 +161,7 @@ window.SELECTION_DATA = {
       {
         "name": "福禄挂件",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E7%A6%8F%E7%A6%84%E6%8C%82%E4%BB%B6%20%E5%8C%85%E6%8C%82%E4%BB%B6%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=59412",
+        "image": "",
         "leaf": "服饰鞋包＞服饰配件/皮带/帽子/围巾＞包挂件",
         "price": 29.9,
         "spend": 4.14,
@@ -215,7 +215,7 @@ window.SELECTION_DATA = {
       {
         "name": "桌面纸巾盒",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E6%A1%8C%E9%9D%A2%E7%BA%B8%E5%B7%BE%E7%9B%92%20%E7%BA%B8%E5%B7%BE%E7%9B%92%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=31775",
+        "image": "",
         "leaf": "日用百货＞收纳整理＞家庭收纳用品＞纸巾盒",
         "price": 29.9,
         "spend": 3.64,
@@ -233,7 +233,7 @@ window.SELECTION_DATA = {
       {
         "name": "衣架连接器",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E8%A1%A3%E6%9E%B6%E8%BF%9E%E6%8E%A5%E5%99%A8%20%E6%8C%82%E9%92%A9/%E7%B2%98%E9%92%A9%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=65648",
+        "image": "",
         "leaf": "日用百货＞收纳整理＞家庭整理用品＞挂钩/粘钩",
         "price": 29.9,
         "spend": 3.2,
@@ -251,7 +251,7 @@ window.SELECTION_DATA = {
       {
         "name": "多功能切葱器",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%88%87%E8%91%B1%E5%99%A8%20%E5%89%8A%E7%9A%AE%E5%99%A8/%E7%93%9C%E6%9E%9C%E5%88%A8%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=22383",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具＞削皮器/瓜果刨",
         "price": 29.99,
         "spend": 3.17,
@@ -395,7 +395,7 @@ window.SELECTION_DATA = {
       {
         "name": "不锈钢勺",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E4%B8%8D%E9%94%88%E9%92%A2%E5%8B%BA%20%E5%88%80%E5%8F%89%E5%8B%BA%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=60166",
+        "image": "",
         "leaf": "日用百货＞餐饮用具＞餐具＞刀叉勺",
         "price": 29.9,
         "spend": 2.07,
@@ -413,7 +413,7 @@ window.SELECTION_DATA = {
       {
         "name": "倒挂金钟花",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E5%80%92%E6%8C%82%E9%87%91%E9%92%9F%E8%8A%B1%20%E8%8A%B1%E5%8D%89/%E7%BB%BF%E6%A4%8D%E7%9B%86%E6%A0%BD%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=62036",
+        "image": "",
         "leaf": "绿植园艺＞花卉绿植＞花卉/绿植盆栽",
         "price": 19.9,
         "spend": 2.04,
@@ -431,7 +431,7 @@ window.SELECTION_DATA = {
       {
         "name": "金属置物架",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E9%87%91%E5%B1%9E%E7%BD%AE%E7%89%A9%E6%9E%B6%20%E5%8E%A8%E6%88%BF%E7%BD%AE%E7%89%A9%E6%9E%B6%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=14464",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具＞厨房置物架",
         "price": 99,
         "spend": 1.98,
@@ -449,7 +449,7 @@ window.SELECTION_DATA = {
       {
         "name": "肚脐贴",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E8%82%9A%E8%84%90%E8%B4%B4%20%E8%89%BE%E7%81%B8%E8%B4%B4%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=29549",
+        "image": "",
         "leaf": "医药健康＞医药非药械类＞艾灸贴",
         "price": 59.9,
         "spend": 1.81,
@@ -503,7 +503,7 @@ window.SELECTION_DATA = {
       {
         "name": "不锈钢砧板",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E4%B8%8D%E9%94%88%E9%92%A2%E7%A0%A7%E6%9D%BF%20%E7%A0%A7%E6%9D%BF/%E8%8F%9C%E6%9D%BF%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=6387",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞烹饪用具＞砧板/菜板",
         "price": 39.9,
         "spend": 1.43,
@@ -521,7 +521,7 @@ window.SELECTION_DATA = {
       {
         "name": "油烟贴",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E6%B2%B9%E7%83%9F%E8%B4%B4%20%E5%90%B8%E6%B2%B9%E7%BA%B8/%E5%90%B8%E6%B2%B9%E8%86%9C%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=64569",
+        "image": "",
         "leaf": "个护清洁＞洗护清洁/除臭剂/纸品＞生活用纸＞吸油纸/吸油膜",
         "price": 19.9,
         "spend": 1.41,
@@ -557,7 +557,7 @@ window.SELECTION_DATA = {
       {
         "name": "牛排锤",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E7%89%9B%E6%8E%92%E9%94%A4%20%E6%95%B2%E8%82%89%E9%94%A4%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=38396",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具＞敲肉锤",
         "price": 59.9,
         "spend": 1.31,
@@ -593,7 +593,7 @@ window.SELECTION_DATA = {
       {
         "name": "金属漱口杯",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E9%87%91%E5%B1%9E%E6%BC%B1%E5%8F%A3%E6%9D%AF%20%E6%BC%B1%E5%8F%A3%E6%9D%AF%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=20179",
+        "image": "",
         "leaf": "日用百货＞生活用品＞浴室用品＞漱口杯",
         "price": 69.9,
         "spend": 1.28,
@@ -611,7 +611,7 @@ window.SELECTION_DATA = {
       {
         "name": "不锈钢筷子",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E4%B8%8D%E9%94%88%E9%92%A2%E7%AD%B7%E5%AD%90%20%E7%AD%B7%E5%AD%90%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=26918",
+        "image": "",
         "leaf": "日用百货＞餐饮用具＞餐具＞筷子",
         "price": 19.9,
         "spend": 1.26,
@@ -629,7 +629,7 @@ window.SELECTION_DATA = {
       {
         "name": "魔术扫把",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E9%AD%94%E6%9C%AF%E6%89%AB%E6%8A%8A%20%E6%89%AB%E6%8A%8A%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=37774",
+        "image": "",
         "leaf": "个护清洁＞清洁工具＞扫把",
         "price": 29.9,
         "spend": 1.25,
@@ -683,7 +683,7 @@ window.SELECTION_DATA = {
       {
         "name": "陶瓷开箱器",
         "industry": "居家日用",
-        "image": "https://image.pollinations.ai/prompt/%E9%99%B6%E7%93%B7%E5%BC%80%E7%AE%B1%E5%99%A8%20%E5%BC%80%E7%93%B6%E5%99%A8%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=29703",
+        "image": "",
         "leaf": "日用百货＞餐饮用具＞酒具＞开瓶器",
         "price": 29.99,
         "spend": 1.05,
@@ -719,7 +719,7 @@ window.SELECTION_DATA = {
       {
         "name": "切丝神器",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E5%88%87%E4%B8%9D%E7%A5%9E%E5%99%A8%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=67598",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -757,7 +757,7 @@ window.SELECTION_DATA = {
       {
         "name": "阳江菜刀",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E9%98%B3%E6%B1%9F%E8%8F%9C%E5%88%80%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=57735",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -776,7 +776,7 @@ window.SELECTION_DATA = {
       {
         "name": "不锈钢筷",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E4%B8%8D%E9%94%88%E9%92%A2%E7%AD%B7%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=15845",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -814,7 +814,7 @@ window.SELECTION_DATA = {
       {
         "name": "古法大肚锅",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E5%8F%A4%E6%B3%95%E5%A4%A7%E8%82%9A%E9%94%85%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=56137",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -833,7 +833,7 @@ window.SELECTION_DATA = {
       {
         "name": "筷子收纳盒",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E7%AD%B7%E5%AD%90%E6%94%B6%E7%BA%B3%E7%9B%92%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=59634",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -852,7 +852,7 @@ window.SELECTION_DATA = {
       {
         "name": "斩切刀",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E6%96%A9%E5%88%87%E5%88%80%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=53795",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -890,7 +890,7 @@ window.SELECTION_DATA = {
       {
         "name": "龙头滤袋",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E9%BE%99%E5%A4%B4%E6%BB%A4%E8%A2%8B%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=7097",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -909,7 +909,7 @@ window.SELECTION_DATA = {
       {
         "name": "包饺子器",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E5%8C%85%E9%A5%BA%E5%AD%90%E5%99%A8%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=37868",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -928,7 +928,7 @@ window.SELECTION_DATA = {
       {
         "name": "蒸格蒸盘",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E8%92%B8%E6%A0%BC%E8%92%B8%E7%9B%98%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=73733",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -947,7 +947,7 @@ window.SELECTION_DATA = {
       {
         "name": "隔油勺",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E9%9A%94%E6%B2%B9%E5%8B%BA%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=93820",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -966,7 +966,7 @@ window.SELECTION_DATA = {
       {
         "name": "防水贴条",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E9%98%B2%E6%B0%B4%E8%B4%B4%E6%9D%A1%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=31027",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -985,7 +985,7 @@ window.SELECTION_DATA = {
       {
         "name": "煎鱼铲",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E7%85%8E%E9%B1%BC%E9%93%B2%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=9244",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -1004,7 +1004,7 @@ window.SELECTION_DATA = {
       {
         "name": "盘子夹",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E7%9B%98%E5%AD%90%E5%A4%B9%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=7668",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -1023,7 +1023,7 @@ window.SELECTION_DATA = {
       {
         "name": "疙瘩汤器",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E7%96%99%E7%98%A9%E6%B1%A4%E5%99%A8%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=39636",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -1042,7 +1042,7 @@ window.SELECTION_DATA = {
       {
         "name": "车载茶杯",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E8%BD%A6%E8%BD%BD%E8%8C%B6%E6%9D%AF%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=42970",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -1061,7 +1061,7 @@ window.SELECTION_DATA = {
       {
         "name": "万能蒸盘",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E4%B8%87%E8%83%BD%E8%92%B8%E7%9B%98%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=22266",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -1080,7 +1080,7 @@ window.SELECTION_DATA = {
       {
         "name": "切菜神器",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E5%88%87%E8%8F%9C%E7%A5%9E%E5%99%A8%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=87490",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,
@@ -1099,7 +1099,7 @@ window.SELECTION_DATA = {
       {
         "name": "铝箔保鲜膜",
         "industry": "厨具",
-        "image": "https://image.pollinations.ai/prompt/%E9%93%9D%E7%AE%94%E4%BF%9D%E9%B2%9C%E8%86%9C%20%E5%8E%A8%E6%88%BF%E5%B7%A5%E5%85%B7%2C%20%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE%2C%20%E7%BA%AF%E7%99%BD%E8%83%8C%E6%99%AF%2C%20%E5%95%86%E5%93%81%E5%B1%85%E4%B8%AD%2C%20%E9%AB%98%E6%B8%85%E5%86%99%E5%AE%9E%2C%20%E6%97%A0%E6%96%87%E5%AD%97?width=500&height=500&nologo=true&seed=56799",
+        "image": "",
         "leaf": "日用百货＞厨房用具＞厨房工具",
         "price": null,
         "spend": null,

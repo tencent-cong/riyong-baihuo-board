@@ -76,7 +76,7 @@ def build(r, is_trend):
     item = {
         "name": name,
         "industry": clean(r.get("开户行业")) or "居家日用",
-        "image": "" if name in local_images else gen_image(name, lf),
+        "image": "",  # 统一走 product-assets.js 图库按商品名匹配；未命中另行补图，禁用AI随机生图
         "leaf": clean(r.get("商品类目")),
         "price": num(r.get("参考单价")),
         "spend": num(r.get("消耗(元)")),
@@ -146,4 +146,5 @@ from collections import Counter
 print("总行数:", len(df), "| 投流品(去重):", len(metric_items), "| 趋势品(去重):", len(trend_dedup))
 print("最终上架:", len(final_items), "= 投流", len(picked), "+ 趋势", len(final_items) - len(picked))
 print("赛道分布:", dict(Counter(x["category2"] for x in final_items)))
-print("本地图命中:", sum(1 for x in final_items if not x["image"]), "/", len(final_items))
+miss=[x["name"] for x in final_items if x["name"] not in local_images]
+print("图库未命中(需补图):", len(miss), miss)
