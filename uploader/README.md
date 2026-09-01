@@ -69,7 +69,7 @@ uploader/
 > 换供应商只需改这 3 个变量，代码不用动。
 
 ### 4. Deploy
-部署完成后会得到一个网址，如 `https://riri-baihuo-uploader.vercel.app`
+部署完成后会得到一个网址：`https://riri-baihuo-board.vercel.app`（当前生产地址，Vercel 项目名 riri-baihuo-board，push 到 main 后自动重新部署）
 
 - **上传页（发给同事）**：`https://<你的域名>/` 或 `/upload.html`
 - **审核页（你自己用）**：`https://<你的域名>/review.html`
