@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>福建月记窑 · ADQ 多品托管案例</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; background: #eaf0ef; display: flex; justify-content: center; padding: 20px; }
+  .card {
+    width: 600px; height: 850px; background: #fff; border-radius: 20px;
+    padding: 26px 30px; display: flex; flex-direction: column; gap: 13px;
+    box-shadow: 0 8px 30px rgba(20,80,75,.15); overflow: hidden;
+  }
+  .hook { font-size: 14px; color: #7f8d92; font-weight: 600; letter-spacing: 1px; }
+  h1 { font-size: 23px; color: #12312f; line-height: 1.4; }
+  h1 em { font-style: normal; color: #0f766e; }
+  .tags { display: flex; gap: 8px; }
+  .tag { font-size: 12px; padding: 4px 14px; border-radius: 999px; font-weight: 600; background: #e8f4f2; color: #0d6157; }
+  .banner {
+    background: linear-gradient(120deg,#0f3d40,#12776d); border-radius: 16px;
+    padding: 16px 18px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .banner .b-item { text-align: center; flex: 1; }
+  .banner .b-num { font-size: 27px; font-weight: 800; color: #ffd98a; }
+  .banner .b-num span { font-size: 15px; }
+  .banner .b-num s { text-decoration: none; font-size: 18px; color: rgba(255,255,255,.6); }
+  .banner .b-num i { font-style: normal; font-size: 15px; color: rgba(255,255,255,.75); }
+  .banner .b-label { font-size: 12px; color: rgba(255,255,255,.78); margin-top: 4px; }
+  .banner .b-div { width: 1px; height: 38px; background: rgba(255,255,255,.2); }
+  .sec-title { font-size: 16px; font-weight: 800; color: #0f3d40; display: flex; align-items: center; gap: 8px; }
+  .sec-title::before { content: ""; width: 5px; height: 16px; background: linear-gradient(180deg,#4fb3a4,#0d6157); border-radius: 3px; }
+  .p-title { font-size: 14.5px; font-weight: 700; color: #0f3d40; display: flex; align-items: center; gap: 8px; }
+  .p-num { width: 21px; height: 21px; border-radius: 50%; background: linear-gradient(135deg,#4fb3a4,#0d6157); color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .p-desc { font-size: 12px; color: #64757a; line-height: 1.65; }
+  .p-desc b { color: #0f766e; }
+  .point-full { background: #f8fbfa; border: 1px solid #e0eceb; border-radius: 14px; padding: 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+  .lines { display: flex; gap: 6px; margin-top: 1px; }
+  .lines span { flex: 1; text-align: center; font-size: 10.5px; font-weight: 700; color: #0d6157; background: #e8f4f2; border-radius: 7px; padding: 4px 2px; }
+  .duo { display: flex; gap: 13px; flex: 1; min-height: 0; }
+  .duo-card { flex: 1; background: #f8fbfa; border: 1px solid #e0eceb; border-radius: 14px; padding: 13px 15px; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .duo-card .visual { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; }
+  .prod-box { position: relative; width: 100%; max-width: 218px; border-radius: 12px; overflow: hidden; border: 1px solid #e3edec; }
+  .prod-box img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; background: #f5f9f8; display: block; }
+  .bubble {
+    position: absolute; border-radius: 50%; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+    background: rgba(15,61,64,.62); backdrop-filter: blur(2px);
+    border: 1.5px solid rgba(201,238,232,.75); color: #fff;
+    box-shadow: 0 4px 12px rgba(15,61,64,.3);
+  }
+  .bubble .bb-num { font-weight: 800; color: #ffd98a; line-height: 1.1; }
+  .bubble .bb-label { line-height: 1.2; opacity: .92; }
+  .bubble-1 { width: 88px; height: 88px; top: 8px; right: 8px; }
+  .bubble-1 .bb-num { font-size: 19px; }
+  .bubble-1 .bb-label { font-size: 9.5px; margin-top: 2px; }
+  .bubble-2 { width: 80px; height: 80px; bottom: 8px; left: 8px; }
+  .bubble-2 .bb-num { font-size: 13.5px; }
+  .bubble-2 .bb-label { font-size: 9.5px; margin-top: 2px; }
+  .grow-box { width: 100%; max-width: 218px; }
+  .grow-box svg { width: 100%; display: block; }
+  .cta { background: #f0f7f5; border-left: 4px solid #4fb3a4; border-radius: 10px; padding: 12px 18px; font-size: 13.5px; color: #2e4b4a; line-height: 1.7; }
+  .cta b { color: #0f766e; }
+  .cta .cta-tag { display: inline-block; background: linear-gradient(90deg,#0d6157,#4fb3a4); color: #fff; font-size: 12px; font-weight: 700; padding: 2px 10px; border-radius: 999px; margin-right: 8px; vertical-align: 1px; }
+  .note { font-size: 10.5px; color: #9caaa9; text-align: right; margin-top: -6px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="hook">品线多、客单高，货盘一直跑不开？</div>
+  <h1>多品托管拆开测：规模涨 30%、在投商品翻番，<br><em>ROI 还比大盘高 12%</em></h1>
+  <div class="tags">
+    <span class="tag">福建月记窑 · 高客单瓷器商家</span>
+    <span class="tag">ADQ 多品托管</span>
+  </div>
+
+  <div class="banner">
+    <div class="b-item"><div class="b-num">+30<span>%</span></div><div class="b-label">小店链路双周环比规模</div></div>
+    <div class="b-div"></div>
+    <div class="b-item"><div class="b-num"><s>9</s><i> → </i>16</div><div class="b-label">有消耗 SPU 近翻番</div></div>
+    <div class="b-div"></div>
+    <div class="b-item"><div class="b-num">+12<span>%</span></div><div class="b-label">ROI 高于大盘</div></div>
+  </div>
+
+  <div class="sec-title">多品托管好在哪？</div>
+
+  <div class="point-full">
+    <div class="p-title"><span class="p-num">1</span>自主选品，按品线分别建组测投</div>
+    <div class="p-desc">各品线客单与利润空间差异明显，客户<b>自主选品、分组独立测投</b>，每条线按自己的经营目标跑，互不摊薄。</div>
+    <div class="lines"><span>羊脂玉瓷</span><span>柴烧陶瓷</span><span>冰种瓷</span></div>
+  </div>
+
+  <div class="duo">
+    <div class="duo-card">
+      <div class="p-title"><span class="p-num">2</span>系统自填充创意，补足素材供给</div>
+      <div class="p-desc">系统持续补充可投创意，与客户原生视频共同跑量：<b>供给占比 20%+</b>，<b>CTR 2.1%</b> 优于整体 1.8%。</div>
+      <div class="visual">
+        <div class="prod-box">
+          <img src="assets/yuejiyao-product.png" alt="月记窑 AIGC 素材">
+          <div class="bubble bubble-1"><div class="bb-num">2.1%</div><div class="bb-label">系统创意 CTR</div></div>
+          <div class="bubble bubble-2"><div class="bb-num">20%+</div><div class="bb-label">创意供给占比</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="duo-card">
+      <div class="p-title"><span class="p-num">3</span>拓展小店直购，日耗跨量级跃升</div>
+      <div class="p-desc">在全域通基础上拓展 <b>ADQ 小店直购</b>，由多品托管承接新增量，直购日耗从约 500 元跃升至 <b>1w+/日</b>。</div>
+      <div class="visual">
+        <div class="grow-box">
+          <svg viewBox="0 0 218 150">
+            <defs>
+              <linearGradient id="barBase" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#9ed3ca"/>
+                <stop offset="100%" stop-color="#4fb3a4"/>
+              </linearGradient>
+              <linearGradient id="barNew" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#ffd98a"/>
+                <stop offset="100%" stop-color="#e6b45c"/>
+              </linearGradient>
+            </defs>
+            <line x1="14" y1="120" x2="204" y2="120" stroke="#dfebe9" stroke-width="1"/>
+            <rect x="46" y="106" width="44" height="14" rx="4" fill="url(#barBase)" opacity=".6"/>
+            <text x="68" y="136" font-size="10" fill="#7f8d92" text-anchor="middle">全域通 · 约 500/日</text>
+            <rect x="128" y="76" width="44" height="44" rx="5" fill="url(#barBase)"/>
+            <rect x="128" y="32" width="44" height="41" rx="5" fill="url(#barNew)"/>
+            <text x="150" y="136" font-size="10" fill="#7f8d92" text-anchor="middle">+ADQ 直购 · 1w+/日</text>
+            <text x="150" y="22" font-size="13" font-weight="800" fill="#0d6157" text-anchor="middle">1w+</text>
+            <path d="M92,100 C106,82 116,62 124,48" fill="none" stroke="#4fb3a4" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round"/>
+            <path d="M120,46 L126,46 L124,53 Z" fill="#4fb3a4"/>
+            <rect x="40" y="142" width="8" height="8" rx="2" fill="#4fb3a4"/>
+            <text x="52" y="149" font-size="9" fill="#7f8d92">全域通</text>
+            <rect x="92" y="142" width="8" height="8" rx="2" fill="#e6b45c"/>
+            <text x="104" y="149" font-size="9" fill="#7f8d92">多品托管直购</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+<span class="cta-tag">适配客户</span>品线多、客单高、利润要求各不相同？<b>多品托管</b>支持<b>自主选品、分组测投</b>，一边拓宽货盘，一边把投产守在<b>大盘之上</b>。
+  </div>
+  <div class="note">*数据为客户投放期真实表现，不构成效果承诺</div>
+</div>
+</body>
+</html>
