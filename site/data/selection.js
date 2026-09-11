@@ -35,7 +35,7 @@ window.SELECTION_DATA = {
       {
         "name": "矫姿带",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/2b6e542d4f7342b0.webp",
         "leaf": "日用百货＞居家日用品＞个人用品＞护膝",
         "price": 39.9,
         "spend": 14.1,
@@ -107,7 +107,7 @@ window.SELECTION_DATA = {
       {
         "name": "百福葫芦贴",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/gen_hulutiezh.png",
         "leaf": "日用百货＞家装软饰＞墙贴装饰贴",
         "price": 39.9,
         "spend": 7.5,
@@ -143,7 +143,7 @@ window.SELECTION_DATA = {
       {
         "name": "透骨贴",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/2c1aa94445af7eb3.webp",
         "leaf": "医药健康＞医药非药械类＞艾灸贴",
         "price": 29.9,
         "spend": 3.7,
@@ -305,7 +305,7 @@ window.SELECTION_DATA = {
       {
         "name": "通用去核器",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/dfdd232c1b92677e.webp",
         "leaf": "日用百货＞厨房用具＞厨房工具＞剥壳器",
         "price": 29.9,
         "spend": 1.6,
@@ -341,7 +341,7 @@ window.SELECTION_DATA = {
       {
         "name": "多功能书夹",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/gen_duogongnengshujia.png",
         "leaf": "办公文具＞文具耗材＞书立",
         "price": 29.9,
         "spend": 1.3,
@@ -359,7 +359,7 @@ window.SELECTION_DATA = {
       {
         "name": "开瓶器",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/4dc99623b98619f4.webp",
         "leaf": "日用百货＞餐饮用具＞酒具＞开瓶器",
         "price": 39.9,
         "spend": 1.3,
@@ -377,7 +377,7 @@ window.SELECTION_DATA = {
       {
         "name": "多巴胺吸盘挂钩",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/fe04e0b3ea52cabf.webp",
         "leaf": "日用百货＞居家日用品＞收纳用品＞置物架",
         "price": 99,
         "spend": 1.2,
@@ -395,7 +395,7 @@ window.SELECTION_DATA = {
       {
         "name": "艾灸暖贴",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/3325b5f4b2b7f737.webp",
         "leaf": "保健药品或保健食品",
         "price": 39.9,
         "spend": 1.1,
@@ -431,7 +431,7 @@ window.SELECTION_DATA = {
       {
         "name": "轮胎修补胶",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/gen_luntaixiubujiao.png",
         "leaf": "汽车用品＞维修保养＞其他汽修工具",
         "price": 29.9,
         "spend": 0.9,
@@ -449,7 +449,7 @@ window.SELECTION_DATA = {
       {
         "name": "书本收纳袋",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/4239db2250c2b5b7.webp",
         "leaf": "办公文具＞文具耗材＞文件管理",
         "price": 69.9,
         "spend": 0.9,
@@ -503,7 +503,7 @@ window.SELECTION_DATA = {
       {
         "name": "通用锅盖把手",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/0ae5d1de68ef3658.webp",
         "leaf": "日用百货＞厨房用具＞烹饪用具＞锅盖",
         "price": 29.9,
         "spend": 0.8,
@@ -521,7 +521,7 @@ window.SELECTION_DATA = {
       {
         "name": "家具防尘罩",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/d344f70f86878efc.webp",
         "leaf": "家居百货＞家纺＞床上用品＞床罩",
         "price": 59.9,
         "spend": 0.7,
@@ -539,7 +539,7 @@ window.SELECTION_DATA = {
       {
         "name": "弹跳芯",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/37b3aeaafe67dbd5.webp",
         "leaf": "家装建材＞厨房卫浴＞面盆下水器",
         "price": 29.9,
         "spend": 0.7,
