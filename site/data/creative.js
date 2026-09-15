@@ -271,7 +271,7 @@ window.CREATIVE_DATA = {
           "materialId": "b2a5543290d452a448ab",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-09-15T18:57:02.977409+00:00"
+          "frameUpdatedAt": "2026-09-15T22:09:03.646930+00:00"
         },
         {
           "rank": 3,
