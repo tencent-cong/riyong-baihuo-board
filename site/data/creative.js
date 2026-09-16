@@ -3,7 +3,7 @@
 window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
-    "updatedAt": "2026-09-15",
+    "updatedAt": "2026-09-16",
     "owner": "创意分析组"
   },
   "tracks": [
@@ -271,7 +271,7 @@ window.CREATIVE_DATA = {
           "materialId": "b2a5543290d452a448ab",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-09-15T22:09:03.646930+00:00"
+          "frameUpdatedAt": "2026-09-16T00:30:18.169504+00:00"
         },
         {
           "rank": 3,
