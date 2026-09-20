@@ -69,14 +69,14 @@ a{color:inherit;text-decoration:none}
 .feature-count{padding:4px 9px;border-radius:20px;background:rgba(75,139,245,.12);color:#78adff;font-size:11px}
 .feature-arrow{font-size:22px;color:var(--gold)}
 .activity-panel{border-color:rgba(75,139,245,.35)}
-.activity-list{height:130px;padding:10px;display:flex;flex-direction:column;gap:8px;overflow:auto}
+.activity-list{min-height:130px;max-height:190px;padding:10px;display:flex;flex-direction:column;gap:8px;overflow:auto}
 .activity-item{min-height:76px;padding:9px;border:1px solid rgba(255,255,255,.07);border-radius:12px;
   display:grid;grid-template-columns:112px 1fr 22px;align-items:center;gap:12px;background:rgba(255,255,255,.025);transition:.18s}
 .activity-item:hover{border-color:#5f9cff;background:rgba(75,139,245,.08)}
 .activity-thumb{width:112px;height:58px;border-radius:8px;overflow:hidden;background:#0e3c85}
 .activity-thumb img{width:100%;height:100%;object-fit:contain}
-.activity-info{min-width:0}.activity-info span{font-size:10px;color:#78adff}.activity-info b{display:block;
-  margin-top:2px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.activity-info{min-width:0}.activity-info span{font-size:10px;color:#78adff}.activity-info b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  margin-top:2px;font-size:14px;line-height:1.3;overflow:hidden}
 .activity-info p{margin-top:3px;color:var(--txt3);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .activity-item i{color:var(--txt3);font-style:normal}
 .playbook-panel{border-color:rgba(245,181,68,.42)}
