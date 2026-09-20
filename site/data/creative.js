@@ -2432,11 +2432,11 @@ window.CREATIVE_DATA = {
       "key": "daily-storage",
       "owner": "",
       "metrics": {
-        "creativeCount": 30,
-        "ctr": 2.8,
-        "play3s": 68.5,
-        "cvr": 11.2,
-        "cpm": 152.3
+        "creativeCount": 101,
+        "ctr": 3.88,
+        "play3s": 21.17,
+        "cvr": 6.13,
+        "cpm": 50.69
       },
       "sellingWords": [
         {
@@ -2444,878 +2444,553 @@ window.CREATIVE_DATA = {
           "weight": 100
         },
         {
-          "word": "省空间",
-          "weight": 95
-        },
-        {
-          "word": "防潮防霉",
-          "weight": 92
-        },
-        {
-          "word": "立体收纳",
-          "weight": 88
-        },
-        {
-          "word": "加厚耐用",
-          "weight": 85
-        },
-        {
-          "word": "分类收纳",
-          "weight": 82
-        },
-        {
-          "word": "密封锁鲜",
-          "weight": 78
-        },
-        {
-          "word": "免手洗",
-          "weight": 75
-        },
-        {
-          "word": "一擦即净",
-          "weight": 72
-        },
-        {
-          "word": "防尘防污",
-          "weight": 70
+          "word": "真空压缩",
+          "weight": 96
         },
         {
           "word": "大容量",
-          "weight": 68
+          "weight": 92
+        },
+        {
+          "word": "防尘防潮",
+          "weight": 88
+        },
+        {
+          "word": "省空间",
+          "weight": 85
+        },
+        {
+          "word": "换季收纳",
+          "weight": 82
+        },
+        {
+          "word": "立体收纳",
+          "weight": 78
+        },
+        {
+          "word": "密封防串味",
+          "weight": 74
+        },
+        {
+          "word": "免打孔",
+          "weight": 70
         },
         {
           "word": "可折叠",
-          "weight": 65
+          "weight": 66
         },
         {
-          "word": "便携",
+          "word": "加厚耐用",
           "weight": 62
         },
         {
-          "word": "透明可视",
-          "weight": 60
+          "word": "一擦即净",
+          "weight": 58
+        },
+        {
+          "word": "分类收纳",
+          "weight": 54
+        },
+        {
+          "word": "便携随身",
+          "weight": 50
+        },
+        {
+          "word": "重复使用",
+          "weight": 46
+        },
+        {
+          "word": "整洁归位",
+          "weight": 42
         }
       ],
       "painWords": [
         {
-          "word": "衣柜塞不下",
+          "word": "换季棉被堆满屋",
           "weight": 95
         },
         {
-          "word": "换季收纳难",
+          "word": "柜子塞不下",
           "weight": 90
         },
         {
-          "word": "回南天发潮",
-          "weight": 88
+          "word": "回南天发潮发霉",
+          "weight": 86
         },
         {
-          "word": "食物串味",
+          "word": "厨房锅盖没地放",
           "weight": 80
         },
         {
-          "word": "小物件乱糟糟",
-          "weight": 75
+          "word": "冰箱串味不保鲜",
+          "weight": 76
+        },
+        {
+          "word": "拖把乱堆墙角",
+          "weight": 70
         }
       ],
       "sellingContext": [
         {
-          "driver": "换季时节·衣柜爆满",
-          "need": "消费者需要快速压缩衣物体积，腾出空间，同时防潮防尘保护贵重衣物",
+          "driver": "换季收纳·棉被羽绒服堆满屋",
+          "need": "想要把厚被子和冬衣压扁收进柜子，腾出空间又不占地方",
           "words": [
             "免抽气",
-            "省空间",
-            "防潮防霉",
-            "立体收纳"
+            "真空压缩",
+            "大容量",
+            "换季收纳",
+            "省空间"
           ]
         },
         {
-          "driver": "回南天/梅雨季·潮湿发霉",
-          "need": "衣物被子容易受潮发霉，需要密封隔湿的收纳方案",
+          "driver": "回南天/梅雨季·衣物发潮发霉",
+          "need": "希望收纳后防潮防霉，久放不发味，拿出来还能直接穿",
           "words": [
-            "防潮防霉",
-            "密封锁鲜",
-            "加厚耐用"
+            "防尘防潮",
+            "密封防串味",
+            "加厚耐用",
+            "重复使用"
           ]
         },
         {
-          "driver": "厨房冰箱·食物保鲜杂乱",
-          "need": "食材分类存放、避免串味、延长保鲜期，同时节省冰箱空间",
+          "driver": "厨房/冰箱·锅盖乱放、食材串味",
+          "need": "想要锅盖、食材、调料各归其位，拿取方便又干净整洁",
           "words": [
             "分类收纳",
-            "密封锁鲜",
-            "大容量"
+            "密封防串味",
+            "整洁归位",
+            "一擦即净"
           ]
         }
       ],
       "scripts": [
-        "免抽气，一压就扁，衣柜瞬间多出一倍空间！",
-        "回南天满屋发潮？真空收纳袋防湿气不发味！",
-        "老婆一口气买了100只，铝箔密封保鲜袋，加厚加大，冷冻锁鲜！",
-        "换季整理别发愁！免抽气收纳袋，被子羽绒服一键变小。",
-        "衣柜塞到关不上门？立体收纳袋一压省空间。",
-        "分类收纳，防交叉污染，锁住新鲜，延长保鲜更安心！"
+        "免抽气，脏水一按就走，棉被羽绒秒收纳",
+        "换季棉被别堆满屋！这款免抽气压缩袋，收纳超省事",
+        "回南天满屋发潮难忍受？真空立体收纳袋防湿气不发味",
+        "梅雨季衣服总有霉味？用这个真空压缩袋久放都清新无异味",
+        "不打孔不伤墙，退租撕下无痕！门后挂满外套书包，收纳救星",
+        "厨房小，锅盖没地放的，可以安排一个这样的置物架，整洁收纳",
+        "老婆买的冰箱收纳盒太好用了，保鲜防串味，还能让冰箱更整洁干净",
+        "换季整理有它就够了！轻松按压排空气，棉被羽绒秒收纳"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用视觉冲击：衣柜爆满、被子堆积如山，对比收纳后整齐划一。话术如'衣柜塞到关不上门？'或'换季整理别发愁！'，制造痛点冲突。用'免抽气'作为反常识点，强调不用抽气泵，一压即扁，快速省力。"
+          "desc": "开场3秒用'换季棉被堆满屋'的杂乱画面与'一压变薄'的压缩前后对比制造视觉冲击，配合'免抽气''一按就走'的口播，直接抓住换季整理、柜子塞不下的人群。"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定换季、回南天、梅雨季等节点，放大潮湿发霉、空间不足的痛点。如'回南天满屋发潮难忍受？'，结合防潮防霉卖点，直击南方用户痛点。"
+          "desc": "绑定换季、回南天、梅雨季、开学搬家等节点，放大'棉被没地放''衣服发霉有异味''行李打包乱'的场景痛点，让用户产生'现在不买就来不及'的紧迫感。"
         },
         {
           "title": "福利/紧迫",
-          "desc": "价格锚点：强调'100只装'、'工厂批发'、'限时清仓'，制造性价比和紧迫感。话术如'卖爆了！厂家直销，限时清仓！拼手速抢！'，配合优惠券或赠品。"
+          "desc": "用'厂家直销''今日特价''拍一发五''限时清仓'等价格锚点，配合'错过亏大了''速来抢购'制造紧迫，降低决策门槛，推动立即下单。"
         },
         {
           "title": "明星/IP",
-          "desc": "部分素材使用'老婆哭着也要买'、'闺蜜家真是处处是宝藏'等生活化场景，或借助素人测评、直播展示，建立信任。无明星IP，但通过真实用户视角增强可信度。"
+          "desc": "以'老婆太会买了''邻居家处处是宝藏''源头厂家'等生活化信任背书替代明星IP，用真实使用场景和口碑感建立信任链，降低新客尝试成本。"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "压缩袋·免抽气衣柜爆满",
+          "title": "压缩袋·放假想优雅回家，价格真便宜",
           "product": "压缩袋",
-          "customer": "千将文化",
+          "customer": "道中道",
           "chain": "CID",
-          "tag": "痛点场景 · 免抽气省空间",
-          "spend": 252089.53,
-          "ctr": 7.34,
-          "cvr": 5.95,
-          "cpm": 282.12,
-          "duration": "约148s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b5344bfcaac5manlvtgs5vbrzyekhtqeuka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-2b2dbbaae903f0d8f5d9/frame-01.jpg",
-              "time": "8.9s"
-            },
-            {
-              "src": "assets/frames/upload-2b2dbbaae903f0d8f5d9/frame-02.jpg",
-              "time": "35.6s"
-            },
-            {
-              "src": "assets/frames/upload-2b2dbbaae903f0d8f5d9/frame-03.jpg",
-              "time": "63.7s"
-            },
-            {
-              "src": "assets/frames/upload-2b2dbbaae903f0d8f5d9/frame-04.jpg",
-              "time": "91.9s"
-            },
-            {
-              "src": "assets/frames/upload-2b2dbbaae903f0d8f5d9/frame-05.jpg",
-              "time": "121.5s"
-            }
-          ],
+          "tag": "场景痛点 · 免抽气压缩",
+          "spend": 424723.93,
+          "ctr": 3.05,
+          "cvr": 11.77,
+          "cpm": 78.58,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53kycjkaaeuqapg5e2djvb4vqesvlajfka.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧画面：衣柜门被撑开，衣物爆出，女主无奈叹气。开场话术'想要家里柜子干净整洁'，反常识点：不用抽气泵，一压即扁。抓住换季收纳困难人群，引发共鸣。"
+              "desc": "首帧是塞满棉被和冬衣的爆满衣柜，镜头快速拉近到关不上的柜门，口播'放假想优雅回家的赶紧去冲这个'，用'优雅回家'与'乱糟糟行李'形成反差，抓住即将放假、要打包行李的学生和返乡人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示衣柜塞满、被子占满空间，拿取困难。传统收纳袋需抽气泵，麻烦且费时。放大痛点：换季衣物无处安放，潮湿发霉。"
+              "desc": "画面展示棉被、羽绒服堆满床和沙发，行李箱怎么都合不上，旁白'关键现在价格真的很便宜'，放大'东西太多装不下、行李超重'的焦虑，传统叠放方式根本压不扁，需求被瞬间放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：免抽气压缩袋，按压排气，体积瞬间缩小。材质加厚防潮，立体设计。解决痛点：省空间、防潮防霉。价值锚点：几十元解决衣柜爆满。"
+              "desc": "商品出场，手拿压缩袋把棉被塞进去，展示免抽气阀门结构，双手一压空气就从阀门排出，袋子肉眼可见变薄，口播强调'免抽气、大容量、防尘防潮'，用'一压就扁'的机制直接回应装不下的痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实际拍摄：将被子装入压缩袋，拉上拉链，按压排气，对比前后体积。展示收纳后衣柜整齐，多出空间。强化信任：重复使用，防尘防潮。"
+              "desc": "实拍对比：同一床棉被压缩前占半个行李箱，压缩后只占一角，再塞进衣服和鞋子，拉链轻松拉上；镜头切到柜子，压缩袋整齐码放，空间腾出一大半，用前后对照证明省空间效果。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述核心利益：免抽气、省空间、防潮。福利：限时优惠，多件装更划算。行动指令：点击下方链接购买。链路承接：CID直接下单。"
+              "desc": "画面回到整洁的行李箱和衣柜，口播'关键现在价格真的很便宜，赶紧去冲'，给出限时优惠和'拍下即发'的紧迫感，引导点击下方链接下单，承接CID链路直接转化。"
             }
           },
-          "materialId": "2b2dbbaae903f0d8f5d9",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "2f59b02f437cae33220e",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
-          "sourceId": "S1R19",
-          "title": "压缩袋·换季收纳一键变小",
-          "product": "压缩袋",
-          "customer": "深圳卓境",
+          "sourceId": "S1R2",
+          "title": "收纳包·源头厂家直销今日特价",
+          "product": "收纳包",
+          "customer": "连城县姑田精铁百货店(个体工商户)",
           "chain": "CID",
-          "tag": "季节痛点 · 换季收纳",
-          "spend": 68470.52,
-          "ctr": 3.5,
-          "cvr": 7.82,
-          "cpm": 333.37,
+          "tag": "价格福利 · 大容量密封",
+          "spend": 148738.62,
+          "ctr": 1.86,
+          "cvr": 13.46,
+          "cpm": 55.75,
           "duration": "未提供",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3jaau6aab5aak4w2uebvbwsaej5eact2a.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-ac5434ef-01-03ee81d1b3/frame-01.jpg",
-              "time": "17s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-01-03ee81d1b3/frame-02.jpg",
-              "time": "68s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-01-03ee81d1b3/frame-03.jpg",
-              "time": "121.8s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-01-03ee81d1b3/frame-04.jpg",
-              "time": "175.6s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-01-03ee81d1b3/frame-05.jpg",
-              "time": "232.3s"
-            }
-          ],
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xqcakaaekiaght425bvb5paeaw6aibka.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧画面：换季时衣柜混乱，女主抱着一堆衣服发愁。话术'换季整理别发愁！'，反常识：免抽气，一键变小。抓住换季收纳痛点人群。"
+              "desc": "首帧是工厂流水线上成堆的压缩收纳袋，字幕打出'源头厂家，厂家直销'，口播'今日特价，速来抢购'，用'厂家直发'与'商场高价'形成价格反差，抓住对价格敏感、想囤收纳袋的家庭用户。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示换季时被子、羽绒服占满衣柜，收纳困难。传统方法：折叠堆放，占空间且易潮。放大痛点：空间不足，衣物发霉。"
+              "desc": "画面切换到家里衣柜爆满、换季衣服没地放的场景，旁白'厂家直销，质量保证，价格优惠'，暗示中间商赚差价，传统购买渠道贵且不划算，放大'想买又怕买贵'的纠结。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：免抽气压缩袋，装入衣物，按压排气，体积缩小70%。加厚材质，防潮防霉。解决痛点：省空间、保护衣物。"
+              "desc": "商品出场，展示收纳包立体大容量结构，手把棉被、羽绒服塞进去，拉上密封拉链，口播强调'免抽气、立体大容量、密封防潮'，用'一个顶三个'的容量机制回应收纳空间不足。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "拍摄步骤：装入羽绒服，拉链密封，按压排气，对比前后厚度。展示收纳后衣柜整齐，多出空间。强化信任：可重复使用。"
+              "desc": "实拍把压缩后的收纳包放进衣柜，整齐码放三层，对比之前杂乱堆叠，空间利用率翻倍；镜头特写密封条和加厚材质，用手按压不变形，证明耐用和密封效果。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述利益：免抽气、省空间、防潮。福利：多件装优惠。行动指令：点击购买。链路承接：CID。"
+              "desc": "画面回到工厂直发仓库，口播'源头厂家，今日特价，速来抢购'，强调限时优惠和厂家直发，引导点击链接下单，承接CID链路完成转化。"
             }
           },
-          "materialId": "2953db40523b278e9244",
-          "frameStatus": "ready"
+          "materialId": "844726f6ff31f1e2e573",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
-          "sourceId": "S1R20",
-          "title": "压缩袋·省钱省力省空间",
-          "product": "压缩袋",
-          "customer": "杭州萧山再禧贸易商行(个体工商户)",
+          "sourceId": "S1R3",
+          "title": "衣架·是谁发明的这也太好用了",
+          "product": "衣架",
+          "customer": "金橙科技",
           "chain": "CID",
-          "tag": "性价比 · 大容量防尘防潮",
-          "spend": 54472.1,
-          "ctr": 1.87,
-          "cvr": 10.6,
-          "cpm": 1021.13,
-          "duration": "约130s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3riacuaaap4aa7idt3vvbvcqefkfaaksa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-66c66c144f8e1e3c7b33/frame-01.jpg",
-              "time": "7.8s"
-            },
-            {
-              "src": "assets/frames/upload-66c66c144f8e1e3c7b33/frame-02.jpg",
-              "time": "31.2s"
-            },
-            {
-              "src": "assets/frames/upload-66c66c144f8e1e3c7b33/frame-03.jpg",
-              "time": "55.9s"
-            },
-            {
-              "src": "assets/frames/upload-66c66c144f8e1e3c7b33/frame-04.jpg",
-              "time": "80.6s"
-            },
-            {
-              "src": "assets/frames/upload-66c66c144f8e1e3c7b33/frame-05.jpg",
-              "time": "106.6s"
-            }
-          ],
+          "tag": "好奇钩子 · 便携折叠",
+          "spend": 67243.28,
+          "ctr": 2.51,
+          "cvr": 21.07,
+          "cpm": 141.54,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53b4bjaaac5qaigtnamfvbqdyesahqfeca.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧画面：爆款销量截图，话术'卖爆了！'，反常识：超大容量，防尘防潮。抓住追求性价比的消费者。"
+              "desc": "首帧是手拿一个折叠衣架，轻轻一拉变成正常衣架，口播'是谁发明的？这也太好用了吧！'，用'谁发明的'制造好奇和反常识，抓住经常出差、旅行、宿舍空间小的人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示衣柜杂乱，收纳成本高。传统收纳袋需抽气泵，麻烦。放大痛点：空间浪费，衣物受潮。"
+              "desc": "画面展示传统衣架占地方、行李箱放不下、宿舍衣柜挂不了几件的窘境，旁白'这也太好用了吧'形成对比，放大'衣架太大、收纳不便'的痛点，传统衣架无法折叠导致空间浪费。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：真空压缩收纳袋，大容量，按压排气。加厚材质，防尘防潮。解决痛点：省钱省力省空间。"
+              "desc": "商品出场，展示折叠衣架的关节结构，一拉一折轻松变形，口播强调'便携折叠、不占空间、承重强'，用'折叠后只有巴掌大'的机制回应收纳和携带需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "拍摄装入多件衣物，按压排气，对比体积。展示收纳后整齐。强化信任：热卖证明。"
+              "desc": "实拍把折叠衣架放进旅行箱侧袋，再拿出来挂衣服，展示承重测试挂厚外套不变形；镜头切到宿舍衣柜，多个折叠衣架并排挂，节省一半空间，用前后对比证明实用。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述利益：省钱省力省空间。福利：限时折扣。行动指令：立即抢购。链路承接：CID。"
+              "desc": "画面回到整洁的衣柜和行李箱，口播'这也太好用了，赶紧安排'，给出限时优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
             }
           },
-          "materialId": "66c66c144f8e1e3c7b33",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "73bd98eb7e3352c3a252",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
-          "sourceId": "S1R2",
-          "title": "带封口保鲜袋·一秒锁鲜",
-          "product": "带封口保鲜袋",
-          "customer": "秉舟",
-          "chain": "小店",
-          "tag": "功能卖点 · 密封锁鲜",
-          "spend": 41929.56,
-          "ctr": 3.34,
-          "cvr": 14.23,
-          "cpm": 82.19,
-          "duration": "约140s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53taajaaaageacq4lrejvbvgaescmabeca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-6e727a5040f081847b57/frame-01.jpg",
-              "time": "8.4s"
-            },
-            {
-              "src": "assets/frames/upload-6e727a5040f081847b57/frame-02.jpg",
-              "time": "33.6s"
-            },
-            {
-              "src": "assets/frames/upload-6e727a5040f081847b57/frame-03.jpg",
-              "time": "60.1s"
-            },
-            {
-              "src": "assets/frames/upload-6e727a5040f081847b57/frame-04.jpg",
-              "time": "86.7s"
-            },
-            {
-              "src": "assets/frames/upload-6e727a5040f081847b57/frame-05.jpg",
-              "time": "114.7s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧画面：老婆展示100只保鲜袋，话术'老婆一口气买了100只'，反常识：铝箔材质，冷冻锁鲜。抓住家庭主妇，注重食物保鲜。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示冰箱食物串味、变质。传统保鲜袋密封差，易漏。放大痛点：浪费食物，健康隐患。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：铝箔保鲜袋，加厚加大，拉链封口。材质抗菌，密封性好。解决痛点：锁鲜、防串味。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "拍摄装入食物，封口，放入冰箱冷冻。对比普通袋，展示密封效果。强化信任：食品级材质。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述利益：一秒锁鲜，加厚耐用。福利：100只装实惠。行动指令：点击购买。链路承接：小店。"
-            }
-          },
-          "materialId": "6e727a5040f081847b57",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 5,
-          "sourceId": "S1R3",
-          "title": "保鲜膜·500只一次性保鲜膜套",
-          "product": "保鲜膜",
-          "customer": "膜尔",
-          "chain": "CID",
-          "tag": "性价比 · 一次性免洗",
-          "spend": 30746.54,
-          "ctr": 0.92,
-          "cvr": 20.99,
-          "cpm": 43.54,
-          "duration": "约132s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3ymackaaaweai4fcl3fvbvqyeexbqajka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-ed0bd2f2f86eaef2d2a2/frame-01.jpg",
-              "time": "7.9s"
-            },
-            {
-              "src": "assets/frames/upload-ed0bd2f2f86eaef2d2a2/frame-02.jpg",
-              "time": "31.8s"
-            },
-            {
-              "src": "assets/frames/upload-ed0bd2f2f86eaef2d2a2/frame-03.jpg",
-              "time": "56.9s"
-            },
-            {
-              "src": "assets/frames/upload-ed0bd2f2f86eaef2d2a2/frame-04.jpg",
-              "time": "82.1s"
-            },
-            {
-              "src": "assets/frames/upload-ed0bd2f2f86eaef2d2a2/frame-05.jpg",
-              "time": "108.6s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧画面：500只保鲜膜套堆叠，话术'500只一次性保鲜膜套'，反常识：免洗，干净卫生。抓住追求便捷的厨房用户。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示传统保鲜膜难撕、易粘、不卫生。放大痛点：清洗麻烦，食物串味。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：一次性保鲜膜套，套上即可，密封性好。材质食品级，防串味。解决痛点：免洗、卫生。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "拍摄套在碗上，轻松密封，放入冰箱。对比传统保鲜膜。强化信任：大容量，够用一年。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述利益：免洗、卫生、防串味。福利：500只装超值。行动指令：点击购买。链路承接：CID。"
-            }
-          },
-          "materialId": "ed0bd2f2f86eaef2d2a2",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 6,
           "sourceId": "S1R4",
-          "title": "背心式保鲜袋·加厚耐用",
-          "product": "背心式保鲜袋",
-          "customer": "合肥市蜀山区福齐百货商行(个体工商户)",
-          "chain": "小店",
-          "tag": "功能卖点 · 加厚密封",
-          "spend": 27159.88,
-          "ctr": 2.55,
-          "cvr": 25.48,
-          "cpm": 116.1,
-          "duration": "约73s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3umagaaaajialjdlrwjvbviyemcrqayca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-c569eddc5e56f272de60/frame-01.jpg",
-              "time": "4.4s"
-            },
-            {
-              "src": "assets/frames/upload-c569eddc5e56f272de60/frame-02.jpg",
-              "time": "17.5s"
-            },
-            {
-              "src": "assets/frames/upload-c569eddc5e56f272de60/frame-03.jpg",
-              "time": "31.4s"
-            },
-            {
-              "src": "assets/frames/upload-c569eddc5e56f272de60/frame-04.jpg",
-              "time": "45.2s"
-            },
-            {
-              "src": "assets/frames/upload-c569eddc5e56f272de60/frame-05.jpg",
-              "time": "59.8s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧画面：大卷装背心袋，话术'大卷装背心保鲜袋'，反常识：加厚耐用，微波可用。抓住家庭用户，注重实用。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示普通保鲜袋易破、密封差。放大痛点：食物浪费，使用不便。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：加厚材质，密封防漏，冷藏冷冻微波皆宜。解决痛点：耐用、多功能。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "拍摄装入食物，封口，放入冰箱，微波加热。展示韧性。强化信任：食品级。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述利益：加厚耐用，密封防漏。福利：大卷装实惠。行动指令：点击购买。链路承接：小店。"
-            }
-          },
-          "materialId": "c569eddc5e56f272de60",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 7,
-          "sourceId": "S1R5",
-          "title": "内衣收纳袋·分区收纳",
-          "product": "内衣收纳袋",
-          "customer": "义乌市曳硕电子商务商行(个体工商户)",
-          "chain": "小店",
-          "tag": "场景痛点 · 旅行收纳",
-          "spend": 26421.7,
-          "ctr": 2.28,
-          "cvr": 23.02,
-          "cpm": 55.97,
-          "duration": "未提供",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc37ialoaaaayakeyzibjvbv6qew75abn2a.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-ac5434ef-06-662abe7100/frame-01.jpg",
-              "time": "1.9s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-06-662abe7100/frame-02.jpg",
-              "time": "7.5s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-06-662abe7100/frame-03.jpg",
-              "time": "13.5s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-06-662abe7100/frame-04.jpg",
-              "time": "19.4s"
-            },
-            {
-              "src": "assets/frames/upload-ac5434ef-06-662abe7100/frame-05.jpg",
-              "time": "25.7s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧画面：贝壳形收纳包，话术'内衣收纳包分区合理'，反常识：防水面料，平摊大容量。抓住经常出差旅行的人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示行李箱内衣物杂乱，内衣袜子混放不卫生。放大痛点：找东西难，不整洁。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：分区设计，防水面料，平摊大容量。解决痛点：分类收纳，干净整洁。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "拍摄将内衣、袜子分别放入不同区域，拉链封口，放入行李箱。展示整齐。强化信任：耐用防水。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述利益：分区合理，防水耐用。福利：旅行必备。行动指令：点击购买。链路承接：小店。"
-            }
-          },
-          "materialId": "6b4fbf103c0498efb7ab",
-          "frameStatus": "ready"
-        },
-        {
-          "rank": 8,
-          "sourceId": "S1R6",
-          "title": "保鲜盒·分类防交叉污染",
+          "title": "保鲜盒·冰箱收纳防串味更整洁",
           "product": "保鲜盒",
           "customer": "淦时",
           "chain": "CID",
-          "tag": "功能卖点 · 分类保鲜",
-          "spend": 25721.4,
-          "ctr": 2.63,
-          "cvr": 11.69,
-          "cpm": 236.98,
-          "duration": "约112s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3luaceaaakqaj3im65furuxieejoqaisa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-037c482d4be8c430acde/frame-01.jpg",
-              "time": "6.7s"
-            },
-            {
-              "src": "assets/frames/upload-037c482d4be8c430acde/frame-02.jpg",
-              "time": "26.8s"
-            },
-            {
-              "src": "assets/frames/upload-037c482d4be8c430acde/frame-03.jpg",
-              "time": "48.0s"
-            },
-            {
-              "src": "assets/frames/upload-037c482d4be8c430acde/frame-04.jpg",
-              "time": "69.3s"
-            },
-            {
-              "src": "assets/frames/upload-037c482d4be8c430acde/frame-05.jpg",
-              "time": "91.6s"
-            }
-          ],
+          "tag": "家庭场景 · 保鲜防串味",
+          "spend": 64959.39,
+          "ctr": 2.61,
+          "cvr": 13.13,
+          "cpm": 234.16,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53z4ao6aaa7eagik4mebubvtye57hqb32a.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧画面：成套保鲜盒，话术'成套保鲜盒'，反常识：分类防交叉污染。抓住注重食品安全的家庭。"
+              "desc": "首帧是打开冰箱，里面剩菜、水果、生肉混放，一股异味扑面而来，口播'老婆买的冰箱收纳盒太好用了'，用'老婆买的'建立信任，抓住家里负责做饭、对冰箱串味头疼的人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示冰箱食物串味、细菌交叉。传统保鲜盒密封差。放大痛点：食物变质，健康风险。"
+              "desc": "画面展示冰箱里塑料袋乱塞、汤汁漏得到处都是、食材串味发蔫，旁白'保鲜防串味，还能让冰箱更整洁干净'，放大'冰箱乱、串味、不保鲜'的焦虑，传统塑料袋无法密封导致问题反复。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：成套保鲜盒，分类存放，密封性好。材质安全，锁住新鲜。解决痛点：防交叉污染，延长保鲜。"
+              "desc": "商品出场，展示透明保鲜盒的密封盖和分隔设计，把剩菜、水果、生肉分别装盒，口播强调'分类收纳、密封防串味、锁住新鲜'，用'一盒一格'的机制回应串味和杂乱。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "拍摄将不同食材放入不同盒子，密封，放入冰箱。展示分类整齐。强化信任：食品级材质。"
+              "desc": "实拍把装好的保鲜盒整齐码进冰箱，对比之前塑料袋乱塞，空间利用率翻倍；镜头特写密封盖扣紧后倒置不漏水，证明密封效果，再展示拿取方便。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述利益：分类保鲜，防交叉污染。福利：成套购买优惠。行动指令：点击购买。链路承接：CID。"
+              "desc": "画面回到整洁的冰箱，口播'老婆买的这个太好用了，赶紧安排'，给出限时优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
             }
           },
-          "materialId": "037c482d4be8c430acde",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "ebe6943a9ad1aef26338",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 5,
+          "sourceId": "S1R5",
+          "title": "粘钩·不打孔不伤墙退租无痕",
+          "product": "粘钩",
+          "customer": "淦时",
+          "chain": "CID",
+          "tag": "租房痛点 · 免打孔无痕",
+          "spend": 64038.74,
+          "ctr": 1.46,
+          "cvr": 21.45,
+          "cpm": 274.57,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53t4be2aacceapg7uji5vbrhyejwpqetka.f0.mp4",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧是租房墙面被钉子钉得千疮百孔，押金被扣的画面，口播'不打孔不伤墙，退租撕下无痕'，用'退租无痕'与'押金被扣'形成强冲突，抓住租房党、学生宿舍人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面展示门后外套书包堆成山、拖把扫把倒一地，旁白'门后挂满外套书包，收纳救星'，放大'东西没地挂、墙面不能打孔'的焦虑，传统挂钩要么粘不牢要么撕下留胶。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "商品出场，展示多巴胺吸盘挂钩的吸盘结构，往墙上一按就吸住，挂上厚外套和书包，口播强调'免打孔、不伤墙、承重强、无痕撕下'，用'一按即吸'的机制回应租房痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍挂上装满水的水瓶和厚外套，挂钩纹丝不动；再演示撕下时墙面干净无胶痕，对比传统挂钩撕下留胶，证明无痕效果，多场景展示门后、浴室、厨房都能用。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "画面回到整洁的门后和墙面，口播'退租撕下无痕，收纳救星'，给出限时优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
+            }
+          },
+          "materialId": "b061ecdd7c3a46fc94cf",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 6,
+          "sourceId": "S1R6",
+          "title": "分装药盒·老人随身急救便携",
+          "product": "分装药盒",
+          "customer": "武汉市新洲区铃构屯生活用品馆(个体工商户)",
+          "chain": "CID",
+          "tag": "适老关怀 · 便携防潮",
+          "spend": 62825,
+          "ctr": 3.63,
+          "cvr": 8.35,
+          "cpm": 35.44,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3oubaaaacjmanotmb2jvbq5ieab2qeaca.f0.mp4",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧是老人颤巍巍地数着一堆药片，分不清早中晚，口播'热卖！全新款式限时特惠，厂家直发'，用'老人吃药难'与'便携分装'形成反差，抓住有老人需要长期服药的家庭。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面展示药盒里药片混在一起、受潮结块、出门带一大瓶药不方便，旁白'全新款式限时特惠'，放大'老人记不住、药片受潮、出门携带难'的焦虑，传统药瓶无法分装防潮。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "商品出场，展示分装药盒的独立小格和密封防潮结构，把早中晚药片分格装好，口播强调'独立分装、防潮密封、便携随身'，用'一格一顿'的机制回应老人吃药难。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍把药盒放进老人口袋，出门散步随身携带；镜头特写密封盖扣紧后倒置不洒，证明防潮防漏，再展示一周药量一次分装，省去每天数药的麻烦。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "画面回到老人轻松吃药，口播'厂家直发，限时特惠'，给出优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
+            }
+          },
+          "materialId": "42233f28dd46109b65cb",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 7,
+          "sourceId": "S1R7",
+          "title": "抽取式保鲜袋·多买更实惠轻松保鲜",
+          "product": "抽取式保鲜袋",
+          "customer": "秉舟",
+          "chain": "小店",
+          "tag": "量大实惠 · 抽取方便",
+          "spend": 50386.98,
+          "ctr": 3.29,
+          "cvr": 12.83,
+          "cpm": 67.74,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3eubtsaadvaagzpuwznvbsjiehesqgoka.f0.mp4",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧是手一抽就出来一个保鲜袋，口播'保鲜膜套多买更实惠，量大实用，轻松为食物保鲜'，用'一抽即用'与'传统撕扯保鲜膜'形成反差，抓住经常做饭、需要大量保鲜袋的家庭。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面展示传统保鲜膜撕不断、盖不严、剩菜串味的窘境，旁白'量大实用，轻松为食物保鲜'，放大'保鲜麻烦、用量大、不划算'的焦虑，传统保鲜膜无法密封且浪费。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "商品出场，展示抽取式保鲜袋的翻盖设计和食品级材质，一抽一个套在碗上，口播强调'加大款500只、食品级、防尘防串味'，用'一抽一套'的机制回应保鲜需求。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍把剩菜碗套上保鲜袋放进冰箱，对比传统保鲜膜，密封更严实；镜头特写抽取盒放在厨房台面，单手一抽即用，展示500只大容量够用很久。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "画面回到整洁的冰箱和厨房，口播'多买更实惠，量大实用'，给出限时优惠和'拍下即发'，引导点击链接下单，承接小店链路。"
+            }
+          },
+          "materialId": "d567b3e6e0c0cbc16004",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 8,
+          "sourceId": "S1R8",
+          "title": "收纳盒·天冷夏凉被收起来整洁方便",
+          "product": "收纳盒",
+          "customer": "创赢",
+          "chain": "CID",
+          "tag": "换季场景 · 整洁方便",
+          "spend": 45502.97,
+          "ctr": 1.84,
+          "cvr": 13.31,
+          "cpm": 124.02,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nybrkaadnaaaq5mwanvbs3qecvxagfka.f0.mp4",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧是床上堆着夏凉被和换季衣物，乱糟糟没地放，口播'天冷了夏凉被什么的都可以用这个收纳盒收起来整洁又方便'，用'天冷换季'与'乱堆'形成场景冲突，抓住换季整理的家庭用户。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面展示夏凉被、薄毯堆在床尾和沙发，占地方又落灰，旁白'整洁又方便'，放大'换季物品没地放、落灰难打理'的焦虑，传统叠放无法防尘且占空间。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "商品出场，展示四件套收纳盒的折叠结构和防尘盖，把夏凉被叠好放进去，口播强调'大容量、防尘、可折叠、整洁方便'，用'一盒收一季'的机制回应换季收纳。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍把收纳盒塞进床底或衣柜顶部，整齐码放，对比之前乱堆，空间腾出一大半；镜头特写防尘盖扣紧，再展示折叠后不占地方，证明实用。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "画面回到整洁的卧室，口播'整洁又方便，赶紧安排'，给出限时优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
+            }
+          },
+          "materialId": "954bd9fa2b7fdaa7b05c",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
-          "sourceId": "S1R7",
-          "title": "书柜·旋转书架置物架",
-          "product": "书柜",
-          "customer": "小满",
-          "chain": "CID",
-          "tag": "场景痛点 · 儿童房收纳",
-          "spend": 21154.95,
-          "ctr": 0.75,
-          "cvr": 5.68,
-          "cpm": 258.87,
-          "duration": "约128s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3meaasaaa2yaodvtrbvvbwyiebfqqacka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-53187e9d3c02ff3055a7/frame-01.jpg",
-              "time": "7.7s"
-            },
-            {
-              "src": "assets/frames/upload-53187e9d3c02ff3055a7/frame-02.jpg",
-              "time": "30.8s"
-            },
-            {
-              "src": "assets/frames/upload-53187e9d3c02ff3055a7/frame-03.jpg",
-              "time": "55.2s"
-            },
-            {
-              "src": "assets/frames/upload-53187e9d3c02ff3055a7/frame-04.jpg",
-              "time": "79.6s"
-            },
-            {
-              "src": "assets/frames/upload-53187e9d3c02ff3055a7/frame-05.jpg",
-              "time": "105.3s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧画面：儿童房杂乱，话术'儿童房收纳一步到位'，反常识：360度旋转，移动方便。抓住有孩子的家庭。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示玩具、书籍乱放，空间不足。传统书架固定，占地方。放大痛点：收纳难，不美观。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：旋转书架，多层收纳，360度移动。材质稳固，节省空间。解决痛点：分类收纳，灵活取用。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "拍摄旋转书架，展示各层放置书籍玩具，推动移动。对比传统书架。强化信任：承重强。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述利益：旋转省空间，收纳一步到位。福利：今日特价。行动指令：点击购买。链路承接：CID。"
-            }
-          },
-          "materialId": "53187e9d3c02ff3055a7",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 10,
-          "sourceId": "S1R8",
-          "title": "塑料收纳盒·鸡蛋收纳盒",
-          "product": "塑料收纳盒",
-          "customer": "金橙科技",
-          "chain": "CID",
-          "tag": "功能卖点 · 高效收纳",
-          "spend": 20777.3,
-          "ctr": 1.85,
-          "cvr": 15.29,
-          "cpm": 268.92,
-          "duration": "约155s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xqaacaaa7qaolndbc5vbvpaeag6aaaka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fbba3f18b6ccf5d5252a/frame-01.jpg",
-              "time": "9.3s"
-            },
-            {
-              "src": "assets/frames/upload-fbba3f18b6ccf5d5252a/frame-02.jpg",
-              "time": "37.2s"
-            },
-            {
-              "src": "assets/frames/upload-fbba3f18b6ccf5d5252a/frame-03.jpg",
-              "time": "66.6s"
-            },
-            {
-              "src": "assets/frames/upload-fbba3f18b6ccf5d5252a/frame-04.jpg",
-              "time": "96.1s"
-            },
-            {
-              "src": "assets/frames/upload-fbba3f18b6ccf5d5252a/frame-05.jpg",
-              "time": "127.1s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧画面：双层鸡蛋收纳盒，话术'老婆哭着也要买'，反常识：分层大容量，防尘防摔。抓住家庭主妇，注重厨房整洁。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示鸡蛋乱放易碎，冰箱杂乱。传统蛋托容量小。放大痛点：浪费空间，鸡蛋易坏。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场：双层设计，32格，食品级PET材质，高效除菌。解决痛点：分类收纳，防尘防摔。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "拍摄将鸡蛋放入格子，盖上盖子，放入冰箱。展示整齐。强化信任：材质安全。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述利益：分层大容量，防尘防摔。福利：限时优惠。行动指令：点击购买。链路承接：CID。"
-            }
-          },
-          "materialId": "fbba3f18b6ccf5d5252a",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 11,
           "sourceId": "S1R9",
-          "title": "空调防尘罩·加厚全包",
+          "title": "空调防尘罩·加厚通用全包防尘",
           "product": "空调防尘罩",
           "customer": "昆明底阮商贸有限公司",
           "chain": "CID",
-          "tag": "功能卖点 · 防尘防护",
-          "spend": 16673.05,
-          "ctr": 3.01,
-          "cvr": 12.11,
-          "cpm": 19.06,
-          "duration": "约70s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53zaan2aaahyap6d3ybnvbvsae3xeabxka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-de504f5ee1d788a66bb3/frame-01.jpg",
-              "time": "4.2s"
-            },
-            {
-              "src": "assets/frames/upload-de504f5ee1d788a66bb3/frame-02.jpg",
-              "time": "16.8s"
-            },
-            {
-              "src": "assets/frames/upload-de504f5ee1d788a66bb3/frame-03.jpg",
-              "time": "30.1s"
-            },
-            {
-              "src": "assets/frames/upload-de504f5ee1d788a66bb3/frame-04.jpg",
-              "time": "43.3s"
-            },
-            {
-              "src": "assets/frames/upload-de504f5ee1d788a66bb3/frame-05.jpg",
-              "time": "57.3s"
-            }
-          ],
+          "tag": "季节防护 · 通用全包",
+          "spend": 33460.65,
+          "ctr": 2.18,
+          "cvr": 5.62,
+          "cpm": 7.94,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b537aawiaabviaaohtybbvbx6aemt4aczca.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧画面：空调挂机积灰，话术'加厚空调防尘罩'，反常识：全包通用，弹力耐用。抓住注重家电保养的用户。"
+              "desc": "首帧是换季不用的空调挂机落满灰尘，口播'商品热卖中'，用'空调落灰'与'防尘罩全包'形成对比，抓住换季停用空调、担心积灰的家庭用户。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示空调长期不用积灰，难清洗。放大痛点：影响健康，缩短寿命。"
+              "desc": "画面展示空调顶部和出风口积灰，来年开机吹出灰尘，旁白'加厚空调防尘罩壁挂式通用全包'，放大'空调积灰、难清理、影响健康'的焦虑，传统不罩导致灰尘进入内部。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：加厚材质，全包设计，弹力贴合。解决痛点：防尘防污，易清洁。"
+              "desc": "商品出场，展示弹力防尘罩的松紧口和加厚材质，往空调上一套全包住，口播强调'通用全包、加厚耐用、弹力贴合'，用'一套全包'的机制回应防尘需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "拍摄将防尘罩套在空调上，展示贴合。对比未套的空调。强化信任：通用型。"
+              "desc": "实拍把防尘罩套在挂机空调上，松紧口自动收紧，对比之前裸露积灰，证明防尘效果；镜头特写加厚材质和弹力，再展示来年取下空调依旧干净。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述利益：防尘耐用，保护空调。福利：低价促销。行动指令：点击购买。链路承接：CID。"
+              "desc": "画面回到干净的空调，口播'商品热卖中，赶紧安排'，给出限时优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
             }
           },
-          "materialId": "de504f5ee1d788a66bb3",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "c3296aa2f36c1faf513c",
+          "frameStatus": "pending"
         },
         {
-          "rank": 12,
+          "rank": 10,
           "sourceId": "S1R10",
-          "title": "厨具置物架·锅盖餐具收纳",
-          "product": "厨具置物架",
-          "customer": "马到",
+          "title": "塑料置物架·餐桌整洁神器随手可取",
+          "product": "塑料置物架",
+          "customer": "极量",
           "chain": "CID",
-          "tag": "场景痛点 · 厨房收纳",
-          "spend": 16658.91,
-          "ctr": 1.47,
-          "cvr": 13.83,
-          "cpm": 85.27,
-          "duration": "约134s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3liab6aaaleapqvicmzvbuwqed5naah2a.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fa40f3a6cdb5f9c43423/frame-01.jpg",
-              "time": "8.0s"
-            },
-            {
-              "src": "assets/frames/upload-fa40f3a6cdb5f9c43423/frame-02.jpg",
-              "time": "32.2s"
-            },
-            {
-              "src": "assets/frames/upload-fa40f3a6cdb5f9c43423/frame-03.jpg",
-              "time": "57.7s"
-            },
-            {
-              "src": "assets/frames/upload-fa40f3a6cdb5f9c43423/frame-04.jpg",
-              "time": "83.2s"
-            },
-            {
-              "src": "assets/frames/upload-fa40f3a6cdb5f9c43423/frame-05.jpg",
-              "time": "110.0s"
-            }
-          ],
+          "tag": "桌面收纳 · 整洁归位",
+          "spend": 32604.26,
+          "ctr": 1.86,
+          "cvr": 11.27,
+          "cpm": 342.1,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc35abguaacwaad6lupprvbr2aenluae2sa.f0.mp4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧画面：厨房台面杂乱，话术'不锈钢厨具置物架'，反常识：锅盖铲勺都能放。抓住厨房空间小的用户。"
+              "desc": "首帧是餐桌上堆满调料瓶、纸巾、杂物，乱得没法吃饭，口播'收纳好帮手，餐桌整洁神器，轻松归位，随手可取'，用'乱餐桌'与'整洁神器'形成反差，抓住家里餐桌乱、需要桌面收纳的人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示锅盖、铲勺乱放，台面不整洁。放大痛点：取用不便，占空间。"
+              "desc": "画面展示餐桌被瓶瓶罐罐占满，吃饭都要先挪东西，旁白'轻松归位，随手可取'，放大'桌面乱、找东西难、影响用餐'的焦虑，传统平铺摆放无法分类且占地方。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场：不锈钢材质，多层设计，承重强。解决痛点：分类收纳，节省空间。"
+              "desc": "商品出场，展示塑料置物架的多层结构和防滑设计，把调料瓶、纸巾分层放上去，口播强调'多层收纳、整洁归位、随手可取'，用'一层一类'的机制回应桌面杂乱。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "拍摄将锅盖、铲勺放入置物架，展示整齐。对比之前。强化信任：防锈耐用。"
+              "desc": "实拍把置物架放在餐桌一角，调料、纸巾、手机各归其位，对比之前乱堆，桌面腾出一大半；镜头特写拿取方便，再展示可放厨房、书桌多场景。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述利益：一物多用，节省空间。福利：今日特价。行动指令：速来抢购。链路承接：CID。"
+              "desc": "画面回到整洁的餐桌，口播'收纳好帮手，赶紧安排'，给出限时优惠和'拍下即发'，引导点击链接下单，承接CID链路。"
             }
           },
-          "materialId": "fa40f3a6cdb5f9c43423",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1a8994a70c2ff86ea97b",
+          "frameStatus": "pending"
         }
       ]
     },
