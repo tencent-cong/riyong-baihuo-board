@@ -83,12 +83,15 @@ export const SYSTEM_PROMPT = `你是资深的效果广告创意分析师，专�
 【重要】topMaterials 至少 10 条，优先覆盖 10 个不同商品；每条必须原样返回候选数据中的 sourceId，系统将用它确定性回填原始字段。以原始消耗降序为第一排序依据，同商品取消耗最高素材，客户多样性仅作次级条件。spend、指标、链路、客户、素材URL只能取原始数据，不得编造。若原始数据不足10个不同商品，才允许重复商品。product 必须是商品本体名称，title 以商品本体开头，绝不使用纯数字SPUid、公司主体、品牌名称或客户名称作为商品名。frames 固定输出空数组；系统会在每次上传后清空旧帧，并严格按本次文件中的 videoUrl 重新截图和替换。
 【输出前自检】词云是否来自整份文档；是否正好 3 个典型动因；话术是否去品牌且突出功能利他点；商品称谓是否只剩商品本体；Top素材是否以消耗降序、至少10条且覆盖不同商品、含链路和详细五段式；五段式每段是否至少70字且包含画面/话术/冲突/机制/转化作用；是否达到清洁工具样例"看完就能照着拍、照着投"的颗粒度。`;
 
-export function buildUserPrompt(trackName, tableText, extraNotes) {
+export function buildUserPrompt(trackName, tableText, extraNotes, options = {}) {
+  const compactHint = options.compact
+    ? `\n【本次输出体量约束（必须遵守，否则会超长被截断）】\n- topMaterials 只输出 8 条（仍按消耗降序、覆盖不同商品）。\n- golden5 每段 desc 控制在 50~70 个中文字符，仍要写清画面/话术/机制/转化作用。\n- sellingWords 12 个、scripts 6 条、keyPoints 4 条，每条 desc 不超过 60 字。\n- 严禁输出任何 JSON 之外的内容，务必保证 JSON 完整闭合。\n`
+    : "";
   return `【赛道名】${trackName}
 
 【原始投放数据（Excel 转出）】
 ${tableText}
 
-${extraNotes ? `【补充说明/赛道理解】\n${extraNotes}\n` : ""}
+${extraNotes ? `【补充说明/赛道理解】\n${extraNotes}\n` : ""}${compactHint}
 请基于以上数据，产出该赛道的卖点&创意分析 JSON（严格遵循 system 里的结构与铁律，name 必须为"${trackName}"）。`;
 }

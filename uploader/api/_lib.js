@@ -257,36 +257,64 @@ export function mergeTrack(data, track) {
 // ============================================================
 // AI 调用（OpenAI 兼容 Chat Completions）
 // ============================================================
-export async function callAI(systemPrompt, userPrompt) {
+// 输出上限：完整的五段式 track JSON 约 1.2w~1.6w token，模型默认上限（常见 4096）会把 JSON 硬截断
+const AI_MAX_TOKENS = Number(process.env.AI_MAX_TOKENS) || 16000;
+
+// 返回 { content, finishReason }；finishReason === "length" 表示输出被截断
+export async function callAI(systemPrompt, userPrompt, options = {}) {
   if (!ENV.AI_API_KEY) throw new Error("未配置 AI_API_KEY");
-  const r = await fetch(`${ENV.AI_BASE_URL}/chat/completions`, {
+  const payload = {
+    model: ENV.AI_MODEL,
+    temperature: 0.4,
+    max_tokens: options.maxTokens || AI_MAX_TOKENS,
+    messages: [
+      { role: "system", content: systemPrompt },
+      { role: "user", content: userPrompt },
+    ],
+    response_format: { type: "json_object" },
+  };
+  let r = await fetch(`${ENV.AI_BASE_URL}/chat/completions`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${ENV.AI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: ENV.AI_MODEL,
-      temperature: 0.4,
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt },
-      ],
-      response_format: { type: "json_object" },
-    }),
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${ENV.AI_API_KEY}` },
+    body: JSON.stringify(payload),
   });
+  // 部分兼容端点不接受过大的 max_tokens（返回 400），去掉该参数再试一次
+  if (r.status === 400) {
+    const errText = await r.text();
+    if (/max_tokens/i.test(errText)) {
+      delete payload.max_tokens;
+      r = await fetch(`${ENV.AI_BASE_URL}/chat/completions`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${ENV.AI_API_KEY}` },
+        body: JSON.stringify(payload),
+      });
+    } else {
+      throw new Error(`AI 调用失败: 400 ${errText}`);
+    }
+  }
   if (!r.ok) throw new Error(`AI 调用失败: ${r.status} ${await r.text()}`);
   const j = await r.json();
-  const content = j.choices?.[0]?.message?.content || "";
-  return content;
+  const choice = j.choices?.[0] || {};
+  return {
+    content: choice.message?.content || "",
+    finishReason: choice.finish_reason || "",
+  };
 }
 
-// 从 AI 返回里稳妥提取 JSON 对象
-export function extractJson(text) {
+// 从 AI 返回里稳妥提取 JSON 对象；支持传入 callAI 的返回对象或纯文本
+export function extractJson(input) {
+  const text = typeof input === "string" ? input : String(input?.content || "");
+  const finishReason = typeof input === "string" ? "" : input?.finishReason;
   try { return JSON.parse(text); } catch {}
   const m = text.match(/\{[\s\S]*\}/);
   if (m) { try { return JSON.parse(m[0]); } catch {} }
-  throw new Error("AI 未返回可解析的 JSON");
+  const tail = text.trim().slice(-160).replace(/\s+/g, " ");
+  if (finishReason === "length" || (text.length > 2000 && !text.trim().endsWith("}"))) {
+    const err = new Error(`AI 输出超长被截断（${text.length} 字），JSON 不完整。结尾片段：…${tail}`);
+    err.code = "AI_TRUNCATED";
+    throw err;
+  }
+  throw new Error(`AI 未返回可解析的 JSON（长度 ${text.length}）。结尾片段：…${tail}`);
 }
 
 // ---------- 通用：读 body / CORS / 鉴权 ----------

@@ -196,9 +196,23 @@ export default async function handler(req, res) {
     if (!analysis.text.trim())
       return res.status(400).json({ error: "Excel 内容为空或无法解析" });
 
-    // 2) 调 AI 产出 track JSON
-    const aiRaw = await callAI(SYSTEM_PROMPT, buildUserPrompt(trackName.trim(), analysis.text, notes));
-    const track = extractJson(aiRaw);
+    // 2) 调 AI 产出 track JSON；若输出超长被截断，自动改用精简体量再试一次
+    const name0 = trackName.trim();
+    let track;
+    try {
+      const aiRaw = await callAI(SYSTEM_PROMPT, buildUserPrompt(name0, analysis.text, notes));
+      track = extractJson(aiRaw);
+    } catch (firstError) {
+      const truncated = firstError.code === "AI_TRUNCATED" || /截断|可解析的 JSON/.test(String(firstError.message));
+      if (!truncated) throw firstError;
+      console.warn("AI 首次输出不完整，改用精简模式重试:", firstError.message);
+      const aiRetry = await callAI(SYSTEM_PROMPT, buildUserPrompt(name0, analysis.text, notes, { compact: true }));
+      try {
+        track = extractJson(aiRetry);
+      } catch (secondError) {
+        throw new Error(`AI 两次输出均不完整。首次：${firstError.message}；精简重试：${secondError.message}`);
+      }
+    }
     track.name = trackName.trim(); // 强制对齐赛道名
     if (TRACK_KEYS[track.name]) track.key = TRACK_KEYS[track.name];
     if (Array.isArray(track.topMaterials)) {
