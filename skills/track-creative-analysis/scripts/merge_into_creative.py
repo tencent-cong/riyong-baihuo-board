@@ -90,12 +90,13 @@ def merge_track(data, track):
     for t in data.get("tracks", []):
         if t.get("name") == name:
             t.update(payload)                 # 深度保留：只覆盖 payload 里的键
+            t["uploadedAt"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
             if "owner" in track and track["owner"]:
                 t["owner"] = track["owner"]
             return ("update", name)
 
     # 没有同名赛道 → 新增
-    new_t = {"name": name}
+    new_t = {"name": name, "uploadedAt": datetime.datetime.now(datetime.timezone.utc).isoformat()}
     key = track.get("key")
     if key:
         new_t["key"] = key

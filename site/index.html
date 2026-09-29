@@ -247,9 +247,17 @@ document.getElementById('selChips').innerHTML =
   topCats.slice(0,6).map(([k,v])=>`<span class="chip">${k} · ${v}</span>`).join('');
 
 function box(n,l){return `<div class="kbox"><div class="n">${n}</div><div class="l">${l}</div></div>`}
+function monthWeek(dateText){
+  const match=String(dateText||'').match(/\d{4}-(\d{1,2})-(\d{1,2})/);
+  if(!match) return '待更新';
+  return `M${Number(match[1])}W${Math.min(4,Math.ceil(Number(match[2])/7))}`;
+}
+function updateBadge(dateText){
+  return `<span class="update-badge" title="最后上传：${String(dateText||'待更新').slice(0,10)}">更新 ${monthWeek(dateText)}</span>`;
+}
 
 /* 分链路 Top3：按消耗降序；ROI 作为同消耗下的辅助排序 */
-function top3col(title,color,items,linkKey){
+function top3col(title,color,items,linkKey,uploadedAt){
   const sorted = [...items].sort((a,b)=>(b.spend||0)-(a.spend||0) || (b.roi||0)-(a.roi||0));
   const rows = sorted.slice(0,3).map((x,i)=>`
     <a class="t3" href="selection.html?view=link&link=${linkKey}" onclick="event.stopPropagation()">
@@ -258,12 +266,12 @@ function top3col(title,color,items,linkKey){
       <div class="mid"><div class="nm">${x.name}</div><div class="sub2">${x.leaf||x.category2}</div></div>
       <div class="rgt"><div class="pr">ROI ${x.roi||'—'} · ¥${x.price||'—'}</div></div>
     </a>`).join('');
-  return `<div class="t3col"><div class="t3h" style="color:${color}">${title}</div>${rows}</div>`;
+  return `<div class="t3col"><div class="t3h" style="color:${color}"><span>${title}</span>${updateBadge(uploadedAt)}</div>${rows}</div>`;
 }
 document.getElementById('selTop3').innerHTML =
-top3col('CID/小程序 · 外循环','#4b8bf5',nonC,'nonClosed')+
-    top3col('小店广告 · 内循环','#37c98a',qyt,'qyt')+
-    top3col('ADQ · 内循环','#9b6cf0',adq,'adq');
+  top3col('CID/小程序 · 外循环','#4b8bf5',nonC,'nonClosed',S.nonClosed.uploadedAt)+
+  top3col('小店广告 · 内循环','#37c98a',qyt,'qyt',S.closed.channels.quanyutong.uploadedAt)+
+  top3col('ADQ · 内循环','#9b6cf0',adq,'adq',S.closed.channels.adq.uploadedAt);
 
 /* 当前/临近热门节点：优先"当前正处于窗口内"的节点，其次临近 */
 function parseWin(n){
@@ -292,6 +300,7 @@ function pickNodes(){
 document.getElementById('selNodes').innerHTML = pickNodes().map(n=>`
   <a class="node-card" href="selection.html?view=cycle&node=${encodeURIComponent(n.id)}" onclick="event.stopPropagation()">
     <div class="nh"><span class="nm">${n.name}</span><span class="cal-type ${n.type}">${n.type}</span></div>
+    <div class="node-update">${updateBadge(S.cycles?.[n.id]?.uploadedAt)}</div>
     <div class="win">🗓 ${n.window||n.win||''}</div>
     <div class="cats">${(n.categories||[]).slice(0,4).map(c=>`<span class="chip">${c}</span>`).join('')}</div>
   </a>`).join('');
@@ -351,7 +360,7 @@ document.getElementById('creTracks').innerHTML = CREATIVE_GROUPS.map(group=>{
       ? `<div class="tm-driver">🎯 当期动因：<b>${t.sellingContext[0].driver}</b></div>` : '';
     const m=t.metrics||{};
     return `<a class="track-mini-card" href="creative.html?track=${config.key}" onclick="event.stopPropagation()">
-      <div class="tm-h">${config.name}</div>
+      <div class="tm-h"><span>${config.name}</span>${updateBadge(t.uploadedAt)}</div>
       ${ctx}
       <div class="tm-words">${words}</div>
       <div class="tm-metrics">

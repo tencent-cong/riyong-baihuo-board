@@ -554,7 +554,8 @@ window.SELECTION_DATA = {
         "category2": "生活日用-其他",
         "dupCount": 1
       }
-    ]
+    ],
+    "uploadedAt": "2026-09-28T00:00:00+08:00"
   },
   "closed": {
     "label": "闭环链路（小店直购）",
@@ -941,7 +942,8 @@ window.SELECTION_DATA = {
             "category2": "生活日用-其他",
             "dupCount": 1
           }
-        ]
+        ],
+        "uploadedAt": "2026-09-22T00:00:00+08:00"
       },
       "adq": {
         "label": "ADQ",
@@ -1342,7 +1344,8 @@ window.SELECTION_DATA = {
             "category2": "生活日用-其他",
             "dupCount": 1
           }
-        ]
+        ],
+        "uploadedAt": "2026-09-24T00:00:00+08:00"
       }
     }
   },
@@ -2030,7 +2033,8 @@ window.SELECTION_DATA = {
           "category2": "生活日用-功效品",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-20T00:00:00+08:00"
     },
     "meiyu": {
       "label": "梅雨季",
@@ -2485,7 +2489,8 @@ window.SELECTION_DATA = {
           "category2": "生活日用-清洁工具",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-21T00:00:00+08:00"
     },
     "xiaoshu_dashu": {
       "label": "小暑 / 大暑",
@@ -2940,7 +2945,8 @@ window.SELECTION_DATA = {
           "category2": "餐厨水具-餐具水具",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-22T00:00:00+08:00"
     },
     "kaixue_kaigong": {
       "label": "开学季 / 开工季",
@@ -3395,7 +3401,8 @@ window.SELECTION_DATA = {
           "category2": "餐厨水具-厨具",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-22T00:00:00+08:00"
     },
     "bailu_qiufen": {
       "label": "白露 / 秋分",
@@ -3850,7 +3857,8 @@ window.SELECTION_DATA = {
           "category2": "生活日用-功效品",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-22T00:00:00+08:00"
     },
     "liqiu_chushu": {
       "label": "立秋 / 处暑",
@@ -4305,7 +4313,8 @@ window.SELECTION_DATA = {
           "category2": "餐厨水具-餐具水具",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-22T00:00:00+08:00"
     },
     "zhongqiu_guoqing": {
       "label": "中秋 / 国庆",
@@ -4760,7 +4769,8 @@ window.SELECTION_DATA = {
           "category2": "生活日用-收纳用品",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-22T00:00:00+08:00"
     },
     "hanlu_shuangjiang": {
       "label": "寒露 / 霜降",
@@ -5215,7 +5225,8 @@ window.SELECTION_DATA = {
           "category2": "生活日用-其他",
           "dupCount": 1
         }
-      ]
+      ],
+      "uploadedAt": "2026-07-22T00:00:00+08:00"
     }
   }
 };

@@ -112,6 +112,20 @@ function getLinkItems(key){
   if(key==='adq') return S.closed.channels.adq.items;
   return [];
 }
+function getLinkData(key){
+  if(key==='nonClosed') return S.nonClosed;
+  if(key==='qyt') return S.closed.channels.quanyutong;
+  if(key==='adq') return S.closed.channels.adq;
+  return {};
+}
+function monthWeek(dateText){
+  const match=String(dateText||'').match(/\d{4}-(\d{1,2})-(\d{1,2})/);
+  if(!match) return '待更新';
+  return `M${Number(match[1])}W${Math.min(4,Math.ceil(Number(match[2])/7))}`;
+}
+function updateBadge(dateText){
+  return `<span class="update-badge" title="最后上传：${String(dateText||'待更新').slice(0,10)}">更新 ${monthWeek(dateText)}</span>`;
+}
 function fmt(v){ return (v||v===0)? v : '—'; }
 function esc(s){return (s||'').replace(/</g,'&lt;')}
 
@@ -205,8 +219,14 @@ function catId(cat){ return 'cat_' + encodeURIComponent(cat).replace(/%/g,''); }
 const LINK_QUOTA = 60, TRACK_QUOTA = 10, TREND_CAT = '外部趋势机会品推荐';
 
 function renderLink(key){
-  const items = getLinkItems(key);
+  const linkData = getLinkData(key);
+  const items = linkData.items || [];
   document.getElementById('nonClosedFrequency').style.display = key==='nonClosed' ? '' : 'none';
+  document.querySelectorAll('#linkTabs .tab').forEach(tab=>{
+    const label = tab.dataset.label || tab.textContent.replace(/\s*·?\s*更新\s*M\d+W\d+.*$/, '').trim();
+    tab.dataset.label = label;
+    tab.innerHTML = `${label} ${tab.dataset.l===key ? updateBadge(linkData.uploadedAt) : ''}`;
+  });
   // by 二级赛道分组；组内商品仅按消耗降序，消耗相同时按 ROI
   const groups = {};
   items.forEach(x=>{ (groups[x.category2]=groups[x.category2]||[]).push(x); });
@@ -350,10 +370,12 @@ function focusBlock(node, isNow){
   const list = items.length
     ? `<div class="fx-grid">${items.map(focusMini).join('')}</div>`
     : `<div class="notice" style="margin:10px 0 0">该节点暂无选品数据，请上传后查看榜单。</div>`;
+  const cycleData = S.cycles?.[node.id] || {};
   return `<div class="focus-card ${isNow?'now':''}">
     <div class="fc-head">
       <span class="fc-badge ${isNow?'live':''}">${isNow?'当前正处于':'即将到来'}</span>
       <span class="fc-nm">${node.name}</span>
+      ${updateBadge(cycleData.uploadedAt)}
       <span class="cal-type ${node.type}">${node.type}</span>
       <span class="fc-win">🗓 ${node.window||''}</span>
     </div>

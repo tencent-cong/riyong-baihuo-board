@@ -748,7 +748,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-15T00:00:00+08:00"
     },
     {
       "name": "生活日用-清洁工具",
@@ -1529,7 +1530,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-20T00:00:00+08:00"
     },
     {
       "name": "生活日用-功效品",
@@ -2426,7 +2428,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-08-11T00:00:00+08:00"
     },
     {
       "name": "生活日用-收纳用品",
@@ -3213,7 +3216,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-20T00:00:00+08:00"
     },
     {
       "name": "餐厨水具-厨具",
@@ -3997,7 +4001,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-14T00:00:00+08:00"
     },
     {
       "name": "餐厨水具-餐具水具",
@@ -4781,7 +4786,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-15T00:00:00+08:00"
     },
     {
       "name": "生活日用-其他",
@@ -6244,7 +6250,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-29T00:00:00+08:00"
     },
     {
       "name": "家居家纺-家居工艺品",
@@ -7151,7 +7158,8 @@ window.CREATIVE_DATA = {
           "frameStatus": "ready",
           "sourceType": "video"
         }
-      ]
+      ],
+      "uploadedAt": "2026-09-20T00:00:00+08:00"
     }
   ]
 };

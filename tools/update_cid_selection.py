@@ -7,7 +7,7 @@
 用法: python3 tools/update_cid_selection.py <xlsx路径> [期次标签]
 """
 import pandas as pd, json, math, re, sys, os
-from datetime import date
+from datetime import date, datetime, timezone
 from urllib.parse import quote
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -134,6 +134,7 @@ data["meta"].pop("updatedAt", None)
 data["meta"]["source"] = os.path.basename(SRC)
 data["meta"]["cidTotal"] = len(df)
 data["nonClosed"]["items"] = final_items
+data["nonClosed"]["uploadedAt"] = datetime.now(timezone.utc).isoformat()
 data["nonClosed"]["desc"] = "京东CID爆品专区在跑品 + 大盘外部趋势机会品"
 
 with open(SEL_JS, "w", encoding="utf-8") as fp:

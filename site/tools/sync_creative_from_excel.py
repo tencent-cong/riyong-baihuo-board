@@ -150,6 +150,7 @@ def apply_workbook(xlsx, name2track):
         parsed = parse_track_sheet(wb[sh])
         if parsed:
             name2track[sh].update(parsed)   # 只覆盖填写字段，其余（Top素材等）保留
+            name2track[sh]["uploadedAt"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
             updated.append(sh)
     return updated
 

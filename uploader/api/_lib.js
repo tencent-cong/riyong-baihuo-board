@@ -246,6 +246,7 @@ export function mergeTrack(data, track) {
     name,
     key: track.key || existing?.key || "",
     owner: track.owner || "",
+    uploadedAt: new Date().toISOString(),
     ...Object.fromEntries(OWNED_FIELDS.map(field => [field, track[field] ?? (field === "metrics" ? {} : [])])),
     topMaterials: replaceTopMaterials(name, Array.isArray(track.topMaterials) ? track.topMaterials : [], existing?.topMaterials || []),
   };
@@ -410,9 +411,13 @@ export function mergeSelection(data, trackName, newItems) {
   data.closed.channels.quanyutong = data.closed.channels.quanyutong || { items: [] };
   data.closed.channels.adq = data.closed.channels.adq || { items: [] };
 
+  const uploadedAt = new Date().toISOString();
   data.nonClosed.items = replaceItems(newItems.nonClosed);
+  data.nonClosed.uploadedAt = uploadedAt;
   data.closed.channels.quanyutong.items = replaceItems(newItems.quanyutong);
+  data.closed.channels.quanyutong.uploadedAt = uploadedAt;
   data.closed.channels.adq.items = replaceItems(newItems.adq);
+  data.closed.channels.adq.uploadedAt = uploadedAt;
 
   return { nonClosedCount: data.nonClosed.items.length, closedCount: data.closed.channels.quanyutong.items.length + data.closed.channels.adq.items.length };
 }
@@ -435,7 +440,7 @@ export function mergeSelectionByTarget(data, module, target, label, items) {
     if (!cycleTargets.has(target)) throw new Error("未知的热点周期或节气节点");
     data.cycles = data.cycles || {};
     const list = replaceItems(25);
-    data.cycles[target] = { label, items: list };
+    data.cycles[target] = { label, uploadedAt: new Date().toISOString(), items: list };
     return { module, target, label, count: incoming.length, total: list.length };
   }
 
@@ -447,10 +452,17 @@ export function mergeSelectionByTarget(data, module, target, label, items) {
   data.closed.channels.adq = data.closed.channels.adq || { items: [] };
 
   const list = replaceItems(60);
-  if (target === "nonClosed") data.nonClosed.items = list;
-  else if (target === "quanyutong") data.closed.channels.quanyutong.items = list;
-  else if (target === "adq") data.closed.channels.adq.items = list;
-  else throw new Error("未知的分链路榜单归属");
+  const uploadedAt = new Date().toISOString();
+  if (target === "nonClosed") {
+    data.nonClosed.items = list;
+    data.nonClosed.uploadedAt = uploadedAt;
+  } else if (target === "quanyutong") {
+    data.closed.channels.quanyutong.items = list;
+    data.closed.channels.quanyutong.uploadedAt = uploadedAt;
+  } else if (target === "adq") {
+    data.closed.channels.adq.items = list;
+    data.closed.channels.adq.uploadedAt = uploadedAt;
+  } else throw new Error("未知的分链路榜单归属");
 
   return { module: "link", target, label, count: incoming.length, total: list.length };
 }

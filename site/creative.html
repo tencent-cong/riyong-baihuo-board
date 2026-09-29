@@ -124,6 +124,14 @@ function fmtMetric(value){
   const number = Number(value);
   return Number.isFinite(number) ? number.toFixed(2) : '—';
 }
+function monthWeek(dateText){
+  const match=String(dateText||'').match(/\d{4}-(\d{1,2})-(\d{1,2})/);
+  if(!match) return '待更新';
+  return `M${Number(match[1])}W${Math.min(4,Math.ceil(Number(match[2])/7))}`;
+}
+function updateBadge(dateText){
+  return `<span class="update-badge" title="最后上传：${String(dateText||'待更新').slice(0,10)}">更新 ${monthWeek(dateText)}</span>`;
+}
 
 /* ===== 二层：赛道概览卡片 ===== */
 function trackCard(config){
@@ -138,7 +146,7 @@ function trackCard(config){
   const ctx = (t.sellingContext&&t.sellingContext[0])
     ? `<div class="tc-driver">🎯 当期动因：<b>${t.sellingContext[0].driver}</b></div>` : '';
   return `<div class="tofu" style="cursor:pointer" onclick="showDetail('${config.key}')">
-    <h2 style="font-size:18px">${config.name}</h2>
+    <div class="track-card-head"><h2 style="font-size:18px">${config.name}</h2>${updateBadge(t.uploadedAt)}</div>
     ${ctx}
     <div class="desc" style="min-height:auto">主要卖点：</div>
     <div class="chips">${words}</div>
@@ -295,7 +303,7 @@ function showDetail(key){
   const {track:t,config} = resolved;
   document.getElementById('overview').style.display='none';
   document.getElementById('detail').style.display='';
-  document.getElementById('dTitle').textContent = config.name + ' · 卖点 & 创意详情';
+  document.getElementById('dTitle').innerHTML = `${config.name} · 卖点 & 创意详情 ${updateBadge(t.uploadedAt)}`;
   // 赛道快速切换
   document.getElementById('trackSwitch').innerHTML = TRACK_CONFIGS.filter(findTrack).map(item=>
     `<div class="tab ${item.key===config.key?'on':''}" onclick="showDetail('${item.key}')">${item.name}</div>`).join('');

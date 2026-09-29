@@ -4,7 +4,7 @@
 用法: python3 build_selection_data.py
 """
 import pandas as pd, json, math, re, os
-from datetime import date
+from datetime import date, datetime, timezone
 from urllib.parse import quote
 
 SRC = "/Users/congjiang/Downloads/2026年日百家居行业选品台.xlsx"
@@ -145,6 +145,7 @@ def enrich_images(items):
 cid_final = enrich_images(dedup(topn(cid_items, 200)))
 qyt_final = enrich_images(dedup(topn(qyt, 200)))
 adq_final = enrich_images(dedup(topn(adq, 200)))
+uploaded_at = datetime.now(timezone.utc).isoformat()
 
 data = {
 "meta": {"period": f"{PERIOD_YEAR}年{int(PERIOD_MONTH)}月榜单（真实数据自选品台）", "dataUpdatedAt": date.today().isoformat(),
@@ -152,11 +153,11 @@ data = {
              "cidTotal": len(cid_items), "liveTotal": len(live),
              "imageNote": "商品参考图由系统按商品名自动联网生成，行业运营仅需维护商品名等基础信息"},
     "nonClosed": {"label": "非闭环链路（CID / 小程序）", "desc": "京东CID爆品专区在跑品",
-                  "items": cid_final},
+                  "uploadedAt": uploaded_at, "items": cid_final},
     "closed": {"label": "闭环链路（小店直购）", "desc": "小店直购专区在跑品，分全域通 / ADQ 两渠道",
                "channels": {
-                   "quanyutong": {"label": "全域通", "items": qyt_final},
-                   "adq": {"label": "ADQ", "items": adq_final}}}
+                   "quanyutong": {"label": "全域通", "uploadedAt": uploaded_at, "items": qyt_final},
+                   "adq": {"label": "ADQ", "uploadedAt": uploaded_at, "items": adq_final}}}
 }
 
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
