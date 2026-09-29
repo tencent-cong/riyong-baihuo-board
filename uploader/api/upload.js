@@ -17,7 +17,8 @@ const FIELD_ALIASES = {
   spuId: ["SPUid(及名称)", "SPUID(及名称)", "spuid"],
   spuName: ["SPUid(及名称)(翻译后)", "SPUID(及名称)(翻译后)", "SPU名称"],
   copy: ["创意文案", "素材文案", "口播文案", "字幕"],
-  materialUrl: ["素材URL(创意唯一)", "素材URL", "视频URL", "创意URL"],
+  // 素材创意 URL 统一以源文件的翻译后预览字段为准，避免误用其他 URL 列。
+  materialUrl: ["素材MD5示意(预览)(翻译后)"],
   duration: ["时长", "素材时长", "视频时长"],
   spend: ["消耗(元)", "消耗", "总消耗"],
 };
