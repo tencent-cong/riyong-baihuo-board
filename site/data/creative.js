@@ -755,12 +755,13 @@ window.CREATIVE_DATA = {
       "name": "生活日用-清洁工具",
       "key": "clean",
       "owner": "",
+      "uploadedAt": "2026-09-29T08:37:51.966Z",
       "metrics": {
-        "creativeCount": 5001,
-        "ctr": 2.64,
-        "play3s": 68.56,
-        "cvr": 8.76,
-        "cpm": 42.45
+        "creativeCount": 51,
+        "ctr": 2.83,
+        "play3s": 69.76,
+        "cvr": 8.32,
+        "cpm": 41.17
       },
       "sellingWords": [
         {
@@ -768,64 +769,64 @@ window.CREATIVE_DATA = {
           "weight": 100
         },
         {
-          "word": "一拖净",
-          "weight": 95
-        },
-        {
-          "word": "干湿两用",
-          "weight": 92
-        },
-        {
-          "word": "免打孔",
-          "weight": 88
+          "word": "一擦即净",
+          "weight": 96
         },
         {
           "word": "吸水不掉毛",
+          "weight": 92
+        },
+        {
+          "word": "免拆洗",
+          "weight": 88
+        },
+        {
+          "word": "久放不硬",
           "weight": 85
         },
         {
-          "word": "强力去油污",
+          "word": "强力去污",
           "weight": 82
         },
         {
-          "word": "可伸缩",
-          "weight": 78
+          "word": "无死角清洁",
+          "weight": 79
         },
         {
-          "word": "缝隙死角清洁",
-          "weight": 75
+          "word": "防溅水",
+          "weight": 76
+        },
+        {
+          "word": "免安装",
+          "weight": 73
         },
         {
           "word": "加厚耐用",
-          "weight": 72
+          "weight": 70
         },
         {
-          "word": "防堵防臭",
-          "weight": 68
+          "word": "不留水痕",
+          "weight": 67
         },
         {
-          "word": "增压出水",
-          "weight": 65
+          "word": "一键换头",
+          "weight": 64
         },
         {
-          "word": "过滤杂质",
-          "weight": 62
+          "word": "可自由剪裁",
+          "weight": 61
         },
         {
           "word": "自动收口",
           "weight": 58
         },
         {
-          "word": "不留水印",
+          "word": "增压按摩",
           "weight": 55
         },
         {
-          "word": "省空间收纳",
+          "word": "防霉抗菌",
           "weight": 52
-        },
-        {
-          "word": "防虫防蚊",
-          "weight": 48
         }
       ],
       "painWords": [
@@ -834,704 +835,488 @@ window.CREATIVE_DATA = {
           "weight": 90
         },
         {
-          "word": "油污难清理",
-          "weight": 85
+          "word": "棉头发硬发臭",
+          "weight": 86
         },
         {
-          "word": "缝隙死角脏",
-          "weight": 80
+          "word": "纱窗拆洗麻烦",
+          "weight": 82
         },
         {
-          "word": "水槽下水慢",
-          "weight": 75
+          "word": "水花四溅湿台面",
+          "weight": 78
         },
         {
-          "word": "水龙头水垢多",
+          "word": "油污擦不净",
+          "weight": 74
+        },
+        {
+          "word": "垃圾袋提拎脏手",
           "weight": 70
-        },
-        {
-          "word": "浴室台面乱",
-          "weight": 65
         }
       ],
       "sellingContext": [
         {
-          "driver": "厨房重油污·灶台/油烟机清洁崩溃",
-          "need": "想用一张/一刷就搞定油污，不伤手不伤锅，省时省力",
+          "driver": "梅雨/回南天·地面返潮黏腻",
+          "need": "拖完地半天不干、棉头久放发硬发臭，想要一把免手洗、久放不硬、一拖即干的拖把",
           "words": [
-            "强力去油污",
             "免手洗",
-            "一擦即净"
+            "久放不硬",
+            "一擦即净",
+            "吸水不掉毛"
           ]
         },
         {
-          "driver": "梅雨/回南天·地面返潮湿滑",
-          "need": "拖地后速干不打滑，不用手拧拖布，干湿两用",
+          "driver": "厨房重油污·灶台缝隙积垢",
+          "need": "抹布越擦越油、缝隙刷不到，想要吸油不挂油、能钻进缝隙的清洁工具",
           "words": [
-            "免手洗",
-            "干湿两用",
-            "一拖净"
+            "强力去污",
+            "无死角清洁",
+            "免拆洗",
+            "加厚耐用"
           ]
         },
         {
-          "driver": "浴室/卫生间死角·缝隙发黑发霉",
-          "need": "免拆洗、可伸缩、能深入缝隙的清洁工具，免打孔收纳",
+          "driver": "高层住户·纱窗/水龙头难拆难洗",
+          "need": "纱窗不敢拆、水龙头出水四溅，想要免拆洗、防溅水、免安装的清洁小件",
           "words": [
-            "缝隙死角清洁",
-            "可伸缩",
-            "免打孔"
+            "免拆洗",
+            "防溅水",
+            "免安装",
+            "可自由剪裁"
           ]
         }
       ],
       "scripts": [
-        "免手洗，脏水一按就走",
-        "一拖即净，干湿两用，地板速干不打滑",
-        "免打孔，一贴就牢，浴室台面瞬间整洁",
-        "加厚吸油棉，油烟机顶部油污一贴搞定",
-        "双面刷头，缝隙死角一刷就干净",
-        "水槽弹跳芯，下水快不堵塞，防虫防臭"
+        "同样是拖把，筒式款好在哪里？来看看你就知道了",
+        "胶棉头发硬又发臭？这款炮筒款耐用还好打理",
+        "别乱买拖把！用过筒式不硬棉才知道什么叫做真正的好用",
+        "婆婆真会买东西！就是这个迷你拖把，清洗桌面再也不脏手了",
+        "一刷两用擦纱窗，干净省力又清爽",
+        "免安装净水器，轻松过滤杂质，安心直饮每一口好水",
+        "去油洗碗布，吸油不挂油，加厚更耐用",
+        "双头钢丝灶台刷，灵活清洁缝隙与平面，油污轻松刷净"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用脏乱差画面（油污灶台、湿滑地面、发黑缝隙）与清洁后效果直接对比，配合'婆婆真会买''老婆把旧花洒都扔了'等生活化冲突话术，抓住被家务困扰的人群。"
+          "desc": "开场3秒用'旧拖把发硬发臭'与'新拖把一拖即净'做前后对比，或直接抛出'同样是拖把，筒式款好在哪里'的悬念提问，配合脏水桶、黑棉头特写制造视觉冲击，抓住正在为拖地弯腰、洗棉头发愁的家庭主妇人群。"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定梅雨/回南天、大扫除、春节前等节点，放大'地面返潮''油污爆发''缝隙发霉'等季节性痛点，用'不用弯腰''不用搬梯子'等省力诉求触发共鸣。"
+          "desc": "绑定梅雨/回南天地面返潮、厨房重油污、年底大扫除等节点，放大'拖完地不干''棉头久放发硬发臭''纱窗拆洗麻烦'等场景痛点，用具体生活细节引发共鸣，让用户觉得'说的就是我家'。"
         },
         {
           "title": "福利/紧迫",
-          "desc": "用'厂家直销''今日特价''拍一发三''限时特惠'等价格锚点，配合'工资允许一定要买''后悔没早买'等情绪话术，制造错过即涨价的紧迫感。"
+          "desc": "用'拍一发十''买一送一''19.9元2个''29.9抢加大款'等价格锚点制造超值感，配合'厂家直发''今日特价''加急发货'等限时话术，叠加赠布、赠配件等福利，降低决策门槛并催促下单。"
         },
         {
           "title": "明星/IP",
-          "desc": "部分素材使用'郭涛都在用的洗脸巾拖把'等明星/IP背书，或'五星级酒店同款'场景化信任，建立品质可靠、跟风购买的心理暗示。"
+          "desc": "部分素材借'杨幂同款'等明星同款标签建立信任链，或用'婆婆真会买东西''活了大半辈子才知道'等素人/长辈口碑背书，通过真实使用场景和达人推荐强化产品可信度，缩短转化路径。"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "增压花洒·源头厂家直销特价",
-          "product": "增压花洒",
-          "customer": "开心集团",
-          "chain": "CID",
-          "tag": "价格促销 · 厂家直销",
-          "spend": 81043.72,
-          "ctr": 1.64,
-          "cvr": 9.02,
-          "cpm": 113.88,
-          "duration": "约227s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3neboiaacuuaf6dunh5vbq2ie4ruqfzca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-13dd7f330a7052c6507e/frame-01.jpg",
-              "time": "13.6s"
-            },
-            {
-              "src": "assets/frames/upload-13dd7f330a7052c6507e/frame-02.jpg",
-              "time": "54.5s"
-            },
-            {
-              "src": "assets/frames/upload-13dd7f330a7052c6507e/frame-03.jpg",
-              "time": "97.6s"
-            },
-            {
-              "src": "assets/frames/upload-13dd7f330a7052c6507e/frame-04.jpg",
-              "time": "140.8s"
-            },
-            {
-              "src": "assets/frames/upload-13dd7f330a7052c6507e/frame-05.jpg",
-              "time": "186.2s"
-            }
-          ],
+          "title": "水龙头过滤器·免安装直饮净水",
+          "product": "水龙头过滤器",
+          "customer": "意开史蒂夫",
+          "chain": "直播",
+          "tag": "功能演示 · 免安装过滤",
+          "spend": 25157.88,
+          "ctr": 2.92,
+          "cvr": 6.59,
+          "cpm": 61.89,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53bmchgaaeu4admlrtbnvb4cyeomfqi42a.f0.mp4?dis_k=2c0dd7d024da2b7ec7e1df2509a5473f&dis_t=1789540390&m=25310b10dcaa61189407ca46019288f7&sha256=54cd21c01ab5ba92db18b614ab3b6b0df9c0634e7128ced8abf7fe92cbf7b227",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧直接展示花洒喷头特写，水花四溅，字幕'源头厂家，厂家直销，今日特价'，用价格反差和工厂直供的信任感抓住对价格敏感的家庭用户，开场即强调'省去中间商'。"
+              "desc": "首帧特写水龙头流出泛黄浑浊的自来水，镜头怼近水杯接水，画外音'你家的水真的干净吗？'制造水质焦虑，反常识冲突在于用户以为自来水很干净，实则杂质肉眼可见，直接抓住关注饮水健康的家庭人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切换至老旧花洒出水小、水流分叉的尴尬场景，旁白'家里水压不够，洗澡像滴水'，放大洗澡不爽的日常焦虑，传统花洒无法调节水压，需求被激发。"
+              "desc": "画面展示烧水壶内壁厚厚水垢、洗菜时泥沙残留，旁白'杂质、余氯、泥沙天天喝进肚子里'，放大对家人健康的担忧；传统净水器需安装、占空间、要用电，很多人嫌麻烦放弃，需求被进一步放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示增压花洒的300孔出水面板和硅胶按摩刷头，演示一键切换三挡模式，强调'增压大出水，洗澡超爽'，用结构特写证明功能，解决水压不足痛点。"
+              "desc": "商品出场，直接拧在水龙头上，展示'免安装、不用电、不废水'三大卖点，镜头对比过滤前后水质，强调'拍一发十'的高性价比，用多层过滤结构逐项回应杂质、余氯、泥沙痛点，建立'随手就能装'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍安装过程：拧下旧花洒，换上新品，打开开关，水流瞬间变大变密，对比前后水压差异，并展示硅胶刷头按摩背部，强化'洗澡舒服'的体验证据。"
+              "desc": "实拍安装步骤：拆下原水嘴、旋上过滤器、打开开关，前后水质对照一目了然；再展示洗菜、直饮、给宝宝冲奶等多场景使用，强化'安心直饮每一口好水'的信任感，证明操作零门槛。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'厂家直销，今日特价'，屏幕出现限时抢购倒计时和'拍一发三'福利，引导点击下方链接立即购买，承接CID链路直接转化。"
+              "desc": "复述'免安装、不废水、不用电'核心利益，配合'拍一发十''现在下单加急发货'的福利紧迫信息，明确引导点击下方链接下单，承接直播链路，完成从焦虑到行动的转化闭环。"
             }
           },
-          "materialId": "13dd7f330a7052c6507e",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "6286d4b7d37ee6d88216",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
           "sourceId": "S1R2",
-          "title": "可拆洗手持小顶喷·酒店淋浴体验",
-          "product": "可拆洗手持小顶喷",
-          "customer": "七水花",
+          "title": "胶棉拖把·筒式免手洗久放不硬",
+          "product": "胶棉拖把",
+          "customer": "美尔雅",
           "chain": "直播",
-          "tag": "场景体验 · 可拆洗",
-          "spend": 49718.64,
-          "ctr": 2.26,
-          "cvr": 6.94,
-          "cpm": 42.93,
-          "duration": "约40s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc34qagwaaawyabdd4c3vvbvzaenpsaa22a.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-d6e48b9ae3651373d85c/frame-01.jpg",
-              "time": "2.4s"
-            },
-            {
-              "src": "assets/frames/upload-d6e48b9ae3651373d85c/frame-02.jpg",
-              "time": "9.6s"
-            },
-            {
-              "src": "assets/frames/upload-d6e48b9ae3651373d85c/frame-03.jpg",
-              "time": "17.2s"
-            },
-            {
-              "src": "assets/frames/upload-d6e48b9ae3651373d85c/frame-04.jpg",
-              "time": "24.7s"
-            },
-            {
-              "src": "assets/frames/upload-d6e48b9ae3651373d85c/frame-05.jpg",
-              "time": "32.7s"
-            }
-          ],
+          "tag": "对比测评 · 免手洗不硬棉",
+          "spend": 24033.44,
+          "ctr": 3.97,
+          "cvr": 9.27,
+          "cpm": 132.04,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53lqcfiaaenyafvy5gwzvb4xaekroaivca.f0.mp4?dis_k=d9ea18f81c45bccb483213a7f03c7bf9&dis_t=1789005393&m=f525ddb4f5f4422409ae35536091048c&sha256=3a261d9d1e0d0d383e738f7a78fb78b405a25ae35269027b54a2c1fc218284ab",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示酒店式大顶喷淋浴画面，水幕均匀覆盖，字幕'小顶喷也可以享受大淋浴的体验'，用酒店高级感对比家用小花洒，吸引追求品质淋浴的用户。"
+              "desc": "开场直接抛出疑问'同样是拖把，筒式款好在哪里？'，画面并排展示普通拖把和筒式拖把，镜头特写普通拖把发黑发硬的棉头，制造认知反差，抓住正在纠结换拖把的家庭用户，激发好奇继续观看。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示普通花洒出水孔堵塞、水流歪斜，旁白'花洒用久了出水孔堵，水垢难清理'，放大清洁难题，传统花洒不可拆洗导致细菌滋生，需求被放大。"
+              "desc": "实拍旧拖把棉头干硬开裂、泡水后散发异味，旁白'棉头发硬又发臭，拖完地还得用手拧，又脏又累'，放大弯腰手洗的痛苦；传统拖把要么拧不干、要么久放变硬，用户对'省力又卫生'的需求被彻底点燃。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示可拆洗面板，轻松拧下冲洗，强调'自带可拆洗设计，让淋浴干净舒服'，用可拆卸结构解决清洁死角，同时展示增压效果，提升淋浴体验。"
+              "desc": "商品出场，展示筒式免手洗结构，脚踩或按压即可脱水，镜头特写棉头柔软吸水、久放不硬，强调'双面吸水、一拖净'，用'不用手拧、不脏手、不发臭'逐项解决痛点，建立'一把顶三把'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍拆洗步骤：旋转拧下面板，用水冲洗水垢，再装回，展示水流恢复均匀，对比清洗前后出水状态，证明可拆洗的实用性和卫生保障。"
+              "desc": "实拍拖地全过程：干拖吸毛发、湿拖去污渍，前后地面亮度对比明显；再展示筒式脱水桶操作，脏水一按即走，证明免手洗真实可行，并用'久放不硬'的棉头特写强化耐用信任。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'酒店公寓同款，可拆洗更干净'，直播间限时福利价，引导点击购物车下单，承接直播链路即时转化。"
+              "desc": "复述'免手洗、久放不硬、双面吸水'核心卖点，配合直播间限时优惠和赠品信息，明确引导点击下单，承接直播链路，用'告别拖把烦恼'的行动指令推动转化。"
             }
           },
-          "materialId": "d6e48b9ae3651373d85c",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "eeb6f3309416c89d5da4",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
           "sourceId": "S1R3",
-          "title": "水龙头净水器·高效过滤不用喝脏水",
-          "product": "水龙头净水器",
-          "customer": "联栗",
-          "chain": "CID",
-          "tag": "健康焦虑 · 过滤杂质",
-          "spend": 44466.57,
-          "ctr": 0.96,
-          "cvr": 9.06,
-          "cpm": 85.03,
-          "duration": "约150s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b5374bgsaaclyadekm3qfurr7yenh7qe2ka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-1efe15636c2270b7cf28/frame-01.jpg",
-              "time": "9.0s"
-            },
-            {
-              "src": "assets/frames/upload-1efe15636c2270b7cf28/frame-02.jpg",
-              "time": "36.0s"
-            },
-            {
-              "src": "assets/frames/upload-1efe15636c2270b7cf28/frame-03.jpg",
-              "time": "64.5s"
-            },
-            {
-              "src": "assets/frames/upload-1efe15636c2270b7cf28/frame-04.jpg",
-              "time": "93.0s"
-            },
-            {
-              "src": "assets/frames/upload-1efe15636c2270b7cf28/frame-05.jpg",
-              "time": "122.9s"
-            }
-          ],
+          "title": "瓶刷·半自动旋转无死角清洁",
+          "product": "瓶刷",
+          "customer": "襄阳高新技术开发区杰尔百货店(个体工商户)",
+          "chain": "小店",
+          "tag": "功能演示 · 深杯清洁",
+          "spend": 21300.52,
+          "ctr": 2.73,
+          "cvr": 14.39,
+          "cpm": 102.18,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53puafqaaawmacxg3nhvvbu7ielb6qawca.f0.mp4?dis_k=f375d711ec4e4e252668e5fd43cdc9e2&dis_t=1786421538&m=e8de0d681af2a96210aaf394c00e816b&sha256=5601291066f20c58496034f00edce43267351e5b6cc0c975806c7d6ddb9b5f63",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示一杯浑浊的自来水，旁白'真心推荐家里水龙头备一个！'，用'不用喝脏水'的恐惧诉求抓住对水质担忧的家庭用户，开场即制造健康焦虑。"
+              "desc": "首帧特写深口保温杯内壁的茶渍和奶瓶底部的奶垢，画外音'杯子深了根本刷不到底，你还在用旧海绵瞎捅吗？'，用脏污特写制造不适感，抓住有宝宝或爱喝茶饮的家庭人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示水龙头流出带泥沙、铁锈的水，旁白'自来水看着干净，其实有泥沙铁锈'，放大日常饮水隐患，传统烧水无法去除杂质，需求被激发。"
+              "desc": "展示普通海绵刷伸不进杯底、刷完仍有残留，旁白'手伸不进去、海绵够不到、死角全是细菌'，放大清洁不彻底的焦虑；传统刷子要么太短要么刷头太软，用户对'无死角、够得着'的需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示净水器六层过滤结构，安装在水龙头上，强调'滤水高效，安装简单'，用过滤棉吸附杂质的特写证明效果，解决水质担忧。"
+              "desc": "商品出场，展示半自动按压旋转设计，加长不锈钢手柄轻松伸入深杯，刷头旋转贴合杯壁，强调'轻松去渍、无死角、不锈钢耐用卫生'，用'一按一转'的机制逐项解决够不到、刷不净、易发霉的痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍安装过程：拧下原有起泡器，装上净水器，打开开关，展示过滤前后水质对比（用透明杯接水），并展示滤芯变脏，证明过滤有效。"
+              "desc": "实拍清洗步骤：放入刷头、按压旋转、清水冲洗，前后杯壁对比茶渍消失；再展示奶瓶、水杯、保温杯多场景使用，证明一把刷子通吃，强化'深杯底也能刷干净'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'不用喝脏水，家人更健康'，限时特价并赠送备用滤芯，引导点击下方链接立即购买，承接CID链路直接转化。"
+              "desc": "复述'半自动旋转、加长手柄、无死角清洁'核心卖点，配合小店限时优惠和'厂家直发'信息，明确引导点击下方链接下单，承接小店链路，用'告别杯底污垢'的行动指令收尾。"
             }
           },
-          "materialId": "1efe15636c2270b7cf28",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "bc249c77141bb0dfdc5a",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
           "sourceId": "S1R4",
-          "title": "冰箱疏通器清洁刷·排水口清理防结冰异味",
-          "product": "冰箱疏通器清洁刷",
-          "customer": "极量",
+          "title": "龙头转换器·360°万向旋转防溅",
+          "product": "龙头转换器",
+          "customer": "莆田市城厢区浣花向商贸商行(个体工商户)",
           "chain": "CID",
-          "tag": "冷门痛点 · 一刷疏通",
-          "spend": 43988.85,
-          "ctr": 1.19,
-          "cvr": 22.62,
-          "cpm": 206.03,
-          "duration": "约150s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nabu6aadc4aazuuwujvbs2aej5uagt2a.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e22d83a652842097d0ed/frame-01.jpg",
-              "time": "9.0s"
-            },
-            {
-              "src": "assets/frames/upload-e22d83a652842097d0ed/frame-02.jpg",
-              "time": "36.0s"
-            },
-            {
-              "src": "assets/frames/upload-e22d83a652842097d0ed/frame-03.jpg",
-              "time": "64.5s"
-            },
-            {
-              "src": "assets/frames/upload-e22d83a652842097d0ed/frame-04.jpg",
-              "time": "93.0s"
-            },
-            {
-              "src": "assets/frames/upload-e22d83a652842097d0ed/frame-05.jpg",
-              "time": "123.0s"
-            }
-          ],
+          "tag": "功能演示 · 万向防溅",
+          "spend": 21150.63,
+          "ctr": 4.6,
+          "cvr": 2.94,
+          "cpm": 22.88,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53dic5qaafoaakdq5kjzvb6gqe3analwca.f0.mp4?dis_k=c64b1d7ee359398ba271e60fac97e2b3&dis_t=1789884820&m=47b40f51adfb8cddd526887801062e1d&sha256=44df1453f8a9ff69a3c9fc07863f60637b6cf6480539d298b2a0349a6728631d",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示冰箱冷藏室排水孔堵塞、积水结冰的画面，字幕'冰箱排水口很多人都没有清理过'，用冷门知识引发好奇，抓住冰箱结冰有异味的家庭用户。"
+              "desc": "首帧特写洗脸时水花四溅、台面湿一片的狼狈画面，画外音'洗个脸跟打水仗一样，你家水龙头该换了'，用日常尴尬场景制造共鸣，抓住被溅水困扰的租房族和家庭用户。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示冰箱底部积水、食物被泡、异味散发，旁白'如果冰箱老是结冰有异味，试试这个'，放大卫生焦虑，传统方法用抹布擦不干净，需求被激发。"
+              "desc": "展示传统水龙头出水固定、洗菜洗碗水花乱溅、台面到处是水，旁白'水花溅得到处都是，擦台面比洗碗还累'，放大清洁负担；传统龙头无法调节角度，用户对'灵活出水、不溅水'的需求被激发。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示疏通器细长软管插入排水孔，旋转刷头带出污垢，强调'轻松疏通，防止堵塞'，用结构特写证明能深入管道，解决积水结冰问题。"
+              "desc": "商品出场，直接拧在原龙头上，展示360°任意旋转、出水灵活，强调'万向旋转、不溅水、洗菜洗碗都方便'，用'一拧即装'的免安装机制解决溅水和角度固定的痛点，建立低成本改造的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍操作：将疏通器插入冰箱排水孔，上下抽拉，带出黑色污垢，再倒水测试排水顺畅，对比清理前后排水速度，证明效果。"
+              "desc": "实拍安装步骤：拆下原水嘴、旋上转换器、调节角度，前后出水对比明显；再展示洗脸、洗菜、冲洗水槽多场景，证明旋转灵活、水花不溅，强化'小配件大改善'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'冰箱不结冰不异味，食物更新鲜'，限时特价并赠送清洁刷头，引导点击下方链接立即购买，承接CID链路直接转化。"
+              "desc": "复述'360°旋转、不溅水、免安装'核心卖点，配合CID链路限时特价和'加急发货'信息，明确引导点击下单，用'告别水花四溅'的行动指令推动转化。"
             }
           },
-          "materialId": "e22d83a652842097d0ed",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "108d821f20cd003da15c",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
           "sourceId": "S1R5",
-          "title": "加液吸盘式马桶刷·喷喷鲸·可加清洗剂更方便",
-          "product": "加液吸盘式马桶刷",
-          "customer": "金橙科技",
-          "chain": "CID",
-          "tag": "创意发明 · 加液设计",
-          "spend": 41802.95,
-          "ctr": 3.39,
-          "cvr": 7.65,
-          "cpm": 144.94,
-          "duration": "约220s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53g4bigaacemagdwmvbfvbqnyeqm3qfa2a.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-dac29a9de5d57781ae2e/frame-01.jpg",
-              "time": "13.2s"
-            },
-            {
-              "src": "assets/frames/upload-dac29a9de5d57781ae2e/frame-02.jpg",
-              "time": "52.7s"
-            },
-            {
-              "src": "assets/frames/upload-dac29a9de5d57781ae2e/frame-03.jpg",
-              "time": "94.4s"
-            },
-            {
-              "src": "assets/frames/upload-dac29a9de5d57781ae2e/frame-04.jpg",
-              "time": "136.1s"
-            },
-            {
-              "src": "assets/frames/upload-dac29a9de5d57781ae2e/frame-05.jpg",
-              "time": "180.0s"
-            }
-          ],
+          "title": "麂皮擦车巾·吸水不掉毛不留水痕",
+          "product": "麂皮擦车巾",
+          "customer": "阜新市清河门区启航优选商贸网店(个体工商户)",
+          "chain": "小店",
+          "tag": "效果对比 · 吸水不留痕",
+          "spend": 18755.13,
+          "ctr": 2.16,
+          "cvr": 14.61,
+          "cpm": 28.46,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xebtuaads4aiv6zi7vvbtoiehk4qgosa.f0.mp4?dis_k=cb8095811012aee0ca724497b52255b3&dis_t=1788870032&m=71368f4f07bde72284620abfbfe9bbdb&sha256=1892d44373e0e6103d19ea6bba4307feffbe796d98a3c248457f9b1800f42e92",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示马桶刷手柄按压喷出清洁液，字幕'这是谁发明的？就是这个马桶刷，可加清洗剂！'，用发明创造的惊叹感抓住讨厌刷马桶的用户。"
+              "desc": "首帧特写普通毛巾擦车后留下水痕和毛絮，画外音'擦完车全是水印和毛，白洗了'，用对比制造痛点，抓住爱车人士和洗车频繁的有车族，激发'换一条好毛巾'的冲动。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示传统马桶刷需要额外拿清洁剂，手忙脚乱，旁白'刷马桶还要单独倒清洁剂，麻烦'，放大清洁不便，传统方案效率低，需求被激发。"
+              "desc": "展示普通抹布擦玻璃留水痕、擦内饰掉毛、擦车漆留划痕，旁白'掉毛、留水印、还伤车漆，一条毛巾毁所有'，放大对车漆损伤的焦虑；传统毛巾吸水差、易掉毛，用户对'吸水不掉毛'的需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示马桶刷内置储液仓，按压即出清洁液，刷头吸盘设计可吸附马桶壁，强调'这样就方便多了'，用一体化设计解决痛点。"
+              "desc": "商品出场，展示加厚麂皮绒材质，强调'柔软不掉毛、吸水速干、不留水痕、不伤车漆'，用双面加厚结构逐项解决掉毛、水印、伤漆痛点，建立'内外皆可用'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍刷马桶过程：按压出液，刷洗马桶内壁，吸盘刷头贴合曲面，清水冲净，对比传统刷子，展示省时省力效果。"
+              "desc": "实拍擦车过程：一擦吸水、玻璃透亮、内饰无毛絮，前后对比明显；再展示擦玻璃、擦内饰、擦车身多场景，证明一条毛巾通用，强化'吸水耐用超实惠'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'加液设计，刷马桶不脏手'，限时特价并赠送替换刷头，引导点击下方链接立即购买，承接CID链路直接转化。"
+              "desc": "复述'吸水不掉毛、不留水痕、不伤车漆'核心卖点，配合小店限时优惠和'超实惠'价格锚点，明确引导点击下单，承接小店链路，用'告别水印毛絮'的行动指令收尾。"
             }
           },
-          "materialId": "dac29a9de5d57781ae2e",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "9499932ce25fa9ee4510",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
           "sourceId": "S1R6",
-          "title": "水龙头置物架·多功能节省空间",
-          "product": "水龙头置物架",
-          "customer": "极量",
-          "chain": "CID",
-          "tag": "收纳整理 · 免打孔",
-          "spend": 39698.64,
-          "ctr": 1.85,
-          "cvr": 8.86,
-          "cpm": 31.22,
-          "duration": "约116s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b535qbtuaaduyahxh4wzfvbt3aehlwagosa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-6b6f33cb11bcc6e4428f/frame-01.jpg",
-              "time": "7.0s"
-            },
-            {
-              "src": "assets/frames/upload-6b6f33cb11bcc6e4428f/frame-02.jpg",
-              "time": "27.9s"
-            },
-            {
-              "src": "assets/frames/upload-6b6f33cb11bcc6e4428f/frame-03.jpg",
-              "time": "50.1s"
-            },
-            {
-              "src": "assets/frames/upload-6b6f33cb11bcc6e4428f/frame-04.jpg",
-              "time": "72.2s"
-            },
-            {
-              "src": "assets/frames/upload-6b6f33cb11bcc6e4428f/frame-05.jpg",
-              "time": "95.5s"
-            }
-          ],
+          "title": "护理剂·免洗免晒小白鞋干洗",
+          "product": "护理剂",
+          "customer": "天津竹溯贸易有限公司",
+          "chain": "直播",
+          "tag": "功能演示 · 免水清洁",
+          "spend": 16025,
+          "ctr": 2.03,
+          "cvr": 18.69,
+          "cpm": 47.36,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b535uckeaaemqabfrfmvvvb53ieulwqjisa.f0.mp4?dis_k=f009a75ce0f06aef915f7941ab32b914&dis_t=1790056792&m=699670f0ea67d7696f42102fe0c21303&sha256=d1766e19fd57b67210901222feecb0d5ab5701673f69ede3328fab85e960d104",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示杂乱的水槽台面，旁白'卖爆了！多功能水龙头置物架，节省空间，干净整洁！'，用'卖爆了'从众心理和整洁对比吸引厨房收纳需求用户。"
+              "desc": "首帧特写小白鞋鞋边发黄、鞋面污渍，画外音'小白鞋脏了不想洗？教你一招免水清洁'，用脏鞋特写制造痛点，抓住爱穿小白鞋又懒得洗的年轻人群，激发'原来还能这样'的好奇。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示洗碗布、洗洁精堆在水龙头旁，湿漉漉占地方，旁白'台面总是乱糟糟，东西没处放'，放大收纳痛点，传统置物架需打孔破坏墙面，需求被激发。"
+              "desc": "展示水洗小白鞋后发黄、晾晒变形、刷洗费时，旁白'水洗容易发黄变形，送洗又贵又麻烦'，放大清洁成本；传统水洗和送洗都有痛点，用户对'免水洗、免晾晒'的需求被彻底点燃。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示置物架卡在水龙头上，免打孔安装，可放洗碗布、洗洁精，强调'多功能收纳，沥水设计'，用结构展示解决台面杂乱。"
+              "desc": "商品出场，按压泡沫直接喷在鞋面，用刷子轻刷，强调'免水洗、免晾晒、轻松去污'，用泡沫清洁机制逐项解决发黄、变形、费时痛点，建立'一喷一擦就干净'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍安装：直接卡在水龙头管上，放上物品，展示承重和沥水效果，对比安装前后台面整洁度，证明实用。"
+              "desc": "实拍清洁步骤：喷泡沫、刷污渍、擦干净，前后鞋面对比明显变白；再展示运动鞋、帆布鞋多场景使用，证明免水清洁真实有效，强化'操作简单便捷'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'免打孔，不伤台面，收纳整洁'，厂家直销特价，引导点击下方链接立即购买，承接CID链路直接转化。"
+              "desc": "复述'免水洗、免晾晒、轻松去污'核心卖点，配合直播限时优惠和'创新技术'信任背书，明确引导点击下单，承接直播链路，用'小白鞋焕新'的行动指令推动转化。"
             }
           },
-          "materialId": "6b6f33cb11bcc6e4428f",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "27f72f973e0f1ce3603d",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
           "sourceId": "S1R7",
-          "title": "厨房垃圾桶·优勤·可移动双筒分类免弯腰",
-          "product": "厨房垃圾桶",
-          "customer": "优勤",
-          "chain": "小店",
-          "tag": "便捷移动 · 双筒分类",
-          "spend": 34955.08,
-          "ctr": 1.6,
-          "cvr": 7.81,
-          "cpm": 86.17,
-          "duration": "约37s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53tacn4aaewaamstfgkbvb5gae32majxsa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-2ba1be622e8429fb3078/frame-01.jpg",
-              "time": "2.2s"
-            },
-            {
-              "src": "assets/frames/upload-2ba1be622e8429fb3078/frame-02.jpg",
-              "time": "9.0s"
-            },
-            {
-              "src": "assets/frames/upload-2ba1be622e8429fb3078/frame-03.jpg",
-              "time": "16.1s"
-            },
-            {
-              "src": "assets/frames/upload-2ba1be622e8429fb3078/frame-04.jpg",
-              "time": "23.2s"
-            },
-            {
-              "src": "assets/frames/upload-2ba1be622e8429fb3078/frame-05.jpg",
-              "time": "30.7s"
-            }
-          ],
+          "title": "百洁布·吸油不挂油加厚耐用",
+          "product": "百洁布",
+          "customer": "优厨",
+          "chain": "直播",
+          "tag": "效果对比 · 吸油不挂油",
+          "spend": 15295.42,
+          "ctr": 2.41,
+          "cvr": 20.05,
+          "cpm": 34.2,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53lmbkwaaciaac4htffvvbqwyevnnqfk2a.f0.mp4?dis_k=632af328a7ec3af0783a1337dcb96bee&dis_t=1785169183&m=9419fdeace80e47f750c46ca9d5492a8",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示厨房垃圾桶轻松推拉移动，字幕'轻松移动的家用垃圾桶，双筒分类更卫生'，用可移动的便捷性抓住厨房清洁频繁的用户。"
+              "desc": "首帧特写油腻腻的洗碗布和满池油污碗碟，画外音'洗碗布越洗越油，你家的该换了'，用油污特写制造不适感，抓住天天洗碗的家庭主妇人群，激发'换一块不挂油的'冲动。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示传统垃圾桶固定位置，扔垃圾要弯腰走几步，旁白'做饭时扔垃圾不方便，弯腰累'，放大不便，传统垃圾桶无法移动，需求被激发。"
+              "desc": "展示普通抹布吸油后黏手、洗不净、发臭，旁白'吸了油洗不掉，擦完碗还留一层油膜'，放大清洁焦虑；传统抹布吸油挂油、易滋生细菌，用户对'吸油不挂油、易清洗'的需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示垃圾桶带轮子可移动，双筒分类设计，大口径方便投掷，强调'免弯腰，清洁无忧'，用结构解决痛点。"
+              "desc": "商品出场，展示加厚百洁布材质，强调'吸油不挂油、加厚更耐用、抗菌'，用水冲即净的演示逐项解决挂油、发臭、不耐用痛点，建立'一块顶三块'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍推动垃圾桶到灶台旁，扔垃圾不弯腰，双筒分别扔干湿垃圾，展示容量和密封性，证明实用。"
+              "desc": "实拍洗碗过程：擦油碗、冲水、油污随水走，前后对比抹布清爽不黏手；再展示擦灶台、擦水槽多场景，证明吸油不挂油真实有效，强化'厨房不再油腻腻'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'可移动，双分类，厨房更卫生'，限时特价并赠送垃圾袋，引导点击下方链接立即购买，承接小店链路直接转化。"
+              "desc": "复述'吸油不挂油、加厚耐用、抗菌'核心卖点，配合直播限时优惠和'厨房必备'场景话术，明确引导点击下单，承接直播链路，用'告别油腻抹布'的行动指令收尾。"
             }
           },
-          "materialId": "2ba1be622e8429fb3078",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "5a8b5a339dc4b7e07bdb",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
           "sourceId": "S1R8",
-          "title": "麂皮绒擦车毛巾·加厚·吸水不掉毛不留水痕",
-          "product": "麂皮绒擦车毛巾",
-          "customer": "阜新市清河门区启航优选商贸网店(个体工商户)",
+          "title": "除尘掸·伸缩杆轻松清洁高处",
+          "product": "除尘掸",
+          "customer": "枝江市焕灯百货店(个体工商户)",
           "chain": "小店",
-          "tag": "多功能 · 吸水不留痕",
-          "spend": 34822.41,
-          "ctr": 2.05,
-          "cvr": 16.8,
-          "cpm": 29.65,
-          "duration": "约155s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xebtuaads4aiv6zi7vvbtoiehk4qgosa.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-7ecc498d36d9e6e2540c/frame-01.jpg",
-              "time": "9.3s"
-            },
-            {
-              "src": "assets/frames/upload-7ecc498d36d9e6e2540c/frame-02.jpg",
-              "time": "37.3s"
-            },
-            {
-              "src": "assets/frames/upload-7ecc498d36d9e6e2540c/frame-03.jpg",
-              "time": "66.8s"
-            },
-            {
-              "src": "assets/frames/upload-7ecc498d36d9e6e2540c/frame-04.jpg",
-              "time": "96.3s"
-            },
-            {
-              "src": "assets/frames/upload-7ecc498d36d9e6e2540c/frame-05.jpg",
-              "time": "127.4s"
-            }
-          ],
+          "tag": "功能演示 · 高处清洁",
+          "spend": 15237.88,
+          "ctr": 2.32,
+          "cvr": 11.59,
+          "cpm": 50.64,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b536qbiuaacoqalaw4onbvbt5aerl2afcsa.f0.mp4?dis_k=d9a04c6b96b619893b4096cc785a6f30&dis_t=1787574934",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示毛巾擦拭玻璃不留水痕，字幕'鹿皮绒珊瑚绒擦车巾，内外皆可用，不留水印'，用一擦即净的效果抓住洗车和家居清洁用户。"
+              "desc": "首帧特写天花板角落的蜘蛛网和灰尘，画外音'天花板、吊灯上的灰，你多久没擦了？'，用高处脏污特写制造焦虑，抓住住高层、够不到高处的家庭用户，激发'原来还能这样擦'的兴趣。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示普通毛巾擦车后留水渍、掉毛，旁白'普通毛巾擦完全是水印，还掉毛'，放大清洁烦恼，传统毛巾效果差，需求被激发。"
+              "desc": "展示踩凳子擦天花板、灰尘落一脸、角落够不到的狼狈，旁白'搬凳子、爬高、还擦不干净，太危险了'，放大清洁难度和安全隐患；传统抹布够不到高处，用户对'轻松清洁高处'的需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示毛巾双面材质：一面麂皮绒一面珊瑚绒，强调'吸水耐用，不留水印'，用材质特写证明吸水和无痕效果。"
+              "desc": "商品出场，展示不锈钢伸缩杆可加长，向日葵造型刷头贴合天花板，强调'轻松清洁高处角落、省力、无死角'，用伸缩结构逐项解决够不到、危险、费力的痛点，建立'一把搞定全屋高处'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍擦车过程：喷水后一擦即干，不留水痕，再擦内饰和玻璃，展示多功能使用，对比普通毛巾效果。"
+              "desc": "实拍清洁步骤：拉长杆子、擦拭天花板、清理吊灯，前后对比灰尘消失；再展示擦墙角、擦柜顶多场景，证明伸缩杆灵活好用，强化'家居清洁好帮手'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'吸水不掉毛，擦车擦玻璃都好用'，限时特价并赠送两条，引导点击下方链接立即购买，承接小店链路直接转化。"
+              "desc": "复述'伸缩杆、轻松清洁高处、无死角'核心卖点，配合小店限时优惠和'省力'场景话术，明确引导点击下单，承接小店链路，用'告别爬高擦灰'的行动指令收尾。"
             }
           },
-          "materialId": "7ecc498d36d9e6e2540c",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "9b680b837dc1baf7c7ca",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
           "sourceId": "S1R9",
-          "title": "脸盆架·免打孔·壁挂折叠收纳省空间",
-          "product": "脸盆架",
-          "customer": "金橙科技",
+          "title": "花洒·增压按摩过滤淋浴",
+          "product": "花洒",
+          "customer": "武汉市新洲区铃构屯生活用品馆(个体工商户)",
           "chain": "CID",
-          "tag": "收纳整理 · 免打孔",
-          "spend": 28771.27,
-          "ctr": 1.86,
-          "cvr": 14.26,
-          "cpm": 214.96,
-          "duration": "约166s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53hebjsaaceyaa6l4yfbvbqoiete4qfgka.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-07aba6f2b0119330ede2/frame-01.jpg",
-              "time": "10.0s"
-            },
-            {
-              "src": "assets/frames/upload-07aba6f2b0119330ede2/frame-02.jpg",
-              "time": "39.8s"
-            },
-            {
-              "src": "assets/frames/upload-07aba6f2b0119330ede2/frame-03.jpg",
-              "time": "71.3s"
-            },
-            {
-              "src": "assets/frames/upload-07aba6f2b0119330ede2/frame-04.jpg",
-              "time": "102.8s"
-            },
-            {
-              "src": "assets/frames/upload-07aba6f2b0119330ede2/frame-05.jpg",
-              "time": "136.0s"
-            }
-          ],
+          "tag": "功能演示 · 增压按摩",
+          "spend": 14418.95,
+          "ctr": 1.56,
+          "cvr": 17.78,
+          "cpm": 55.9,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3vubeqaacyaagb7uksbvbrliejcwqesca.f0.mp4?dis_k=04214bb5bc6158c29bdacce80f0681bd&dis_t=1787308179&m=e7d3df97cf828044f1a43db06fe2eaf2&sha256=73e5e529949732fc35bf5f371b972ce360b492feab2b95815724f669e3622575",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示浴室地面堆满脸盆，旁白'浴室盆罐多无处放，给老婆入手收纳架，壁挂省空间'，用'给老婆买'的情感切入，抓住浴室收纳需求用户。"
+              "desc": "首帧特写老式花洒出水软绵绵、水压小，画外音'洗澡水压太小，洗得一点都不爽'，用对比制造痛点，抓住住高层、水压不足的家庭用户，激发'换个增压花洒'的冲动。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示脸盆堆在地上占地方、积水发霉，旁白'盆子放地上占地方，还容易积水'，放大收纳痛点，传统收纳架需打孔，需求被激发。"
+              "desc": "展示老式花洒出水分散、水压弱、洗澡费时，旁白'水压小、出水软、洗半天冲不干净'，放大洗澡体验差的焦虑；传统花洒无法增压，用户对'强劲增压、按摩舒适'的需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示脸盆架免打孔壁挂，可折叠收纳，承重强，强调'通风隔水，节省空间'，用结构解决痛点。"
+              "desc": "商品出场，展示增压花洒喷头，强调'超强增压、按摩、过滤'，用三档调节逐项解决水压小、出水软、水质差痛点，建立'在家享受酒店淋浴'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍安装：撕开背胶贴墙上，挂上脸盆，展示承重和折叠效果，对比安装前后地面整洁度，证明实用。"
+              "desc": "实拍安装步骤：拧下旧花洒、装上新品、打开开关，前后水压对比明显增强；再展示按摩模式、过滤效果多场景，证明增压真实有效，强化'边洗澡边按摩'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'免打孔，壁挂收纳，浴室整洁'，拍一发三福利，引导点击下方链接立即购买，承接CID链路直接转化。"
+              "desc": "复述'增压、按摩、过滤'核心卖点，配合CID链路限时优惠和'官方正品保障、加急发货'信息，明确引导点击下单，用'告别软绵绵水流'的行动指令推动转化。"
             }
           },
-          "materialId": "07aba6f2b0119330ede2",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "737363db0731812f5853",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
           "sourceId": "S1R10",
-          "title": "缝隙刷·伸缩旋转清洁死角",
-          "product": "缝隙刷",
-          "customer": "义乌市曳硕电子商务商行(个体工商户)",
-          "chain": "小店",
-          "tag": "死角清洁 · 伸缩旋转",
-          "spend": 28422.65,
-          "ctr": 2.11,
-          "cvr": 14.5,
-          "cpm": 25.62,
-          "duration": "约32s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53oaa4iaabpqamflvauzvbw4aeyryadrca.f0.mp4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-0677515180a316cb3d8b/frame-01.jpg",
-              "time": "1.9s"
-            },
-            {
-              "src": "assets/frames/upload-0677515180a316cb3d8b/frame-02.jpg",
-              "time": "7.8s"
-            },
-            {
-              "src": "assets/frames/upload-0677515180a316cb3d8b/frame-03.jpg",
-              "time": "13.9s"
-            },
-            {
-              "src": "assets/frames/upload-0677515180a316cb3d8b/frame-04.jpg",
-              "time": "20.1s"
-            },
-            {
-              "src": "assets/frames/upload-0677515180a316cb3d8b/frame-05.jpg",
-              "time": "26.6s"
-            }
-          ],
+          "title": "空气芳香剂·倒置香氛祛异味",
+          "product": "空气芳香剂",
+          "customer": "广东省蔬果园生物科技有限公司",
+          "chain": "直播",
+          "tag": "场景演示 · 长效留香",
+          "spend": 14362.1,
+          "ctr": 2,
+          "cvr": 14.78,
+          "cpm": 210.89,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3pmaf4aaajuaefx5lhjvbw6yelz5qaxsa.f0.mp4?dis_k=bb2700e85b516cba83c373510808455c&dis_t=1789598790&m=84893114be5b3aec47f2a9350cb1be6d",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示卫生间墙角缝隙发黑，旁白'轻松清洁卫生间死角，伸缩旋转设计'，用清洁死角对比抓住对卫生要求高的用户。"
+              "desc": "首帧特写卫生间异味弥漫、用户捂鼻皱眉，画外音'家里异味反反复复消不掉？'，用真实尴尬场景制造共鸣，抓住被卫生间、厨房异味困扰的家庭用户，激发'找到根源'的好奇。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示传统刷子伸不进缝隙，污垢残留，旁白'缝隙死角刷不到，藏污纳垢'，放大清洁焦虑，传统刷子无法弯曲，需求被激发。"
+              "desc": "展示普通香薰香味刺鼻、留香短、异味盖不住，旁白'香味和臭味混在一起更难闻，没两天就没了'，放大除味焦虑；传统香薰治标不治本，用户对'真正祛异味、长效留香'的需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展示缝隙刷可伸缩旋转，L型刷头深入缝隙，不锈钢材质耐用，强调'省力长柄，易收纳'，用结构解决痛点。"
+              "desc": "商品出场，展示时空沙漏倒置香氛设计，强调'倒置留香、清新祛异味、效果看得见'，用倒置结构逐项解决留香短、盖不住、刺鼻痛点，建立'一瓶管全屋'的价值锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍清洁过程：调节刷头角度，伸入缝隙刷洗，带出污垢，清水冲净，对比清洁前后，证明效果。"
+              "desc": "实拍使用步骤：倒置瓶身、放置卫生间、异味逐渐消散，前后空气对比明显；再展示卧室、客厅多场景，证明祛异味真实有效，强化'留香持久'的效果证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'伸缩旋转，缝隙死角一刷净'，限时特价并赠送替换刷头，引导点击下方链接立即购买，承接小店链路直接转化。"
+              "desc": "复述'倒置留香、祛异味、效果看得见'核心卖点，配合直播周年庆限时优惠和'家用留香'场景话术，明确引导点击下单，承接直播链路，用'告别反复异味'的行动指令收尾。"
             }
           },
-          "materialId": "0677515180a316cb3d8b",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "b4a733dfb4c0421da624",
+          "frameStatus": "pending"
         }
-      ],
-      "uploadedAt": "2026-09-20T00:00:00+08:00"
+      ]
     },
     {
       "name": "生活日用-功效品",
