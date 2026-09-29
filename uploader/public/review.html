@@ -69,6 +69,8 @@
     <div class="activity-form">
       <div class="field"><label>区域标题</label><input type="text" id="actTitle" value="平台限时活动"></div>
       <div class="field"><label>Banner 图片地址（站内相对路径或 HTTPS）</label><input type="text" id="actImage"></div>
+      <div class="field"><label>开始时间</label><input type="datetime-local" id="actStartAt"></div>
+      <div class="field"><label>结束时间</label><input type="datetime-local" id="actEndAt"></div>
       <div class="field full"><label>活动文案</label><textarea id="actText"></textarea></div>
       <div class="field full"><label>活动跳转链接</label><input type="url" id="actLink"></div>
     </div>
@@ -115,12 +117,23 @@ function updateActivityPreview(){
   preview.src = image.startsWith("http") ? image : "https://cccccccoingjiang77.github.io/riri-baihuo-board/site/" + image.replace(/^\.\//,"");
 }
 
+function toLocalDateTime(value){
+  if(!value) return "";
+  const date = new Date(value);
+  if(Number.isNaN(date.getTime())) return "";
+  const local = new Date(date.getTime()-date.getTimezoneOffset()*60000);
+  return local.toISOString().slice(0,16);
+}
+
 function fillActivity(activity){
   if(!activity) return;
+  if(Array.isArray(activity.items)) activity = activity.items[0] || {};
   document.getElementById("actTitle").value = activity.title || "平台限时活动";
   document.getElementById("actImage").value = activity.image || "";
   document.getElementById("actText").value = activity.text || "";
   document.getElementById("actLink").value = activity.link || "";
+  document.getElementById("actStartAt").value = toLocalDateTime(activity.startAt);
+  document.getElementById("actEndAt").value = toLocalDateTime(activity.endAt);
   document.getElementById("actEnabled").checked = activity.enabled !== false;
   updateActivityPreview();
 }
@@ -146,8 +159,13 @@ async function saveActivity(){
     image: document.getElementById("actImage").value.trim(),
     text: document.getElementById("actText").value.trim(),
     link: document.getElementById("actLink").value.trim(),
+    startAt: document.getElementById("actStartAt").value,
+    endAt: document.getElementById("actEndAt").value,
   };
-  if(!activity.image || !activity.text || !activity.link) return show("err","请完整填写图片、文案和跳转链接");
+  if(!activity.image || !activity.text || !activity.link || !activity.startAt || !activity.endAt) return show("err","请完整填写图片、文案、链接和活动起止时间");
+  if(new Date(activity.endAt) <= new Date(activity.startAt)) return show("err","活动结束时间必须晚于开始时间");
+  activity.startAt = new Date(activity.startAt).toISOString();
+  activity.endAt = new Date(activity.endAt).toISOString();
   if(!confirm("确认保存并发布本次平台活动？")) return;
   const btn = document.getElementById("saveActivityBtn"); btn.disabled = true;
   show("load","正在保存并推送首页活动…");

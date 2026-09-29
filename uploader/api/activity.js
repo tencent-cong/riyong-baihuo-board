@@ -21,12 +21,19 @@ function validateActivity(input) {
     image: String(input?.image || "").trim(),
     text: String(input?.text || "").trim(),
     link: String(input?.link || "").trim(),
+    startAt: String(input?.startAt || "").trim(),
+    endAt: String(input?.endAt || "").trim(),
     updatedAt: new Date().toISOString().slice(0, 10),
   };
   if (!activity.title) throw new Error("活动标题不能为空");
   if (!activity.image) throw new Error("Banner 图片地址不能为空");
   if (!activity.text) throw new Error("活动文案不能为空");
   if (!/^https:\/\//i.test(activity.link)) throw new Error("跳转链接必须是 HTTPS 地址");
+  const start = new Date(activity.startAt);
+  const end = new Date(activity.endAt);
+  if (!activity.startAt || Number.isNaN(start.getTime())) throw new Error("活动开始时间无效");
+  if (!activity.endAt || Number.isNaN(end.getTime())) throw new Error("活动结束时间无效");
+  if (end <= start) throw new Error("活动结束时间必须晚于开始时间");
   return activity;
 }
 

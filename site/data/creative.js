@@ -3,7 +3,8 @@
 window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
-    "updatedAt": "2026-09-29",
+    "dataUpdatedAt": "2026-09-29",
+    "frameUpdatedAt": "2026-09-29T01:50:43.462140+00:00",
     "owner": "创意分析组"
   },
   "tracks": [

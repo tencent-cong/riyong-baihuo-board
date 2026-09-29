@@ -156,7 +156,8 @@ def main():
         results.append((action, nm, os.path.basename(f)))
         print(f"  {'覆盖' if action == 'update' else '新增'}赛道『{nm}』 ← {os.path.basename(f)}")
 
-    data.setdefault("meta", {})["updatedAt"] = datetime.date.today().isoformat()
+    data.setdefault("meta", {})["dataUpdatedAt"] = datetime.date.today().isoformat()
+    data["meta"].pop("updatedAt", None)
     open(creative_js, "w", encoding="utf-8").write(dump_js(data))
     print("✓ 已写入:", creative_js)
     print("✓ 涉及赛道:", sorted({nm for _, nm, _ in results}))

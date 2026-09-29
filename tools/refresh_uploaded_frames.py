@@ -256,7 +256,7 @@ def apply(track_name, work_dir):
             material["frameUpdatedAt"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
             marked_failed += 1
     if applied or marked_failed:
-        data.setdefault("meta", {})["updatedAt"] = datetime.date.today().isoformat()
+        data.setdefault("meta", {})["frameUpdatedAt"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
         CREATIVE_PATH.write_text(dump_creative(data), encoding="utf-8")
     print(f"Applied {applied}, marked failed {marked_failed}")
 

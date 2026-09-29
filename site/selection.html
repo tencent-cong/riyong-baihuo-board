@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="assets/style.css?v=auto" id="appCss">
 <script>document.getElementById('appCss').href='assets/style.css?v='+Date.now();</script>
 </head>
-<body>
+<body data-page="selection">
 
 <div class="topbar">
   <div class="wrap brand-row">
@@ -83,6 +83,7 @@ var _v=Date.now();
 document.write('<script src="data/product-assets.js?v='+_v+'"><\/script>');
 document.write('<script src="data/selection.js?v='+_v+'"><\/script>');
 document.write('<script src="data/calendar.js?v='+_v+'"><\/script>');
+document.write('<script src="data/analytics-config.js?v='+_v+'"><\/script>');
 </script>
 <script>
 const S = window.SELECTION_DATA, CAL = window.CALENDAR_DATA;
@@ -400,5 +401,6 @@ document.querySelectorAll('#timeline .tl-item').forEach(el=>el.onclick=()=>{
 /* 回到顶部按钮 */
 (function(){var b=document.getElementById('backTop');window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>300);});})();
 </script>
+<script src="assets/analytics.js?v=1"></script>
 </body>
 </html>

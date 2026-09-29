@@ -243,7 +243,8 @@ export default async function handler(req, res) {
     const data = parseCreative(cur.text);
     const { action, name } = mergeTrack(data, track);
     data.meta = data.meta || {};
-    data.meta.updatedAt = new Date().toISOString().slice(0, 10);
+    data.meta.dataUpdatedAt = new Date().toISOString().slice(0, 10);
+    delete data.meta.updatedAt;
     const newText = dumpCreative(data);
     await ghPutFile(
       ENV.CREATIVE_PATH, newText,

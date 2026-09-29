@@ -7,6 +7,8 @@ window.ACTIVITY_DATA = {
       image: "assets/activity/golden-autumn-playbook.png",
       text: "【日百家纺】金秋节大促经营节奏、货品与投放打法。点击查看指南",
       link: "https://doc.weixin.qq.com/doc/w3_AQkAEwaMADECNky6zm0qjSUKmm6my?scode=AJEAIQdfAAo4MnxkUBAQkAEwaMADE",
+      startAt: "2026-09-20T00:00:00+08:00",
+      endAt: "2026-10-31T23:59:59+08:00",
       updatedAt: "2026-09-20"
     },
     {
@@ -15,6 +17,8 @@ window.ACTIVITY_DATA = {
       image: "assets/activity/golden-autumn-subsidy.png",
       text: "【企微文档】金秋节大促各项补贴政策汇总。点击查看补贴详情",
       link: "https://doc.weixin.qq.com/doc/w3_AQkAEwaMADECNozo1fJ41Rsy0vLLe?scode=AJEAIQdfAAoup7bEY8AQkAEwaMADE",
+      startAt: "2026-09-20T00:00:00+08:00",
+      endAt: "2026-10-31T23:59:59+08:00",
       updatedAt: "2026-09-20"
     }
   ]

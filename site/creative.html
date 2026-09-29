@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="assets/style.css?v=auto" id="appCss">
 <script>document.getElementById('appCss').href='assets/style.css?v='+Date.now();</script>
 </head>
-<body>
+<body data-page="creative">
 
 <div class="topbar">
   <div class="wrap brand-row">
@@ -85,7 +85,9 @@
 <button id="backTop" class="back-top" title="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ 顶部</button>
 
 <script>
-document.write('<script src="data/creative.js?v='+Date.now()+'"><\/script>');
+var _v=Date.now();
+document.write('<script src="data/creative.js?v='+_v+'"><\/script>');
+document.write('<script src="data/analytics-config.js?v='+_v+'"><\/script>');
 </script>
 <script>
 const C = window.CREATIVE_DATA, tracks = C.tracks;
@@ -330,5 +332,6 @@ function showOverview(){
 /* 回到顶部按钮 */
 (function(){var b=document.getElementById('backTop');window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>300);});})();
 </script>
+<script src="assets/analytics.js?v=1"></script>
 </body>
 </html>

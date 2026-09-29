@@ -2,6 +2,14 @@
 
 面向客户的一页式行业宣导看板。外层豆腐块展示核心信息，点击下钻查看详细报表。
 
+## 浏览统计与时效配置
+
+站点已接入 GA4 兼容的页面浏览和模块级事件。请在 `site/data/analytics-config.js` 中填写 GA4 Web 数据流 Measurement ID（格式 `G-XXXXXXXXXX`）后发布；留空时不会向外部发送数据。
+
+自动采集 `page_view`、`module_view`、`module_click`，参数包括 `page_type`、`module_name`、`action`、`item_name`、`link_url`，可在 GA4 探索报告中按模块查看。
+
+首页模块更新时间由 `site/data/modules.js` 管理。创意数据使用 `dataUpdatedAt`，关键帧维护使用 `frameUpdatedAt`，两者不得混用。活动配置必须包含 `startAt`、`endAt`，首页仅展示有效期内且启用的活动。
+
 ## 目录结构
 
 ```

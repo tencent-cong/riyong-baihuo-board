@@ -113,6 +113,13 @@ a{color:inherit;text-decoration:none}
 .pill{font-size:12px;color:var(--txt2);background:var(--card);
   border:1px solid var(--line);padding:5px 12px;border-radius:20px}
 .pill b{color:var(--gold)}
+.module-freshness{margin-top:14px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.freshness-card{padding:9px 11px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.025);color:var(--txt3);font-size:10px}
+.freshness-card div{display:flex;align-items:center;gap:6px;margin-bottom:4px}.freshness-card b{color:var(--txt2);font-size:11px}
+.freshness-card>span{display:block;white-space:nowrap}.freshness-card.stale{border-color:rgba(240,100,95,.48);background:rgba(240,100,95,.07)}
+.stale-badge{padding:1px 5px;border-radius:8px;background:var(--red);color:#fff;font-size:9px;font-weight:800}
+@media(max-width:900px){.module-freshness{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.module-freshness{grid-template-columns:1fr}}
 
 /* ---------- 豆腐块总览 ---------- */
 .tofu-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:26px 0 50px}

@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="assets/style.css?v=auto" id="appCss">
 <script>document.getElementById('appCss').href='assets/style.css?v='+Date.now();</script>
 </head>
-<body>
+<body data-page="home">
 
 <div class="topbar">
   <div class="wrap brand-row">
@@ -32,6 +32,7 @@
     <h1 id="headTitle">日百行业情报台</h1>
     <div class="sub">别再自己闷头试！这里帮你把<b style="color:var(--gold)">当下正在跑量的爆品</b>和<b style="color:var(--gold)">已验证跑量的创意套路</b>一次看全 —— 跟着抄品、抄卖点、抄脚本，选品少踩坑、起量更省心。点击下方板块即可下钻到完整榜单，挑对标、拿灵感、直接上手。</div>
     <div class="meta" id="ovMeta"></div>
+    <div class="module-freshness" id="moduleFreshness" aria-label="各模块更新时间"></div>
   </div>
 
   <section class="feature-grid compact-features">
@@ -147,7 +148,7 @@
 
 <script>
 var _v=Date.now();
-['activity','product-assets','selection','creative','calendar'].forEach(function(f){
+['activity','product-assets','selection','creative','calendar','modules','analytics-config'].forEach(function(f){
   document.write('<script src="data/'+f+'.js?v='+_v+'"><\/script>');
 });
 </script>
@@ -158,8 +159,16 @@ function productImage(x){ return PRODUCT_IMAGES[x.name] || x.image || ''; }
 
 /* ---------- 平台限时活动 ---------- */
 const ACTIVITY = window.ACTIVITY_DATA;
+function activityIsActive(item, now){
+  if(!item || item.enabled === false) return false;
+  const start = item.startAt ? new Date(item.startAt) : null;
+  const end = item.endAt ? new Date(item.endAt) : null;
+  return (!start || Number.isNaN(start.getTime()) || now >= start) &&
+    (!end || Number.isNaN(end.getTime()) || now <= end);
+}
+const activityNow = new Date();
 const activities = ACTIVITY && ACTIVITY.enabled
-  ? (ACTIVITY.items || (ACTIVITY.link ? [ACTIVITY] : []))
+  ? (ACTIVITY.items || (ACTIVITY.link ? [ACTIVITY] : [])).filter(item=>activityIsActive(item, activityNow))
   : [];
 if(activities.length){
   document.getElementById('activityCount').textContent = activities.length > 1 ? activities.length+' 个活动' : '进行中';
@@ -189,11 +198,35 @@ function imgFallback(el){
   const ph=el.parentNode.querySelector('.t3ph'); if(ph) ph.style.display='';
 }
 
-/* ---------- 概览 meta ---------- */
+/* ---------- 概览 meta / 模块更新时间 ---------- */
 document.getElementById('ovMeta').innerHTML =
   `<span class="pill">榜单期次 <b>${S.meta.period}</b></span>`+
-  `<span class="pill">更新 <b>${S.meta.updatedAt}</b></span>`+
   `<span class="pill">数据源 <b>选品台xlsx</b></span>`;
+
+const MODULE_META = window.MODULE_META || {};
+if(MODULE_META.selection) MODULE_META.selection.dataUpdatedAt = S.meta.dataUpdatedAt || S.meta.updatedAt || MODULE_META.selection.dataUpdatedAt;
+if(MODULE_META.creative){
+  MODULE_META.creative.dataUpdatedAt = C.meta.dataUpdatedAt || C.meta.updatedAt || MODULE_META.creative.dataUpdatedAt;
+  MODULE_META.creative.frameUpdatedAt = C.meta.frameUpdatedAt || MODULE_META.creative.frameUpdatedAt;
+}
+if(MODULE_META.activity && ACTIVITY){
+  const activityDates = (ACTIVITY.items || [ACTIVITY]).map(item=>item.updatedAt).filter(Boolean).sort();
+  MODULE_META.activity.dataUpdatedAt = activityDates.at(-1) || ACTIVITY.updatedAt || MODULE_META.activity.dataUpdatedAt;
+}
+function daysSince(dateText){
+  const date = new Date(String(dateText || '').slice(0,10)+'T00:00:00');
+  return Number.isNaN(date.getTime()) ? null : Math.floor((Date.now()-date.getTime())/86400000);
+}
+function freshnessCard(key, meta){
+  const age = daysSince(meta.dataUpdatedAt);
+  const stale = meta.staleAfterDays > 0 && age !== null && age > meta.staleAfterDays;
+  return `<div class="freshness-card${stale?' stale':''}" data-module="${key}">
+    <div><b>${meta.label}</b>${stale?'<span class="stale-badge">已过期</span>':''}</div>
+    <span>数据更新 ${meta.dataUpdatedAt || '待补充'}</span>
+    ${meta.frameUpdatedAt ? `<span>关键帧维护 ${String(meta.frameUpdatedAt).slice(0,10)}</span>` : ''}
+  </div>`;
+}
+document.getElementById('moduleFreshness').innerHTML = Object.entries(MODULE_META).map(([key,meta])=>freshnessCard(key,meta)).join('');
 
 /* ================= 选品豆腐块 ================= */
 const nonC = S.nonClosed.items;
@@ -335,5 +368,6 @@ document.getElementById('creTracks').innerHTML = CREATIVE_GROUPS.map(group=>{
   </div>`;
 }).join('');
 </script>
+<script src="assets/analytics.js?v=1"></script>
 </body>
 </html>

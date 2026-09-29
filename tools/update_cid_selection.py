@@ -129,7 +129,8 @@ with open(SEL_JS, encoding="utf-8") as f:
     src = f.read()
 data = json.loads(src[src.index("{"):].rstrip().rstrip(";"))
 data["meta"]["period"] = PERIOD
-data["meta"]["updatedAt"] = date.today().isoformat()
+data["meta"]["dataUpdatedAt"] = date.today().isoformat()
+data["meta"].pop("updatedAt", None)
 data["meta"]["source"] = os.path.basename(SRC)
 data["meta"]["cidTotal"] = len(df)
 data["nonClosed"]["items"] = final_items

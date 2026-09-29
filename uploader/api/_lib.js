@@ -388,7 +388,8 @@ export function updateSelectionPeriod(data, items = [], requestedPeriod = "") {
   const requested = String(requestedPeriod || "").match(/^(20\d{2})-(0[1-9]|1[0-2])$/)?.[0];
   const period = inferred || requested;
   data.meta = data.meta || {};
-  data.meta.updatedAt = new Date().toISOString().slice(0, 10);
+  data.meta.dataUpdatedAt = new Date().toISOString().slice(0, 10);
+  delete data.meta.updatedAt;
   if (period) {
     const [year, month] = period.split("-");
     data.meta.period = `${year}年${Number(month)}月榜单（真实数据自选品台）`;

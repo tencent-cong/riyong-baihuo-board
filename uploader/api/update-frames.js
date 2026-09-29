@@ -66,6 +66,8 @@ export default async function handler(req, res) {
       material.sourceType = sourceType;
       if (sourceType === "video" && duration) material.duration = `约${Math.round(Number(duration))}s`;
       if (sourceType === "image") material.duration = "图片素材";
+      data.meta = data.meta || {};
+      data.meta.frameUpdatedAt = new Date().toISOString();
 
       const files = imageFiles.map(({ path, content, encoding }) => ({ path, content, encoding }));
       files.push({ path: ENV.CREATIVE_PATH, content: dumpCreative(data), encoding: "utf-8" });

@@ -3,7 +3,7 @@
 window.SELECTION_DATA = {
   "meta": {
     "period": "2026年9月榜单（真实数据自选品台）",
-    "updatedAt": "2026-09-28",
+    "dataUpdatedAt": "2026-09-28",
     "source": "商品选品表格模板-CID-0828(1).xlsx",
     "owner": "投放运营组",
     "cidTotal": 221,

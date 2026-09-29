@@ -185,7 +185,8 @@ def main():
     if not updated:
         print("没有识别到任何赛道数据（检查 sheet 名是否与赛道名一致）。")
 
-    data["meta"]["updatedAt"] = datetime.date.today().isoformat()
+    data["meta"]["dataUpdatedAt"] = datetime.date.today().isoformat()
+    data["meta"].pop("updatedAt", None)
     open(CREATIVE_JS, "w", encoding="utf-8").write(dump_js(data))
     print("已同步赛道:", sorted(set(updated)))
     print("写入:", CREATIVE_JS)
