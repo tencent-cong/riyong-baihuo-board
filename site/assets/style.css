@@ -375,7 +375,8 @@ a{color:inherit;text-decoration:none}
 @media(max-width:860px){.top3-cols{grid-template-columns:1fr}}
 .t3col{background:var(--card2);border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px}
 .t3col .t3h{font-size:13px;font-weight:700;margin-bottom:10px;letter-spacing:.3px;display:flex;align-items:center;justify-content:space-between;gap:8px}
-.update-badge{display:inline-flex;align-items:center;flex-shrink:0;padding:3px 8px;border-radius:12px;background:rgba(55,201,138,.12);border:1px solid rgba(55,201,138,.28);color:var(--green);font-size:10px;font-weight:800;line-height:1.2;white-space:nowrap}
+.update-badge{display:inline-flex;align-items:center;flex-shrink:0;padding:3px 8px;border-radius:12px;background:#263750;border:1px solid #536b8f;color:#f5f8ff;font-size:10px;font-weight:800;line-height:1.2;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.18);transition:background-color .15s,border-color .15s,transform .15s}
+.update-badge:hover{background:#36527a;border-color:#7898c6;transform:translateY(-1px)}
 .node-update{margin-top:7px}.node-update .update-badge{font-size:9.5px}
 .track-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0 6px}.track-card-head h2{margin:0}
 #dTitle .update-badge{vertical-align:middle;margin-left:8px;font-size:11px}
