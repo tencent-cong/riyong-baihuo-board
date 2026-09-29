@@ -260,10 +260,10 @@ export default async function handler(req, res) {
       try {
         await ghDispatchFrameWorkflow(name);
         framesBackground = true;
-        frameMessage = "；关键帧已转入后台自动生成，上传页可以直接关闭";
+        frameMessage = "；关键帧已排队自动生成，通常几分钟后展示。本次只需上传一次，请勿重复提交";
       } catch (error) {
         console.error("关键帧后台任务触发失败", error);
-        frameMessage = "；数据已上线，但关键帧后台任务触发失败，请稍后重试上传";
+        frameMessage = "；数据已上线，但关键帧任务未启动，系统定时任务会自动补齐，无需重复上传";
       }
     }
     return res.status(200).json({
