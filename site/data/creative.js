@@ -4,7 +4,7 @@ window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
     "dataUpdatedAt": "2026-10-09",
-    "frameUpdatedAt": "2026-10-09T06:50:13.177672+00:00",
+    "frameUpdatedAt": "2026-10-09T09:39:16.899402+00:00",
     "owner": "创意分析组"
   },
   "tracks": [
@@ -582,7 +582,7 @@ window.CREATIVE_DATA = {
           "materialId": "dbbcf3a872da8b95c5ff",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T06:50:13.177646+00:00"
+          "frameUpdatedAt": "2026-10-09T09:39:16.899388+00:00"
         },
         {
           "rank": 8,
@@ -996,7 +996,7 @@ window.CREATIVE_DATA = {
           "materialId": "343f9234f55415255214",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T06:50:13.177664+00:00"
+          "frameUpdatedAt": "2026-10-09T09:39:16.899392+00:00"
         },
         {
           "rank": 15,
@@ -1038,7 +1038,7 @@ window.CREATIVE_DATA = {
           "materialId": "68a29b28e8321c3903c5",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T06:50:13.177670+00:00"
+          "frameUpdatedAt": "2026-10-09T09:39:16.899376+00:00"
         },
         {
           "rank": 16,
@@ -3278,7 +3278,7 @@ window.CREATIVE_DATA = {
           "materialId": "64b4fe46261c0c4dd938",
           "frameStatus": "failed",
           "frameError": "'--fail', '--location', '--silent', '--show-error', '--connect-timeout', '15', '--max-time', '120', '--user-agent', 'riri-baihuo-frame-worker/2.0', '--output', '/tmp/frame-refresh/64b4fe46261c0c4dd938/source.mp4', 'https://adsmind.gdtimg.co",
-          "frameUpdatedAt": "2026-10-09T03:50:04.169911+00:00"
+          "frameUpdatedAt": "2026-10-09T09:39:16.899401+00:00"
         },
         {
           "rank": 5,
@@ -4632,9 +4632,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.28,
           "cvr": 4.46,
           "cpm": 335.65,
-          "duration": "未提供",
+          "duration": "约34s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53n4cwiaaf6yabtl5kqzvb63yemrxqkzca.f0.mp4?dis_k=066646e8491c32483f498fd8bfc76ae1&dis_t=1790066072&m=c8a53c52c867bbaf7105d91f97641355&sha256=da1d7d21cd4b37746a0dac471d5fe939d673b6a51901a121fa28cabd74ccb208",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-01.jpg",
+              "time": "2.0s"
+            },
+            {
+              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-02.jpg",
+              "time": "8.2s"
+            },
+            {
+              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-03.jpg",
+              "time": "14.7s"
+            },
+            {
+              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-04.jpg",
+              "time": "21.1s"
+            },
+            {
+              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-05.jpg",
+              "time": "28.0s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -4658,9 +4679,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "daebfd7af0ff49949112",
-          "frameStatus": "failed",
-          "frameError": "'--fail', '--location', '--silent', '--show-error', '--connect-timeout', '15', '--max-time', '120', '--user-agent', 'riri-baihuo-frame-worker/2.0', '--output', '/tmp/frame-refresh/daebfd7af0ff49949112/source.mp4', 'https://adsmind.gdtimg.co",
-          "frameUpdatedAt": "2026-10-09T03:47:17.665864+00:00"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 10,
@@ -7497,7 +7517,7 @@ window.CREATIVE_DATA = {
           "materialId": "d68c28178ca62a2a2fd7",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T04:10:59.861036+00:00"
+          "frameUpdatedAt": "2026-10-09T09:39:16.899395+00:00"
         },
         {
           "rank": 8,
@@ -7601,7 +7621,7 @@ window.CREATIVE_DATA = {
           "materialId": "43736830f7e86b60c04e",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T04:10:59.861058+00:00"
+          "frameUpdatedAt": "2026-10-09T09:39:16.899398+00:00"
         },
         {
           "rank": 10,
@@ -7925,9 +7945,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.68,
           "cvr": 6.85,
           "cpm": 34.74,
-          "duration": "未提供",
+          "duration": "约140s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534mbamaacdyacu3eclzvbtyyea3rqebsa.f0.mp4?dis_k=c8e864003ffa4059af32cd771dffdc79&dis_t=1786785038",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-038c3cd3e90e01523815/frame-01.jpg",
+              "time": "8.4s"
+            },
+            {
+              "src": "assets/frames/upload-038c3cd3e90e01523815/frame-02.jpg",
+              "time": "33.6s"
+            },
+            {
+              "src": "assets/frames/upload-038c3cd3e90e01523815/frame-03.jpg",
+              "time": "60.3s"
+            },
+            {
+              "src": "assets/frames/upload-038c3cd3e90e01523815/frame-04.jpg",
+              "time": "86.9s"
+            },
+            {
+              "src": "assets/frames/upload-038c3cd3e90e01523815/frame-05.jpg",
+              "time": "114.9s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -7951,9 +7992,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "038c3cd3e90e01523815",
-          "frameStatus": "failed",
-          "frameError": "rame-refresh/038c3cd3e90e01523815/frame-01.jpg']' timed out after 60 seconds | download: Command '['curl', '--fail', '--location', '--silent', '--show-error', '--connect-timeout', '15', '--max-time', '120', '--user-agent', 'riri-baihuo-fram",
-          "frameUpdatedAt": "2026-10-09T04:10:59.861065+00:00"
+          "frameStatus": "ready",
+          "sourceType": "video"
         }
       ]
     }
