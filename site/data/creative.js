@@ -4,7 +4,7 @@ window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
     "dataUpdatedAt": "2026-10-09",
-    "frameUpdatedAt": "2026-10-09T03:18:34.658213+00:00",
+    "frameUpdatedAt": "2026-10-09T03:47:17.665874+00:00",
     "owner": "创意分析组"
   },
   "tracks": [
@@ -3473,9 +3473,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.24,
           "cvr": 3.05,
           "cpm": 51.79,
-          "duration": "未提供",
+          "duration": "约154s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53paarkaabq4ajts34c5vbu6aecv4acfka.f0.mp4?dis_k=df7a1343280a38783ca8a3095efe3f62&dis_t=1787301498&m=e3fba49dad7faa0fe931e569387103da&sha256=e88d635f50f3ae47503527942c4c19331f2b9869703f9b3e21894645182a9a7e",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-01.jpg",
+              "time": "9.2s"
+            },
+            {
+              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-02.jpg",
+              "time": "36.9s"
+            },
+            {
+              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-03.jpg",
+              "time": "66.2s"
+            },
+            {
+              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-04.jpg",
+              "time": "95.4s"
+            },
+            {
+              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-05.jpg",
+              "time": "126.2s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3499,7 +3520,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "8e493686c88b0e07b0a3",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 2,
@@ -3513,9 +3535,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.07,
           "cvr": 10.6,
           "cpm": 511.11,
-          "duration": "未提供",
+          "duration": "约180s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3aeakuaaaaiaar52rljvbuaieviaqbksa.f0.mp4?dis_k=6f5826431d65f3ddb73cb0a0ed18dc4f&dis_t=1788146797&m=cba7abcc2c48cfe74e258e4ed5a12114&sha256=9823969da9c5e9c407ca1e7b541241bd8ffda1b8ca0ba23a66a7ed8073598765",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-01.jpg",
+              "time": "10.8s"
+            },
+            {
+              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-02.jpg",
+              "time": "43.1s"
+            },
+            {
+              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-03.jpg",
+              "time": "77.3s"
+            },
+            {
+              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-04.jpg",
+              "time": "111.4s"
+            },
+            {
+              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-05.jpg",
+              "time": "147.4s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3539,7 +3582,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "e4497087df4ebfd01634",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 3,
@@ -3553,9 +3597,30 @@ window.CREATIVE_DATA = {
           "ctr": 4.02,
           "cvr": 6.01,
           "cpm": 190.2,
-          "duration": "未提供",
+          "duration": "约57s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3vyaaiaaa6qalbg3b6fvbvlqeasxaabca.f0.mp4?dis_k=badb0ef1a9128d4dd1f76fb2122266f5&dis_t=1784788060&m=d58a51a15e80080d234ed340a9272707",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-01.jpg",
+              "time": "3.4s"
+            },
+            {
+              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-02.jpg",
+              "time": "13.8s"
+            },
+            {
+              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-03.jpg",
+              "time": "24.7s"
+            },
+            {
+              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-04.jpg",
+              "time": "35.6s"
+            },
+            {
+              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-05.jpg",
+              "time": "47.0s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3579,7 +3644,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "c8affb0c578fa21325b3",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 4,
@@ -3593,9 +3659,30 @@ window.CREATIVE_DATA = {
           "ctr": 6.38,
           "cvr": 4.47,
           "cpm": 28.5,
-          "duration": "未提供",
+          "duration": "约162s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53omad4aaa4mahdbv3jzvbu4yehzzqapsa.f0.mp4?dis_k=ea8785cd95eb82b7ee52fbf3d5bddfa0&dis_t=1790660517&m=851aafda2677d45998ac034d46c0b702&sha256=cb722bed893f396d6ae7c3bbf3cb31a8a0f8b3054ec6f8dbf7a92ab78d2ee0f1",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-01.jpg",
+              "time": "9.7s"
+            },
+            {
+              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-02.jpg",
+              "time": "38.8s"
+            },
+            {
+              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-03.jpg",
+              "time": "69.6s"
+            },
+            {
+              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-04.jpg",
+              "time": "100.3s"
+            },
+            {
+              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-05.jpg",
+              "time": "132.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3619,7 +3706,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "cce5792f7e1781b38cc1",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 5,
@@ -3633,9 +3721,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.51,
           "cvr": 7.55,
           "cpm": 62.19,
-          "duration": "未提供",
+          "duration": "约75s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3naaiwaaalianandiqfvbu2aernuabc2a.f0.mp4?dis_k=2dcf18aeef2cdc6346e7f8c8ad73f140&dis_t=1786364928&m=27948cafc4b528006cff804a79a404c5&sha256=6f026645292a8230710993b79e38a1d3ef2e52fb26ec699ce7929531802a2d0b",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-01.jpg",
+              "time": "4.5s"
+            },
+            {
+              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-02.jpg",
+              "time": "18.0s"
+            },
+            {
+              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-03.jpg",
+              "time": "32.2s"
+            },
+            {
+              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-04.jpg",
+              "time": "46.5s"
+            },
+            {
+              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-05.jpg",
+              "time": "61.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3659,7 +3768,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "bafb2c393fa524b4f028",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 6,
@@ -3673,9 +3783,30 @@ window.CREATIVE_DATA = {
           "ctr": 8.05,
           "cvr": 3.4,
           "cpm": 41.16,
-          "duration": "未提供",
+          "duration": "约275s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53seaiuaaayaab74nlzbvbveierkiqbcsa.f0.mp4?dis_k=6f1b50e5e401f03890dabaf028fadab6&dis_t=1789629781&m=4359a15816114e7fbe9822020f7ed243",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-01.jpg",
+              "time": "16.5s"
+            },
+            {
+              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-02.jpg",
+              "time": "66.0s"
+            },
+            {
+              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-03.jpg",
+              "time": "118.2s"
+            },
+            {
+              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-04.jpg",
+              "time": "170.5s"
+            },
+            {
+              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-05.jpg",
+              "time": "225.5s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3699,7 +3830,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "0174c16e1e1b5b41071e",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 7,
@@ -3713,9 +3845,30 @@ window.CREATIVE_DATA = {
           "ctr": 3.58,
           "cvr": 6.67,
           "cpm": 61.64,
-          "duration": "未提供",
+          "duration": "约83s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53oaaosaaareab6qu3fbvbu4ae5fyab2ka.f0.mp4?dis_k=feb65efdad5744e32e6ee1c806b7f371&dis_t=1788606224&m=ced86265b9725db80911920e84d08176&sha256=c35b7472f0714d09eecd862df205900652ddc35f3330f5035ab4f81595559408",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-01.jpg",
+              "time": "5.0s"
+            },
+            {
+              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-02.jpg",
+              "time": "19.8s"
+            },
+            {
+              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-03.jpg",
+              "time": "35.5s"
+            },
+            {
+              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-04.jpg",
+              "time": "51.2s"
+            },
+            {
+              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-05.jpg",
+              "time": "67.7s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3739,7 +3892,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "e3e15efa4bd788937bbb",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 8,
@@ -3753,9 +3907,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.32,
           "cvr": 3.39,
           "cpm": 47.86,
-          "duration": "未提供",
+          "duration": "约51s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53gib2kaadd4ag7hrj55vbsmqeuuzahjka.f0.mp4?dis_k=adafaec0d3670a8331b9ac46ae854b79&dis_t=1781189173&m=c5dd1c34b7e36cef280045aee009f1d4",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-01.jpg",
+              "time": "3.1s"
+            },
+            {
+              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-02.jpg",
+              "time": "12.3s"
+            },
+            {
+              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-03.jpg",
+              "time": "22.1s"
+            },
+            {
+              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-04.jpg",
+              "time": "31.8s"
+            },
+            {
+              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-05.jpg",
+              "time": "42.1s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3779,7 +3954,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "5f93068ebf7825d8a9e2",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 9,
@@ -3819,7 +3995,9 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "daebfd7af0ff49949112",
-          "frameStatus": "pending"
+          "frameStatus": "failed",
+          "frameError": "'--fail', '--location', '--silent', '--show-error', '--connect-timeout', '15', '--max-time', '120', '--user-agent', 'riri-baihuo-frame-worker/2.0', '--output', '/tmp/frame-refresh/daebfd7af0ff49949112/source.mp4', 'https://adsmind.gdtimg.co",
+          "frameUpdatedAt": "2026-10-09T03:47:17.665864+00:00"
         },
         {
           "rank": 10,
@@ -3833,9 +4011,30 @@ window.CREATIVE_DATA = {
           "ctr": 4.36,
           "cvr": 3.42,
           "cpm": 277.01,
-          "duration": "未提供",
+          "duration": "约80s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3nmaxwaabnaahv332wfurw2yepnvqc62a.f0.mp4?dis_k=77c534e4abc78aa4080bc3c368cfe000&dis_t=1769668892&m=21cab4e08bad5c04fdf9751f9a8324c8&sha256=d038fdb1c85e4b849e8911a7255c8b771a7f105f9fb646c32077a41d65f8d697",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-01.jpg",
+              "time": "4.8s"
+            },
+            {
+              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-02.jpg",
+              "time": "19.1s"
+            },
+            {
+              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-03.jpg",
+              "time": "34.2s"
+            },
+            {
+              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-04.jpg",
+              "time": "49.4s"
+            },
+            {
+              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-05.jpg",
+              "time": "65.3s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3859,7 +4058,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "52d4edb1f6d37e82edc0",
-          "frameStatus": "pending"
+          "frameStatus": "ready",
+          "sourceType": "video"
         }
       ]
     },
