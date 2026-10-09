@@ -4,7 +4,7 @@ window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
     "dataUpdatedAt": "2026-10-09",
-    "frameUpdatedAt": "2026-10-09T09:39:16.899402+00:00",
+    "frameUpdatedAt": "2026-10-09T16:34:06.057136+00:00",
     "owner": "创意分析组"
   },
   "tracks": [
@@ -582,7 +582,7 @@ window.CREATIVE_DATA = {
           "materialId": "dbbcf3a872da8b95c5ff",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T09:39:16.899388+00:00"
+          "frameUpdatedAt": "2026-10-09T16:34:06.057096+00:00"
         },
         {
           "rank": 8,
@@ -996,7 +996,7 @@ window.CREATIVE_DATA = {
           "materialId": "343f9234f55415255214",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T09:39:16.899392+00:00"
+          "frameUpdatedAt": "2026-10-09T16:34:06.057116+00:00"
         },
         {
           "rank": 15,
@@ -1038,7 +1038,7 @@ window.CREATIVE_DATA = {
           "materialId": "68a29b28e8321c3903c5",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T09:39:16.899376+00:00"
+          "frameUpdatedAt": "2026-10-09T16:34:06.057122+00:00"
         },
         {
           "rank": 16,
@@ -3250,9 +3250,30 @@ window.CREATIVE_DATA = {
           "ctr": 2.73,
           "cvr": 25.33,
           "cpm": 69.64,
-          "duration": "未提供",
+          "duration": "约95s",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc35iabyaaavyaeej5tsrvbv2qedtvaahca.f0.mp4?dis_k=3a87d98dcfbff06bed7eb895950c512f&dis_t=1790140039&m=245349215deaca61bb440a249a414e6a&sha256=27cf06d62494304f29b4bb11629f24585a72067ac5e8ad59215af9841091de6f",
-          "frames": [],
+          "frames": [
+            {
+              "src": "assets/frames/upload-64b4fe46261c0c4dd938/frame-01.jpg",
+              "time": "5.7s"
+            },
+            {
+              "src": "assets/frames/upload-64b4fe46261c0c4dd938/frame-02.jpg",
+              "time": "22.9s"
+            },
+            {
+              "src": "assets/frames/upload-64b4fe46261c0c4dd938/frame-03.jpg",
+              "time": "41.1s"
+            },
+            {
+              "src": "assets/frames/upload-64b4fe46261c0c4dd938/frame-04.jpg",
+              "time": "59.2s"
+            },
+            {
+              "src": "assets/frames/upload-64b4fe46261c0c4dd938/frame-05.jpg",
+              "time": "78.3s"
+            }
+          ],
           "golden5": {
             "hook": {
               "time": "0-3S",
@@ -3276,9 +3297,8 @@ window.CREATIVE_DATA = {
             }
           },
           "materialId": "64b4fe46261c0c4dd938",
-          "frameStatus": "failed",
-          "frameError": "'--fail', '--location', '--silent', '--show-error', '--connect-timeout', '15', '--max-time', '120', '--user-agent', 'riri-baihuo-frame-worker/2.0', '--output', '/tmp/frame-refresh/64b4fe46261c0c4dd938/source.mp4', 'https://adsmind.gdtimg.co",
-          "frameUpdatedAt": "2026-10-09T09:39:16.899401+00:00"
+          "frameStatus": "ready",
+          "sourceType": "video"
         },
         {
           "rank": 5,
@@ -7517,7 +7537,7 @@ window.CREATIVE_DATA = {
           "materialId": "d68c28178ca62a2a2fd7",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T09:39:16.899395+00:00"
+          "frameUpdatedAt": "2026-10-09T16:34:06.057133+00:00"
         },
         {
           "rank": 8,
@@ -7621,7 +7641,7 @@ window.CREATIVE_DATA = {
           "materialId": "43736830f7e86b60c04e",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-09T09:39:16.899398+00:00"
+          "frameUpdatedAt": "2026-10-09T16:34:06.057129+00:00"
         },
         {
           "rank": 10,
