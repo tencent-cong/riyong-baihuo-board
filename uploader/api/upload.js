@@ -47,6 +47,15 @@ function num(value) {
   return Number.isFinite(n) ? n : 0;
 }
 
+// 素材预览 URL 是否有效：空、占位「空」「-」「/」或非 http(s) 链接都视为无效
+// 无效行不进入 Top 素材候选，页面不再出现空图位的 missing_source 卡片
+function hasValidMaterialUrl(value) {
+  const url = String(value || "").trim();
+  if (!url) return false;
+  if (/^(空|无|null|undefined|-|—|\/|N\/A)$/i.test(url)) return false;
+  return /^https?:\/\/\S+$/i.test(url);
+}
+
 function clip(value, max = 220) {
   const text = String(value || "").trim();
   return text.length > max ? text.slice(0, max) + "…" : text;
@@ -96,8 +105,11 @@ function excelToText(buf) {
 
     const overall = rows.filter(row => pick(row, FIELD_ALIASES.customer) === "整体").slice(0, 10);
     const topProducts = [...productMap.values()].sort((a, b) => b.spend - a.spend).slice(0, 60);
+    // 只有带有效素材预览 URL 的行才能进 Top 素材候选：无预览的行直接剔除，
+    // 由后续消耗更低但有预览的行按消耗降序补位。
     const sortedRows = [...rows]
       .filter(row => displayProductName(row) !== "未识别商品")
+      .filter(row => hasValidMaterialUrl(pick(row, FIELD_ALIASES.materialUrl)))
       .sort((a, b) => num(pick(b, FIELD_ALIASES.spend)) - num(pick(a, FIELD_ALIASES.spend)));
     const selected = [];
     const seenProducts = new Set();
@@ -169,9 +181,54 @@ function hydrateMaterialFromSource(material, sourceRows) {
     cvr: num(source.CVR),
     cpm: num(source.CPM),
     duration: source.时长 || material.duration || "未提供",
-    videoUrl: source.素材URL || "",
+    videoUrl: hasValidMaterialUrl(source.素材URL) ? source.素材URL : "",
     frames: [],
   };
+}
+
+// 把候选行直接转成 Top 素材条目，用于补位（无五段式，页面照常展示素材与指标）
+function materialFromSourceRow(source) {
+  const product = cleanProductName(source.商品名称);
+  return {
+    sourceId: source.sourceId,
+    title: product,
+    product,
+    customer: source.客户,
+    chain: source.链路,
+    tag: "高消耗代表素材",
+    spend: num(source.消耗),
+    ctr: num(source.CTR),
+    cvr: num(source.CVR),
+    cpm: num(source.CPM),
+    duration: source.时长 || "未提供",
+    videoUrl: source.素材URL,
+    frames: [],
+  };
+}
+
+// 剔除无有效预览 URL 的素材后，从候选池按消耗降序补足到目标条数
+function backfillMaterials(materials, sourceRows, target) {
+  const used = new Set(materials.map(item => String(item.sourceId || "")));
+  const usedProducts = new Set(materials.map(item => cleanProductName(item.product || item.title)));
+  const pool = [...sourceRows.values()]
+    .filter(row => hasValidMaterialUrl(row.素材URL))
+    .filter(row => !used.has(String(row.sourceId)))
+    .sort((a, b) => num(b.消耗) - num(a.消耗));
+  const result = [...materials];
+  // 先补不同商品，保持商品多样性；仍不足时才允许重复商品
+  for (const pass of [true, false]) {
+    for (const row of pool) {
+      if (result.length >= target) break;
+      if (used.has(String(row.sourceId))) continue;
+      const product = cleanProductName(row.商品名称);
+      if (pass && usedProducts.has(product)) continue;
+      result.push(materialFromSourceRow(row));
+      used.add(String(row.sourceId));
+      usedProducts.add(product);
+    }
+    if (result.length >= target) break;
+  }
+  return result;
 }
 
 export default async function handler(req, res) {
@@ -217,8 +274,9 @@ export default async function handler(req, res) {
     track.name = trackName.trim(); // 强制对齐赛道名
     if (TRACK_KEYS[track.name]) track.key = TRACK_KEYS[track.name];
     if (Array.isArray(track.topMaterials)) {
-      track.topMaterials = track.topMaterials
-        .map((material, index) => {
+      const wanted = Math.max(10, track.topMaterials.length);
+      const hydratedList = track.topMaterials
+        .map(material => {
           const hydrated = hydrateMaterialFromSource(material, analysis.sourceRows);
           const cleanedProduct = cleanProductName(hydrated.product);
           const product = cleanedProduct === "未识别商品"
@@ -227,12 +285,15 @@ export default async function handler(req, res) {
           const rawTitle = String(hydrated.title || "").replace(String(hydrated.product || ""), "").replace(/^[·|｜\s:：-]+/, "");
           return {
             ...hydrated,
-            rank: index + 1,
             product,
             title: rawTitle ? `${product}·${rawTitle}` : product,
             frames: [],
           };
         })
+        // 素材预览为空的条目直接剔除，不在页面留空图位
+        .filter(item => hasValidMaterialUrl(item.videoUrl));
+      // 剔除后若不足条数，从候选池按消耗降序补位，再统一按消耗降序排名
+      track.topMaterials = backfillMaterials(hydratedList, analysis.sourceRows, wanted)
         .sort((a, b) => num(b.spend) - num(a.spend))
         .map((material, index) => ({ ...material, rank: index + 1 }));
     }

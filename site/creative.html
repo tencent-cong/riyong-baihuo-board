@@ -215,20 +215,26 @@ function renderFormulas(t){
 let _currentTrack = null;
 let _chainFilter = 'all';
 
+function hasPreview(m){
+  const u = String(m.videoUrl||'').trim();
+  return !!u && u!=='空' && /^https?:\/\//i.test(u);
+}
+
 function renderChainFilter(t){
   _currentTrack = t;
   _chainFilter = 'all';
-  // 收集所有链路类型
-  const chains = [...new Set(t.topMaterials.map(m=>m.chain).filter(Boolean))];
+  // 计数口径与展示一致：排除无素材预览的条目
+  const valid = (t.topMaterials||[]).filter(hasPreview);
+  const chains = [...new Set(valid.map(m=>m.chain).filter(Boolean))];
   const filter = document.getElementById('dChainFilter');
   if(chains.length <= 1){
     filter.style.display = 'none';
   } else {
     filter.style.display = '';
     filter.innerHTML = `<span class="cf-label">链路筛选：</span>` +
-      `<span class="cf-item on" onclick="filterChain('all')">全部 (${t.topMaterials.length})</span>` +
+      `<span class="cf-item on" onclick="filterChain('all')">全部 (${valid.length})</span>` +
       chains.map(c=>{
-        const cnt = t.topMaterials.filter(m=>m.chain===c).length;
+        const cnt = valid.filter(m=>m.chain===c).length;
         return `<span class="cf-item" onclick="filterChain('${c}')">${c} (${cnt})</span>`;
       }).join('');
   }
@@ -246,8 +252,14 @@ function filterChain(chain){
 }
 
 function renderMaterials(t, chain){
-  const list = chain==='all' ? t.topMaterials : t.topMaterials.filter(m=>m.chain===chain);
-  document.getElementById('dMaterials').innerHTML = list.map(materialBlock).join('');
+  // 无素材预览链接的条目不展示（避免空图位），统一按消耗降序
+  const valid = (t.topMaterials||[]).filter(m=>{
+    const u = String(m.videoUrl||'').trim();
+    return u && u!=='空' && /^https?:\/\//i.test(u);
+  });
+  const list = chain==='all' ? valid : valid.filter(m=>m.chain===chain);
+  const sorted = list.slice().sort((a,b)=>(Number(b.spend)||0)-(Number(a.spend)||0));
+  document.getElementById('dMaterials').innerHTML = sorted.map(materialBlock).join('');
 }
 
 function materialBlock(mt){
