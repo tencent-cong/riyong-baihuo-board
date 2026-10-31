@@ -4,7 +4,7 @@ window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
     "dataUpdatedAt": "2026-10-10",
-    "frameUpdatedAt": "2026-10-31T02:31:40.569845+00:00",
+    "frameUpdatedAt": "2026-10-31T08:49:52.885790+00:00",
     "owner": "创意分析组"
   },
   "tracks": [
@@ -582,7 +582,7 @@ window.CREATIVE_DATA = {
           "materialId": "dbbcf3a872da8b95c5ff",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-31T02:31:40.569831+00:00"
+          "frameUpdatedAt": "2026-10-31T08:49:52.885775+00:00"
         },
         {
           "rank": 8,
@@ -996,7 +996,7 @@ window.CREATIVE_DATA = {
           "materialId": "343f9234f55415255214",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-31T02:31:40.569802+00:00"
+          "frameUpdatedAt": "2026-10-31T08:49:52.885781+00:00"
         },
         {
           "rank": 15,
@@ -1038,7 +1038,7 @@ window.CREATIVE_DATA = {
           "materialId": "68a29b28e8321c3903c5",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-31T02:31:40.569824+00:00"
+          "frameUpdatedAt": "2026-10-31T08:49:52.885758+00:00"
         },
         {
           "rank": 16,
@@ -7361,7 +7361,7 @@ window.CREATIVE_DATA = {
           "materialId": "d68c28178ca62a2a2fd7",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-31T02:31:40.569837+00:00"
+          "frameUpdatedAt": "2026-10-31T08:49:52.885789+00:00"
         },
         {
           "rank": 8,
@@ -7465,7 +7465,7 @@ window.CREATIVE_DATA = {
           "materialId": "43736830f7e86b60c04e",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-10-31T02:31:40.569843+00:00"
+          "frameUpdatedAt": "2026-10-31T08:49:52.885785+00:00"
         },
         {
           "rank": 10,
