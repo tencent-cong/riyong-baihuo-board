@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>太力 · 全店托管 × 全库智选案例</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; background: #e8eef7; display: flex; justify-content: center; padding: 20px; }
+  .card {
+    width: 600px; height: 850px; background: #fff; border-radius: 20px;
+    padding: 26px 30px; display: flex; flex-direction: column; gap: 11px;
+    box-shadow: 0 8px 30px rgba(20,45,90,.15); overflow: hidden;
+  }
+  .hook { font-size: 14px; color: #8794ab; font-weight: 600; letter-spacing: 1px; }
+  h1 { font-size: 23px; color: #14213d; line-height: 1.4; }
+  h1 em { font-style: normal; color: #2563eb; }
+  .tags { display: flex; gap: 8px; }
+  .tag { font-size: 12px; padding: 4px 14px; border-radius: 999px; font-weight: 600; background: #eaf1fe; color: #1d4fbf; }
+  .banner { background: linear-gradient(120deg,#132a52,#2a62d4); border-radius: 16px; padding: 15px 18px; display: flex; align-items: center; }
+  .b-item { text-align: center; flex: 1; }
+  .b-num { font-size: 27px; font-weight: 800; color: #ffd68a; }
+  .b-num span { font-size: 15px; }
+  .b-label { font-size: 12px; color: rgba(255,255,255,.82); margin-top: 3px; }
+  .b-div { width: 1px; height: 38px; background: rgba(255,255,255,.2); }
+  .sec-title { font-size: 16px; font-weight: 800; color: #132a52; display: flex; align-items: center; gap: 8px; }
+  .sec-title::before { content: ""; width: 5px; height: 16px; background: linear-gradient(180deg,#5b8ff0,#1d4fbf); border-radius: 3px; }
+  .box { background: #f6f9fe; border: 1px solid #dfe8f7; border-radius: 14px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .pt-title { font-size: 14px; font-weight: 700; color: #14213d; display: flex; align-items: center; gap: 7px; }
+  .no { width: 19px; height: 19px; border-radius: 50%; background: #2563eb; color: #fff; font-size: 11.5px; font-weight: 800; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .p-desc { font-size: 11.5px; color: #5d6b82; line-height: 1.6; }
+  .p-desc b { color: #2563eb; }
+  .duo { display: flex; gap: 10px; }
+  .duo .box { flex: 1; }
+  .chart { position: relative; height: 104px; background: #fff; border: 1px solid #e3ebf8; border-radius: 10px; }
+  .chart svg { width: 100%; height: 100%; display: block; }
+  .bubble { position: absolute; left: 8px; top: 8px; background: #132a52; color: #ffd68a; font-size: 10.5px; font-weight: 700; border-radius: 8px; padding: 3px 8px; }
+  .ring-wrap { display: flex; align-items: center; gap: 12px; background: #fff; border: 1px solid #e3ebf8; border-radius: 10px; height: 104px; padding: 0 12px; }
+  .ring { width: 80px; height: 80px; border-radius: 50%; background: conic-gradient(#2563eb 0 90%, #dbe6fb 90% 100%); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .ring div { width: 58px; height: 58px; border-radius: 50%; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .ring b { font-size: 18px; color: #2563eb; line-height: 1; }
+  .ring small { font-size: 9px; color: #8794ab; margin-top: 2px; }
+  .flow { display: flex; flex-direction: column; gap: 5px; font-size: 10.5px; color: #5d6b82; }
+  .flow span { background: #f1f5fd; border-radius: 6px; padding: 3px 8px; }
+  .flow span.hl { background: #2563eb; color: #fff; font-weight: 700; }
+  .mat { flex: 1; min-height: 0; }
+  .mat-body { flex: 1; min-height: 0; display: flex; gap: 10px; }
+  .thumbs { flex: 1; display: flex; gap: 8px; min-width: 0; }
+  .th { flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .th-img { flex: 1; min-height: 0; border-radius: 9px; overflow: hidden; position: relative; background: #dfe8f7; }
+  .th-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .th-img.text { background: linear-gradient(160deg,#1d4fbf,#5b8ff0); display: flex; flex-direction: column; justify-content: center; align-items: center; color: #fff; text-align: center; gap: 4px; padding: 6px; }
+  .th-img.text b { font-size: 15px; }
+  .th-img.text small { font-size: 10px; opacity: .85; line-height: 1.4; }
+  .play { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 24px; height: 24px; border-radius: 50%; background: rgba(0,0,0,.45); }
+  .play::after { content: ""; position: absolute; left: 9px; top: 6px; border-left: 8px solid #fff; border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
+  .th-cap { font-size: 10.5px; font-weight: 700; color: #1d4fbf; text-align: center; }
+  .metrics { width: 132px; flex-shrink: 0; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .metric { background: #fff; border: 1px solid #e3ebf8; border-radius: 10px; padding: 8px 11px; }
+  .m-num { font-size: 22px; font-weight: 800; color: #2563eb; line-height: 1.2; }
+  .m-num span { font-size: 13px; }
+  .m-label { font-size: 10.5px; color: #8794ab; }
+  .cta { background: #eaf1fe; border-left: 4px solid #2563eb; border-radius: 10px; padding: 10px 16px; font-size: 13px; color: #2c3a52; line-height: 1.65; }
+  .cta b { color: #1d4fbf; }
+  .cta-tag { display: inline-block; background: linear-gradient(90deg,#1d4fbf,#5b8ff0); color: #fff; font-size: 12px; font-weight: 700; padding: 2px 10px; border-radius: 999px; margin-right: 8px; vertical-align: 1px; }
+  .note { font-size: 10.5px; color: #a3aec0; text-align: right; margin-top: -5px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="hook">爆品素材一条条测，又慢又费预算？</div>
+  <h1>爆品验素材，交给全店托管更省心：<br>单条项目日均 ARPU <em>4w+</em>，9 成消耗靠全库智选</h1>
+  <div class="tags">
+    <span class="tag">太力 · 爆品压缩袋</span>
+    <span class="tag">全店托管 × 全库智选</span>
+  </div>
+
+  <div class="banner">
+    <div class="b-item"><div class="b-num">4w<span>+</span></div><div class="b-label">单条项目日均 ARPU</div></div>
+    <div class="b-div"></div>
+    <div class="b-item"><div class="b-num">9<span> 成</span></div><div class="b-label">消耗由全库智选跑出</div></div>
+    <div class="b-div"></div>
+    <div class="b-item"><div class="b-num">3<span>%+</span></div><div class="b-label">优质素材 CTR</div></div>
+  </div>
+
+  <div class="sec-title">全店托管好在哪？</div>
+  <div class="duo">
+    <div class="box">
+      <div class="pt-title"><span class="no">1</span>托管上线，爆品快速起量</div>
+      <div class="p-desc">主推<b>压缩袋</b>整店托管，系统自动找量，上线后日耗<b>快速拉升</b>。</div>
+      <div class="chart">
+        <span class="bubble">单条日均 ARPU 4w+</span>
+        <svg viewBox="0 0 240 104" preserveAspectRatio="none">
+          <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2563eb" stop-opacity=".28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></linearGradient></defs>
+          <line x1="12" y1="90" x2="232" y2="90" stroke="#e3ebf8"/>
+          <line x1="122" y1="22" x2="122" y2="90" stroke="#9db8ee" stroke-dasharray="3 3"/>
+          <path d="M12 86 L42 85 L72 78 L102 84 L122 82 L152 30 L182 24 L212 36 L232 34 L232 90 L12 90 Z" fill="url(#g)"/>
+          <path d="M12 86 L42 85 L72 78 L102 84 L122 82 L152 30 L182 24 L212 36 L232 34" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linejoin="round"/>
+          <circle cx="182" cy="24" r="4" fill="#ffd68a" stroke="#2563eb" stroke-width="2"/>
+          <text x="12" y="101" font-size="8" fill="#8794ab">托管前</text>
+          <text x="126" y="101" font-size="8" fill="#2563eb" font-weight="700">托管上线</text>
+          <text x="204" y="101" font-size="8" fill="#8794ab">放量期</text>
+        </svg>
+      </div>
+    </div>
+    <div class="box">
+      <div class="pt-title"><span class="no">2</span>全库智选，优质素材主动关联</div>
+      <div class="p-desc">系统从全库素材中<b>主动挑出优质素材</b>关联投放，无需手动搭配。</div>
+      <div class="ring-wrap">
+        <div class="ring"><div><b>9 成</b><small>消耗占比</small></div></div>
+        <div class="flow">
+          <span>品牌全量素材库</span>
+          <span>系统识别优质素材</span>
+          <span class="hl">主动关联跑量</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box mat">
+    <div class="pt-title"><span class="no">3</span>多风格素材同测，好素材快速跑出</div>
+    <div class="p-desc">爆款模式、AI 数字人情景剧、夸张开篇一起放进托管，<b>系统帮你验证哪条能跑</b>，好素材开头抓人、看得更久。</div>
+    <div class="mat-body">
+      <div class="thumbs">
+        <div class="th">
+          <div class="th-img text"><b>爆款模式</b><small>延续已验证的<br>跑量脚本</small></div>
+          <div class="th-cap">经典爆款</div>
+        </div>
+        <div class="th">
+          <div class="th-img"><img src="assets/taili-ai-drama.jpg" alt="AI 数字人情景剧" style="object-position:center top"><span class="play"></span></div>
+          <div class="th-cap">AI 数字人情景剧</div>
+        </div>
+        <div class="th">
+          <div class="th-img"><img src="assets/taili-laowai.jpg" alt="老外惊呆了夸张开篇"><span class="play"></span></div>
+          <div class="th-cap">"老外惊呆了"开篇</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="m-num">3<span>%+</span></div><div class="m-label">优质素材 CTR</div></div>
+        <div class="metric"><div class="m-num">+130<span>%</span></div><div class="m-label">平均播放时长</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+<span class="cta-tag">适配客户</span>有爆品、素材多，却不知道哪条能跑？<b>全店托管 + 全库智选</b>，不用一条条手动测，系统帮你验证、主动关联优质素材，爆品快速起量、规模稳稳放大。
+  </div>
+  <div class="note">*数据为客户投放期真实表现，不构成效果承诺</div>
+</div>
+</body>
+</html>
