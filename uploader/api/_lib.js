@@ -308,14 +308,84 @@ export function extractJson(input) {
   const finishReason = typeof input === "string" ? "" : input?.finishReason;
   try { return JSON.parse(text); } catch {}
   const m = text.match(/\{[\s\S]*\}/);
-  if (m) { try { return JSON.parse(m[0]); } catch {} }
+  let parseError = "";
+  if (m) { try { return JSON.parse(m[0]); } catch (e) { parseError = e.message; } }
+  // 本地修复：未转义的内部双引号、字符串内裸换行、尾逗号、括号缺失/错配
+  if (finishReason !== "length") {
+    try {
+      const fixed = JSON.parse(repairJson(text));
+      console.warn("AI JSON 经本地修复后解析成功");
+      return fixed;
+    } catch (e) { parseError = parseError || e.message; }
+  }
   const tail = text.trim().slice(-160).replace(/\s+/g, " ");
   if (finishReason === "length" || (text.length > 2000 && !text.trim().endsWith("}"))) {
     const err = new Error(`AI 输出超长被截断（${text.length} 字），JSON 不完整。结尾片段：…${tail}`);
     err.code = "AI_TRUNCATED";
     throw err;
   }
-  throw new Error(`AI 未返回可解析的 JSON（长度 ${text.length}）。结尾片段：…${tail}`);
+  const err = new Error(`AI 未返回可解析的 JSON（长度 ${text.length}${parseError ? `，${parseError}` : ""}）。结尾片段：…${tail}`);
+  err.code = "AI_BAD_JSON";
+  err.rawText = text;
+  err.parseError = parseError;
+  throw err;
+}
+
+// 尽力修复大模型产出的"几乎正确"的 JSON 文本
+export function repairJson(input) {
+  let s = String(input || "").replace(/^\uFEFF/, "").replace(/```(?:json)?/gi, "");
+  const start = s.indexOf("{");
+  if (start < 0) return s;
+  s = s.slice(start);
+  const out = [];
+  const stack = [];
+  let inStr = false;
+  const nextNonSpace = i => {
+    for (let k = i; k < s.length; k++) if (!/\s/.test(s[k])) return s[k];
+    return "";
+  };
+  for (let i = 0; i < s.length; i++) {
+    const ch = s[i];
+    if (inStr) {
+      if (ch === "\\") { out.push(ch, s[i + 1] ?? ""); i++; continue; }
+      if (ch === '"') {
+        const nx = nextNonSpace(i + 1);
+        if (nx === "" || nx === "," || nx === "}" || nx === "]" || nx === ":") { inStr = false; out.push(ch); }
+        else out.push('\\"'); // 字符串内部未转义的双引号
+        continue;
+      }
+      if (ch === "\n") { out.push("\\n"); continue; }
+      if (ch === "\r") continue;
+      if (ch === "\t") { out.push("\\t"); continue; }
+      out.push(ch);
+      continue;
+    }
+    if (ch === '"') { inStr = true; out.push(ch); continue; }
+    if (ch === "{" || ch === "[") { stack.push(ch); out.push(ch); continue; }
+    if (ch === "}" || ch === "]") {
+      const want = ch === "}" ? "{" : "[";
+      if (!stack.includes(want)) continue; // 多余的闭合符，丢弃
+      while (stack.length && stack[stack.length - 1] !== want) {
+        out.push(stack.pop() === "{" ? "}" : "]"); // 补上缺失的闭合符
+      }
+      stack.pop();
+      out.push(ch);
+      if (!stack.length) break; // 根对象已闭合，忽略其后的多余内容
+      continue;
+    }
+    out.push(ch);
+  }
+  if (inStr) out.push('"');
+  while (stack.length) out.push(stack.pop() === "{" ? "}" : "]");
+  return out.join("").replace(/,(\s*[}\]])/g, "$1");
+}
+
+// 让模型只纠正 JSON 格式（不改内容），用于本地修复也救不回来的情况
+export async function fixJsonWithAI(rawText, parseError = "") {
+  const system = "你是严格的 JSON 格式修复器。用户会给你一段格式有误的 JSON，你只修正语法错误（未转义的双引号、缺失或多余的括号/逗号、非法字符等），不得增删、改写任何字段和文字内容。只输出修复后的完整 JSON 对象，不要任何解释或 markdown 代码块。字符串内部如需引用，请改用中文引号「」。";
+  const user = `解析报错：${parseError || "未知"}\n\n待修复的 JSON：\n${rawText}`;
+  const r = await callAI(system, user);
+  return extractJson(r);
 }
 
 // ---------- 通用：读 body / CORS / 鉴权 ----------

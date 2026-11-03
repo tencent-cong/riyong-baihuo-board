@@ -4,7 +4,7 @@
 import * as XLSX from "xlsx";
 import { gunzipSync } from "node:zlib";
 import {
-  ENV, ghGetFile, ghPutFile, callAI, extractJson, setCors, readJsonBody, checkToken,
+  ENV, ghGetFile, ghPutFile, callAI, extractJson, fixJsonWithAI, setCors, readJsonBody, checkToken,
   parseCreative, dumpCreative, mergeTrack, ghDispatchFrameWorkflow,
 } from "./_lib.js";
 import { SYSTEM_PROMPT, buildUserPrompt } from "./_prompt.js";
@@ -254,23 +254,36 @@ export default async function handler(req, res) {
     if (!analysis.text.trim())
       return res.status(400).json({ error: "Excel 内容为空或无法解析" });
 
-    // 2) 调 AI 产出 track JSON；若输出超长被截断，自动改用精简体量再试一次
+    // 2) 调 AI 产出 track JSON；本地修复失败或被截断时改用精简体量再试，仍失败则让 AI 只纠正格式
     const name0 = trackName.trim();
+    const t0 = Date.now();
     let track;
     try {
       const aiRaw = await callAI(SYSTEM_PROMPT, buildUserPrompt(name0, analysis.text, notes));
       track = extractJson(aiRaw);
     } catch (firstError) {
-      const truncated = firstError.code === "AI_TRUNCATED" || /截断|可解析的 JSON/.test(String(firstError.message));
-      if (!truncated) throw firstError;
+      const recoverable = firstError.code === "AI_TRUNCATED" || firstError.code === "AI_BAD_JSON";
+      if (!recoverable) throw firstError;
       console.warn("AI 首次输出不完整，改用精简模式重试:", firstError.message);
       const aiRetry = await callAI(SYSTEM_PROMPT, buildUserPrompt(name0, analysis.text, notes, { compact: true }));
       try {
         track = extractJson(aiRetry);
       } catch (secondError) {
-        throw new Error(`AI 两次输出均不完整。首次：${firstError.message}；精简重试：${secondError.message}`);
+        // 精简版只是格式错误（非截断）且时间预算充足时，让 AI 只修格式
+        const elapsed = (Date.now() - t0) / 1000;
+        if (secondError.code === "AI_BAD_JSON" && secondError.rawText && elapsed < 200) {
+          try {
+            track = await fixJsonWithAI(secondError.rawText, secondError.parseError);
+            console.warn("AI 格式纠错成功");
+          } catch (fixError) {
+            throw new Error(`AI 三次尝试均失败。首次：${firstError.message}；精简重试：${secondError.message}；格式纠错：${fixError.message}`);
+          }
+        } else {
+          throw new Error(`AI 两次输出均不完整。首次：${firstError.message}；精简重试：${secondError.message}`);
+        }
       }
     }
+    if (!track || typeof track !== "object" || Array.isArray(track)) throw new Error("AI 返回的 JSON 结构不是对象");
     track.name = trackName.trim(); // 强制对齐赛道名
     if (TRACK_KEYS[track.name]) track.key = TRACK_KEYS[track.name];
     if (Array.isArray(track.topMaterials)) {
