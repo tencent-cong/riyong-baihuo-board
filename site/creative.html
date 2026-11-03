@@ -278,8 +278,9 @@ function materialBlock(mt){
         </div>`;
       }).join('')
     : `<div class="frame empty"><span class="no">1</span>${emptyFrameText}</div>`;
-  const g=mt.golden5;
-  const seg=(cls,label,d)=>`<div class="seg ${cls}"><div class="sh"><span class="seg-label">${label}</span><span class="tm">${d.time}</span></div><div class="sd">${d.desc}</div></div>`;
+  const g=(mt.golden5&&typeof mt.golden5==='object')?mt.golden5:{};
+  const seg=(cls,label,d)=>{d=(d&&typeof d==='object')?d:{};return `<div class="seg ${cls}"><div class="sh"><span class="seg-label">${label}</span><span class="tm">${d.time||''}</span></div><div class="sd">${d.desc||'暂无拆解'}</div></div>`;};
+  const hasG5=['hook','pain','cure','demo','ending'].some(k=>g[k]&&g[k].desc);
   const chainTag = mt.chain ? `<span class="chain-tag" data-chain="${mt.chain}">【${mt.chain}】</span>` : '';
   return `<div class="mat-card">
     <div class="mat-head">
@@ -299,13 +300,13 @@ function materialBlock(mt){
     <div class="frames-label">🎞 关键帧轮播</div>
     <div class="frames">${frames}</div>
     <div class="g5-label">🥇 黄金五段式拆解</div>
-    <div class="g5">
+    ${hasG5?`<div class="g5">
       ${seg('s1','钩子',g.hook)}
       ${seg('s2','痛点',g.pain)}
       ${seg('s3','解药',g.cure)}
       ${seg('s4','演示',g.demo)}
       ${seg('s5','收尾',g.ending)}
-    </div>
+    </div>`:`<div class="g5"><div class="seg s1"><div class="sd">该素材为高消耗补位素材，暂无五段式拆解。</div></div></div>`}
   </div>`;
 }
 

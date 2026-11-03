@@ -207,6 +207,35 @@ function materialFromSourceRow(source) {
 }
 
 // 剔除无有效预览 URL 的素材后，从候选池按消耗降序补足到目标条数
+function hasGolden5(m) {
+  const g = m && m.golden5;
+  return !!(g && typeof g === "object" && ["hook", "pain", "cure", "demo", "ending"].every(k => g[k] && g[k].desc));
+}
+
+// 补位素材没有 AI 拆解，单独请求一次只生成这些素材的 golden5
+async function fillMissingGolden5(materials, sourceRows, trackName) {
+  const missing = materials.filter(m => !hasGolden5(m));
+  if (!missing.length) return 0;
+  const items = missing.map(m => {
+    const row = sourceRows.get(String(m.sourceId)) || {};
+    return { sourceId: m.sourceId, 商品: m.product, 链路: m.chain, 时长: m.duration, 创意文案: row.创意文案 || "", DPA商品名称: row.DPA商品名称 || "" };
+  });
+  const system = "你是资深信息流广告创意分析师。为给定素材各写一份黄金五段式拆解（钩子-痛点-解药-演示-收尾）。只输出一个 JSON 对象，格式为 {\"items\":[{\"sourceId\":\"原样返回\",\"tag\":\"创意类型 · 核心卖点\",\"golden5\":{\"hook\":{\"time\":\"0-3S\",\"desc\":\"\"},\"pain\":{\"time\":\"3-10S\",\"desc\":\"\"},\"cure\":{\"time\":\"10-20S\",\"desc\":\"\"},\"demo\":{\"time\":\"20-27S\",\"desc\":\"\"},\"ending\":{\"time\":\"27-30S\",\"desc\":\"\"}}}]}。每段 desc 50~70 个中文字符，写清画面/话术/机制/转化作用，去品牌和客户名；字符串内引用一律用「」，不得出现英文双引号。";
+  const user = `赛道：${trackName}\n素材列表：\n${JSON.stringify(items, null, 1)}`;
+  const out = extractJson(await callAI(system, user, { maxTokens: 8000 }));
+  const byId = new Map((out.items || []).map(it => [String(it.sourceId), it]));
+  let filled = 0;
+  for (const m of missing) {
+    const it = byId.get(String(m.sourceId));
+    if (it && hasGolden5(it)) {
+      m.golden5 = it.golden5;
+      if (it.tag && (!m.tag || m.tag === "高消耗代表素材")) m.tag = it.tag;
+      filled++;
+    }
+  }
+  return filled;
+}
+
 function backfillMaterials(materials, sourceRows, target) {
   const used = new Set(materials.map(item => String(item.sourceId || "")));
   const usedProducts = new Set(materials.map(item => cleanProductName(item.product || item.title)));
@@ -309,6 +338,14 @@ export default async function handler(req, res) {
       track.topMaterials = backfillMaterials(hydratedList, analysis.sourceRows, wanted)
         .sort((a, b) => num(b.spend) - num(a.spend))
         .map((material, index) => ({ ...material, rank: index + 1 }));
+      if ((Date.now() - t0) / 1000 < 240) {
+        try {
+          const n = await fillMissingGolden5(track.topMaterials, analysis.sourceRows, name0);
+          if (n) console.warn(`已为 ${n} 条补位素材补写五段式`);
+        } catch (e) {
+          console.warn("补写五段式失败，保留补位素材无拆解:", e.message);
+        }
+      }
     }
 
     // 3) 直接合并到 creative.js 上线（跳过审批）

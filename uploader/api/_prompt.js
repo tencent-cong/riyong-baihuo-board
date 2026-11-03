@@ -86,7 +86,7 @@ export const SYSTEM_PROMPT = `你是资深的效果广告创意分析师，专�
 
 export function buildUserPrompt(trackName, tableText, extraNotes, options = {}) {
   const compactHint = options.compact
-    ? `\n【本次输出体量约束（必须遵守，否则会超长被截断）】\n- topMaterials 只输出 8 条（仍按消耗降序、覆盖不同商品）。\n- golden5 每段 desc 控制在 50~70 个中文字符，仍要写清画面/话术/机制/转化作用。\n- sellingWords 12 个、scripts 6 条、keyPoints 4 条，每条 desc 不超过 60 字。\n- 严禁输出任何 JSON 之外的内容，务必保证 JSON 完整闭合。\n`
+    ? `\n【本次输出体量约束（必须遵守，否则会超长被截断）】\n- topMaterials 输出 10 条（仍按消耗降序、覆盖不同商品），每条都必须带完整 golden5。\n- golden5 每段 desc 控制在 40~60 个中文字符，仍要写清画面/话术/机制/转化作用。\n- sellingWords 12 个、scripts 6 条、keyPoints 4 条，每条 desc 不超过 60 字。\n- 严禁输出任何 JSON 之外的内容，务必保证 JSON 完整闭合。\n`
     : "";
   return `【赛道名】${trackName}
 
