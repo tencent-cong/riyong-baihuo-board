@@ -5152,1096 +5152,501 @@ window.CREATIVE_DATA = {
       "name": "生活日用-其他",
       "key": "daily-other",
       "owner": "",
-      "uploadedAt": "2026-10-09T04:12:31.330Z",
+      "uploadedAt": "2026-11-03T06:46:20.304Z",
       "metrics": {
         "creativeCount": 5001,
-        "ctr": 3.1,
-        "play3s": 25.53,
-        "cvr": 6.67,
-        "cpm": 25.58
+        "ctr": 3.16,
+        "play3s": 18.36,
+        "cvr": 5.55,
+        "cpm": 24.31
       },
       "sellingWords": [
         {
-          "word": "免安装免工具",
+          "word": "免打孔不伤墙",
           "weight": 100
         },
         {
-          "word": "一撕一贴即用",
+          "word": "加厚加固耐用",
           "weight": 95
         },
         {
-          "word": "防臭防返味",
-          "weight": 92
+          "word": "防水防潮防臭",
+          "weight": 91
         },
         {
-          "word": "防溢防漏水",
-          "weight": 88
+          "word": "一撕一贴即修",
+          "weight": 87
         },
         {
-          "word": "强力粘接不掉",
-          "weight": 85
+          "word": "可水洗不怕脏",
+          "weight": 83
         },
         {
-          "word": "加厚耐磨耐用",
-          "weight": 82
-        },
-        {
-          "word": "防水防潮防霉",
-          "weight": 78
-        },
-        {
-          "word": "抗风加固",
-          "weight": 74
-        },
-        {
-          "word": "省空间可剪裁",
-          "weight": 70
-        },
-        {
-          "word": "不用求人自己修",
-          "weight": 66
-        },
-        {
-          "word": "随身便携",
-          "weight": 62
+          "word": "随身携带不占地",
+          "weight": 79
         },
         {
           "word": "寓意吉祥送礼",
-          "weight": 58
+          "weight": 75
         },
         {
-          "word": "一秒穿线",
-          "weight": 54
+          "word": "静音防滑护地板",
+          "weight": 71
         },
         {
-          "word": "去球恢复光洁",
-          "weight": 50
+          "word": "抗风防晒两用",
+          "weight": 67
         },
         {
-          "word": "吸力强操作简单",
-          "weight": 46
+          "word": "开袋即食省时",
+          "weight": 63
         },
         {
-          "word": "多规格通用",
-          "weight": 42
+          "word": "多档调节能坐能躺",
+          "weight": 59
+        },
+        {
+          "word": "免穿线免认针",
+          "weight": 55
         }
       ],
       "painWords": [
         {
-          "word": "下水道返味返溢",
-          "weight": 95
+          "word": "墙面打孔掉灰伤墙",
+          "weight": 92
         },
         {
-          "word": "鞋子开胶跑修鞋铺",
+          "word": "管道反臭小飞虫",
           "weight": 88
         },
         {
-          "word": "马桶地漏反水",
+          "word": "门底摩擦刮地板",
           "weight": 84
         },
         {
-          "word": "老花眼穿针难",
-          "weight": 78
+          "word": "沙发皮面破损难看",
+          "weight": 80
         },
         {
-          "word": "毛衣起球显旧",
+          "word": "老人穿针认不上",
+          "weight": 76
+        },
+        {
+          "word": "久坐腰酸没处躺",
           "weight": 72
-        },
-        {
-          "word": "鞋底打滑摔跤",
-          "weight": 66
         }
       ],
       "sellingContext": [
         {
-          "driver": "梅雨/回南天·厨卫下水返味返溢",
-          "need": "消费者想用十几块钱的小配件，自己动手把地漏、面盆、马桶的返味返水一次性堵住，不再请师傅上门",
+          "driver": "梅雨回南天·厨卫返潮返臭",
+          "need": "想不拆不改、贴一贴堵一堵就把潮气臭味挡在门外",
           "words": [
-            "防臭防返味",
-            "防溢防漏水",
-            "免安装免工具",
-            "一撕一贴即用"
+            "防水防潮防臭",
+            "一撕一贴即修",
+            "免打孔不伤墙"
           ]
         },
         {
-          "driver": "换季收纳·鞋子开胶/毛衣起球/衣物破损",
-          "need": "换季翻出旧鞋旧毛衣，不想花钱换新，想用补鞋胶、去球器、修复贴把旧物救回来继续穿",
+          "driver": "租房老房·墙面门框破损不敢动工",
+          "need": "怕打孔扣押金、怕请师傅贵，要自己动手就能修好",
           "words": [
-            "强力粘接不掉",
-            "去球恢复光洁",
-            "一撕一贴即用",
-            "不用求人自己修"
+            "免打孔不伤墙",
+            "加厚加固耐用",
+            "一撕一贴即修"
           ]
         },
         {
-          "driver": "秋冬门窗漏风·雨天骑行淋湿",
-          "need": "降温后家里门窗缝隙灌冷风、骑电动车遇暴雨，想用密封条、挡风被、雨衣低成本挡风挡雨",
+          "driver": "换季收纳·钥匙挂件随身带",
+          "need": "既要实用耐用，又要寓意好能送人有面子",
           "words": [
-            "防水防潮防霉",
-            "抗风加固",
-            "加厚耐磨耐用",
-            "随身便携"
+            "寓意吉祥送礼",
+            "随身携带不占地",
+            "加厚加固耐用"
           ]
         }
       ],
       "scripts": [
-        "你家马桶总返味？试试这个一体法兰圈，装上就不臭了",
-        "鞋子开胶不用跑修鞋铺，这款补鞋专用胶在家就能修补",
-        "穿线再也不用大眼瞪小眼了，就算老花眼也能一秒穿针",
-        "后悔没早买！19.9元2大卷！鞋底防滑贴鞋跟防磨自粘",
-        "毛衣去球神器！五刀头高效清理，轻松恢复衣物光洁",
-        "不用拆墙不改线，插上插座就能用",
-        "厨房水槽过滤网洗菜盆弹跳芯，防臭神器家用",
-        "网格设计密封胶带，轻松应对门窗漏风，防风防雨不留痕迹"
+        "免打孔不伤墙，一撕一贴就修好",
+        "脏水一冲就净，可水洗反复用",
+        "不用请师傅，在家自己通管道",
+        "加厚加固，用一年也不松不掉",
+        "寓意好又耐看，随身带着送人也体面",
+        "源头直发今日特价，拍下就发货"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用'问题现场'抓人：镜头怼近返味的地漏/开胶的鞋底/起球的毛衣，配一句'你家是不是也这样？'制造代入；紧接着切'修好之后'的干净画面形成前后反差。也可用价格反差钩子，如'19.9元2大卷''300个还送压线钳'，用数字直接砸出性价比，把泛人群里'家里正好有这毛病'的人3秒内筛出来。"
+          "desc": "首帧给破损墙面、返臭地漏、刮花地板的特写，再接修复后一擦即净的对比镜头，3秒内制造「原来这么简单」的反差。"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "强绑定梅雨/回南天（下水返味、地漏返溢、墙面返潮）、秋冬降温（门窗漏风、电动车挡风、保暖护膝）、雨季骑行（雨衣防暴雨）三大节点。投放时把'回南天''暴雨天''降温'写进前3秒字幕，让用户觉得'说的就是我现在'，比泛讲'好用'的完播和点击都更稳。"
+          "desc": "绑定梅雨回南天、秋冬换季收纳、租房入住三个节点，放大返潮返臭、门底漏风、东西没处放的场景焦虑。"
         },
         {
           "title": "福利/紧迫",
-          "desc": "价格锚点给到极致：'19.9元2大卷''19.9元100贴''到手2个''买一送一''300个送压线钳'，用'件数多+单价低'制造占便宜感；再叠加'厂家直销''限时特惠''1件不留''趁有活动赶紧抢'制造紧迫。注意福利必须和商品强相关（送压线钳、送替换头），不要空喊'特价'。"
+          "desc": "用「拍1发6」「买一送一」「19.9元3件套」做价格锚点，配「后台正在备货、闪电发货」制造抢购紧迫。"
         },
         {
           "title": "明星/IP",
-          "desc": "本赛道整体缺明星背书，信任链主要靠'店主亲测''用过都说好''大师手工打造''普陀推荐'等素人/场景化证言。可复用做法：让出镜人边操作边讲'我自己家就装了这个'，用真实使用场景替代明星；有品牌联名的（如北极绒、志高）可在口播里带一句品牌名增强信任，但不要作为唯一卖点。"
+          "desc": "本赛道少明星背书，主要靠「老师推荐」「普陀推荐」等类权威口吻与老客户复购截图建立信任链。"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "晴雨伞·八骨加固抗风黑胶遮阳",
-          "product": "晴雨伞",
-          "customer": "义乌市顺诗电子商务商行(个体工商户)",
+          "title": "钥匙包·黄铜百福缸葫芦挂件吉祥寓意",
+          "product": "钥匙包",
+          "customer": "渔歌子",
           "chain": "小店",
-          "tag": "功能演示 · 抗风加固",
-          "spend": 56691.84,
-          "ctr": 1.52,
-          "cvr": 19.21,
-          "cpm": 36,
-          "duration": "约38s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3lqbvcaadjiafhi4m3vvbsxaekfoaguka.f0.mp4?dis_k=9a370ed28572d61708897cd9b3e2ea81&dis_t=1787757082&m=17dfc392e37562b918c032527f8c6616",
-          "frames": [
-            {
-              "src": "assets/frames/upload-5c047d10ee8d1851b13a/frame-01.jpg",
-              "time": "2.3s"
-            },
-            {
-              "src": "assets/frames/upload-5c047d10ee8d1851b13a/frame-02.jpg",
-              "time": "9.1s"
-            },
-            {
-              "src": "assets/frames/upload-5c047d10ee8d1851b13a/frame-03.jpg",
-              "time": "16.3s"
-            },
-            {
-              "src": "assets/frames/upload-5c047d10ee8d1851b13a/frame-04.jpg",
-              "time": "23.5s"
-            },
-            {
-              "src": "assets/frames/upload-5c047d10ee8d1851b13a/frame-05.jpg",
-              "time": "31.1s"
-            }
-          ],
+          "tag": "寓意种草 · 吉祥送礼",
+          "spend": 94924.43,
+          "ctr": 1.31,
+          "cvr": 22.3,
+          "cpm": 81.76,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3nac2aaafduaiwavxijvb62aeubualica.f0.mp4?dis_k=500da7bd2d12035efff5707170afaf8f&dis_t=1790061436&m=61474a2ab615b1ddd78a02fa72c7532a",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧给到暴雨中伞面被狂风吹到变形却不翻的实拍特写，字幕打出'八骨加固长柄伞，黑胶遮阳还抗风'，用'别人的伞吹翻、这把伞纹丝不动'的强对比制造反常识，抓住通勤族和接送孩子家长这两类最怕雨天狼狈的人群。"
+              "desc": "首帧手持黄铜百福缸怼近镜头，光下泛铜色，口播「黄铜打造百福缸搭配福禄葫芦」，用材质质感与吉祥符号抓住送礼和随身挂件人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到普通伞被风掀翻、伞骨外翻、人淋成落汤鸡的尴尬画面，配'一到下雨天，伞吹翻、人淋湿、还得重新买'的吐槽，放大'便宜伞用一次就废'的焦虑，让用户意识到不是自己倒霉，而是伞骨结构不行，需求被顺势放大。"
+              "desc": "切普通塑料钥匙扣掉色、挂件廉价没寓意的画面，点出「送人拿不出手、自己戴没意思」，把选购焦虑放大到必须换一件有讲究的。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，手部特写逐根数八根加固伞骨、按压黑胶涂层展示遮阳，口播'八骨加固，抗风耐用，黑胶防晒，晴雨两用'，把'抗风'落到伞骨数量、'遮阳'落到黑胶材质，用具体结构回应前面'伞吹翻'的痛点，给出可感知的价值锚点。"
+              "desc": "手指转动葫芦展示开合结构与福字刻纹，口播「自带吉祥寓意，男女随身百搭耐看」，用黄铜实心与百搭外观回应耐看耐用需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍对比：同一阵风下普通伞翻面、这把伞稳定撑开；再展示双人伞面宽度、收伞后长度可放进背包侧袋，用'两人并排不淋肩''收起来不占地'两个可拍证据强化耐用与便携，顺手补一句'出门随时携带方便'完成信任叠加。"
+              "desc": "实拍挂上钥匙串、挂包、挂车钥匙三个场景，镜头扫过刻字细节与铜面光泽，证明不挑人群不挑场合，强化复购与送礼信心。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述核心利益'八骨加固、黑胶遮阳、晴雨两用'，给出'厂家直销、限时特惠'的福利信息，行动指令明确到'点下方小黄车直接拍'，承接小店链路，让被雨天痛点击中的用户当场下单，不给他去比价的时间。"
+              "desc": "复述「寓意好又耐看，随身带着送人也体面」，接小店限时价与闪电发货指令，引导点购物车直接下单承接小店链路。"
             }
           },
-          "materialId": "5c047d10ee8d1851b13a",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "7e73a9c87630359fc936",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
           "sourceId": "S1R2",
-          "title": "管道疏通器·伸缩弹簧通各种堵塞",
-          "product": "管道疏通器",
-          "customer": "叶县尚裕种植农场(个人独资)",
-          "chain": "小店",
-          "tag": "功能演示 · 一器通全屋",
-          "spend": 34902.21,
-          "ctr": 2.04,
-          "cvr": 16.88,
-          "cpm": 16.08,
-          "duration": "约143s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53miaaqaaa5uajc4nsszvbwyqebbraacca.f0.mp4?dis_k=94840cd428ca7643573690a4214ffff9&dis_t=1790297821&m=c12cb8bf336da149847daf3c13f60f8b&sha256=c825010c2bcd396d36c70697307b744e884fa299ac3ae07fdb21dd31195fc9a7",
-          "frames": [
-            {
-              "src": "assets/frames/upload-6469a475bd5f2d81ccc0/frame-01.jpg",
-              "time": "8.6s"
-            },
-            {
-              "src": "assets/frames/upload-6469a475bd5f2d81ccc0/frame-02.jpg",
-              "time": "34.3s"
-            },
-            {
-              "src": "assets/frames/upload-6469a475bd5f2d81ccc0/frame-03.jpg",
-              "time": "61.4s"
-            },
-            {
-              "src": "assets/frames/upload-6469a475bd5f2d81ccc0/frame-04.jpg",
-              "time": "88.5s"
-            },
-            {
-              "src": "assets/frames/upload-6469a475bd5f2d81ccc0/frame-05.jpg",
-              "time": "117.0s"
-            }
-          ],
+          "title": "镇宅挂件·生活用品·青龙高万丈铜牌",
+          "product": "镇宅挂件",
+          "customer": "武汉瑄铎商贸有限公司",
+          "chain": "CID",
+          "tag": "权威口吻 · 场景化解焦虑",
+          "spend": 89795.49,
+          "ctr": 1.79,
+          "cvr": 3.42,
+          "cpm": 10.59,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53v4alwaaapyaavy54k5vbvlyexoxqbo2a.f0.mp4?dis_k=217096a06a3a07ad26f7c24158740ad7&dis_t=1790751859&m=bc8ff95343f544aa967abfb9fda0cc1c&sha256=ca532bf28302f378556d0a41f7696a533d96df2aab46a06f852100855efe2d0b",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧怼近一盆积满脏水、迟迟不下水的厨房水槽，字幕'创新伸缩弹簧设计，轻松处理各种管道堵塞问题'，用'水漫上来'的视觉冲击制造不适，抓住刚被堵过、正想找工具的家庭主妇和租房党，让他们3秒内产生'我家也这样'的代入。"
+              "desc": "首帧铜牌挂上门框特写，口播「先到先得，活动是真的，别私信了」，用抢购口吻和实物铜面反光抓住讲究家居摆放的中老年人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示请师傅上门报价、倒化学疏通剂刺鼻又伤管、皮搋子按半天没用的三种失败方案，配'堵一次花好几百，还怕腐蚀管道'的抱怨，把'又贵又麻烦'的焦虑推到顶点，让用户觉得传统办法都不靠谱，需求被放大到必须换个工具。"
+              "desc": "镜头扫过空荡门厅与邻居门口摆件对比，暗示「位置没选对、心里不踏实」，把传统讲究转成必须马上安排一件的焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，手部特写把伸缩弹簧伸进下水口、旋转手柄，弹簧随弯管自动弯曲深入，口播'伸缩弹簧设计，厨房、卫生间、马桶、地漏都能通'，用'一根弹簧适配多种管径'的结构机制逐项回应'不同地方堵'的痛点，给出'一器通全屋'的价值锚点。"
+              "desc": "双手托起铜牌展示双龙太极八卦纹路与厚度，口播「选对位置摆在家里」，用铜合金彩绘工艺回应耐用与仪式感双重需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：先拍堵塞积水，再拍弹簧伸入后脏水哗啦排空的瞬间，前后对比一目了然；补拍弹簧从弯管里带出头发、菜渣的特写作为'真的通出来了'的证据，再演示收纳挂钩挂墙，强化'便宜好用还省地方'。"
+              "desc": "实拍室内门框、玄关、外墙三个悬挂位置，演示挂扣安装一步到位，证明不挑墙面、装上即稳，降低下单顾虑。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'伸缩弹簧、一器通全屋、不用请师傅'的核心利益，给出'厂家直供、限时特价'的福利，行动指令落到'点下方链接拍一件，家里常备不吃亏'，承接小店链路，把'下次再堵'的预期转化为现在就买的理由。"
+              "desc": "复述「后台正在备货，闪电发货」，叠加限时活动价与先到先得指令，引导点击进入CID落地页完成下单承接。"
             }
           },
-          "materialId": "6469a475bd5f2d81ccc0",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "c06de70c41f0d354b93a",
+          "frameStatus": "pending"
         },
         {
+          "sourceId": "S1R61",
+          "title": "生活用品",
+          "product": "生活用品",
+          "customer": "石首市淡家商贸有限公司",
+          "chain": "CID",
+          "tag": "高消耗代表素材",
+          "spend": 73906.4,
+          "ctr": 3.21,
+          "cvr": 3.06,
+          "cpm": 19.9,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53kebciaacxmally6trzvbquieeriqejca.f0.mp4?dis_k=d8ae4c3658b8727d2b6f0ac3b7efebbd&dis_t=1792119291&m=dea61c9265a517894ccd94eb65e5e688&sha256=e1d629d2d03f42e80756ceb30129fa7380b9f5be12472b0b5925b27a8cb629b2",
+          "frames": [],
           "rank": 3,
-          "sourceId": "S1R3",
-          "title": "钥匙包·黄铜百福缸葫芦挂件",
-          "product": "钥匙包",
-          "customer": "隆尧县文美工艺家居用品馆",
-          "chain": "小店",
-          "tag": "寓意种草 · 送礼自用",
-          "spend": 31978.97,
-          "ctr": 1.06,
-          "cvr": 20.43,
-          "cpm": 22.84,
-          "duration": "约24s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3jma6saabhyame6t6nrvbwsye5ffqd2ka.f0.mp4?dis_k=bfd1ea13bb5754c4c6e36bf40478f714&dis_t=1786719095&m=a1bba7b422c62d310cc56cff111f75ed",
-          "frames": [
-            {
-              "src": "assets/frames/upload-889773144d7598c81c81/frame-01.jpg",
-              "time": "1.5s"
-            },
-            {
-              "src": "assets/frames/upload-889773144d7598c81c81/frame-02.jpg",
-              "time": "5.8s"
-            },
-            {
-              "src": "assets/frames/upload-889773144d7598c81c81/frame-03.jpg",
-              "time": "10.4s"
-            },
-            {
-              "src": "assets/frames/upload-889773144d7598c81c81/frame-04.jpg",
-              "time": "15.0s"
-            },
-            {
-              "src": "assets/frames/upload-889773144d7598c81c81/frame-05.jpg",
-              "time": "19.9s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧微距特写黄铜百福缸表面密密麻麻的福字和葫芦造型，光线打在铜面上泛出温润光泽，字幕'精致福字钥匙扣，每一处细节都蕴含美好祝福'，用'这不是普通钥匙扣'的反差抓住信寓意、爱送礼的中老年和女性用户，让他们愿意多看两秒。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到普通塑料钥匙扣用久发黄、挂件廉价没质感、想送人又拿不出手的场景，配'钥匙扣天天用，可拿出去总觉得差点意思'的内心独白，把'日常小物也要有体面'的情绪放大，让用户意识到缺的不是钥匙扣，而是一个能随身带的好寓意。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部转动百福缸展示福字雕刻、葫芦开口结构、黄铜材质，口播'黄铜打造，百福汇聚一扣，葫芦寓意福禄，随身携带百搭耐看'，把'吉祥'落到具体工艺和造型上，用'大师手工打造、古朴典雅'回应'拿不出手'的痛点，给出送礼自用两相宜的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍：把挂件挂上汽车钥匙、家门钥匙、包包拉链，展示多场景百搭；再拍手掌托起挂件对比硬币大小，证明'小巧不累赘'；补一段礼盒包装镜头，强化'送礼自用皆宜'，用真实使用场景替代空喊寓意。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'黄铜百福缸、福禄葫芦、随身百搭'的核心利益，给出'买一送一、包邮送到家'的福利和'送礼自用都合适'的提醒，行动指令明确到'点下方小黄车，趁活动拍一件'，承接小店链路，把寓意消费当场转化。"
-            }
-          },
-          "materialId": "889773144d7598c81c81",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "f0c78e1c3122ca7095d3",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
-          "sourceId": "S1R4",
-          "title": "生活用品·青龙高万丈挂件镇宅摆设",
-          "product": "生活用品",
-          "customer": "广州风簸浪千科技有限公司",
+          "sourceId": "S1R3",
+          "title": "月亮椅·能坐能躺加棉加厚多档调节",
+          "product": "月亮椅",
+          "customer": "奇麟",
           "chain": "CID",
-          "tag": "情绪种草 · 后悔没早买",
-          "spend": 30643.63,
-          "ctr": 3.59,
-          "cvr": 4.79,
-          "cpm": 24.24,
-          "duration": "约92s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53saadsaaajyajksf4uvvbveaehgiaaoka.f0.mp4?dis_k=941316ba072b012256d78aa694709b2f&dis_t=1790751419&m=e181a1f694d7bf57954351e848423061&sha256=2aac4f7701fb37288e787d077c2ffb1b170ad32a999f39c736110aabb5db0c5a",
-          "frames": [
-            {
-              "src": "assets/frames/upload-99cf04de34296d812a6c/frame-01.jpg",
-              "time": "5.5s"
-            },
-            {
-              "src": "assets/frames/upload-99cf04de34296d812a6c/frame-02.jpg",
-              "time": "22.1s"
-            },
-            {
-              "src": "assets/frames/upload-99cf04de34296d812a6c/frame-03.jpg",
-              "time": "39.6s"
-            },
-            {
-              "src": "assets/frames/upload-99cf04de34296d812a6c/frame-04.jpg",
-              "time": "57.1s"
-            },
-            {
-              "src": "assets/frames/upload-99cf04de34296d812a6c/frame-05.jpg",
-              "time": "75.5s"
-            }
-          ],
+          "tag": "场景演示 · 舒适躺感",
+          "spend": 72584.02,
+          "ctr": 1.2,
+          "cvr": 5.58,
+          "cpm": 59.99,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3pyayeaabqyakq26zsvvbw7qeqj7adasa.f0.mp4?dis_k=e23bde6d5923e938d0b1fbcf4a5b25c5&dis_t=1793093321&m=d85cfdb7cacaa6954a4a12e4759254fa&sha256=5b326993f1523f740b3ce7acf259007340a775c884a7225437690f02756b550c",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧给到挂件挂在客厅墙面的实拍，字幕'真的后悔，没有早点听老师的话安排上这款青龙高万丈挂件！太好用'，用'后悔没早买'的强情绪和'老师的话'制造悬念，抓住对家居风水、镇宅摆设感兴趣的人群，让他们忍不住想知道到底管什么用。"
+              "desc": "首帧人物一屁股躺进月亮椅、脚拖自动弹起，口播「可以坐可以躺的月亮椅」，用躺平瞬间的反差抓住露营与居家午休人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面呈现家里布局总觉得别扭、邻居抬头对视尴尬、心里不踏实的日常场景，配'住着总觉得哪里不对，又说不上来'的焦虑独白，把'看不见的不安'具体化，让用户把'心里不踏实'和'缺个摆设'联系起来，需求被顺势放大。"
+              "desc": "切普通折叠椅硬板硌背、久坐腰酸的画面，点出「露营坐一天腰受不了」，把户外休息不适放大成必须换椅的理由。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头环绕展示铜牌青龙、八卦纹样、高万丈造型，口播'彩绘青龙创意高万丈牌，双龙太极八卦室内挂件，解决内压、抬头高化'，把'镇宅'落到具体图案和摆放位置，用'挂在客厅/门口'的明确用法回应'不知道放哪'的疑虑，给出可执行的价值锚点。"
+              "desc": "手压加棉靠背展示回弹，演示多档调节与脚拖展开，口播「加棉加厚躺椅带脚拖多档调节」，用结构回应护腰舒适需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍：演示挂件上墙的安装过程（免钉/挂钩），展示挂在玄关、客厅、书桌三个位置的效果，再拍铜牌厚度和彩绘细节证明做工，用'哪里不顺挂哪里'的多场景覆盖强化实用性，让用户对号入座找到自己家的位置。"
+              "desc": "实拍露营草地、阳台、办公室午休三个场景，人物从坐到躺完整演示，证明一把椅子多种用途，强化便携实用信任。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'青龙高万丈、八卦镇宅、室内挂件'的核心利益，给出'厂家直销、今日特价'的福利，行动指令落到'点下方链接，趁活动请一件回家'，承接CID链路，把情绪驱动的兴趣转成下单动作。"
+              "desc": "复述「方便又实用，一把椅子多种用途」，接限时价与库存紧张提示，引导点击落地页下单，承接CID转化链路。"
             }
           },
-          "materialId": "99cf04de34296d812a6c",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "b13e7dcc160f1067d9a6",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
-          "sourceId": "S1R5",
-          "title": "地漏接头·洗衣机三通分水防溢防臭",
-          "product": "地漏接头",
-          "customer": "瓦房店市因任商贸商行(个体工商户)",
+          "sourceId": "S1R4",
+          "title": "雨衣·加长加厚防水防污雨季通勤",
+          "product": "雨衣",
+          "customer": "膜尔",
           "chain": "CID",
-          "tag": "功能演示 · 防溢防臭",
-          "spend": 29081.31,
-          "ctr": 1.09,
-          "cvr": 14.02,
-          "cpm": 36,
-          "duration": "约178s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qabj2aacheakts5uszvbraaetwaafhka.f0.mp4?dis_k=549adaee39a255e2cb655a082f903384&dis_t=1790325952&m=858af7257458da75539f20a382201655&sha256=8691a3b78159947079255af32b0d71b5c6fab986751bcabb14580f5085fda604",
-          "frames": [
-            {
-              "src": "assets/frames/upload-b92cca964e7627951b51/frame-01.jpg",
-              "time": "10.7s"
-            },
-            {
-              "src": "assets/frames/upload-b92cca964e7627951b51/frame-02.jpg",
-              "time": "42.8s"
-            },
-            {
-              "src": "assets/frames/upload-b92cca964e7627951b51/frame-03.jpg",
-              "time": "76.7s"
-            },
-            {
-              "src": "assets/frames/upload-b92cca964e7627951b51/frame-04.jpg",
-              "time": "110.7s"
-            },
-            {
-              "src": "assets/frames/upload-b92cca964e7627951b51/frame-05.jpg",
-              "time": "146.4s"
-            }
-          ],
+          "tag": "季节痛点 · 功能演示",
+          "spend": 59060.44,
+          "ctr": 1.62,
+          "cvr": 10.53,
+          "cpm": 62.14,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b535ebyaaadyeafbg43pbvbt2ieqduqhaca.f0.mp4?dis_k=dd62c1789f3a4a4c307673486fb2f111&dis_t=1792497942&m=227fe127cf45b4222ce5e48aa413c8ae&sha256=886a846a54fd67a74c81fb796b47161c1f21c18256eb95e30d7ea095e517d6e9",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧怼近洗衣机排水时地漏往外冒水、地面湿一片的画面，字幕'多重品控层层把关，兼顾质感实用，给用户安心选择'，用'排水就返溢'的糟心场景制造不适，抓住刚装修或正被洗衣机排水困扰的家庭用户，让他们立刻对号入座。"
+              "desc": "首帧暴雨中骑电动车、裤腿湿透的狼狈画面，口播「雨季来临，家里有电动车的」，用真实雨天痛点锁定通勤骑车人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示洗衣机排水管直接插地漏导致水花四溅、地漏返臭味、地面长期潮湿发霉的连锁问题，配'每次洗衣服都得拖地，还一股味'的抱怨，把'排水+防臭'两个痛点叠加放大，让用户意识到不是洗衣机的问题，而是地漏接口不匹配。"
+              "desc": "特写普通雨衣短一截、雨水顺腿流进鞋、前襟渗水，点出「加长不够、防水不行」，把换雨衣需求推到紧迫。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，手部特写把三通分水接头套上地漏、接上洗衣机排水管，展示密封圈和防溢结构，口播'洗衣机下水管地漏专用三通分水接头，排水防溢防臭，卫浴配件通用'，用'三通分流+密封防臭'的结构机制逐项回应返溢和返味，给出'一装解决'的价值锚点。"
+              "desc": "抖开加长加厚雨衣罩住整车，泼水演示水珠成串滑落，口播「加长加厚，防水防污」，用面料拒水机制回应渗水痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：先拍未装接头时排水外溢，再拍装好后排水顺畅、地面干爽的对比；补拍接头与地漏的贴合特写、密封圈细节，证明'严丝合缝不漏水'，再演示拆装清洗方便，强化耐用和好打理。"
+              "desc": "实拍穿脱全过程与骑行转弯镜头，展示不挡视线、不卷车轮，前后对照干爽裤腿，证明通勤场景真实可用。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'三通分水、防溢防臭、通用适配'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令明确到'点下方小黄车拍一个，装上就省心'，承接CID链路，把'每次洗衣都糟心'的痛点转化为即时购买。"
+              "desc": "复述「防水防污，雨季通勤一件搞定」，接今日特价与库存提示，引导点击落地页下单，承接CID链路转化。"
             }
           },
-          "materialId": "b92cca964e7627951b51",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "093091aae657a42dc240",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
-          "sourceId": "S1R6",
-          "title": "手动工具套装·多功能钳子+19合棘轮螺丝刀",
-          "product": "手动工具套装",
-          "customer": "高新技术产业开发区丽楠日用品店",
-          "chain": "小店",
-          "tag": "功能演示 · 一箱搞定",
-          "spend": 25088,
-          "ctr": 1.73,
-          "cvr": 9.24,
-          "cpm": 70.12,
-          "duration": "约175s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3geaeuaaak4aeop373nvbumiejiyqassa.f0.mp4?dis_k=f3444c8e76e829330ed2eb7c5460815e&dis_t=1786711404&m=b95efd4946cd823b829e6ddfbde77a8b",
-          "frames": [
-            {
-              "src": "assets/frames/upload-5197a6f3275096b35f15/frame-01.jpg",
-              "time": "10.5s"
-            },
-            {
-              "src": "assets/frames/upload-5197a6f3275096b35f15/frame-02.jpg",
-              "time": "42.0s"
-            },
-            {
-              "src": "assets/frames/upload-5197a6f3275096b35f15/frame-03.jpg",
-              "time": "75.3s"
-            },
-            {
-              "src": "assets/frames/upload-5197a6f3275096b35f15/frame-04.jpg",
-              "time": "108.6s"
-            },
-            {
-              "src": "assets/frames/upload-5197a6f3275096b35f15/frame-05.jpg",
-              "time": "143.6s"
-            }
-          ],
+          "sourceId": "S1R5",
+          "title": "剪刀·源头厂家美工剪锋利耐用",
+          "product": "剪刀",
+          "customer": "守正出奇",
+          "chain": "CID",
+          "tag": "源头直供 · 价格钩子",
+          "spend": 51366.47,
+          "ctr": 2.46,
+          "cvr": 14.14,
+          "cpm": 214.06,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3iibd6aacjyanolgtxbvbqqqeh5baep2a.f0.mp4?dis_k=c70ceed3a86b1ea59583cff93abeadb8&dis_t=1793329902&m=0231a4e4a68f5734e8eba5678e0d83f8&sha256=a53535c97217ec47d19cc479c1dceeeb3c41ba66f5c1a138b6977fc64e0ad4af",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧把整套工具摊开在桌面，钳子、棘轮螺丝刀、多种批头一字排开，字幕'高品质多功能工具，螺丝刀钳子组合，满足日常维修需求'，用'一箱顶一柜'的视觉冲击抓住爱自己动手的男性用户和刚搬新家的家庭，让他们觉得'这个得备一套'。"
+              "desc": "首帧剪刀咔嚓剪开厚纸板与多层布料，口播「源头厂家，厂家直销，今日特价」，用剪切爽感和低价钩子抓住居家手工人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示家里螺丝松了找不到合适批头、拧两下就滑丝、临时借工具又借不到的窘境，配'想修个东西，工具比问题还难搞'的吐槽，把'工具不趁手'的挫败感放大，让用户意识到缺的不是力气，而是一套能应对各种螺丝的工具。"
+              "desc": "对比旧剪刀剪布起毛、剪硬物打滑卷刃，点出「家里那把剪啥都费劲」，把换剪需求放大到影响日常缝补手工。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，手部特写展示19合一批头切换、棘轮正反转、强磁吸附螺丝、加长杆深入窄缝，口播'多功能钳子加19合一棘轮螺丝刀，强磁拆卸，内置异型批头，日常维修一套搞定'，用'批头多+强磁+加长'的结构回应'找不到合适工具'的痛点，给出'一套通吃'的价值锚点。"
+              "desc": "特写高硬度刃口与铆钉转轴，演示剪厚布、剪花枝、剪胶带不费力，口播「锋利耐用」，用钢材与结构回应耐用需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍：现场拧紧松动的柜门铰链、拆装插座面板、夹持小零件，展示棘轮省力、强磁吸螺丝不掉；再拍收纳盒合上后体积小巧可放抽屉，用'修完一收就干净'强化整洁，让用户看到真实可用的场景。"
+              "desc": "实拍剪布料切口平整、剪硬卡纸不卷边的前后对照，再握持演示省力手感，证明家用多场景都能胜任。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'19合一批头、棘轮省力、强磁不掉螺丝'的核心利益，给出'厂家直供、限时特惠'的福利，行动指令落到'点下方链接拍一套，家里修修补补不求人'，承接小店链路，把'迟早用得上'变成现在下单。"
+              "desc": "复述「源头厂家今日特价，速来抢购」，叠加限时立减与库存紧张，引导点击落地页下单，承接CID转化链路。"
             }
           },
-          "materialId": "5197a6f3275096b35f15",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "d3ae0dd4eafccb954c4e",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
-          "sourceId": "S1R7",
-          "title": "基础建材·自粘皮革修补贴翻新沙发",
-          "product": "基础建材",
-          "customer": "菏泽市牡丹区星觅电子商务中心(个体工商户)",
-          "chain": "CID",
-          "tag": "痛点修复 · 一撕一贴",
-          "spend": 16592,
-          "ctr": 1.11,
-          "cvr": 9.14,
-          "cpm": 14.03,
-          "duration": "约121s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3zacwiaafi4ak4qvn5zvb7saemteakzca.f0.mp4?dis_k=c55c0261bb68bd98505af4577714aecf&dis_t=1789629324&m=d8a867d117604c52d90225bd48ecd82d&sha256=2b014714f85f634755f3e881d2c6ea431aee5a03c2480c226f1f8961a9c4f582",
-          "frames": [
-            {
-              "src": "assets/frames/upload-113b37f66f325c4b9def/frame-01.jpg",
-              "time": "7.2s"
-            },
-            {
-              "src": "assets/frames/upload-113b37f66f325c4b9def/frame-02.jpg",
-              "time": "29.0s"
-            },
-            {
-              "src": "assets/frames/upload-113b37f66f325c4b9def/frame-03.jpg",
-              "time": "51.9s"
-            },
-            {
-              "src": "assets/frames/upload-113b37f66f325c4b9def/frame-04.jpg",
-              "time": "74.9s"
-            },
-            {
-              "src": "assets/frames/upload-113b37f66f325c4b9def/frame-05.jpg",
-              "time": "99.1s"
-            }
-          ],
+          "sourceId": "S1R6",
+          "title": "家居服套装·深睡睡衣轻盈贴身",
+          "product": "家居服套装",
+          "customer": "亚朵生活优选",
+          "chain": "直购",
+          "tag": "品牌调性 · 睡眠场景",
+          "spend": 37461.87,
+          "ctr": 2.47,
+          "cvr": 1.34,
+          "cpm": 53.49,
+          "duration": "未提供",
+          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6ac9ed91000e023514fa3c116e6dbc1e0000008d00004eec?ck=38d7e6cb517a5fadad17f547ccf63ab1&m=38d7e6cb517a5fadad17f547ccf63ab1&sha256=cf03e125133ae4b80f08f359a0547bb0df56e0f50242a3eb0c0d73dba4327fba",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧怼近沙发扶手上一道明显的破皮裂口，字幕'沙发、椅子破损怎么办？自粘皮革修复贴，一撕一贴！轻松修复'，用'破沙发'的视觉冲击制造心疼感，抓住家里有旧皮沙发、皮椅、床头破损又舍不得换新的人群。"
+              "desc": "首帧暖光卧室里人物翻身、衣料随动作轻垂，口播「从穿上到躺下，和身体都有默契」，用松弛氛围抓住秋冬睡眠不佳人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示破皮越裂越大、掉渣粘衣服、请人翻新报价上千、换新沙发动辄几千的窘境，配'扔了可惜，修又太贵'的纠结，把'换新成本高'的焦虑放大，让用户意识到其实缺的只是一张贴纸，需求被顺势点燃。"
+              "desc": "切睡衣粗糙扎肤、翻身勒痕、闷热出汗的细节，点出「穿不对睡衣，睡再久也累」，把睡眠焦虑转成换衣需求。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，手部特写撕开背胶、对准破口贴上、按压抚平，口播'强粘皮革自粘修补贴，粘贴式真皮沙发破损翻新，床头椅子都能用'，用'自粘背胶+皮革纹理'的结构回应'修不好看'的顾虑，给出'一撕一贴就翻新'的价值锚点。"
+              "desc": "手抚面料展示垂坠与轻薄，口播「很轻，也能睡得很沉」，用亲肤轻盈材质回应翻身束缚与闷热痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：左半破口、右半贴好，镜头拉近看纹理和颜色是否接近；再拍贴好后用手抠、用湿布擦不掉，证明粘得牢；补拍裁剪成不同形状适配边角，强化'哪里破贴哪里'的通用性。"
+              "desc": "实拍躺卧、侧翻、起身三个动作，衣料不起皱不勒身，前后对照睡眠状态，强化舒适可信度与复购意愿。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'自粘皮革、一撕一贴、沙发椅子床头通用'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令明确到'点下方小黄车，拍一张回家就能补'，承接CID链路，把'舍不得换新'的情绪转成低成本修复的下单。"
+              "desc": "复述「很轻，也能睡得很沉」，接秋冬款限时价与尺码提示，引导点击直购页下单，承接直购链路转化。"
             }
           },
-          "materialId": "113b37f66f325c4b9def",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "d171460d3705cd86829a",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
-          "sourceId": "S1R8",
-          "title": "钢丝球·椭圆带绳不易掉丝",
-          "product": "钢丝球",
-          "customer": "广州市天河区凌斌百货商行(个体工商户)",
-          "chain": "小店",
-          "tag": "功能演示 · 不掉丝更卫生",
-          "spend": 15378.48,
-          "ctr": 3.54,
-          "cvr": 21.24,
-          "cpm": 42.25,
-          "duration": "约203s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3zaagsaaak4aefbfzszvbxsaenheaa2ka.f0.mp4?dis_k=fd0130e31c8cfea7e19afce9719c1e3d&dis_t=1790520245",
-          "frames": [
-            {
-              "src": "assets/frames/upload-ab160e0a83e6360a376b/frame-01.jpg",
-              "time": "12.2s"
-            },
-            {
-              "src": "assets/frames/upload-ab160e0a83e6360a376b/frame-02.jpg",
-              "time": "48.7s"
-            },
-            {
-              "src": "assets/frames/upload-ab160e0a83e6360a376b/frame-03.jpg",
-              "time": "87.2s"
-            },
-            {
-              "src": "assets/frames/upload-ab160e0a83e6360a376b/frame-04.jpg",
-              "time": "125.7s"
-            },
-            {
-              "src": "assets/frames/upload-ab160e0a83e6360a376b/frame-05.jpg",
-              "time": "166.2s"
-            }
-          ],
+          "sourceId": "S1R7",
+          "title": "针线包·磁吸针线盒小巧便携",
+          "product": "针线包",
+          "customer": "守正出奇",
+          "chain": "CID",
+          "tag": "源头直供 · 居家必备",
+          "spend": 31404.04,
+          "ctr": 1.74,
+          "cvr": 15.79,
+          "cpm": 175.56,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53biaagaaakeah7k6vfzvbucqeamfaaa2a.f0.mp4?dis_k=da379e179202e65ac8913a9ddbe4052d&dis_t=1793087944&m=e87f869a67923f8ea6fe68ca52ec3dee&sha256=5533bc8f790b5137f3178353d6c5c33fa434d3cdbce27a2beabf66cc6c651064",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧怼近一口糊满焦垢的铁锅，钢丝球一擦油垢成片脱落，字幕'创新椭圆造型，握感舒适去污强，悬挂设计更卫生'，用'一擦就掉'的解压画面抓住天天做饭、最烦刷锅的主妇人群，让他们忍不住看完。"
+              "desc": "首帧打开磁吸针线盒，针具整齐吸附不掉落，口播「源头厂家，厂家直销，今日特价」，用收纳秩序感抓住居家缝补人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面展示普通钢丝球用两次就散、掉丝扎手、湿哒哒堆在水槽边发臭的场景，配'刷个锅还怕吃到钢丝'的抱怨，把'掉丝+不卫生'两个痛点叠加放大，让用户意识到便宜钢丝球省的是钱、赔的是健康。"
+              "desc": "对比抽屉里散落针线、找针扎手、线团打结的画面，点出「缝个扣子翻半天」，把收纳混乱放大成必须换一套。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，手部特写展示椭圆造型贴合掌心、加厚不锈钢丝、带绳可悬挂，口播'不锈钢钢丝球带绳不易掉丝，加厚耐磨，厨房家用大号椭圆清洁球'，用'加厚+带绳'的结构回应掉丝和收纳痛点，给出'耐用又卫生'的价值锚点。"
+              "desc": "演示磁吸取针、线轴分格、剪刀尺子一盒齐备，口播「小巧便携超实用」，用分格与磁吸结构回应找针难痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：同一口焦锅，普通钢丝球擦半天、这款几下擦净；再拍用力拉扯不掉丝、用完挂起来沥干，用'不掉丝''能挂干'两个证据强化耐用和卫生，让用户看到真实差异。"
+              "desc": "实拍缝扣子、补裤脚、宿舍应急三个场景，一盒取用不翻找，前后对照桌面整洁，证明便携与齐全。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述'椭圆好握、加厚不掉丝、带绳悬挂'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令落到'点下方小黄车，多拍几个换着用'，承接小店链路，把厨房刚需转成囤货下单。"
+              "desc": "复述「家用缝补好帮手，小巧便携」，接今日特价与拍下即发指令，引导点击落地页下单，承接CID链路。"
             }
           },
-          "materialId": "ab160e0a83e6360a376b",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "19e7f0177f54a57a88f0",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
+          "sourceId": "S1R8",
+          "title": "包挂件·百福缸葫芦随身挂饰",
+          "product": "包挂件",
+          "customer": "渔歌子",
+          "chain": "小店",
+          "tag": "寓意种草 · 低价冲量",
+          "spend": 27956.42,
+          "ctr": 0.93,
+          "cvr": 20.37,
+          "cpm": 50.3,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3rebcsaacdqaoyaef6vvbrciefgeqekka.f0.mp4?dis_k=8de9669b96b941ee2e8eb30b57c9cae4&dis_t=1787282845&m=62d0301d95f35726ef4e69058a9651bc",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧手指拎起小米缸造型挂件在光下转动，口播「源头厂家，厂家直销，今日特价」，用复古造型与低价钩子抓住挂饰消费人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "切普通挂件掉漆、塑料感强、挂两天就闲置的画面，点出「买回来没质感也送不出手」，把换挂件需求放大。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "特写开口葫芦可开盖结构与缸身纹理，口播「复古开口葫芦挂件」，用实心材质与可开盖设计回应质感与趣味需求。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍挂钥匙、挂包、挂车内后视镜三个位置，镜头扫过细节不掉色，证明百搭耐看，强化下单信心。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述「寓意好又耐看，随身带着送人也体面」，接限时特价与闪电发货，引导点击小店购物车下单承接。"
+            }
+          },
+          "materialId": "a5b24385332af49e4eb3",
+          "frameStatus": "pending"
+        },
+        {
           "sourceId": "S1R9",
-          "title": "生活电器配件·油烟机吸油棉免清洗",
-          "product": "生活电器配件",
-          "customer": "武汉市江夏区舒欣润百货商行(个体工商户)",
+          "title": "山村辣妈腌制品",
+          "product": "山村辣妈腌制品",
+          "customer": "汝州市致广大供应链管理有限公司",
           "chain": "小店",
-          "tag": "功能演示 · 免清洗可剪裁",
-          "spend": 14985.86,
-          "ctr": 0.71,
-          "cvr": 24.92,
-          "cpm": 55.67,
-          "duration": "约300s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53laaasaaanaadszs72bvbuwaebfmaacka.f0.mp4?dis_k=a2304962c2bf1ae0e4be2e67f66acfb9&dis_t=1791169773&m=efaafa2beed37a2a26f2603cba034b4d&sha256=de60442f9711be192a1ca00a1f864dffecd6667101c7e41bf2a440f2c18ac1fc",
-          "frames": [
-            {
-              "src": "assets/frames/upload-289dc2ef7c23918a63fc/frame-01.jpg",
-              "time": "18.0s"
-            },
-            {
-              "src": "assets/frames/upload-289dc2ef7c23918a63fc/frame-02.jpg",
-              "time": "71.9s"
-            },
-            {
-              "src": "assets/frames/upload-289dc2ef7c23918a63fc/frame-03.jpg",
-              "time": "128.9s"
-            },
-            {
-              "src": "assets/frames/upload-289dc2ef7c23918a63fc/frame-04.jpg",
-              "time": "185.8s"
-            },
-            {
-              "src": "assets/frames/upload-289dc2ef7c23918a63fc/frame-05.jpg",
-              "time": "245.7s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧怼近油烟机接油槽里黏糊糊的黑油，字幕'油烟机吸油棉加厚阻燃免洗通用厨房接油槽可自由剪裁油烟机清洗'，用'油槽脏到不想碰'的视觉冲击制造不适，抓住天天做饭、最怕洗油烟机的家庭用户。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示拆油槽、倒废油、用洗洁精反复搓洗还洗不干净、手上全是油的过程，配'洗一次油烟机，比做一顿饭还累'的吐槽，把'清洗麻烦'的痛点放大，让用户意识到问题不在勤快，而在油槽本身难洗。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部特写把吸油棉按油槽尺寸剪裁、垫入槽内，口播'加厚耐高温防渗透，免清洗接油槽专用吸油棉条，可自由剪裁通用'，用'加厚+阻燃+可剪裁'的结构回应'怕起火、怕不合尺寸'的顾虑，给出'垫上就不用洗'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍对照：垫棉前油槽积油、垫棉后油被吸住，一周后直接整片拎起扔掉、油槽依旧干净；补拍剪裁适配不同型号油槽，证明通用性，用'拎起来就扔'的动作强化省事。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'加厚阻燃、免清洗、可剪裁通用'的核心利益，给出'厂家直销、限时特惠、多拍多送'的福利，行动指令明确到'点下方小黄车，囤一盒能用大半年'，承接小店链路，把'下次洗油烟机'的恐惧转成现在就囤。"
-            }
-          },
-          "materialId": "289dc2ef7c23918a63fc",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
+          "tag": "高消耗代表素材",
+          "spend": 27789.02,
+          "ctr": 4.47,
+          "cvr": 27.27,
+          "cpm": 52.74,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3aebk2aacx4akq5ovefvbsaievuaqflka.f0.mp4?dis_k=130291e75ad79a5cfbabfc24ec82ce5b&dis_t=1792476626",
+          "frames": [],
           "rank": 10,
-          "sourceId": "S1R10",
-          "title": "证件包·家用证件收纳袋",
-          "product": "证件包",
-          "customer": "金橙科技",
-          "chain": "CID",
-          "tag": "场景种草 · 再也不用找",
-          "spend": 13391.49,
-          "ctr": 1.48,
-          "cvr": 14.24,
-          "cpm": 206,
-          "duration": "约101s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3tqdegaagveaakihfczurzhaeiooamq2a.f0.mp4?dis_k=8415784ebe9e6ec2f01394d835b76fd3&dis_t=1776502334&m=69b63a3b2af946349fa5e8fe6bea7a30&sha256=274b966c99c234c1ac832dd4481d51b1ab132d1b66c62d0626efa1b993bab494",
-          "frames": [
-            {
-              "src": "assets/frames/upload-d445df9194061c905dd0/frame-01.jpg",
-              "time": "6.1s"
-            },
-            {
-              "src": "assets/frames/upload-d445df9194061c905dd0/frame-02.jpg",
-              "time": "24.3s"
-            },
-            {
-              "src": "assets/frames/upload-d445df9194061c905dd0/frame-03.jpg",
-              "time": "43.5s"
-            },
-            {
-              "src": "assets/frames/upload-d445df9194061c905dd0/frame-04.jpg",
-              "time": "62.7s"
-            },
-            {
-              "src": "assets/frames/upload-d445df9194061c905dd0/frame-05.jpg",
-              "time": "82.9s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧给到翻箱倒柜找户口本、证件散落一桌的慌乱画面，字幕'工资允许一定要买！用它太方便了，再也不用担心找不到了'，用'找证件找到崩溃'的共鸣抓住有娃家庭、常办手续的上班族，让他们立刻想起自己也有同样经历。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示房产证、户口本、毕业证、疫苗本混在抽屉里、要用时翻半天、还怕弄丢弄皱的焦虑，配'每次办事都要翻一遍全家'的抱怨，把'证件多又乱'的痛点放大，让用户意识到缺的不是记性，而是一个分类收纳的地方。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部特写把各类证件按格层分类插入、拉链合上，口播'家用证件收纳袋，一格一证，分类清楚，防水防潮，一包收齐全家证件'，用'分格+拉链+防水'的结构回应'乱、丢、潮'的痛点，给出'一包搞定'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍：把户口本、房产证、毕业证、疫苗本逐一放入对应格层，合上后体积小巧可放抽屉或保险柜；再拍拉链顺滑、面料防水泼水测试，用'分类清楚+防水'两个证据强化可靠，让用户看到真实收纳效果。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'一格一证、分类清楚、防水防潮'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令落到'点下方链接拍一个，全家证件一次收齐'，承接CID链路，把'下次办事又找不到'的焦虑转成现在下单。"
-            }
-          },
-          "materialId": "d445df9194061c905dd0",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 11,
-          "sourceId": "S1R11",
-          "title": "五刀头及以上毛球修剪器·毛衣去球恢复光洁",
-          "product": "五刀头及以上毛球修剪器",
-          "customer": "海大",
-          "chain": "直播",
-          "tag": "功能演示 · 去球如新",
-          "spend": 13041.15,
-          "ctr": 1.32,
-          "cvr": 7.81,
-          "cpm": 19.86,
-          "duration": "约119s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53eaaasaaaaeahgjlmzzvbwiaebeqaacka.f0.mp4?dis_k=e80f978ca19276fd76d73895c8070d02&dis_t=1785494066&m=8b6a65b6c018a517cde3113a3423333f",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e2adf360adf587d8475b/frame-01.jpg",
-              "time": "7.1s"
-            },
-            {
-              "src": "assets/frames/upload-e2adf360adf587d8475b/frame-02.jpg",
-              "time": "28.6s"
-            },
-            {
-              "src": "assets/frames/upload-e2adf360adf587d8475b/frame-03.jpg",
-              "time": "51.2s"
-            },
-            {
-              "src": "assets/frames/upload-e2adf360adf587d8475b/frame-04.jpg",
-              "time": "73.9s"
-            },
-            {
-              "src": "assets/frames/upload-e2adf360adf587d8475b/frame-05.jpg",
-              "time": "97.7s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧怼近一件起满毛球、显旧发灰的毛衣，字幕'毛衣去球神器！五刀头高效清理，轻松恢复衣物光洁'，用'起球毛衣'的视觉冲击制造'我也有'的共鸣，抓住换季翻出旧毛衣、舍不得扔的女性用户。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示毛衣起球后显廉价、穿出去尴尬、用手揪越揪越毛、用胶带粘不干净的窘境，配'好好的毛衣，一起球就不想穿了'的惋惜，把'起球=报废'的焦虑放大，让用户意识到其实还能救回来。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部特写用五刀头修剪器在毛衣表面来回推，毛球被吸进储屑盒，口播'五刀头高效清理，毛衣大衣去球器，轻松恢复衣物光洁'，用'五刀头+储屑盒'的结构回应'去不干净、毛屑乱飞'的痛点，给出'一推如新'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍对照：同一件毛衣左半起球、右半推过之后平整，镜头拉近看差异；再拍打开储屑盒倒出毛球、清理方便，补拍在毛毯、大衣上同样适用，用多材质演示强化通用性。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'五刀头、高效去球、恢复光洁'的核心利益，给出'直播间同款、限时特惠'的福利，行动指令明确到'点下方小黄车，趁换季把旧毛衣救回来'，承接直播链路，把'扔了可惜'的情绪转成下单。"
-            }
-          },
-          "materialId": "e2adf360adf587d8475b",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 12,
-          "sourceId": "S1R12",
-          "title": "雨衣·人车分离带袖防暴雨",
-          "product": "雨衣",
-          "customer": "义乌市茗胤电子商务商行(个体工商户)",
-          "chain": "CID",
-          "tag": "场景种草 · 全方位防雨",
-          "spend": 12161.53,
-          "ctr": 4.31,
-          "cvr": 2.14,
-          "cpm": 26.81,
-          "duration": "约114s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc32uaacaaaf4aiqsft2bvbxvieahkqaaka.f0.mp4?dis_k=969c6c263e8e219a12b01728d8d60479&dis_t=1790151174&m=fd35055f949b28dbe359e65e94db04db",
-          "frames": [
-            {
-              "src": "assets/frames/upload-b088fa4069b89e7032bf/frame-01.jpg",
-              "time": "6.8s"
-            },
-            {
-              "src": "assets/frames/upload-b088fa4069b89e7032bf/frame-02.jpg",
-              "time": "27.3s"
-            },
-            {
-              "src": "assets/frames/upload-b088fa4069b89e7032bf/frame-03.jpg",
-              "time": "49.0s"
-            },
-            {
-              "src": "assets/frames/upload-b088fa4069b89e7032bf/frame-04.jpg",
-              "time": "70.6s"
-            },
-            {
-              "src": "assets/frames/upload-b088fa4069b89e7032bf/frame-05.jpg",
-              "time": "93.4s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧给到暴雨中骑电动车的人被淋透、裤脚滴水的画面，字幕'新升级人车分离带袖雨衣，可以全方位防雨，加大加长可以遮脚'，用'暴雨淋透'的强冲击抓住每天骑电动车通勤、接送孩子的人群，让他们立刻代入。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示普通雨衣没袖子、骑车时雨水顺胳膊灌进袖子、下摆短遮不住腿、风一吹还翻起来的窘境，配'穿了雨衣还是湿一半'的吐槽，把'防不住'的痛点放大，让用户意识到不是雨大，而是雨衣设计不行。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，模特穿上带袖雨衣、拉上拉链、扣好下摆，口播'人车分离带袖设计，加厚防暴雨，加大加长遮脚，风衣式雨衣'，用'带袖+加长+加厚'的结构回应灌水、遮不住、易翻的痛点，给出'全方位防雨'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍：在雨中或花洒下演示，水打在雨衣上成珠滚落、内层不湿；再拍骑车时下摆盖住腿脚、袖子不灌水，用'淋水不湿内层'的对照证据强化防水，补拍收纳袋方便随车携带。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'人车分离、带袖加长、防暴雨'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令落到'点下方小黄车，雨季前备一件'，承接CID链路，把'下次下雨又淋湿'的预期转成现在就买。"
-            }
-          },
-          "materialId": "b088fa4069b89e7032bf",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 13,
-          "sourceId": "S1R13",
-          "title": "记忆棉枕·L型趴睡护颈玩手机不累脖",
-          "product": "记忆棉枕",
-          "customer": "深圳西诺思家居有限公司",
-          "chain": "直播",
-          "tag": "功能演示 · 护颈趴睡",
-          "spend": 11496.7,
-          "ctr": 0.86,
-          "cvr": 6.07,
-          "cpm": 96.6,
-          "duration": "约38s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b535iaagaaaouakah5qifvbv2qeapvaaa2a.f0.mp4?dis_k=558318aba307a60d40cd0848a1633e72&dis_t=1789961127&m=494a0eff2b91b373790cfc2fefbca182",
-          "frames": [
-            {
-              "src": "assets/frames/upload-f0ef373a454d1fe984b4/frame-01.jpg",
-              "time": "2.3s"
-            },
-            {
-              "src": "assets/frames/upload-f0ef373a454d1fe984b4/frame-02.jpg",
-              "time": "9.1s"
-            },
-            {
-              "src": "assets/frames/upload-f0ef373a454d1fe984b4/frame-03.jpg",
-              "time": "16.3s"
-            },
-            {
-              "src": "assets/frames/upload-f0ef373a454d1fe984b4/frame-04.jpg",
-              "time": "23.5s"
-            },
-            {
-              "src": "assets/frames/upload-f0ef373a454d1fe984b4/frame-05.jpg",
-              "time": "31.1s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧给到一个人趴着玩手机、脖子悬空酸到皱眉的画面，字幕'创新L型设计，记忆棉舒适承托，缓解颈部疲劳'，用'趴着玩手机脖子酸'的共鸣抓住爱躺床上刷手机的年轻人，让他们觉得'说的就是我'。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示趴着玩手机时脖子悬空、手臂压麻、久了颈椎疼的日常，配'刷个手机，脖子比上班还累'的吐槽，把'姿势不对伤颈椎'的焦虑放大，让用户意识到问题不在玩手机，而在没有合适的支撑。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部按压记忆棉展示回弹、展示L型凹槽贴合下巴和胸口，口播'L型设计，太空记忆棉材质，趴睡护颈，玩手机不累脖'，用'L型+记忆棉'的结构回应'脖子悬空、手臂压麻'的痛点，给出'趴着也舒服'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍：模特趴上枕头玩手机，展示下巴有支撑、手臂有位置放、脖子不悬空；再拍按压后缓慢回弹证明记忆棉材质，补拍侧睡、平躺也能用，用多姿势演示强化通用性。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'L型护颈、记忆棉承托、玩手机不累脖'的核心利益，给出'直播间同款、限时特惠'的福利，行动指令明确到'点下方小黄车，今晚就能睡个好觉'，承接直播链路，把'脖子酸'的即时不适转成下单。"
-            }
-          },
-          "materialId": "f0ef373a454d1fe984b4",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 14,
-          "sourceId": "S1R14",
-          "title": "面盆下水器·弹跳芯防臭过滤网",
-          "product": "面盆下水器",
-          "customer": "武汉洪山敏睿电子商务工作室(个体工商户)",
-          "chain": "CID",
-          "tag": "功能演示 · 防臭防堵",
-          "spend": 10786.42,
-          "ctr": 2.88,
-          "cvr": 7.41,
-          "cpm": 114.18,
-          "duration": "约105s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc36yckcaaewaap7xj7njvb55qeuh3ajika.f0.mp4?dis_k=db1d47b2b1b51e67d157d283b971971e&dis_t=1787735376&m=deffb7c2a8bbc96a31389b38f4c46a84&sha256=04041f7b97cf90fdb5a7532dba40e0381c4f32b112a9a80076843e2fa473f41d",
-          "frames": [
-            {
-              "src": "assets/frames/upload-3b9e8f0475a606f9080d/frame-01.jpg",
-              "time": "6.3s"
-            },
-            {
-              "src": "assets/frames/upload-3b9e8f0475a606f9080d/frame-02.jpg",
-              "time": "25.1s"
-            },
-            {
-              "src": "assets/frames/upload-3b9e8f0475a606f9080d/frame-03.jpg",
-              "time": "45.0s"
-            },
-            {
-              "src": "assets/frames/upload-3b9e8f0475a606f9080d/frame-04.jpg",
-              "time": "64.9s"
-            },
-            {
-              "src": "assets/frames/upload-3b9e8f0475a606f9080d/frame-05.jpg",
-              "time": "85.9s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧怼近洗手盆下水口，头发菜渣堵在滤网上一按就弹开排水，字幕'厨房水槽过滤网洗菜盆弹跳芯洗碗池水槽下水漏水塞防臭神器家用'，用'一按排水'的解压动作抓住天天洗碗洗菜的家庭用户。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示旧下水塞拔来拔去、头发缠住堵死、下水道返臭味的日常，配'洗个碗还要掏下水口'的抱怨，把'堵+臭+脏手'三个痛点叠加放大，让用户意识到问题出在下水器本身。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部特写安装弹跳芯、按压弹起排水、滤网拦截残渣，口播'按压式弹跳芯，下水道过滤网，防臭防堵，厨房卫生间通用'，用'弹跳+滤网+防臭'的结构回应堵、臭、脏手，给出'一按就通'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍对照：先拍旧塞子堵水、再拍装弹跳芯后一按排水顺畅；补拍滤网拦截菜渣、拎起倒掉不脏手，用'拦截+易清理'的证据强化实用，再演示适配不同盆型。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'按压弹跳、过滤防堵、防臭通用'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令落到'点下方小黄车，厨房卫生间各拍一个'，承接CID链路，把'每天掏下水口'的烦恼转成下单。"
-            }
-          },
-          "materialId": "3b9e8f0475a606f9080d",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 15,
-          "sourceId": "S1R15",
-          "title": "仪表·紫光残留检测器验菜验钞",
-          "product": "仪表",
-          "customer": "喀左县大城子街道然启铭百货店(个体工商户)",
-          "chain": "小店",
-          "tag": "功能演示 · 一灯验安全",
-          "spend": 9672.33,
-          "ctr": 3.7,
-          "cvr": 9.55,
-          "cpm": 49.43,
-          "duration": "约275s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3gyayoaabvyanscmpgvvbwnqeq43adb2a.f0.mp4?dis_k=33a54820cb1ca788ed03921df6ad623b&dis_t=1791194172&m=bb6a35fd41ef6625ce7e06faebd89b0a&sha256=8505db86622aeeaa8d1dd4c5e3394b25a632faa16fd9a8456cbfd0a8ab3bcf34",
-          "frames": [
-            {
-              "src": "assets/frames/upload-2093209299ee764b10ad/frame-01.jpg",
-              "time": "16.5s"
-            },
-            {
-              "src": "assets/frames/upload-2093209299ee764b10ad/frame-02.jpg",
-              "time": "66.0s"
-            },
-            {
-              "src": "assets/frames/upload-2093209299ee764b10ad/frame-03.jpg",
-              "time": "118.2s"
-            },
-            {
-              "src": "assets/frames/upload-2093209299ee764b10ad/frame-04.jpg",
-              "time": "170.5s"
-            },
-            {
-              "src": "assets/frames/upload-2093209299ee764b10ad/frame-05.jpg",
-              "time": "225.5s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧在暗环境下用紫光灯照蔬菜，画面出现荧光反应，字幕'蔬菜检测灯'，用'照出看不见的东西'的猎奇感抓住关心食品安全的家庭用户，让他们忍不住想看照出来什么。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面展示买回来的蔬菜水果不知道有没有残留、海鲜是否新鲜、钞票真假难辨的日常焦虑，配'吃进嘴里的东西，看不见总不放心'的担忧，把'食品安全看不见'的痛点放大，让用户觉得需要一个能自己检测的工具。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，手部特写打开紫光检测器照蔬菜、照海鲜、照钞票，口播'2026新款紫光残留检测器，验钞、海鲜、蔬菜、水果专业检测仪'，用'紫光照射显影'的机制回应'看不见'的痛点，给出'一灯验安全'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍：同一颗蔬菜在自然光下和紫光下的对比，展示荧光点；再照钞票防伪线、照海鲜表面，用多个真实场景证明用途，补拍小巧可放口袋随身带，强化便携。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述'紫光检测、验菜验钞、随身便携'的核心利益，给出'厂家直销、限时特惠'的福利，行动指令明确到'点下方小黄车，买菜前照一照更放心'，承接小店链路，把'看不见的担心'转成下单。"
-            }
-          },
-          "materialId": "2093209299ee764b10ad",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "a1b4ef3c61cdb8d69471",
+          "frameStatus": "pending"
         }
       ]
     },
