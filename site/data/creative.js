@@ -4,7 +4,7 @@ window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
     "dataUpdatedAt": "2026-11-03",
-    "frameUpdatedAt": "2026-11-07T22:00:43.911551+00:00",
+    "frameUpdatedAt": "2026-11-08T01:20:07.607763+00:00",
     "owner": "创意分析组"
   },
   "tracks": [
@@ -582,7 +582,7 @@ window.CREATIVE_DATA = {
           "materialId": "dbbcf3a872da8b95c5ff",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-07T22:00:43.911542+00:00"
+          "frameUpdatedAt": "2026-11-08T01:20:07.607724+00:00"
         },
         {
           "rank": 8,
@@ -996,7 +996,7 @@ window.CREATIVE_DATA = {
           "materialId": "343f9234f55415255214",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-07T22:00:43.911547+00:00"
+          "frameUpdatedAt": "2026-11-08T01:20:07.607751+00:00"
         },
         {
           "rank": 15,
@@ -1038,7 +1038,7 @@ window.CREATIVE_DATA = {
           "materialId": "68a29b28e8321c3903c5",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-07T22:00:43.911511+00:00"
+          "frameUpdatedAt": "2026-11-08T01:20:07.607757+00:00"
         },
         {
           "rank": 16,
@@ -5682,7 +5682,7 @@ window.CREATIVE_DATA = {
           "materialId": "d171460d3705cd86829a",
           "frameStatus": "failed",
           "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-07T22:00:43.911550+00:00"
+          "frameUpdatedAt": "2026-11-08T01:20:07.607761+00:00"
         },
         {
           "rank": 8,
