@@ -12,13 +12,13 @@ window.CREATIVE_DATA = {
       "name": "家居家纺-家纺",
       "key": "home-textile",
       "owner": "",
-      "uploadedAt": "2026-10-09T06:44:47.548Z",
+      "uploadedAt": "2026-11-09T07:10:02.707Z",
       "metrics": {
-        "creativeCount": 86,
-        "ctr": 2.87,
-        "play3s": 69.14,
-        "cvr": 4.93,
-        "cpm": 70.31
+        "creativeCount": 98,
+        "ctr": 3.19,
+        "play3s": 29.43,
+        "cvr": 4.56,
+        "cpm": 86.56
       },
       "sellingWords": [
         {
@@ -26,1081 +26,531 @@ window.CREATIVE_DATA = {
           "weight": 100
         },
         {
-          "word": "免套被套",
+          "word": "免套被套可拆洗",
           "weight": 95
         },
         {
-          "word": "可机洗",
+          "word": "可水洗防钻绒",
           "weight": 90
         },
         {
-          "word": "A类面料",
+          "word": "包裹贴合好睡感",
           "weight": 86
         },
         {
-          "word": "包裹贴合",
+          "word": "护颈不顶脖",
           "weight": 82
         },
         {
-          "word": "抗菌防螨",
+          "word": "轻暖不压身",
           "weight": 78
         },
         {
-          "word": "子母二合一",
+          "word": "蓬松回弹",
           "weight": 74
         },
         {
-          "word": "加厚保暖",
+          "word": "子母二合一四季通用",
           "weight": 70
         },
         {
-          "word": "防滑不跑位",
+          "word": "草本闻香助眠",
           "weight": 66
         },
         {
-          "word": "护颈椎",
-          "weight": 62
+          "word": "防踢恒温",
+          "weight": 60
         },
         {
-          "word": "整夜守护",
-          "weight": 58
+          "word": "抗菌防螨",
+          "weight": 56
         },
         {
-          "word": "蓬松不压身",
-          "weight": 54
-        },
-        {
-          "word": "透气防潮",
-          "weight": 50
-        },
-        {
-          "word": "软糯亲肤",
-          "weight": 46
-        },
-        {
-          "word": "限时破价",
-          "weight": 42
-        },
-        {
-          "word": "一床两用",
-          "weight": 38
+          "word": "加厚保暖不跑毛",
+          "weight": 52
         }
       ],
       "painWords": [
         {
-          "word": "半夜踢被着凉",
+          "word": "开暖气闷关暖气冷",
           "weight": 92
         },
         {
-          "word": "换季温差忽冷忽热",
+          "word": "套被套费劲跑被",
           "weight": 88
         },
         {
-          "word": "套被套费劲",
+          "word": "夜里翻来覆去易醒",
           "weight": 84
         },
         {
-          "word": "床垫硬睡得腰疼",
-          "weight": 78
+          "word": "枕头顶脖压肩",
+          "weight": 80
         },
         {
-          "word": "枕头不贴合脖颈",
-          "weight": 72
+          "word": "冬天手脚冰凉",
+          "weight": 76
         },
         {
-          "word": "被子不能洗有异味",
-          "weight": 66
+          "word": "踢被娃半夜着凉",
+          "weight": 70
         }
       ],
       "sellingContext": [
         {
-          "driver": "秋冬换季·昼夜温差大，前半夜闷热后半夜冻醒",
-          "need": "想要一条能自动控温、整晚温度刚好的被子，不用半夜起来加减被",
+          "driver": "秋冬换季·暖气房干闷与夜间降温反复",
+          "need": "想要一条知冷知热、整夜恒温不闷不冷的被子",
           "words": [
             "控温不闷不冷",
-            "包裹贴合",
-            "透气防潮"
+            "包裹贴合好睡感",
+            "轻暖不压身"
           ]
         },
         {
-          "driver": "带娃家庭·孩子睡觉满床翻滚踢被",
-          "need": "想要一件孩子踢不掉、能整夜护住不着凉的防踢被，家长能睡个安稳觉",
+          "driver": "换季拆洗·被套难套难洗难收纳",
+          "need": "免套被套、可机洗可拆洗、好打理又保暖的省事被",
           "words": [
-            "整夜守护",
-            "加厚保暖",
-            "软糯亲肤"
+            "免套被套可拆洗",
+            "可水洗防钻绒",
+            "子母二合一四季通用"
           ]
         },
         {
-          "driver": "懒人/租房党·换洗被套麻烦、被子不能水洗",
-          "need": "想要免套被套、脏了直接丢洗衣机、还能防滑不跑位的省心床品",
+          "driver": "久坐低头+失眠焦虑·颈椎不适与入睡困难",
+          "need": "能承托头颈、不用适应、帮助放松入睡的枕头",
           "words": [
-            "免套被套",
-            "可机洗",
-            "防滑不跑位"
+            "护颈不顶脖",
+            "草本闻香助眠",
+            "蓬松回弹"
           ]
         }
       ],
       "scripts": [
-        "一条不用套被套的冬被，好打理还包裹贴合",
-        "深睡控温被，扛住温差起伏，稳稳接住换季",
-        "怕娃踢被感冒？防踢被整夜守着，安稳睡到天亮",
-        "家里床垫睡得硬？铺上它，秒变五星级睡感",
+        "一条知冷知热的被子，开暖气不易闷，关暖气不易冷",
+        "一条不用套被套的冬被，好打理还有包裹贴合的好睡感",
         "一个不用你去适应的枕头，平躺不顶脖颈，侧睡承托肩颈",
-        "去年买亏了，但今年这个价格是真的不能错过了",
-        "可机洗鹅绒被限时破价，A类面料立体锁绒，错过再等一年",
-        "秋冬刚需夹棉床笠，自带软垫感太治愈"
+        "不让冬天看不见的湿气，偷走整夜的温暖",
+        "夜里翻来覆去睡不好、容易醒？试试这款草本闻香枕",
+        "踢被娃的救星，恒温守护让孩子安稳睡整夜"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用'反常识提问+痛点画面'抓眼球：如镜头怼近半夜踢飞的被子、手忙脚乱套被套的狼狈，配字幕'你还在半夜起来盖被子吗？'；或直接展示'一条不用套被套的被子'的懒人操作，用'别人还在套被套，我已经躺下了'制造对比，锁定怕冷人群、带娃家长和懒人党。"
+          "desc": "首帧掀被露蓬松或按压回弹，配「开暖气不闷关暖气不冷」制造反差，3秒锁换季人群"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "强绑秋冬换季与降温节点，放大'前半夜闷、后半夜冷''孩子踢被着凉''床垫硬腰疼'等场景；用'扛住温差起伏''整夜守护''告别硬床'把季节焦虑转成购买理由，配合'反季买更划算'的话术提前锁客。"
+          "desc": "绑定秋冬降温、暖气房干闷、换季拆洗，放大半夜冷醒、套被套费劲的焦虑"
         },
         {
           "title": "福利/紧迫",
-          "desc": "价格锚点用'去年买亏了，今年这个价格不能错过''限时破价''错过再等一年'制造紧迫；配合'拍一发七''直播间专享''送收纳袋/送礼袋'等赠品加码，把'现在不买就亏'的心理推到下单动作，链路承接直播间或小店直购。"
+          "desc": "用线下大几千对比直播间专属价，叠加拍一发多、送收纳袋、限时补库存催单"
         },
         {
           "title": "明星/IP",
-          "desc": "用'明星推荐''陆毅同款''吉娜推荐'等达人/IP背书建立信任链，配合'总裁甄选''直播间专享'强化权威感；素材中明星出镜或口播推荐，降低决策门槛，让'同款'成为转化钩子。"
+          "desc": "借明星推荐与达人同款背书，用工厂直供、A类可水洗等资质补信任链"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "四季纤维被·会控温的四季被整晚刚好温度",
-          "product": "四季纤维被",
-          "customer": "亚朵生活优选",
+          "title": "花草枕·千年草本闻香助眠",
+          "product": "花草枕",
+          "customer": "北京合中扶正健康管理有限公司",
           "chain": "直播",
-          "tag": "控温科技 · 整晚恒温",
-          "spend": 101859.43,
-          "ctr": 1.99,
-          "cvr": 5.77,
-          "cpm": 283.47,
-          "duration": "约46s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53weae4aaavqaj7mfn3nvbvmiej2yqatsa.f0.mp4?dis_k=c611c8d45a068f3a7c527c87c597544b&dis_t=1789776169&m=92403d62d2baddb86080ced1271872df&sha256=33205b7cc19f62ff52d5bedccaea0596fcc668b2e17b258df0a5be641429cb2d",
-          "frames": [
-            {
-              "src": "assets/frames/upload-5ce7931bff59b74d8ac4/frame-01.jpg",
-              "time": "2.8s"
-            },
-            {
-              "src": "assets/frames/upload-5ce7931bff59b74d8ac4/frame-02.jpg",
-              "time": "11.0s"
-            },
-            {
-              "src": "assets/frames/upload-5ce7931bff59b74d8ac4/frame-03.jpg",
-              "time": "19.8s"
-            },
-            {
-              "src": "assets/frames/upload-5ce7931bff59b74d8ac4/frame-04.jpg",
-              "time": "28.5s"
-            },
-            {
-              "src": "assets/frames/upload-5ce7931bff59b74d8ac4/frame-05.jpg",
-              "time": "37.7s"
-            }
-          ],
+          "tag": "痛点直击 · 草本助眠",
+          "spend": 101070.54,
+          "ctr": 6.58,
+          "cvr": 4.88,
+          "cpm": 322.66,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53zaaciaaajmageso3jfvbvsaeeteaajca.f0.mp4?dis_k=6751e7b68839c6382e95e6fea46da210&dis_t=1792755349&m=a96bafad206f1c39d32b2da0776fb9bd&sha256=a90bfc1dba209b28c70ceda56c5f711e7045243ba3b1e8bd021d4c5116834ade",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧特写一条被子在暖光卧室里被手轻轻按压回弹，字幕打出'一条会控温的四季被'，口播'整晚都被刚好的温度包裹着'。用'会控温'这个反常识说法制造好奇——被子怎么会控温？直接抓住换季怕冷又怕闷、半夜反复踢被的人群，让他们停下来看看到底怎么做到的。"
+              "desc": "首帧深夜床上翻来覆去，字幕「晚上睡不着试试草本植物枕头」，用几千年智慧制造反差，抓住失眠人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到深夜翻来覆去的场景：前半夜热得掀被、后半夜冷得缩成一团，字幕'换季温差大，一床被子根本不够用'。放大'忽冷忽热睡不好'的不适感，点出传统厚被闷、薄被冷的失效，让观众产生'说的就是我'的代入，把需求从'随便买条被'升级为'要一条能自动调温的被'。"
+              "desc": "镜头拍天亮闹钟与疲惫脸，旁白「夜里翻来覆去容易醒」，放大睡不好的焦虑，暗示换枕头也难解决。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示被芯纤维结构与温湿平衡系统示意，口播'Isobreezer温湿平衡系统，前半夜带走闷，后半夜锁住暖'。用'带走闷/锁住暖'把抽象科技翻译成体感，逐项回应'闷'和'冷'两个痛点，并给出'四季通用'的价值锚点，让用户觉得一条顶三条。"
+              "desc": "手持花草枕贴靠近鼻尖闻香，特写草本填充，讲天然植物闻香舒缓，不用换枕头也能放松睡前状态。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把被子盖在人体模型或真人身上，用温度计/手背对比展示被内温度稳定；再展示可机洗、免被套的直接丢洗衣机步骤，前后对照'以前套被套10分钟，现在30秒搞定'。用可拍摄的证据强化'控温+好打理'双重信任，降低决策顾虑。"
+              "desc": "实拍睡前放枕边、晨起神清气爽对照，展示差旅可携带，用前后状态差证明助眠体验。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'会控温、免被套、可机洗'三大利益，叠加'直播间专享价、送收纳袋'的福利与'错过再等一年'的紧迫，口播'点下方进直播间，今天价格很给力'，明确引导点击进入直播间承接转化。"
+              "desc": "复述植物成分安心睡得舒心，报补库存限时价，引导点进直播间下单，承接直播链路。"
             }
           },
-          "materialId": "5ce7931bff59b74d8ac4",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "917aaf92e298545e98fb",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
           "sourceId": "S1R2",
-          "title": "桑蚕丝蚕丝被·二合一子母被焕新好床品",
-          "product": "桑蚕丝蚕丝被",
-          "customer": "上海罗莱家用纺织品有限公司",
-          "chain": "直播",
-          "tag": "二合一子母被 · 抗菌提花",
-          "spend": 72766.73,
-          "ctr": 2.12,
-          "cvr": 1.58,
-          "cpm": 130,
+          "title": "亚朵星球被子·知冷知热控温被",
+          "product": "亚朵星球被子",
+          "customer": "亚朵生活优选",
+          "chain": "直购",
+          "tag": "场景痛点 · 控温卖点",
+          "spend": 71911.21,
+          "ctr": 24,
+          "cvr": 2.31,
+          "cpm": 1548.44,
           "duration": "未提供",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3qiazsaabkqaif2fuibvbxaqetgbadgka.f0.mp4?dis_k=6c1b59e49899c92465743a11948a4c2c&dis_t=1790254070&m=a9b7087dde59956d16360bc820d2b941&sha256=cef71c3b54a2e1326ba2ae36b901120fda1b4628e193a50b8c2b0f1122f9735f",
-          "frames": [
-            {
-              "src": "assets/frames/upload-0a2d42fdd56eee1f5d6a/frame-01.jpg",
-              "time": "1.9s"
-            },
-            {
-              "src": "assets/frames/upload-0a2d42fdd56eee1f5d6a/frame-02.jpg",
-              "time": "7.6s"
-            },
-            {
-              "src": "assets/frames/upload-0a2d42fdd56eee1f5d6a/frame-03.jpg",
-              "time": "13.5s"
-            },
-            {
-              "src": "assets/frames/upload-0a2d42fdd56eee1f5d6a/frame-04.jpg",
-              "time": "19.5s"
-            },
-            {
-              "src": "assets/frames/upload-0a2d42fdd56eee1f5d6a/frame-05.jpg",
-              "time": "25.8s"
-            }
-          ],
+          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6ad7160c00000dba2e8b27dbedfd01150000008d00004eec?ck=c4119a88d746565af428aace1f69253f&m=c4119a88d746565af428aace1f69253f&sha256=658dab943d97ebb195685b12d544199a4aca7b5b08fb6c229dbd17e45741b57f",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示蚕丝被在灯光下泛着柔光，手抚过提花面料，字幕'好床品，焕新生活'，口播'蚕丝二合一被'。用'二合一'和'蚕丝'的高级质感制造视觉冲击，抓住注重睡眠品质、想给卧室升级的中高端人群，让他们产生'这才是我想要的床品'的向往。"
+              "desc": "首帧手掀被角露蓬松被芯，字幕「一条知冷知热的被子」，用会控温反常识钩住暖气房人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到普通被子厚重压身、换季要收起来换薄被的麻烦场景，字幕'一床被子过不了四季，收纳还占地方'。放大'买多床被浪费钱又占柜子'的焦虑，点出传统单一厚度被子的失效，把需求引向'一床能拆能合、四季都能用'的子母被。"
+              "desc": "对比开暖气闷出汗、关暖气半夜冷醒两幕，旁白点出普通厚被只靠重量取暖的失效。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头演示子母被拆合：拉链一拉分成两床，合起来是一床厚被，口播'黄金桑蚕丝抗菌子母被，一床两用'。用'一床两用'的结构机制回应换季收纳痛点，并强调抗菌提花工艺，给出'体面耐看、睡感高级'的价值锚点。"
+              "desc": "手掌按压被面回弹，特写控温纤维结构，讲包裹贴合又不闷，回应整夜恒温需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把子被母被分别铺开对比厚度，再合体展示；用特写展示蚕丝纤维拉丝和提花纹理，配合'抗菌'检测或口播说明。前后对照'以前两床被，现在一床搞定'，用可拍摄的拆合动作强化'二合一'的真实性，建立信任。"
+              "desc": "实拍盖被入睡到晨起，温度计与体感对照，展示开暖气关暖气都舒适的证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'二合一、抗菌、蚕丝'核心利益，叠加'直播间专享、拍一发七'的福利和'今天价格很给力'的紧迫，口播'想要蚕丝被的蹲住，点下方进直播间'，明确引导进入直播间承接转化。"
+              "desc": "复述知冷知热整夜包裹，报直购专属价与送收纳袋，引导点击下单承接直购链路。"
             }
           },
-          "materialId": "0a2d42fdd56eee1f5d6a",
-          "sourceType": "video",
-          "frameStatus": "ready"
+          "materialId": "ac1fcaba00f8b7207c36",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
           "sourceId": "S1R3",
-          "title": "灰鹅绒四季羽绒羽毛被·灰鹅绒四季羽绒被·去年买亏今年不能错过",
-          "product": "灰鹅绒四季羽绒羽毛被",
-          "customer": "上海罗莱家用纺织品有限公司",
+          "title": "冬季纤维被·深睡控温Pro3.0上新",
+          "product": "冬季纤维被",
+          "customer": "亚朵生活优选",
           "chain": "直播",
-          "tag": "价格反差 · 可水洗鹅绒",
-          "spend": 47465,
-          "ctr": 2.54,
-          "cvr": 1.51,
-          "cpm": 242.59,
-          "duration": "约25s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b5374b6oaadhaabkd5knvvbt7ye477qhz2a.f0.mp4?dis_k=749cf149615d4793d2d09021278ed5b5&dis_t=1789522725&m=a007344b713ac54ff3040609efe4b9a7&sha256=d5829780b076dcb149156b24ecb95a88fe975d9facd8fd15cdae45fc01d8ddb4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-37d9c018acef1a4d16ac/frame-01.jpg",
-              "time": "1.5s"
-            },
-            {
-              "src": "assets/frames/upload-37d9c018acef1a4d16ac/frame-02.jpg",
-              "time": "5.9s"
-            },
-            {
-              "src": "assets/frames/upload-37d9c018acef1a4d16ac/frame-03.jpg",
-              "time": "10.6s"
-            },
-            {
-              "src": "assets/frames/upload-37d9c018acef1a4d16ac/frame-04.jpg",
-              "time": "15.2s"
-            },
-            {
-              "src": "assets/frames/upload-37d9c018acef1a4d16ac/frame-05.jpg",
-              "time": "20.1s"
-            }
-          ],
+          "tag": "新品发布 · 控温升级",
+          "spend": 71583.84,
+          "ctr": 4.34,
+          "cvr": 3.91,
+          "cpm": 448.36,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3euabuaaafuakpc64mrvbujiedisqagsa.f0.mp4?dis_k=75b9c9e23e2e72ee1120eba3ccbb4df5&dis_t=1792929901&m=ec3e921bfda7321335633f43a3b81a5e&sha256=6db06257bd36f3d8951b504201b9be0ebb14b435bf489eb531a8c7167236cca9",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧用大字幕'去年买亏了'配鹅绒被特写，口播'但今年鹅绒被这个价格是真的不能错过了'。用'买亏了'的自嘲式反差制造情绪冲击，抓住去年观望没下手、今年想捡漏的价格敏感人群，让他们产生'今年再不买又亏'的紧迫感。"
+              "desc": "首帧新品开箱撕膜，字幕「重磅上新·冬季Pro3.0全新升级」，用升级款制造新鲜感抓老客。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到冬天盖厚棉被压得喘不过气、还越睡越冷的场景，字幕'又重又不暖，冬天太难熬'。放大'花大价钱买不到真保暖'的焦虑，点出普通被子厚重不锁温的失效，把需求从'买条被'升级为'要一条轻又暖、还能水洗的鹅绒被'。"
+              "desc": "展示旧被压身、半夜踢被画面，旁白点出厚被闷重、湿气偷走温暖的困扰。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示鹅绒蓬松度和立体锁绒结构，口播'可水洗雪域鹅绒被，A类面料，立体锁绒'。用'可水洗+A类面料'回应'不能洗、有异味'的痛点，用'立体锁绒'回应'跑绒不暖'，给出'轻暖洁净'的价值锚点。"
+              "desc": "双手抖开被芯展示包裹感，特写免被套可拆洗结构，讲好打理又有贴合睡感。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把鹅绒被直接放进洗衣机水洗，取出后拍打恢复蓬松；再对比普通被子水洗后结块。用'能水洗还不结块'的前后对照作为硬证据，配合'A类面料贴身安心'的口播，强化'可水洗'这一差异化卖点。"
+              "desc": "实拍套被、拆洗、收纳三步，展示免套被套省事，用操作对比证明好打理。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'可水洗、A类面料、立体锁绒'，叠加'限时破价、错过再等一年'的紧迫和'反季买更划算'的福利，口播'点下方进直播间，今天价格真的不能错过'，引导进入直播间下单。"
+              "desc": "复述升级控温与送收纳袋，报直播间上新价，引导进直播间抢购承接直播链路。"
             }
           },
-          "materialId": "37d9c018acef1a4d16ac",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "c30561358f8f0d876068",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
           "sourceId": "S1R4",
-          "title": "床褥·铺上它告别硬床夜夜好眠",
-          "product": "床褥",
-          "customer": "苏州载乐贸易有限公司",
-          "chain": "直播",
-          "tag": "软硬对比 · 羊毛填充",
-          "spend": 32538.01,
-          "ctr": 3.01,
-          "cvr": 5.23,
-          "cpm": 110.96,
-          "duration": "约17s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3yea72aabyuanhimi3vvbxqie7xaqd7ka.f0.mp4?dis_k=5608a2aa00b872a2c64b385d5c64bf4b&dis_t=1787380353&m=9aa2aa6a133de33e5af6f4e7cc20a0ef&sha256=6b25bc803f3926f55073f40db685e9e9856608519b8e21f73be5e8de7df83e3c",
-          "frames": [
-            {
-              "src": "assets/frames/upload-1e84afac8818e0628e7e/frame-01.jpg",
-              "time": "1.0s"
-            },
-            {
-              "src": "assets/frames/upload-1e84afac8818e0628e7e/frame-02.jpg",
-              "time": "4.1s"
-            },
-            {
-              "src": "assets/frames/upload-1e84afac8818e0628e7e/frame-03.jpg",
-              "time": "7.3s"
-            },
-            {
-              "src": "assets/frames/upload-1e84afac8818e0628e7e/frame-04.jpg",
-              "time": "10.5s"
-            },
-            {
-              "src": "assets/frames/upload-1e84afac8818e0628e7e/frame-05.jpg",
-              "time": "13.9s"
-            }
-          ],
+          "title": "枕头·贴合头颈蓬松透气",
+          "product": "枕头",
+          "customer": "巨量猫",
+          "chain": "CID",
+          "tag": "体感演示 · 贴合承托",
+          "spend": 48243.35,
+          "ctr": 0.96,
+          "cvr": 7.6,
+          "cpm": 109.03,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc324cb2aaesialyv7bszvb5vyedxlqihka.f0.mp4?dis_k=fd0cd9829d22d2c92d0eca4a231f1e91&dis_t=1793433933&m=4a6929341e47cbbcd671e38614cd673f&sha256=70e4261be3e3debad51f7ad00262f8c71fa34d13abba9d049de20a92979517c9",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧用手按压硬床垫发出'咚咚'声，字幕'家里床垫睡得硬？'，口播'床品不会说话，但能陪伴您每一个夜晚'。用'硬床'这个具体痛点制造共鸣，抓住腰背不适、睡不惯硬床的人群，让他们产生'我家床也这样'的代入。"
+              "desc": "首帧头压枕头陷下回弹，字幕「太舒服了」，用贴合头颈曲线的即时体感抓颈椎不适人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到人躺在硬床上翻身、揉腰的难受表情，字幕'床垫太硬，睡一晚腰酸背痛'。放大'硬床睡不好、第二天没精神'的不适，点出'换床垫太贵、不现实'的失效方案，把需求引向'花小钱铺一层就能变软'的床褥。"
+              "desc": "拍侧睡压肩、晨起揉脖画面，旁白点出普通枕头不贴合、越睡越累的失效。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示华夫格床褥的厚度和80%羊毛填充，口播'A类华夫格床褥垫，80%羊毛填充，可折叠'。用'羊毛填充+A类面料'回应'要软要暖还要安心'的需求，用'可折叠'回应收纳痛点，给出'秒变五星级睡感'的价值锚点。"
+              "desc": "手掌按压枕面展示蓬松透气，特写曲线承托结构，讲贴合头颈不压肩。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把床褥铺在硬床垫上，用手按压对比铺前铺后的软硬度；再展示折叠收纳、铺床过程。用'铺前硬、铺后软'的前后对照作为证据，配合'学生宿舍也能用'的多场景说明，强化'低成本改善睡眠'的信任。"
+              "desc": "实拍平躺侧睡两种姿势，展示头颈被托住，用卧室搭配质感强化信任。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'羊毛填充、A类面料、可折叠'，叠加'直播间专享价、今天下单更划算'的福利，口播'点下方进直播间，给床垫加层软垫'，明确引导进入直播间承接转化。"
+              "desc": "复述贴合透气有质感，报CID专属价，引导点击链接下单承接CID链路。"
             }
           },
-          "materialId": "1e84afac8818e0628e7e",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "d8f25ff2ff41476120db",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
           "sourceId": "S1R5",
-          "title": "被子·不用套被套的冬被包裹贴合好睡感",
-          "product": "被子",
-          "customer": "亚朵生活优选",
-          "chain": "直购",
-          "tag": "免套被套 · 包裹贴合",
-          "spend": 27078.58,
-          "ctr": 13.86,
-          "cvr": 3.7,
-          "cpm": 858.11,
-          "duration": "约88s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53lmaguaaakqaitd567fvbuwyenjnqa2sa.f0.mp4?dis_k=6843304e778ffd302f8fe410e2295f22&dis_t=1791132321&m=446c90f4dd70a8f953d6e81279be3175&sha256=65a3bae8346299f52a7c2594f6fe0dd4c7f2abb76ad6eccaab7e3de3b9a95f94",
-          "frames": [
-            {
-              "src": "assets/frames/upload-2050cf03e63fb69fa933/frame-01.jpg",
-              "time": "5.3s"
-            },
-            {
-              "src": "assets/frames/upload-2050cf03e63fb69fa933/frame-02.jpg",
-              "time": "21.2s"
-            },
-            {
-              "src": "assets/frames/upload-2050cf03e63fb69fa933/frame-03.jpg",
-              "time": "37.9s"
-            },
-            {
-              "src": "assets/frames/upload-2050cf03e63fb69fa933/frame-04.jpg",
-              "time": "54.7s"
-            },
-            {
-              "src": "assets/frames/upload-2050cf03e63fb69fa933/frame-05.jpg",
-              "time": "72.3s"
-            }
-          ],
+          "title": "灰鹅绒四季羽绒被·可水洗提花",
+          "product": "灰鹅绒四季羽绒被",
+          "customer": "上海罗莱家用纺织品有限公司",
+          "chain": "直播",
+          "tag": "材质背书 · 可水洗",
+          "spend": 45627.67,
+          "ctr": 0.89,
+          "cvr": 1.38,
+          "cpm": 104.09,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b5374b6oaadhaabkd5knvvbt7ye477qhz2a.f0.mp4?dis_k=749cf149615d4793d2d09021278ed5b5&dis_t=1789522725&m=a007344b713ac54ff3040609efe4b9a7&sha256=d5829780b076dcb149156b24ecb95a88fe975d9facd8fd15cdae45fc01d8ddb4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示一条被子直接铺上床、不用套被套，字幕'一条不用套被套的冬被'，口播'好打理同时拥有包裹贴合的好睡感'。用'不用套被套'这个反常识懒人卖点制造冲击，抓住嫌套被套麻烦、冬天怕冷的懒人党，让他们立刻产生兴趣。"
+              "desc": "首帧双手抖开鹅绒被，绒朵飞扬慢镜，字幕「轻暖可水洗鹅绒被」，用蓬松视觉抓怕压身人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到一个人手忙脚乱套被套、被芯缩成一团的狼狈场景，字幕'套被套10分钟，累出一身汗'。放大'套被套费劲、被芯跑位'的日常烦躁，点出传统被子必须套被套的失效，把需求从'买被'升级为'要一条免套、不跑位的被'。"
+              "desc": "拍旧羽绒被结块、钻绒沾衣画面，旁白点出难洗难打理、越盖越薄的困扰。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示被子自带被套设计、可直接机洗，口播'免被套、可拆洗，包裹贴合'。用'免被套+可拆洗'的结构机制回应'套被套麻烦'，用'包裹贴合'回应'漏风不暖'，给出'好打理又好睡'的价值锚点。"
+              "desc": "特写双面提花面料与立体锁绒结构，讲可水洗防钻绒、柔软洁净贴身安心。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把被子直接铺上床、拉上拉链即可；再展示拆洗过程，直接丢洗衣机。用'铺床30秒、拆洗1分钟'的前后对照作为证据，配合'开暖气不闷、关暖气不冷'的体感描述，强化'省心又保暖'的信任。"
+              "desc": "实拍机洗后晾晒拍打回弹，前后对比蓬松度，证明可水洗不变形。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'免被套、可拆洗、包裹贴合'，叠加'直播间/小店专享价、送收纳袋'的福利和'冬季必备'的紧迫，口播'点下方直接下单，冬天不用再套被套'，引导直购链路承接转化。"
+              "desc": "复述可水洗轻暖不压身，报直播间专属机制，引导进直播间下单承接直播链路。"
             }
           },
-          "materialId": "2050cf03e63fb69fa933",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "43134b285cf1dfed2c18",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
           "sourceId": "S1R6",
-          "title": "羊毛被·亲肤透气防潮全家安心睡眠",
-          "product": "羊毛被",
-          "customer": "杭州宏福文化传媒有限公司",
+          "title": "床褥·羊毛床垫寒从背起",
+          "product": "床褥",
+          "customer": "北极绒家纺",
           "chain": "直播",
-          "tag": "羊毛填充 · 防潮透气",
-          "spend": 26729.45,
-          "ctr": 5.63,
-          "cvr": 6.39,
-          "cpm": 286.23,
+          "tag": "季节痛点 · 加厚保暖",
+          "spend": 45360.36,
+          "ctr": 3.05,
+          "cvr": 6.51,
+          "cpm": 161.82,
           "duration": "未提供",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b533mcfqaaeueamgb46hrvb5wyeldnqiwca.f0.mp4?dis_k=755911531b6fd0874f0bce966b9305f8&dis_t=1788517249&m=ccac16fb6178fa18af229748909b5d62",
-          "frames": [
-            {
-              "src": "assets/frames/upload-1861d149be0dad77ce1c/frame-01.jpg",
-              "time": "3.0s"
-            },
-            {
-              "src": "assets/frames/upload-1861d149be0dad77ce1c/frame-02.jpg",
-              "time": "12.1s"
-            },
-            {
-              "src": "assets/frames/upload-1861d149be0dad77ce1c/frame-03.jpg",
-              "time": "21.7s"
-            },
-            {
-              "src": "assets/frames/upload-1861d149be0dad77ce1c/frame-04.jpg",
-              "time": "31.2s"
-            },
-            {
-              "src": "assets/frames/upload-1861d149be0dad77ce1c/frame-05.jpg",
-              "time": "41.3s"
-            }
-          ],
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3zuapmaaazmaconu2vburvtie63gqb5sa.f0.mp4?dis_k=b299dd09b27c3f0ceb06c0881736d582&dis_t=1787560444&m=bbb0ae36a77c39e95f4427042cd64107&sha256=d03811107535832118420a493061169f179d7352be657d5dc78a4c432aff2510",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示羊毛被蓬松的针织提花面料，手抚过回弹，字幕'优质羊毛被，四季适用'，口播'亲肤舒适透气防潮，适合全家安心睡眠'。用'全家安心'和'防潮'抓住南方潮湿地区、注重家人健康的人群，让他们产生'这被适合我家'的代入。"
+              "desc": "首帧手按床垫陷出凹痕，字幕「寒从背起，这款羊毛床垫一定要用」，用俗语抓怕冷人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到梅雨季被子潮乎乎、有霉味的场景，字幕'被子受潮，睡一晚浑身不舒服'。放大'潮湿地区被子返潮、有异味'的不适，点出普通化纤被不防潮的失效，把需求引向'要一条透气防潮、全家能用的羊毛被'。"
+              "desc": "拍半夜蜷缩、起床腰背发凉画面，旁白点出靠重量取暖越睡越累的失效。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示羊毛填充层和针织提花面料，口播'进口羊毛填充，加厚保暖，四角绑带稳固不移位'。用'羊毛防潮透气'回应潮湿痛点，用'四角绑带'回应'被芯跑位'，给出'全家安心'的价值锚点。"
+              "desc": "掀开展示80%羊毛填充与华夫格面料，讲加厚可折叠、暖而不压身。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把羊毛被铺开，展示四角绑带固定被芯；用手按压展示蓬松度，再对比普通被子受潮后的板结。用'绑带固定+蓬松回弹'的前后对照作为证据，配合'四季适用'的多场景说明，强化'防潮保暖'的信任。"
+              "desc": "实拍铺床、折叠收纳两步，展示贴合不跑位，用厚度对比证明保暖。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'羊毛填充、防潮透气、四角绑带'，叠加'直播间专享价、今天下单更划算'的福利，口播'点下方进直播间，给全家换床好被'，明确引导进入直播间承接转化。"
+              "desc": "复述不用靠重量取暖，报直播间福利价，引导进直播间下单承接直播链路。"
             }
           },
-          "materialId": "1861d149be0dad77ce1c",
-          "sourceType": "video",
-          "frameStatus": "ready"
+          "materialId": "3f53cc4f1733a6a19aa9",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
           "sourceId": "S1R7",
-          "title": "记忆棉枕·深睡枕护颈椎守护翻身侧睡",
+          "title": "记忆棉枕·不用适应的深睡枕",
           "product": "记忆棉枕",
           "customer": "亚朵生活优选",
           "chain": "直购",
-          "tag": "护颈椎 · 动态支撑",
-          "spend": 24670.43,
-          "ctr": 22.19,
-          "cvr": 3.53,
-          "cpm": 1023.24,
+          "tag": "反常识钩子 · 护颈承托",
+          "spend": 32316.72,
+          "ctr": 22.77,
+          "cvr": 4.67,
+          "cpm": 2546.63,
           "duration": "未提供",
-          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a6d7218000aed8401a9a1fd046bae1e0000008d00004eec?ck=ee8addc6226f28cf1f345ad18cc7bce8&m=ee8addc6226f28cf1f345ad18cc7bce8&sha256=75ff273b69a5876f89724e116fac9d36eb7cd7b7da7a4ec2813c06447ea4c9cc",
+          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6aa22495000cc46b0fe6fafab00576150000008d00004eec?ck=2d38b4683f926d76788df325fd4453aa&m=2d38b4683f926d76788df325fd4453aa&sha256=889c92290a2e47b912f9fb00718bd13e778fee2d86b6872287227b8da5fdce5b",
           "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示一个人侧睡时枕头自动贴合肩颈，字幕'深睡枕Pro4.0，不只照顾头肩颈'，口播'还守护了翻身和侧睡'。用'守护翻身侧睡'这个细分场景制造反差——枕头还能管翻身？抓住颈椎不适、侧睡压肩的人群，让他们停下来看。"
+              "desc": "首帧头落枕面缓慢下陷，字幕「一个不用你去适应的枕头」，用反常识钩住换枕踩坑人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到人翻来覆去调整枕头、揉脖子的场景，字幕'枕头不合适，越睡越累'。放大'平躺顶脖、侧睡压肩'的不适，点出普通枕头高度固定、无法适应睡姿的失效，把需求从'买个枕'升级为'要一个能跟着身体走的枕'。"
+              "desc": "拍平躺顶脖、侧睡压肩画面，旁白点出普通枕头要人去适应、越睡越僵。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示记忆棉枕的动态支撑结构，口播'动态支撑系统，该高时高，该低时低'。用'该高时高、该低时低'把抽象支撑翻译成体感，回应'平躺顶脖、侧睡压肩'两个痛点，给出'护颈椎助睡眠'的价值锚点。"
+              "desc": "特写记忆棉慢回弹与分区结构，讲平躺不顶脖颈、侧睡承托肩颈。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：用手掌按压枕头展示回弹和支撑；再让真人平躺、侧睡对比，展示脖颈被承托的角度。用'平躺不顶脖、侧睡不压肩'的前后对照作为证据，配合'不用你去适应枕头'的口播，强化'动态适配'的信任。"
+              "desc": "实拍平躺侧睡翻身三姿势，展示头颈始终被托住，用慢回弹对照证明。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'护颈椎、动态支撑、适应多睡姿'，叠加'直播间/小店专享价、陆毅同款'的信任背书和福利，口播'点下方直接下单，换个好枕头'，引导直购链路承接转化。"
+              "desc": "复述不用适应怎么睡都舒服，报直购专属价，引导点击下单承接直购链路。"
             }
           },
-          "materialId": "dbbcf3a872da8b95c5ff",
-          "frameStatus": "failed",
-          "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-09T02:06:53.385960+00:00"
+          "materialId": "341c857ad017411c49bb",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
           "sourceId": "S1R8",
-          "title": "防踢被·担心踢被着凉整夜守护",
-          "product": "防踢被",
-          "customer": "卡伴",
+          "title": "桑蚕丝蚕丝被·二合一焕新生活",
+          "product": "桑蚕丝蚕丝被",
+          "customer": "上海罗莱家用纺织品有限公司",
           "chain": "直播",
-          "tag": "带娃痛点 · 恒温睡袋",
-          "spend": 24433.51,
-          "ctr": 2.25,
-          "cvr": 7.85,
-          "cpm": 191.17,
+          "tag": "材质背书 · 子母二合一",
+          "spend": 24868.03,
+          "ctr": 2.46,
+          "cvr": 2.2,
+          "cpm": 134.88,
           "duration": "未提供",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53omcuwaafjuap2ufcyfvb64yejnzqks2a.f0.mp4?dis_k=6c2b342d2819282b0d5ae4a79d2afdfb&dis_t=1789376064&m=3d102a27ad0fce02f029ed38ba22edfc",
-          "frames": [
-            {
-              "src": "assets/frames/upload-ece2968cdf683b10308f/frame-01.jpg",
-              "time": "3.3s"
-            },
-            {
-              "src": "assets/frames/upload-ece2968cdf683b10308f/frame-02.jpg",
-              "time": "13.3s"
-            },
-            {
-              "src": "assets/frames/upload-ece2968cdf683b10308f/frame-03.jpg",
-              "time": "23.8s"
-            },
-            {
-              "src": "assets/frames/upload-ece2968cdf683b10308f/frame-04.jpg",
-              "time": "34.2s"
-            },
-            {
-              "src": "assets/frames/upload-ece2968cdf683b10308f/frame-05.jpg",
-              "time": "45.3s"
-            }
-          ],
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3qiazsaabkqaif2fuibvbxaqetgbadgka.f0.mp4?dis_k=6c1b59e49899c92465743a11948a4c2c&dis_t=1790254070&m=a9b7087dde59956d16360bc820d2b941&sha256=cef71c3b54a2e1326ba2ae36b901120fda1b4628e193a50b8c2b0f1122f9735f",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示宝宝半夜把被子踢到一边、露出小肚子的画面，字幕'担心踢被着凉？'，口播'防踢被整夜守护'。用'孩子踢被'这个带娃家庭的高频焦虑制造共鸣，抓住半夜要起来盖被的家长，让他们立刻产生'这就是我家'的代入。"
+              "desc": "首帧手抚蚕丝被面泛光泽，字幕「好床品焕新生活」，用丝滑质感抓换季焕新人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到家长半夜惊醒、摸孩子有没有踢被的疲惫场景，字幕'一晚起来盖三次被，根本睡不好'。放大'孩子着凉感冒、家长睡眠被剥夺'的双重焦虑，点出普通被子盖不住好动宝宝的失效，把需求引向'孩子踢不掉的防踢被'。"
+              "desc": "拍四季反复换被、收纳占柜画面，旁白点出被子多却难兼顾冷暖的困扰。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示防踢被的睡袋式设计和恒温结构，口播'儿童防踢被，恒温睡袋，四季通用'。用'睡袋式包裹'回应'踢不掉'，用'恒温'回应'不冷不热'，给出'整夜守护、家长安心'的价值锚点。"
+              "desc": "拆开子母被展示二合一结构，特写桑蚕丝填充，讲一被抵三床四季通用。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：让宝宝穿上防踢被在床上翻滚、踢腿，展示被子依然包裹不脱落；再对比普通被子被踢开的画面。用'怎么翻都不掉'的前后对照作为硬证据，配合'吉娜推荐'的达人背书，强化'防踢'的真实性。"
+              "desc": "实拍拆合子母被、称重对比厚度，展示春秋冬三季切换，证明不用反复换被。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'防踢、恒温、四季通用'，叠加'直播间专享价、吉娜推荐'的信任和福利，口播'点下方进直播间，让孩子安稳睡整夜'，明确引导进入直播间承接转化。"
+              "desc": "复述一被抵三床焕新生活，报直播间专属价，引导进直播间下单承接直播链路。"
             }
           },
-          "materialId": "ece2968cdf683b10308f",
-          "sourceType": "video",
-          "frameStatus": "ready"
+          "materialId": "ff7f631ec12ce81724a1",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
           "sourceId": "S1R9",
-          "title": "床垫·铺上它秒变五星级睡感",
-          "product": "床垫",
-          "customer": "南通亨瑞文化传媒有限公司",
+          "title": "多件套·纯棉磨毛四件套",
+          "product": "多件套",
+          "customer": "杭州绒泰家居科技有限公司",
           "chain": "直播",
-          "tag": "软硬对比 · 羊毛填充",
-          "spend": 21935.54,
-          "ctr": 1.89,
-          "cvr": 7.22,
-          "cpm": 109.36,
-          "duration": "约25s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532yac2aaapuajiaha5rubvvqefxlaalka.f0.mp4?dis_k=b94b1200045da70333b9a7e45a705f2f&dis_t=1787560533&m=86a81b7cfc27c39baa5b36b461f2df60&sha256=c28803bb4e6bcdf4af1bd0bb39a079e5cdd927b1ca412a1a97c0e7917f9be246",
-          "frames": [
-            {
-              "src": "assets/frames/upload-a5140a2feb28f18fc76a/frame-01.jpg",
-              "time": "1.5s"
-            },
-            {
-              "src": "assets/frames/upload-a5140a2feb28f18fc76a/frame-02.jpg",
-              "time": "6.0s"
-            },
-            {
-              "src": "assets/frames/upload-a5140a2feb28f18fc76a/frame-03.jpg",
-              "time": "10.8s"
-            },
-            {
-              "src": "assets/frames/upload-a5140a2feb28f18fc76a/frame-04.jpg",
-              "time": "15.5s"
-            },
-            {
-              "src": "assets/frames/upload-a5140a2feb28f18fc76a/frame-05.jpg",
-              "time": "20.5s"
-            }
-          ],
+          "tag": "材质卖点 · 亲肤耐洗",
+          "spend": 22692.03,
+          "ctr": 3.08,
+          "cvr": 3.79,
+          "cpm": 47.77,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3laajwaaaqqabehvlwzvbuwaetnmabg2a.f0.mp4?dis_k=e91be964bcc861d76cb05483edcb8883&dis_t=1791179692&m=2d90dc00acb7618d0229a1a3435d18a5&sha256=e885771db1c23a7a8679b001a04f575e4c30e6ba29ad95e919d854663f8cfd3a",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧用大字幕'床垫上面还需要铺褥子？'配硬床垫特写，口播'铺上它，秒变五星级睡感'。用反问句制造认知冲突——床垫上还要铺东西？抓住觉得床垫硬、又不想换床垫的人群，让他们好奇'铺什么能变五星级'。"
+              "desc": "首帧手抚磨毛床单特写绒毛，字幕「纯棉四件套触感柔滑」，用亲肤质感抓换床品人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到人躺在硬床垫上翻来覆去、第二天腰酸的场景，字幕'床垫太硬，睡一晚腰酸背痛'。放大'硬床睡不好、换床垫太贵'的双重焦虑，点出'直接换床垫成本高'的失效方案，把需求引向'低成本加一层'的羊毛床垫。"
+              "desc": "拍旧床单起球、褪色、难洗画面，旁白点出便宜床品越洗越糙的困扰。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示华夫格羊毛床垫的厚度和80%羊毛填充，口播'A类华夫格羊毛床垫，80%羊毛填充，加厚可折叠'。用'羊毛填充+A类面料'回应'要软要暖要安心'，用'可折叠'回应收纳，给出'秒变五星级睡感'的价值锚点。"
+              "desc": "特写新疆棉磨毛面料与色织工艺，讲吸湿透气、色彩雅致耐脏好清洗。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把床垫铺在硬床上，用手按压对比铺前铺后的软硬度；再展示折叠收纳。用'铺前硬、铺后软'的前后对照作为证据，配合'秋冬加厚保暖'的场景说明，强化'低成本升级睡眠'的信任。"
+              "desc": "实拍铺床、揉搓、机洗三步，前后对比不起球不褪色，证明耐洗。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'羊毛填充、A类面料、加厚可折叠'，叠加'直播间专享价、今天下单更划算'的福利，口播'点下方进直播间，给床垫加层软垫'，明确引导进入直播间承接转化。"
+              "desc": "复述亲肤耐脏好清洗，报直播间换新价，引导进直播间下单承接直播链路。"
             }
           },
-          "materialId": "a5140a2feb28f18fc76a",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1e8a064183b1702cf777",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
-          "sourceId": "S1R11",
-          "title": "棉沙发垫·亲家来了追着问链接",
-          "product": "棉沙发垫",
-          "customer": "麦量",
+          "sourceId": "S1R10",
+          "title": "床单·加绒加厚39.9清仓",
+          "product": "床单",
+          "customer": "深圳市彬炫科技有限公司",
           "chain": "CID",
-          "tag": "社交种草 · 焕新客厅",
-          "spend": 18469.14,
-          "ctr": 2.98,
-          "cvr": 4.89,
-          "cpm": 119.13,
-          "duration": "约90s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3gqaviaabyuapkhngojvbwnaekq2acvca.f0.mp4?dis_k=00a64bb31f0d575c7f44ad005ec4f194&dis_t=1789370881&m=a879385ac16ded65bcb54bc1e71a4979&sha256=8ef2626bd585d35e251e4cc5adeb3ba39889b85678adc32178a457b0f94e535f",
-          "frames": [
-            {
-              "src": "assets/frames/upload-6695c8cfea6f7430bee5/frame-01.jpg",
-              "time": "5.4s"
-            },
-            {
-              "src": "assets/frames/upload-6695c8cfea6f7430bee5/frame-02.jpg",
-              "time": "21.5s"
-            },
-            {
-              "src": "assets/frames/upload-6695c8cfea6f7430bee5/frame-03.jpg",
-              "time": "38.6s"
-            },
-            {
-              "src": "assets/frames/upload-6695c8cfea6f7430bee5/frame-04.jpg",
-              "time": "55.6s"
-            },
-            {
-              "src": "assets/frames/upload-6695c8cfea6f7430bee5/frame-05.jpg",
-              "time": "73.5s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示旧沙发铺上沙发巾后焕然一新的对比，字幕'亲家来了追着问链接！'，口播'就是我买的这款沙发巾，铺上客厅焕然一新'。用'亲家追着问链接'的社交场景制造好奇，抓住想低成本换客厅风格、又怕被说不会持家的家庭主妇人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到旧沙发磨损、有污渍、显得客厅老旧的场景，字幕'沙发旧了，换新太贵，不换又难看'。放大'客厅门面旧、来客人没面子'的焦虑，点出'换沙发成本高'的失效方案，把需求引向'花小钱铺一层就焕新'的沙发巾。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，镜头展示棉制大片沙发巾铺开、覆盖旧沙发的效果，口播'秋冬棉制大片沙发垫，铺上客厅焕然一新'。用'大片覆盖'回应'旧沙发遮丑'，用'棉制'回应'亲肤舒适'，给出'低成本焕新客厅'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍演示：把沙发巾铺在旧沙发上，展示铺前铺后的客厅对比；再展示可机洗、防滑不跑位的细节。用'铺前旧、铺后新'的前后对照作为证据，配合'邻居/亲家都问链接'的社交证明，强化'焕新'的信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'棉制、大片覆盖、可机洗'，叠加'CID专享价、今天下单更划算'的福利，口播'点下方直接下单，给客厅换个新面貌'，引导CID链路承接转化。"
-            }
-          },
-          "materialId": "6695c8cfea6f7430bee5",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 11,
-          "sourceId": "S1R12",
-          "title": "床头套·柔软加厚防尘耐脏易清洗",
-          "product": "床头套",
-          "customer": "天津市南开区勇旺传媒有限公司",
-          "chain": "小店",
-          "tag": "防尘耐脏 · 弹力贴合",
-          "spend": 18109.24,
-          "ctr": 3.14,
-          "cvr": 9.1,
-          "cpm": 33.19,
-          "duration": "约109s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3nackgaaeoyadrmu2y5vb62aeunuaji2a.f0.mp4?dis_k=e5a91dd92571afea91f703124b369f84&dis_t=1790862891&m=e5579574424a5a3b19d774e924fe46d3&sha256=d535c1d4bab0d3ad3616acf1ef08016a039b18469bf3a9f6f6f87e8ef27c9b2e",
-          "frames": [
-            {
-              "src": "assets/frames/upload-aa94b856fd9420c9127b/frame-01.jpg",
-              "time": "6.5s"
-            },
-            {
-              "src": "assets/frames/upload-aa94b856fd9420c9127b/frame-02.jpg",
-              "time": "26.0s"
-            },
-            {
-              "src": "assets/frames/upload-aa94b856fd9420c9127b/frame-03.jpg",
-              "time": "46.7s"
-            },
-            {
-              "src": "assets/frames/upload-aa94b856fd9420c9127b/frame-04.jpg",
-              "time": "67.3s"
-            },
-            {
-              "src": "assets/frames/upload-aa94b856fd9420c9127b/frame-05.jpg",
-              "time": "89.0s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示旧床头掉皮、有污渍的画面，字幕'床头旧了别急着换'，口播'柔软加厚床头罩，弹力设计贴合多样床头'。用'别急着换'制造省钱反差，抓住床头老化、想低成本翻新卧室的人群，让他们好奇'套上能变什么样'。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到床头皮质开裂、积灰难擦的场景，字幕'床头掉皮积灰，擦也擦不干净'。放大'卧室门面旧、清洁麻烦'的焦虑，点出'换床头成本高'的失效方案，把需求引向'一套就焕新、还能防尘'的床头套。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，镜头展示床头套的弹力面料和加厚结构，口播'弹力设计贴合多样床头，防尘耐脏易清洗'。用'弹力贴合'回应'各种床头都能套'，用'防尘耐脏易清洗'回应'清洁麻烦'，给出'低成本翻新'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍演示：把床头套套在旧床头上，展示套前套后的对比；再展示拆下来机洗的过程。用'套前旧、套后新'的前后对照作为证据，配合'桃皮绒柔软防撞头'的细节说明，强化'翻新+防护'的信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'弹力贴合、防尘耐脏、易清洗'，叠加'小店专享价、今天下单更划算'的福利，口播'点下方直接下单，给床头换个新套'，引导小店链路承接转化。"
-            }
-          },
-          "materialId": "aa94b856fd9420c9127b",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 12,
-          "sourceId": "S1R13",
-          "title": "多件套·100%棉抗菌防螨送礼自用都合适",
-          "product": "多件套",
-          "customer": "上海罗莱家用纺织品有限公司",
-          "chain": "直播",
-          "tag": "全棉磨毛 · 抗菌防螨",
-          "spend": 17462.76,
-          "ctr": 2.28,
-          "cvr": 3.29,
-          "cpm": 113.85,
-          "duration": "约13s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3jea5gaabrmagt7vsinvbwsie2neqdu2a.f0.mp4?dis_k=8d92f96afd14a7876f07bce6ef87c551&dis_t=1790163659&m=8273bd6f501e5ac503a6898fecd1ae17&sha256=481c24edea00da577dca1fe72fed9a2423f82a5544441ca32745b2e97a00f6ea",
-          "frames": [
-            {
-              "src": "assets/frames/upload-b838ba88c6caadb7c880/frame-01.jpg",
-              "time": "0.8s"
-            },
-            {
-              "src": "assets/frames/upload-b838ba88c6caadb7c880/frame-02.jpg",
-              "time": "3.1s"
-            },
-            {
-              "src": "assets/frames/upload-b838ba88c6caadb7c880/frame-03.jpg",
-              "time": "5.5s"
-            },
-            {
-              "src": "assets/frames/upload-b838ba88c6caadb7c880/frame-04.jpg",
-              "time": "7.9s"
-            },
-            {
-              "src": "assets/frames/upload-b838ba88c6caadb7c880/frame-05.jpg",
-              "time": "10.4s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示全棉磨毛套件铺床后的质感，手抚过面料，字幕'100%棉套件，抗菌防螨'，口播'送礼自用都合适'。用'100%棉+抗菌防螨'的品质感抓住注重健康、想换套好床品或送礼的人群，让他们产生'这个拿得出手'的认同。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到普通床单起球、静电、睡一晚皮肤痒的场景，字幕'床品不透气，睡一晚浑身不舒服'。放大'化纤床品闷热、易起球'的不适，点出'便宜床品不耐用'的失效，把需求引向'100%棉、抗菌防螨'的高品质套件。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，镜头展示新疆棉磨毛工艺和抗菌防螨说明，口播'100%棉加厚套件，抗菌防螨，保暖火山小磨毛'。用'100%棉'回应'亲肤透气'，用'抗菌防螨'回应'健康安心'，给出'送礼自用都合适'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍演示：把套件铺上床，展示磨毛面料的柔软触感和厚度；再展示水洗后不起球、不缩水。用'洗后如新'的前后对照作为证据，配合'意大利陶瓷磨毛工艺'的细节说明，强化'高品质'的信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'100%棉、抗菌防螨、磨毛保暖'，叠加'直播间专享价、送礼自用都合适'的福利，口播'点下方进直播间，换套好床品'，明确引导进入直播间承接转化。"
-            }
-          },
-          "materialId": "b838ba88c6caadb7c880",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 13,
-          "sourceId": "S1R14",
-          "title": "床笠·秋冬刚需夹棉自带软垫感",
-          "product": "床笠",
-          "customer": "安徽蔚蓝云海信息技术有限公司",
-          "chain": "直播",
-          "tag": "夹棉软垫感 · 防滑防皱",
-          "spend": 17372.82,
-          "ctr": 2.58,
-          "cvr": 7.52,
-          "cpm": 113.33,
-          "duration": "约41s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53wecnsaae2ualyg5o3rvb5mie3gyqjwka.f0.mp4?dis_k=c544697cff86d373d69edf9d17081d34&dis_t=1789552047&m=eb0194bd94291613419269a80b9eae38&sha256=cb21695478894660cfcead74cc9a776e96a7f6bb80247155f9ff46cbbc2b4d1e",
-          "frames": [
-            {
-              "src": "assets/frames/upload-8ed18dd6be92354b8846/frame-01.jpg",
-              "time": "2.5s"
-            },
-            {
-              "src": "assets/frames/upload-8ed18dd6be92354b8846/frame-02.jpg",
-              "time": "9.9s"
-            },
-            {
-              "src": "assets/frames/upload-8ed18dd6be92354b8846/frame-03.jpg",
-              "time": "17.8s"
-            },
-            {
-              "src": "assets/frames/upload-8ed18dd6be92354b8846/frame-04.jpg",
-              "time": "25.7s"
-            },
-            {
-              "src": "assets/frames/upload-8ed18dd6be92354b8846/frame-05.jpg",
-              "time": "34.0s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示手按压夹棉床笠回弹的软垫感，字幕'秋冬刚需夹棉床笠'，口播'自带软垫感太治愈'。用'自带软垫感'这个体感词制造好奇，抓住嫌床垫硬、想加层软垫又怕麻烦的人群，让他们产生'这个铺上就软'的期待。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到普通床单铺不平、睡一晚皱成一团、还跑位的场景，字幕'床单老是跑位，睡一晚皱巴巴'。放大'床单不贴合、每天整理麻烦'的烦躁，点出普通床单易皱易跑的失效，把需求引向'防滑防皱、自带软垫'的床笠。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，镜头展示床笠的全包围设计和夹棉层，口播'夹棉床笠，全包围防滑防皱，隔脏床垫'。用'全包围防滑'回应'跑位'，用'夹棉'回应'软垫感'，给出'秋冬刚需、自带软垫'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍演示：把床笠套上床垫，展示全包围包裹和防滑效果；再用手按压展示夹棉软垫感，对比普通床单。用'套上不跑、按着软'的前后对照作为证据，配合'可机洗'的细节说明，强化'省心又舒适'的信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'夹棉、防滑防皱、全包围'，叠加'直播间专享价、送枕套'的福利，口播'点下方进直播间，给床垫加层软垫'，明确引导进入直播间承接转化。"
-            }
-          },
-          "materialId": "8ed18dd6be92354b8846",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 14,
-          "sourceId": "S1R15",
-          "title": "床笠·好套取还让身体回到休息模式",
-          "product": "床笠",
-          "customer": "亚朵生活优选",
-          "chain": "小店",
-          "tag": "可机洗 · 防滑透气",
-          "spend": 16028.73,
-          "ctr": 1.32,
-          "cvr": 3.13,
-          "cpm": 59.46,
+          "tag": "低价钩子 · 清仓紧迫",
+          "spend": 19545.09,
+          "ctr": 2.39,
+          "cvr": 13.86,
+          "cpm": 44.57,
           "duration": "未提供",
-          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6aaebb6d000c8f951c4f5d2f600055150000008d00004eec?ck=4625e1b89580bb17debaf38592e8c117&m=4625e1b89580bb17debaf38592e8c117&sha256=333d9ed01b40984120f67c9be3a7c6e5b878410bcc07d17efa5701f52eb5d75d",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3zeb6iaaddeajjlxhlvvbtsie4teqhzca.f0.mp4?dis_k=845b7436b362f281774142d77b39753a&dis_t=1793356012&m=5723b28941c24f62d7eb3dd9644548ab&sha256=a1b9fbf90f15e60f3d0de812c7ef709c5d055daac03203aa75060714a883cc84",
           "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧展示床笠轻松套上床垫的动作，字幕'好的床笠，不只是好套取'，口播'还让身体回到休息模式'。用'回到休息模式'这个感性说法制造反差——床笠还能影响睡眠？抓住注重睡眠体验、嫌换床单麻烦的人群，让他们产生好奇。"
+              "desc": "首帧大字「39.9」压在加绒床单上，字幕「加绒加厚大尺寸」，用低价反差抓价格敏感人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到一个人费力套床单、边角总是翘起的场景，字幕'床单套半天，边角还翘'。放大'换床单费劲、睡起来皱巴巴'的烦躁，点出普通床单不服帖的失效，把需求引向'好套取、防滑透气'的床笠。"
+              "desc": "拍旧床单薄透、起皱、滑动画面，旁白点出便宜床单不保暖不耐磨的困扰。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头展示床笠的弹力包边和透气面料，口播'深睡床笠2.0，四季可用，可机洗，防滑透气透湿'。用'弹力包边'回应'好套取'，用'透气透湿'回应'闷热'，给出'让身体回到休息模式'的价值锚点。"
+              "desc": "手抚磨毛斜纹面料展示厚度，讲防滑耐磨、2X2.3米大尺寸铺得稳。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍演示：把床笠套上床垫，展示边角服帖不翘；再展示机洗后不变形。用'套上服帖、洗后如新'的前后对照作为证据，配合'防滑透气'的体感说明，强化'好套又好睡'的信任。"
+              "desc": "实拍铺床拉扯不滑、揉搓不起球，用厚度与尺寸对照证明耐用。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'好套取、防滑透气、可机洗'，叠加'小店专享价、今天下单更划算'的福利，口播'点下方直接下单，换个好床笠'，引导小店链路承接转化。"
+              "desc": "复述仅需39.9元加绒加厚，强调清仓限时，引导点击下单承接CID链路。"
             }
           },
-          "materialId": "343f9234f55415255214",
-          "frameStatus": "failed",
-          "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-09T02:06:53.385993+00:00"
-        },
-        {
-          "rank": 15,
-          "sourceId": "S1R16",
-          "title": "棉床笠·加厚防滑四季守护",
-          "product": "棉床笠",
-          "customer": "南通棉芬奇纺织品有限公司",
-          "chain": "小店",
-          "tag": "全棉水洗 · 加厚防滑",
-          "spend": 15574.93,
-          "ctr": 5.4,
-          "cvr": 4.8,
-          "cpm": 115.24,
-          "duration": "未提供",
-          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a84158c0004446223a3ca511b0555150000008d00004eec?ck=72d95e97ac4db907d81a42b9690db291&m=72d95e97ac4db907d81a42b9690db291&sha256=32c2223eaadc5b307942fcb7c37fc270de6ebf7558cdc0e78e2c19c679050c5b",
-          "frames": [],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示全棉床笠铺上床垫的服帖效果，手抚过面料，字幕'良品全棉床笠，加厚防滑'，口播'四季守护'。用'全棉+加厚防滑'的品质感抓住注重亲肤、想换条耐用床笠的人群，让他们产生'这个看着就舒服'的认同。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到普通床单薄、易皱、睡一晚就跑位的场景，字幕'床单太薄，睡一晚皱巴巴还跑位'。放大'床单不贴合、不耐用'的烦躁，点出普通床单的失效，把需求引向'全棉加厚、防滑防尘'的床笠。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，镜头展示全棉水洗面料和加厚夹棉层，口播'全棉水洗棉床笠，夹棉加厚，防滑防尘罩'。用'全棉'回应'亲肤'，用'加厚防滑'回应'耐用不跑位'，给出'四季守护'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍演示：把床笠套上床垫，展示全包围防滑；再用手按压展示加厚夹棉的软感，对比普通床单。用'套上不跑、按着厚实'的前后对照作为证据，配合'可机洗'的细节说明，强化'耐用舒适'的信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'全棉、加厚防滑、四季守护'，叠加'小店专享价、今天下单更划算'的福利，口播'点下方直接下单，换条好床笠'，引导小店链路承接转化。"
-            }
-          },
-          "materialId": "68a29b28e8321c3903c5",
-          "frameStatus": "failed",
-          "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-09T02:06:53.385986+00:00"
-        },
-        {
-          "rank": 16,
-          "sourceId": "S1R17",
-          "title": "棉浴巾·阴干不臭柔软加厚",
-          "product": "棉浴巾",
-          "customer": "浙江凌瑞网络科技有限公司",
-          "chain": "直播",
-          "tag": "抗阴干菌 · 加大加厚",
-          "spend": 14356.16,
-          "ctr": 1.24,
-          "cvr": 13.38,
-          "cpm": 185.36,
-          "duration": "约22s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3peaqsaabvyagchfltnvbw6iebf4qccka.f0.mp4?dis_k=01ca54d3c8e2085dd68ca0b2fa20807a&dis_t=1789552860&m=a89f3e33a7d87f0d56c050a91cadd705",
-          "frames": [
-            {
-              "src": "assets/frames/upload-5c4c7cb277267688dd08/frame-01.jpg",
-              "time": "1.3s"
-            },
-            {
-              "src": "assets/frames/upload-5c4c7cb277267688dd08/frame-02.jpg",
-              "time": "5.4s"
-            },
-            {
-              "src": "assets/frames/upload-5c4c7cb277267688dd08/frame-03.jpg",
-              "time": "9.7s"
-            },
-            {
-              "src": "assets/frames/upload-5c4c7cb277267688dd08/frame-04.jpg",
-              "time": "13.9s"
-            },
-            {
-              "src": "assets/frames/upload-5c4c7cb277267688dd08/frame-05.jpg",
-              "time": "18.4s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧展示浴巾在潮湿浴室里挂着的画面，字幕'浴巾阴干不臭'，口播'天然纯棉材质，触感柔软亲肤，阴干无异味'。用'阴干不臭'这个反常识卖点制造好奇——浴巾怎么会不臭？抓住南方潮湿地区、嫌浴巾有霉味的人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到浴巾挂在浴室几天不干、凑近有异味的场景，字幕'浴巾阴干就发臭，越用越恶心'。放大'潮湿地区浴巾发霉有异味'的不适，点出普通浴巾不抗菌的失效，把需求引向'抗阴干菌、阴干不臭'的浴巾。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，镜头展示长绒棉材质和加厚结构，口播'月光长绒棉700g浴巾，10A抗阴干菌，阴干不臭，柔软厚'。用'抗阴干菌'回应'发臭'，用'700g加厚'回应'吸水柔软'，给出'阴干不臭'的价值锚点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍演示：把浴巾打湿后挂起来，展示吸水速度和阴干效果；再对比普通浴巾阴干后的异味。用'阴干无异味'的前后对照作为证据，配合'加大加厚、包裹感强'的体感说明，强化'抗阴干菌'的信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "回到产品全景，字幕复述'抗阴干菌、阴干不臭、加大加厚'，叠加'直播间专享价、总裁甄选'的信任和福利，口播'点下方进直播间，换条不臭的浴巾'，明确引导进入直播间承接转化。"
-            }
-          },
-          "materialId": "5c4c7cb277267688dd08",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "2aac3318335fbc475d6b",
+          "frameStatus": "pending"
         }
       ]
     },
