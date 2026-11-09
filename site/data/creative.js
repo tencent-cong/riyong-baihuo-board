@@ -3980,290 +3980,225 @@ window.CREATIVE_DATA = {
       "name": "餐厨水具-餐具水具",
       "key": "kitchen-tableware",
       "owner": "",
-      "uploadedAt": "2026-10-09T03:43:35.219Z",
+      "uploadedAt": "2026-11-09T06:47:48.270Z",
       "metrics": {
-        "creativeCount": 99,
-        "ctr": 3.23,
-        "play3s": 73.53,
-        "cvr": 7.9,
-        "cpm": 47.14
+        "creativeCount": 101,
+        "ctr": 3.41,
+        "play3s": 22.93,
+        "cvr": 8.71,
+        "cpm": 43.45
       },
       "sellingWords": [
         {
-          "word": "密封保鲜不串味",
+          "word": "抗菌防霉",
           "weight": 100
         },
         {
-          "word": "防霉防滑",
+          "word": "一毛钱一个",
           "weight": 95
         },
         {
-          "word": "加厚耐用",
+          "word": "加厚不易破",
           "weight": 90
         },
         {
-          "word": "可伸缩适配水槽",
+          "word": "耐高温",
           "weight": 86
         },
         {
-          "word": "一擦即净",
+          "word": "密封防串味",
           "weight": 82
         },
         {
-          "word": "耐高温不变形",
+          "word": "保温锁温",
           "weight": 78
         },
         {
-          "word": "食品级安全",
+          "word": "食品级材质",
           "weight": 74
         },
         {
-          "word": "免手洗",
+          "word": "防滑防烫",
           "weight": 70
         },
         {
-          "word": "多层密封防潮",
+          "word": "不挂油易清洗",
           "weight": 66
         },
         {
-          "word": "拍一发多",
+          "word": "免手洗省事",
           "weight": 62
         },
         {
-          "word": "轻巧好握",
+          "word": "抽取式好拿",
           "weight": 58
         },
         {
-          "word": "省力快捷",
+          "word": "一物多用",
           "weight": 54
-        },
-        {
-          "word": "无漆无蜡",
-          "weight": 50
-        },
-        {
-          "word": "保温保冷",
-          "weight": 46
-        },
-        {
-          "word": "收纳整洁",
-          "weight": 42
-        },
-        {
-          "word": "不易断",
-          "weight": 38
         }
       ],
       "painWords": [
         {
-          "word": "筷子发霉有异味",
+          "word": "筷子发霉",
           "weight": 92
         },
         {
-          "word": "冰箱串味食物返潮",
+          "word": "剩菜串味",
           "weight": 88
         },
         {
-          "word": "水槽积水残渣难清理",
+          "word": "冰箱异味",
           "weight": 84
         },
         {
-          "word": "切菜刨丝卡顿费手",
+          "word": "洗碗油腻",
           "weight": 80
         },
         {
-          "word": "端热碗烫手",
+          "word": "饭菜变凉",
           "weight": 76
         },
         {
-          "word": "板栗核桃难剥壳",
-          "weight": 72
+          "word": "切菜伤手",
+          "weight": 70
         }
       ],
       "sellingContext": [
         {
-          "driver": "梅雨/回南天·厨房返潮，筷子砧板易发霉",
-          "need": "想要一套不发霉、不生锈、入口安心的餐具，替换掉家里发黑有味的旧木筷",
+          "driver": "梅雨回南天·筷子发霉返潮",
+          "need": "想要不发霉、耐高温、能进洗碗机的筷子，母婴家庭尤其在意",
           "words": [
-            "防霉防滑",
-            "无漆无蜡",
-            "不易断",
-            "食品级安全"
+            "抗菌防霉",
+            "耐高温",
+            "食品级材质"
           ]
         },
         {
-          "driver": "冰箱囤货季·剩菜生熟混放串味",
-          "need": "想要密封锁鲜、防串味、能叠放省空间的保鲜容器，让冰箱干净整洁",
+          "driver": "剩菜隔夜·冰箱串味发臭",
+          "need": "想要一拉就套住碗盘、抗菌锁鲜、便宜到不心疼的保鲜罩",
           "words": [
-            "密封保鲜不串味",
-            "多层密封防潮",
-            "收纳整洁",
-            "加厚耐用"
+            "一毛钱一个",
+            "密封防串味",
+            "抽取式好拿"
           ]
         },
         {
-          "driver": "日常做饭备菜·洗切沥收一条龙繁琐",
-          "need": "想要省力快捷、免手洗、一擦即净的厨房小工具，把备菜洗碗的时间省下来",
+          "driver": "三餐后洗碗·油污伤手",
+          "need": "想要加厚不破、贴合不打滑、用完即扔的一次性手套",
           "words": [
-            "可伸缩适配水槽",
-            "一擦即净",
-            "免手洗",
-            "省力快捷"
+            "加厚不易破",
+            "免手洗省事",
+            "食品级材质"
           ]
         }
       ],
       "scripts": [
-        "后悔没早买！19.9元5个！不锈钢保鲜盒密封保鲜不串味",
-        "总算有商家做了自带提手的密封保鲜袋了，出门直接一拎真很方便",
-        "家里板栗难剥？这开口器一夹就开，还能剥壳",
-        "厨房有它简直太方便！刨丝切菜顺滑不卡顿，不会做饭的也能轻松用",
-        "加厚不锈钢材质，自由伸缩适配各类水槽，洗菜洗碗同时沥水",
-        "为了家人的健康，家里吃饭用的筷子一定要选对",
-        "谁还没给孩子买这个保温杯，天气转凉让孩子喝点热水吧",
-        "多层密封分区设计，调料隔绝不串味，收纳整齐，使用超方便"
+        "冰箱里的细菌比马桶还多？剩菜一定要套上保鲜罩，主动抗菌99%",
+        "一毛钱不到的保鲜罩，7天超长保鲜，素菜不发蔫荤菜留香不变味",
+        "你家的筷子该换了！316不锈钢筷子，防滑防霉不发霉",
+        "后悔没早买！19.9元50个！铝箔保温套，饭菜不怕凉了",
+        "加厚TPE手套，贴合手型不打滑，洗菜做家务干净又实惠",
+        "厨房有它太方便！刨丝切菜顺滑不卡顿，不会做饭也能轻松用"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用极端前后对比抓眼：发霉发黑的旧木筷 vs 光洁如新的不锈钢/陶瓷筷，或塞满串味剩菜的乱冰箱 vs 叠放整齐的保鲜盒。首帧直接怼脏旧物品特写+一句反常识断言（如“你用的筷子正在危害你的健康”），制造认知冲突，锁定25-45岁家庭主厨人群。"
+          "desc": "首帧怼发霉旧筷/臭冰箱，配「细菌比马桶还多」制造反差，3秒锁住主妇"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定梅雨回南天返潮、秋冬换季、冰箱囤货季、金秋换新季等节点。放大“筷子发霉有异味”“剩菜串味返潮”“水槽积水残渣”等具体场景焦虑，把季节性问题转成必须立刻换新的购买理由，配合“天气转凉让孩子喝点热水”类温情话术。"
+          "desc": "绑梅雨回南天讲筷子发霉，绑秋冬讲饭菜变凉，绑饭点讲剩菜串味"
         },
         {
           "title": "福利/紧迫",
-          "desc": "价格锚点用“19.9元5个”“拍一发八”“买一送一”“拍一发四”等量化组合，把单价压到感知极低；再用“限时特惠”“厂家直发”“清仓甩卖”“后台正在备货，闪电发货”制造紧迫，配合“不满意包退”“官方正品保障”降低决策风险。"
+          "desc": "用「一毛钱一个」「19.9元50个」低价锚点，叠加限时特价与厂家直发"
         },
         {
           "title": "明星/IP",
-          "desc": "本赛道以工厂源头、厂家直销和“老婆/婆婆买了”类素人信任链为主；少数高客单商品借冯唐出品、百事联名、景德镇陶瓷等IP/产地背书，用“冯唐自用爆款”“航天材质”“德国精工”强化品质信任，普通款则靠“邻居都想买”“闺蜜一直在找”做口碑转述。"
+          "desc": "以冯唐出品纯钛杯、德国精工、母婴食品级等背书建信任，弱化品牌名"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "保鲜袋·源头厂家今日特价抢购",
-          "product": "保鲜袋",
-          "customer": "武汉洪山敏睿电子商务工作室(个体工商户)",
-          "chain": "CID",
-          "tag": "促销口播 · 低价囤货",
-          "spend": 156341.93,
-          "ctr": 3.96,
-          "cvr": 20.38,
-          "cpm": 387.48,
-          "duration": "约197s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc37yaceaaaqaaezsnn5nvbv7qeel7aaisa.f0.mp4?dis_k=3951bffb0067b3198511acea8ca69d6a&dis_t=1790156942&m=24f63618c4124d04fe251c9ea074eb71&sha256=bd03b08b2e72d6b102a4f26e2bb4b87ef8fda50680ab964cd5453561c420357c",
-          "frames": [
-            {
-              "src": "assets/frames/upload-7c75f887f572e47ca099/frame-01.jpg",
-              "time": "11.8s"
-            },
-            {
-              "src": "assets/frames/upload-7c75f887f572e47ca099/frame-02.jpg",
-              "time": "47.4s"
-            },
-            {
-              "src": "assets/frames/upload-7c75f887f572e47ca099/frame-03.jpg",
-              "time": "84.9s"
-            },
-            {
-              "src": "assets/frames/upload-7c75f887f572e47ca099/frame-04.jpg",
-              "time": "122.4s"
-            },
-            {
-              "src": "assets/frames/upload-7c75f887f572e47ca099/frame-05.jpg",
-              "time": "161.9s"
-            }
-          ],
+          "title": "保鲜膜套·一毛钱一个抗菌保鲜罩",
+          "product": "保鲜膜套",
+          "customer": "麦司肯",
+          "chain": "直播",
+          "tag": "低价钩子 · 抗菌锁鲜",
+          "spend": 71626.56,
+          "ctr": 5.6,
+          "cvr": 9.74,
+          "cpm": 84.16,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xmb7oaadtmahhbhggjvbtoye665qh52a.f0.mp4?dis_k=50604deb70fe67d1d9cb0e84b7ea19c6&dis_t=1793426533&m=7628a966a6150028c6d72d0f5dd52d6c&sha256=8d6aae08a99015ac1424d2e9b582d2a81199116fcb1925842e1edaa02f67caa6",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧直接怼一整箱保鲜袋堆叠的仓库实拍，字幕打出“源头厂家，厂家直销，今日特价”，口播喊“速来抢购”。用“厂家直销”打破用户对中间商加价的默认认知，制造“现在不买就亏”的价格冲突，精准抓住爱囤日用消耗品的家庭主妇和精打细算人群。"
+              "desc": "首帧怼满桌剩菜与发臭冰箱，字幕「请大数据推给需要的人」，一句「一毛钱一个」制造低价反差，抓住精打细算的主妇。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到冰箱里剩菜用普通塑料袋随便一裹、汤汁外漏、串味返潮的凌乱场景，旁白点出“冰箱一股味、菜还容易坏”。传统塑料袋不密封、易破漏，让用户意识到日常保鲜方式其实一直在浪费食材，把“随便装装就行”的侥幸心理击碎。"
+              "desc": "镜头扫过没盖的剩菜、串味的冰箱隔层，旁白点出细菌比马桶还多，传统保鲜膜撕不开、盖不严的窘境被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，双手拉开保鲜袋展示加厚材质与封口结构，边装菜边演示“一装一压就密封”。强调加厚不易破、可冷冻可冷藏、防串味锁鲜，逐项回应前面漏汤、串味、返潮的痛点，把“便宜大碗还耐用”的价值锚点立住。"
+              "desc": "手抽一张保鲜罩，一拉一套罩住碗盘，展示抗菌99%与加厚材质，强调通用菜罩，把低价与卫生价值同时锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍三步：装带汤剩菜→封口倒置摇晃不漏→放进冰箱整齐码放。用倒置不漏的对照实验做效果证据，再补一个装水果、装干货的多场景镜头，强化“一袋多用”，让用户相信这不是摆拍而是真能解决日常。"
+              "desc": "前后对照：套前剩菜发蔫、套后五天如新，再切冰箱整齐画面，多碗盘通用演示，强化锁鲜可信度。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述核心利益“加厚密封、防串味、厂家直销价”，叠加“今日特价、速来抢购”的限时紧迫，给出明确行动指令“点下方链接直接拍”。承接CID链路，用低价囤货心理推动立即下单，完成从种草到转化的闭环。"
+              "desc": "复述一毛钱一个、抗菌锁鲜，喊出限时特价速抢，引导点购物车下单，承接直播链路转化。"
             }
           },
-          "materialId": "7c75f887f572e47ca099",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1af0f1ab1602fdec6242",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
           "sourceId": "S1R2",
-          "title": "竹筷子·高温碳化防霉楠竹筷",
-          "product": "竹筷子",
-          "customer": "谷城县霖森轩苗木店(个体工商户)",
-          "chain": "CID",
-          "tag": "热卖氛围 · 防霉耐用",
-          "spend": 107982.98,
-          "ctr": 1.68,
-          "cvr": 13.19,
-          "cpm": 47.88,
-          "duration": "约217s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53peakoaaa6iabmunimjvbu6ieu54qbj2a.f0.mp4?dis_k=30e528ef1783f446bfc1aa978a709e35&dis_t=1789440404&m=89d4dc5cf17ca5f1596ad3ca88176cd3&sha256=30030ea7635537e788ef2618ab6cbe1d4059ffc85ff958142a8eb88d5e5d92ef",
-          "frames": [
-            {
-              "src": "assets/frames/upload-ce8e3b386a305578000c/frame-01.jpg",
-              "time": "13.0s"
-            },
-            {
-              "src": "assets/frames/upload-ce8e3b386a305578000c/frame-02.jpg",
-              "time": "52.1s"
-            },
-            {
-              "src": "assets/frames/upload-ce8e3b386a305578000c/frame-03.jpg",
-              "time": "93.3s"
-            },
-            {
-              "src": "assets/frames/upload-ce8e3b386a305578000c/frame-04.jpg",
-              "time": "134.5s"
-            },
-            {
-              "src": "assets/frames/upload-ce8e3b386a305578000c/frame-05.jpg",
-              "time": "177.9s"
-            }
-          ],
+          "title": "户外净水工具·应急净水片囤货",
+          "product": "户外净水工具",
+          "customer": "厦门步金云网络科技有限公司",
+          "chain": "小店",
+          "tag": "应急场景 · 净化水质",
+          "spend": 44121.38,
+          "ctr": 4.84,
+          "cvr": 19.92,
+          "cpm": 152.06,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53pyayoaab4qanndg56fvbw7qeq57adb2a.f0.mp4?dis_k=411157147661bf41b74537f1ec6030d9&dis_t=1792823714&m=fd7489e1da0c9be508eae63499a6c511",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧给到一捆柿柿如意造型的碳化楠竹筷整齐铺开，字幕“近期火爆热卖”，口播带出“高温碳化”。用“柿柿如意”的吉祥造型和热卖氛围制造从众心理，抓住注重餐桌健康和讨彩头的家庭用户，让人愿意停下来看它凭什么火。"
+              "desc": "首帧浑浊泥水倒入杯中，字幕「野外没干净水怎么办」，强对比制造焦虑，抓住露营与应急储备人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到旧木筷发黑、筷头发霉、洗不干净的近景特写，旁白点出“筷子用久了发霉有异味”。传统竹木筷易吸潮、难晾干、滋生霉菌，用户一想到每天入口的筷子可能发霉就会不适，需求被放大为“必须换一双不发霉的筷子”。"
+              "desc": "展示户外溪水、停水断水场景，旁白强调喝生水风险，传统烧水煮沸耗时又不便，需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示碳化工艺的深色纹理与光滑筷身，口播强调“高温碳化、防霉、无漆无蜡”。用碳化改变竹材结构、不易吸潮发霉的机制回应痛点，同时给出10双装的家庭装价值锚点，让用户觉得换筷成本低、全家都能用。"
+              "desc": "投入一片净水片，清水迅速澄清，讲高效净化直饮，守护家庭饮水健康，把应急刚需与安心感绑定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对比：旧筷泡水后发黑 vs 碳化筷冲洗后一擦即净；再演示夹取花生米、夹面条不打滑。用防滑和易清洗的对照证据强化“好用又卫生”，补一个摆上餐桌的颜值镜头，兼顾实用与讨彩头两种购买动机。"
+              "desc": "前后对照：浑浊水与净化后清水并排，计时展示见效速度，再演示随身携带，强化可信与便携。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“高温碳化、防霉防滑、10双装”核心利益，叠加“近期火爆热卖”的从众紧迫，给出“趁热卖赶紧拍”的行动指令。承接CID链路，用换筷刚需和低价家庭装推动下单，完成从健康焦虑到立即更换的转化。"
+              "desc": "复述高效净化、家庭应急必备，喊出现在囤货更安心，引导点小店下单储备。"
             }
           },
-          "materialId": "ce8e3b386a305578000c",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "308dd90919ffb22fedf0",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
@@ -4272,804 +4207,318 @@ window.CREATIVE_DATA = {
           "product": "瓜果刨",
           "customer": "淦时",
           "chain": "CID",
-          "tag": "场景种草 · 省力易用",
-          "spend": 93580.42,
-          "ctr": 1.36,
-          "cvr": 20.04,
-          "cpm": 233.16,
-          "duration": "约147s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53hyahcaaa3qafutthmbvbupqeoe7aa4ka.f0.mp4?dis_k=5f7a2c7215e5ea9d2c4a23877c1160f4&dis_t=1785146358&m=75db0a96e5b539b3183665e18f6ceb55&sha256=c89c71436d539a5076d6583d4ed27b85608a3169d8a2086f5c53650623d1cd1e",
-          "frames": [
-            {
-              "src": "assets/frames/upload-3d3e11ea18210253e598/frame-01.jpg",
-              "time": "8.8s"
-            },
-            {
-              "src": "assets/frames/upload-3d3e11ea18210253e598/frame-02.jpg",
-              "time": "35.2s"
-            },
-            {
-              "src": "assets/frames/upload-3d3e11ea18210253e598/frame-03.jpg",
-              "time": "63.0s"
-            },
-            {
-              "src": "assets/frames/upload-3d3e11ea18210253e598/frame-04.jpg",
-              "time": "90.9s"
-            },
-            {
-              "src": "assets/frames/upload-3d3e11ea18210253e598/frame-05.jpg",
-              "time": "120.2s"
-            }
-          ],
+          "tag": "厨房神器 · 顺滑不卡顿",
+          "spend": 39196.99,
+          "ctr": 1.27,
+          "cvr": 18.27,
+          "cpm": 206.71,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53hyahcaaa3qafutthmbvbupqeoe7aa4ka.f0.mp4?dis_k=de5698a4e83c3fea66add3416472c3a8&dis_t=1792203538&m=75db0a96e5b539b3183665e18f6ceb55&sha256=c89c71436d539a5076d6583d4ed27b85608a3169d8a2086f5c53650623d1cd1e",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一只手拿着瓜果刨在胡萝卜上“唰”地刨出一长条均匀细丝，字幕“厨房有它简直太方便”。用顺滑不卡顿的动作画面制造爽感，直接抓住不会做饭、怕切菜麻烦的年轻人和厨房新手，让人想继续看它到底多省事。"
+              "desc": "首帧一刀刨下整根萝卜丝，字幕「厨房有它太方便」，顺滑画面制造反差，抓住怕切菜的新手与宝妈。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到用菜刀笨拙切丝、粗细不均、切到手、案板一片狼藉的对比场景，旁白点出“刀工不好切得慢还容易伤手”。传统切菜方式费时费力、成品难看，让用户对“做饭第一步就劝退”产生共鸣，需求被放大为“有没有不用刀工也能切好”的工具。"
+              "desc": "展示传统菜刀切丝粗细不均、卡顿打滑、易伤手，旁白吐槽费时费力，放大不会做饭人群的挫败感。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示刨丝、削皮、开瓶三合一的刀头结构，边操作边口播“刨丝切菜顺滑不卡顿，不会做饭的也能轻松用”。用多刀头切换和一刨成丝的功能机制回应刀工差、切得慢的痛点，把“一器多用、新手友好”的价值锚点立住。"
+              "desc": "瓜果刨出场，一推成丝、一削成片，讲刨丝切菜顺滑不卡顿，不会做饭也能轻松用，价值锚点清晰。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：同一根土豆，菜刀切丝粗细不匀 vs 瓜果刨一刨成丝均匀整齐；再演示削皮、刨葱丝、开瓶盖多场景。用成品对比做效果证据，补一个冲洗刀头一冲即净的镜头，强化“好用又好洗”，打消用户对清洁麻烦的顾虑。"
+              "desc": "连续刨土豆、黄瓜、葱丝，前后对照粗细均匀，展示不伤手与清洗方便，多食材演示强化实用。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“三合一、刨丝顺滑、新手也能用”核心利益，叠加“厨房好物闭眼入”的口碑背书和限时优惠，给出“点链接拍同款”的行动指令。承接CID链路，用省力易用的确定感推动厨房新手立即下单。"
+              "desc": "复述一器多用、顺滑省力，喊出官方正品加急发货，引导点链接下单，承接CID转化。"
             }
           },
-          "materialId": "3d3e11ea18210253e598",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "5e16b31b16549923e9a6",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
           "sourceId": "S1R4",
-          "title": "沥水篮·加厚不锈钢可伸缩水槽架",
-          "product": "沥水篮",
-          "customer": "龙捷",
-          "chain": "CID",
-          "tag": "功能演示 · 伸缩适配",
-          "spend": 50977.33,
-          "ctr": 3.52,
-          "cvr": 8.71,
-          "cpm": 46.35,
-          "duration": "约213s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53fucvkaafqyammqvwmfvb6liekuwqkvka.f0.mp4?dis_k=4322ca1a2817404d346d9f8715aa777b&dis_t=1790153672&m=3a03085be1103dae9a126e761f9ed550&sha256=3cc58d6a4593461d28367847613e04d19af5160c5f02db550ac618b70491dbf5",
-          "frames": [
-            {
-              "src": "assets/frames/upload-d70fc4983e14c21faa11/frame-01.jpg",
-              "time": "12.8s"
-            },
-            {
-              "src": "assets/frames/upload-d70fc4983e14c21faa11/frame-02.jpg",
-              "time": "51.0s"
-            },
-            {
-              "src": "assets/frames/upload-d70fc4983e14c21faa11/frame-03.jpg",
-              "time": "91.4s"
-            },
-            {
-              "src": "assets/frames/upload-d70fc4983e14c21faa11/frame-04.jpg",
-              "time": "131.8s"
-            },
-            {
-              "src": "assets/frames/upload-d70fc4983e14c21faa11/frame-05.jpg",
-              "time": "174.3s"
-            }
-          ],
+          "title": "陶瓷筷子·夹菜挑刺两用防霉",
+          "product": "陶瓷筷子",
+          "customer": "鲤跃(广州)品牌管理有限公司",
+          "chain": "直播",
+          "tag": "母婴食品级 · 防滑防霉",
+          "spend": 37787.13,
+          "ctr": 4.62,
+          "cvr": 8.83,
+          "cpm": 139.74,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xaau2aab7mah6ogwofvbvoaejw4actka.f0.mp4?dis_k=85f60f99886c74248f951d091537dfa1&dis_t=1792488032&m=d06ca491c6d3aa7af0435f59a7cd0067",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧双手把沥水篮往水槽上一放、一拉即伸缩卡住，字幕“加厚水槽不锈钢沥水篮”。用“一拉就适配”的动作制造便利感，直接抓住水槽小、洗完菜没处放、台面总是湿漉漉的家庭用户，让人想看它到底怎么省空间。"
+              "desc": "首帧特写发霉木筷与黑斑，字幕「你家的筷子该换了」，强对比制造不适，抓住母婴与注重卫生的家庭。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到洗完菜水滴滴答答、碗碟堆在台面、水槽积水残渣难清理的凌乱场景，旁白点出“洗完没处放，台面全是水”。传统沥水方式占地方、不沥干、易积水发臭，让用户对厨房湿乱产生焦虑，需求被放大为“有没有能架在水槽上、又能沥水收纳的架子”。"
+              "desc": "镜头展示旧筷开裂藏污、遇潮发霉，旁白点出普通木筷难清洗易生菌，传统方案失效，换筷需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示加厚不锈钢管身和可伸缩结构，边拉伸边口播“自由伸缩适配各类水槽，洗菜洗碗同时沥水”。用加厚承重、伸缩适配、镂空沥水的机制逐项回应占地方、不沥干、易积水的痛点，把“一物两用、省台面”的价值锚点立住。"
+              "desc": "陶瓷筷出场，展示玉瓷质地、耐高温防滑防霉，细长轻巧两用筷，夹菜挑刺全搞定，把健康与实用同时锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍三步：拉伸卡进水槽→放上刚洗的碗碟和蔬菜→水直接滴回水槽不湿台面。用“台面干爽”的前后对照做效果证据，再补一个收起后不占地、可挂可放的镜头，强化多场景适用，打消用户对尺寸不合的顾虑。"
+              "desc": "夹滑溜丸子不打滑、开水烫不变形、一冲即净，前后对照旧筷污渍，强化防霉易清洗证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“加厚不锈钢、可伸缩、洗沥一体”核心利益，叠加“厂家直销、限时特惠”的价格福利，给出“点下方链接拍同款”的行动指令。承接CID链路，用厨房湿乱痛点推动用户立即下单替换旧沥水方式。"
+              "desc": "复述母婴食品级、防滑防霉，喊出直播专属价，引导点购物车下单，承接直播链路。"
             }
           },
-          "materialId": "d70fc4983e14c21faa11",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "3d5a8d8883627ae2d079",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
           "sourceId": "S1R5",
-          "title": "保鲜膜套·铝箔保鲜套适配各种碗盆",
-          "product": "保鲜膜套",
-          "customer": "杭州达扣生物科技有限公司",
-          "chain": "CID",
-          "tag": "功能种草 · 密封保温",
-          "spend": 46451.43,
-          "ctr": 4.34,
-          "cvr": 8.73,
-          "cpm": 40.64,
-          "duration": "约114s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53sead6aaa6qah3rnjlzvbveieh6iqap2a.f0.mp4?dis_k=5f21a491fbdefff509a69459d7647fb0&dis_t=1790733779&m=6a6027579f86fe3c084e3403d9583076&sha256=e0fb52dd164febe987f925431f0a4989b866962507480191dcb967928f93b3a6",
-          "frames": [
-            {
-              "src": "assets/frames/upload-90195f92964eac5dbb27/frame-01.jpg",
-              "time": "6.8s"
-            },
-            {
-              "src": "assets/frames/upload-90195f92964eac5dbb27/frame-02.jpg",
-              "time": "27.3s"
-            },
-            {
-              "src": "assets/frames/upload-90195f92964eac5dbb27/frame-03.jpg",
-              "time": "49.0s"
-            },
-            {
-              "src": "assets/frames/upload-90195f92964eac5dbb27/frame-04.jpg",
-              "time": "70.6s"
-            },
-            {
-              "src": "assets/frames/upload-90195f92964eac5dbb27/frame-05.jpg",
-              "time": "93.4s"
-            }
-          ],
+          "title": "饭菜罩·铝箔锁温大小通用",
+          "product": "饭菜罩",
+          "customer": "武汉洪山敏睿电子商务工作室(个体工商户)",
+          "chain": "小店",
+          "tag": "厂家直销 · 持久锁温",
+          "spend": 33143.28,
+          "ctr": 2.67,
+          "cvr": 19.76,
+          "cpm": 124.72,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53pubkqaaca4ahtuguf5vbq7ievb6qfkca.f0.mp4?dis_k=4262a6b4d0e4b75559ae146482a50c5e&dis_t=1792463231&m=995bfa0ab7d8be2cb0acb5c2097f57c2",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一只手把铝箔保鲜套往大碗上一套、一拉即封口，字幕“适配各种碗盆”。用“一套就封”的爽感动作制造便利冲击，直接抓住剩菜多、碗盆尺寸杂、保鲜膜总撕不好的家庭用户，让人想看它到底能不能真的通用。"
+              "desc": "首帧一桌热菜冒热气，字幕「源头厂家今日特价」，直给低价，抓住做饭家庭与外卖场景用户。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到用保鲜膜撕半天撕不断、封不严、汤汁外漏、菜凉了串味的狼狈场景，旁白点出“保鲜膜难撕难封，菜还容易凉”。传统保鲜膜操作麻烦、密封差，让用户对每天封剩菜的琐碎产生厌烦，需求被放大为“有没有一拉就套、还能保温防串味的东西”。"
+              "desc": "展示饭菜很快变凉、苍蝇灰尘落菜、剩菜没处盖，旁白吐槽传统盘子盖不严，锁温防尘需求被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示铝箔材质的松紧口结构，边套不同大小碗盆边口播“密封保温防油污，厨房好物闭眼入”。用铝箔保温、松紧口适配、防油污的机制逐项回应难撕、难封、易凉的痛点，把“通用省事、还能保温”的价值锚点立住。"
+              "desc": "铝箔保温套出场，一拉罩住大小碗盘，讲食品级铝箔持久锁温、防尘防串味，把保温与卫生价值锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：同一碗热汤，普通保鲜膜封后很快变凉 vs 铝箔保鲜套套上后仍冒热气；再演示套小碗、套大盘、套水果多尺寸场景。用保温对照做效果证据，补一个叠放冰箱不串味的镜头，强化多场景信任。"
+              "desc": "前后对照：罩前饭菜冒凉气、罩后温度保持，演示大小通用一罩多用，再展示收纳方便。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“适配各种碗盆、密封保温、防油污”核心利益，叠加“厨房好物闭眼入”的口碑和限时优惠，给出“点链接拍同款”的行动指令。承接CID链路，用通用省事的确定感推动用户囤货下单。"
+              "desc": "复述厂家直销、持久锁温，喊出今日特价速来抢购，引导点小店下单。"
             }
           },
-          "materialId": "90195f92964eac5dbb27",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "596b9829a2ba0425e666",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
           "sourceId": "S1R6",
-          "title": "保鲜膜·保温保鲜防串味",
-          "product": "保鲜膜",
-          "customer": "武汉洪山敏睿电子商务工作室(个体工商户)",
-          "chain": "CID",
-          "tag": "家庭刚需 · 保温防串味",
-          "spend": 41591.95,
-          "ctr": 4.58,
-          "cvr": 18.38,
-          "cpm": 399.14,
-          "duration": "约197s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc37yaceaaaqaaezsnn5nvbv7qeel7aaisa.f0.mp4?dis_k=3951bffb0067b3198511acea8ca69d6a&dis_t=1790156942&m=24f63618c4124d04fe251c9ea074eb71&sha256=bd03b08b2e72d6b102a4f26e2bb4b87ef8fda50680ab964cd5453561c420357c",
-          "frames": [
-            {
-              "src": "assets/frames/upload-98a7dc443a6f6ac69ab5/frame-01.jpg",
-              "time": "11.8s"
-            },
-            {
-              "src": "assets/frames/upload-98a7dc443a6f6ac69ab5/frame-02.jpg",
-              "time": "47.4s"
-            },
-            {
-              "src": "assets/frames/upload-98a7dc443a6f6ac69ab5/frame-03.jpg",
-              "time": "84.9s"
-            },
-            {
-              "src": "assets/frames/upload-98a7dc443a6f6ac69ab5/frame-04.jpg",
-              "time": "122.4s"
-            },
-            {
-              "src": "assets/frames/upload-98a7dc443a6f6ac69ab5/frame-05.jpg",
-              "time": "161.9s"
-            }
-          ],
+          "title": "醋壶·玻璃油壶倒油不挂油",
+          "product": "醋壶",
+          "customer": "优勤",
+          "chain": "小店",
+          "tag": "通透好辨认 · 不挂油",
+          "spend": 32372.35,
+          "ctr": 2.22,
+          "cvr": 9.98,
+          "cpm": 61.57,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qiagyaaakqajr53p6bvbvaqensbaa3ca.f0.mp4?dis_k=9a7172f11586b7c2cef7922d842cecc6&dis_t=1788850242&m=a26e09633255673e77918ebca32e2445&sha256=cf678dab514cfe0a371e5f0ce00ebe6a1a631f16b6a5b074525befa6bf676da3",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧给到一桌刚做好的热菜被保鲜膜逐一封住，字幕“这个保温套真的家家用得到”。用“家家用得到”的普适性断言制造从众感，直接抓住每天做饭、剩菜多、怕菜凉怕串味的家庭用户，让人想确认它到底保温还是保鲜。"
+              "desc": "首帧油壶倒油挂壁滴漏、瓶身油腻，字幕「倒油不挂油」，反差画面抓住常下厨的主妇。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到剩菜敞着放、菜凉了要反复热、冰箱里各种味道混在一起的场景，旁白点出“菜凉得快、冰箱还串味”。传统敞放或随便盖的方式既不保温也不防串味，让用户对反复加热和异味产生厌烦，需求被放大为“有没有既能保温又能保鲜防串味的膜”。"
+              "desc": "展示旧油瓶口积油、难清洗、看不清余量，旁白吐槽打理费劲，传统油壶挂油痛点被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示保鲜膜的贴合拉伸与密封性能，边封碗边口播“不仅保温，还能保鲜防串味”。用贴合密封、锁温锁鲜的机制回应菜凉、串味两大痛点，把“一膜两用、家家必备”的价值锚点立住，强化日常刚需属性。"
+              "desc": "玻璃油罐出场，通透好辨认，倒油不挂油，讲不锈钢油嘴与密封防漏，打理轻松，价值锚点清晰。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：封膜的热菜半小时后仍温热 vs 敞放已凉；再演示封水果、封汤碗、叠放冰箱不串味。用温度对照和冰箱叠放做效果证据，补一个撕取顺滑不粘连的镜头，强化“好用不费劲”，打消用户对操作麻烦的顾虑。"
+              "desc": "连续倒油演示断油利落、瓶口干净，前后对照旧瓶油污，再展示装酱油醋通用。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“保温、保鲜、防串味”核心利益，叠加“家家用得到”的普适口碑和限时特价，给出“点链接囤起来”的行动指令。承接CID链路，用日常刚需和高复购属性推动用户一次多囤。"
+              "desc": "复述通透好辨认、不挂油易打理，喊出下单福利，引导点小店下单。"
             }
           },
-          "materialId": "98a7dc443a6f6ac69ab5",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "6df3bfcdd4a3dd79645b",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
           "sourceId": "S1R7",
-          "title": "保鲜盒·冰箱收纳保鲜防串味",
-          "product": "保鲜盒",
-          "customer": "淦时",
+          "title": "切菜器·三合一削皮切葱丝",
+          "product": "切菜器",
+          "customer": "兴义羽逸百货经营部(个体工商户)",
           "chain": "CID",
-          "tag": "素人口碑 · 收纳整洁",
-          "spend": 37924.9,
-          "ctr": 2.55,
-          "cvr": 15.97,
-          "cpm": 256.68,
-          "duration": "约112s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53z4ao6aaa7eagik4mebubvtye57hqb32a.f0.mp4?dis_k=45be2428119198458e360351daffd072&dis_t=1789635621&m=e72184ee1b94648acfacfb4c4049fd89&sha256=be19007b4e32f14e11d7d5d269748bf26664328818937bce32742b1e4a5f9b4f",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e5762b8fbd8b8d221992/frame-01.jpg",
-              "time": "6.7s"
-            },
-            {
-              "src": "assets/frames/upload-e5762b8fbd8b8d221992/frame-02.jpg",
-              "time": "26.8s"
-            },
-            {
-              "src": "assets/frames/upload-e5762b8fbd8b8d221992/frame-03.jpg",
-              "time": "48.0s"
-            },
-            {
-              "src": "assets/frames/upload-e5762b8fbd8b8d221992/frame-04.jpg",
-              "time": "69.3s"
-            },
-            {
-              "src": "assets/frames/upload-e5762b8fbd8b8d221992/frame-05.jpg",
-              "time": "91.6s"
-            }
-          ],
+          "tag": "视频同款 · 加急发货",
+          "spend": 31706.42,
+          "ctr": 2.52,
+          "cvr": 9.96,
+          "cpm": 34.44,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53hyahcaaa3qafutthmbvbupqeoe7aa4ka.f0.mp4?dis_k=de5698a4e83c3fea66add3416472c3a8&dis_t=1792203538&m=75db0a96e5b539b3183665e18f6ceb55&sha256=c89c71436d539a5076d6583d4ed27b85608a3169d8a2086f5c53650623d1cd1e",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧打开冰箱门，里面用保鲜盒分格码放得整整齐齐，字幕“老婆买的冰箱收纳盒太好用了”。用“老婆买的”素人转述和整洁冰箱的视觉冲击制造反差，直接抓住被乱冰箱困扰、想提升生活质感的家庭用户，让人想看怎么做到的。"
+              "desc": "首帧一刀削皮一刀切葱丝，字幕「视频同款官方正品」，动作利落制造反差，抓住爱做家常菜人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到冰箱里塑料袋乱塞、生熟混放、汤汁外漏、找东西翻半天的凌乱场景，旁白点出“冰箱乱、串味、还容易坏”。传统塑料袋收纳不密封、不叠放，让用户对冰箱异味和浪费食材产生焦虑，需求被放大为“有没有能密封又能整齐叠放的盒子”。"
+              "desc": "展示菜刀切葱丝粗细不匀、削皮打滑伤手，旁白吐槽备菜费时，传统工具低效痛点被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示保鲜盒的密封盖与可叠放盒身，边装菜边口播“保鲜防串味，还能让冰箱更整洁干净”。用密封锁鲜、方形叠放省空间的机制逐项回应串味、凌乱、浪费的痛点，把“收纳+保鲜二合一”的价值锚点立住。"
+              "desc": "三合一神器出场，削皮、刨丝、切葱丝一器搞定，讲不锈钢刀口顺滑不卡顿，把省时省力锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍三步：把剩菜分装进盒→盖上密封盖倒置不漏→叠放进冰箱整齐码放。用倒置不漏和冰箱前后对比做效果证据，再补一个带饭、装水果的多场景镜头，强化“一盒多用”，让用户相信真的能改变冰箱状态。"
+              "desc": "连续演示削土豆皮、切葱丝、刨丝，前后对照均匀度，展示清洗方便与不伤手。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“密封保鲜、防串味、收纳整洁”核心利益，叠加“老婆买了都说好”的口碑和限时优惠，给出“点链接拍同款”的行动指令。承接CID链路，用生活质感提升的向往推动用户下单。"
+              "desc": "复述一器三用、官方正品，喊出现在下单加急发货，引导点链接下单，承接CID。"
             }
           },
-          "materialId": "e5762b8fbd8b8d221992",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "caddec574cfe2f960b20",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
           "sourceId": "S1R8",
-          "title": "不锈钢保鲜盒·19.9元5个密封不串味",
-          "product": "不锈钢保鲜盒",
-          "customer": "膜尔",
+          "title": "一次性手套·TPE加厚不破",
+          "product": "一次性手套",
+          "customer": "杭州沃仲贸易有限公司",
           "chain": "CID",
-          "tag": "价格锚点 · 后悔没早买",
-          "spend": 33097.49,
-          "ctr": 2.24,
-          "cvr": 13.7,
-          "cpm": 29.49,
-          "duration": "约89s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b537qaikaaah4ai2352lnvbv7aeqx6abbka.f0.mp4?dis_k=29d838c5eba9d3d1ef904d1f8059a7ec&dis_t=1790577027&m=9f8f6807c2dbafc13ea0e2861b14854d&sha256=1f1ce5eec3cc3d25ed728e39b520a06f284a3ea28c64aae5c76e23c60997886d",
-          "frames": [
-            {
-              "src": "assets/frames/upload-7e8325f795fcc6fdee5e/frame-01.jpg",
-              "time": "5.3s"
-            },
-            {
-              "src": "assets/frames/upload-7e8325f795fcc6fdee5e/frame-02.jpg",
-              "time": "21.4s"
-            },
-            {
-              "src": "assets/frames/upload-7e8325f795fcc6fdee5e/frame-03.jpg",
-              "time": "38.3s"
-            },
-            {
-              "src": "assets/frames/upload-7e8325f795fcc6fdee5e/frame-04.jpg",
-              "time": "55.2s"
-            },
-            {
-              "src": "assets/frames/upload-7e8325f795fcc6fdee5e/frame-05.jpg",
-              "time": "73.0s"
-            }
-          ],
+          "tag": "加厚耐用 · 家用省心",
+          "spend": 27795.1,
+          "ctr": 5.31,
+          "cvr": 9.15,
+          "cpm": 24.83,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b536ab4aaadquammc7aajvbt4aeydyahqca.f0.mp4?dis_k=5982c4c2568114186ef3e534e4bbf60e&dis_t=1794127657&m=e95e10aaee04e65d721053f8135d8cc7&sha256=e34eea1a9249f0ae65ca78d2768a1fdef614c807af0fa84e554bfc082c67d5d7",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一只手把5个不锈钢保鲜盒“啪”地一字排开，字幕“后悔没早买！19.9元5个！”。用“后悔没早买”的情绪钩子加“19.9元5个”的量化低价制造强冲击，直接抓住追求性价比、爱囤厨房用品的家庭用户，让人立刻算账觉得划算。"
+              "desc": "首帧戴手套拌菜、洗碗，字幕「弹性好不破」，拉扯手套回弹画面制造反差，抓住做饭做家务人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到塑料保鲜盒发黄、有异味、盖子扣不严、汤汁外漏的场景，旁白点出“塑料盒用久了有味还扣不严”。传统塑料盒易老化、密封差、不卫生，让用户对入口容器的安全性产生担忧，需求被放大为“有没有耐用又不串味的不锈钢盒”。"
+              "desc": "展示普通手套一扯就破、油污渗手、洗碗伤手，旁白吐槽不贴合打滑，传统方案失效痛点被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示不锈钢盒身与密封盖，边扣盖边口播“不锈钢保鲜盒密封保鲜不串味”。用不锈钢耐腐蚀、易清洗、密封锁鲜的机制回应发黄、异味、漏汤的痛点，把“19.9元5个”的低价锚点与耐用属性绑定，强化超值感。"
+              "desc": "TPE手套出场，拉伸展示弹性好不破，讲贴合手型不打滑，做饭拌菜打扫卫生家用超省心，价值锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：塑料盒装汤外漏 vs 不锈钢盒倒置不漏；再演示装剩菜、装水果、叠放冰箱、直接上锅蒸多场景。用倒置不漏和可加热做效果证据，补一个一冲即净的镜头，强化“耐用又好洗”，打消用户对清洁的顾虑。"
+              "desc": "装满水拉扯不破、抓滑溜食材不打滑，前后对照普通手套破损，再演示一撕即脱。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“不锈钢、密封不串味、19.9元5个”核心利益，叠加“后悔没早买”的情绪和限时低价紧迫，给出“点链接赶紧拍”的行动指令。承接CID链路，用极致性价比推动用户一次囤够。"
+              "desc": "复述加厚不破、干净省心，喊出实惠囤货价，引导点链接下单，承接CID。"
             }
           },
-          "materialId": "7e8325f795fcc6fdee5e",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "244e703b412c1cb56ebd",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
           "sourceId": "S1R9",
-          "title": "切菜器·三合一削皮切丝顺滑",
-          "product": "切菜器",
-          "customer": "瓦房店市正未电子商务商行(个体工商户)",
-          "chain": "CID",
-          "tag": "生活适配 · 操作流畅",
-          "spend": 31593.45,
-          "ctr": 1.61,
-          "cvr": 9.77,
-          "cpm": 33.63,
-          "duration": "约148s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xibwaaadfmabapdtzfvbtoqemc5agyca.f0.mp4?dis_k=cd82771eeb9b5048d7a76106f8ead0d0&dis_t=1787282700&m=e495fe02fd8917f795070ee6784dfb5b&sha256=6d13fd1d81f8bd7f81c1d647d33219d0d3ff62636e90ea215487fd12dbcf46d9",
-          "frames": [
-            {
-              "src": "assets/frames/upload-292d99ed9d3b574458a4/frame-01.jpg",
-              "time": "8.9s"
-            },
-            {
-              "src": "assets/frames/upload-292d99ed9d3b574458a4/frame-02.jpg",
-              "time": "35.5s"
-            },
-            {
-              "src": "assets/frames/upload-292d99ed9d3b574458a4/frame-03.jpg",
-              "time": "63.6s"
-            },
-            {
-              "src": "assets/frames/upload-292d99ed9d3b574458a4/frame-04.jpg",
-              "time": "91.8s"
-            },
-            {
-              "src": "assets/frames/upload-292d99ed9d3b574458a4/frame-05.jpg",
-              "time": "121.4s"
-            }
-          ],
+          "title": "耐热玻璃公道杯·免开盖360出汤",
+          "product": "耐热玻璃公道杯",
+          "customer": "四会市青玉坊珠宝店(个体工商户)",
+          "chain": "小店",
+          "tag": "高硼硅耐高温 · 滤渣",
+          "spend": 24531.48,
+          "ctr": 1.95,
+          "cvr": 15.63,
+          "cpm": 46.5,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3cea4gaabiqamxs5unnvbueieymiqdq2a.f0.mp4?dis_k=1898aa029a8277ef3a229bad498ee279&dis_t=1790249076",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一只手拿着切菜器在土豆上顺滑切出均匀细丝，字幕“不改变您的习惯，而是完美适配您的生活方式”。用“适配生活方式”的温和主张加顺滑动作制造舒适感，直接抓住嫌切菜麻烦、又不想改变做饭习惯的家庭用户，让人想看它多顺手。"
+              "desc": "首帧茶汤从月牙口360度流出，字幕「免开盖轻松泡茶」，顺滑出汤制造反差，抓住爱喝茶的居家用户。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到用菜刀切丝切得粗细不匀、切到手、备菜花半小时的狼狈场景，旁白点出“刀工不好、切得慢还伤手”。传统切菜方式费时费力、成品难看，让用户对“做饭最烦备菜”产生共鸣，需求被放大为“有没有不改变习惯就能切好的工具”。"
+              "desc": "展示传统茶具开盖烫手、茶渣满杯、出汤洒桌，旁白吐槽泡茶繁琐，传统方案失效痛点被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示削皮、切丝、切片三合一刀头，边切换边口播“操作自然流畅”。用多刀头切换、顺滑不卡顿的机制回应刀工差、切得慢的痛点，把“不改变习惯、上手就会”的价值锚点立住，降低用户对学习成本的顾虑。"
+              "desc": "公道杯出场，茶漏一体免开盖，高硼硅耐高温，细密滤网过滤茶渣，把便捷与通透同时锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍对照：菜刀切丝粗细不匀 vs 切菜器一推成丝均匀整齐；再演示削皮、切片、切葱多场景。用成品对比做效果证据，补一个冲洗刀头一冲即净的镜头，强化“好用又好洗”，让用户相信日常真的能省下备菜时间。"
+              "desc": "连续出汤演示不洒不漏、滤网挡渣，前后对照普通杯茶渣漂浮，再展示加厚耐烫。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“三合一、操作流畅、不改变习惯”核心利益，叠加“厨房专用、限时特惠”的福利，给出“点链接拍同款”的行动指令。承接CID链路，用省时省力的确定感推动用户立即下单。"
+              "desc": "复述免开盖、耐高温滤渣，喊出小店专属价，引导点链接下单。"
             }
           },
-          "materialId": "292d99ed9d3b574458a4",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "ca03d7d1100c7a945c7a",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
           "sourceId": "S1R10",
-          "title": "一次性手套·食品级加厚抽取式",
-          "product": "一次性手套",
-          "customer": "深圳金橙科技",
+          "title": "保鲜盒·冰箱收纳防串味",
+          "product": "保鲜盒",
+          "customer": "淦时",
           "chain": "CID",
-          "tag": "热卖氛围 · 食品级防护",
-          "spend": 29303.99,
-          "ctr": 2.14,
-          "cvr": 16.21,
-          "cpm": 354.67,
-          "duration": "约68s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53vmah4aaagaacetwxqfurvkyep2vqa7sa.f0.mp4?dis_k=e7260e6386fda92428d5bbd95b655ebb&dis_t=1784082036&m=ddd3f137f3694d56f4ba082fff6a4039&sha256=153315f82fc89d3ae6d3f43a1257da1dc341ddc5abfba32d31021068f7118e17",
-          "frames": [
-            {
-              "src": "assets/frames/upload-3232c3320b81cabc839e/frame-01.jpg",
-              "time": "4.1s"
-            },
-            {
-              "src": "assets/frames/upload-3232c3320b81cabc839e/frame-02.jpg",
-              "time": "16.4s"
-            },
-            {
-              "src": "assets/frames/upload-3232c3320b81cabc839e/frame-03.jpg",
-              "time": "29.3s"
-            },
-            {
-              "src": "assets/frames/upload-3232c3320b81cabc839e/frame-04.jpg",
-              "time": "42.3s"
-            },
-            {
-              "src": "assets/frames/upload-3232c3320b81cabc839e/frame-05.jpg",
-              "time": "55.9s"
-            }
-          ],
+          "tag": "收纳整洁 · 防串味",
+          "spend": 21350.13,
+          "ctr": 3.21,
+          "cvr": 14.15,
+          "cpm": 293.83,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53z4ao6aaa7eagik4mebubvtye57hqb32a.f0.mp4?dis_k=5ed4fcd0bf2700d71960db5880690064&dis_t=1754041163&sha256=be19007b4e32f14e11d7d5d269748bf26664328818937bce32742b1e4a5f9b4f&m=e72184ee1b94648acfacfb4c4049fd89",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧从盒子里“啪”地抽出一只加厚手套戴上，字幕“工资允许一定要买！又卖爆啦！”。用“又卖爆啦”的从众氛围加抽取动作制造爽感，直接抓住经常下厨、洗碗、处理生鲜怕脏手的家庭用户，让人想看它到底好在哪。"
+              "desc": "首帧打开杂乱冰箱、异味扑面，字幕「老婆买的收纳盒太好用了」，生活化反差抓住主妇与上班族。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到徒手处理生肉、剥虾、洗碗后满手油腥、指甲缝藏污的场景，旁白点出“徒手又脏又腥，还怕伤手”。传统徒手操作不卫生、难清洗，让用户对油腻和细菌产生不适，需求被放大为“有没有食品级、加厚不破、抽取方便的手套”。"
+              "desc": "展示冰箱食材混放、串味发臭、找东西翻半天，旁白吐槽保鲜差，传统塑料袋方案失效痛点被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，展示盒装抽取结构和加厚TPE材质，边拉边口播“食品级、加厚耐用、防水防护”。用食品级安全、加厚不易破、抽取式方便的机制逐项回应脏手、易破、难取的痛点，把“厨房餐饮都能用”的价值锚点立住。"
+              "desc": "保鲜盒出场，分层收纳、四面卡扣密封，讲保鲜防串味还能让冰箱更整洁，把收纳与保鲜价值锚定。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "可实拍三步：抽取戴上→处理生肉剥虾→冲洗后不破不漏。用“不破不漏”的对照做效果证据，再补一个吃龙虾、染发、清洁的多场景镜头，强化“一盒多用”，让用户相信它比薄手套更耐用。"
+              "desc": "前后对照：收纳前杂乱、收纳后整齐可堆叠，装汤汁倒置不漏，展示密封证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述“食品级、加厚、抽取式”核心利益，叠加“又卖爆啦”的从众紧迫和限时优惠，给出“点链接囤一盒”的行动指令。承接CID链路，用高频消耗属性推动用户一次多囤。"
+              "desc": "复述密封防串味、冰箱更整洁，喊出下单福利，引导点链接下单，承接CID。"
             }
           },
-          "materialId": "3232c3320b81cabc839e",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 11,
-          "sourceId": "S1R12",
-          "title": "敲肉锤·双面实心敲打入味",
-          "product": "敲肉锤",
-          "customer": "浏阳市桃巧金百货店(个人独资)",
-          "chain": "小店",
-          "tag": "功能演示 · 松肉入味",
-          "spend": 23154.55,
-          "ctr": 3.37,
-          "cvr": 12.96,
-          "cpm": 102.07,
-          "duration": "约231s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53syabuaaazuanz3lc5zvbvfqedklaagsa.f0.mp4?dis_k=522df7a8c692a6d48bc665aa0eb3a690&dis_t=1788853120&m=fff4103221b04ac27f33844452cb54e0&sha256=df314e9c3fd1815c8f62b83f2369a0387cc9477c3608477a5bb0c94076d2d027",
-          "frames": [
-            {
-              "src": "assets/frames/upload-72e4fc2b19631fc0d90d/frame-01.jpg",
-              "time": "13.8s"
-            },
-            {
-              "src": "assets/frames/upload-72e4fc2b19631fc0d90d/frame-02.jpg",
-              "time": "55.3s"
-            },
-            {
-              "src": "assets/frames/upload-72e4fc2b19631fc0d90d/frame-03.jpg",
-              "time": "99.2s"
-            },
-            {
-              "src": "assets/frames/upload-72e4fc2b19631fc0d90d/frame-04.jpg",
-              "time": "143.0s"
-            },
-            {
-              "src": "assets/frames/upload-72e4fc2b19631fc0d90d/frame-05.jpg",
-              "time": "189.1s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧一只手拿双面实心敲肉锤“砰砰”敲打牛排，字幕“卖爆了！松肉锤，敲打入味”。用敲击的节奏感和“卖爆了”的从众氛围制造冲击，直接抓住爱做牛排、炸猪排、给孩子做辅食的家庭用户，让人想看它敲出来到底多嫩。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到用刀背乱敲、肉厚薄不均、煎出来又老又柴、腌不入味的场景，旁白点出“肉敲不匀、腌不入味、吃着柴”。传统刀背敲打费力又不均匀，让用户对做肉失败产生挫败，需求被放大为“有没有省力又能把肉敲嫩的锤子”。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，展示双面实心锤头与加长手柄，边敲边口播“敲打入味，操作顺手，肉质软化处理简单又省事”。用实心重锤、双面设计的机制回应敲不匀、费力、不入味的痛点，把“省力又出效果”的价值锚点立住。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍对照：刀背敲的肉厚薄不均 vs 敲肉锤敲的肉均匀松软；再演示敲牛排、拍黄瓜、做辅食多场景。用肉片均匀度和煎后嫩度做效果证据，补一个手柄握感舒适的镜头，强化“顺手省力”，打消用户对费力难用的顾虑。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“双面实心、敲打入味、省力顺手”核心利益，叠加“卖爆了”的从众紧迫和限时优惠，给出“点链接拍同款”的行动指令。承接小店链路，用做肉升级的确定感推动用户下单。"
-            }
-          },
-          "materialId": "72e4fc2b19631fc0d90d",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 12,
-          "sourceId": "S1R13",
-          "title": "玻璃茶杯·简约厚实品味生活",
-          "product": "玻璃茶杯",
-          "customer": "巨量猫",
-          "chain": "CID",
-          "tag": "颜值种草 · 质感生活",
-          "spend": 22634.33,
-          "ctr": 0.98,
-          "cvr": 13.41,
-          "cpm": 68.35,
-          "duration": "约123s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53tqcvaaaf2yal7mfvl5vb7haekcoakuca.f0.mp4?dis_k=1f85c312a91c51c92244f70da851f285&dis_t=1789980519&m=3a42a0c332d24fdbb48f3f6f1c542d50&sha256=efacbfece91a183fc9497cc4eba16bab95898b585d08e7fa4ec4af95a32f6453",
-          "frames": [
-            {
-              "src": "assets/frames/upload-79003a3f6922d7eb01b3/frame-01.jpg",
-              "time": "7.4s"
-            },
-            {
-              "src": "assets/frames/upload-79003a3f6922d7eb01b3/frame-02.jpg",
-              "time": "29.5s"
-            },
-            {
-              "src": "assets/frames/upload-79003a3f6922d7eb01b3/frame-03.jpg",
-              "time": "52.9s"
-            },
-            {
-              "src": "assets/frames/upload-79003a3f6922d7eb01b3/frame-04.jpg",
-              "time": "76.3s"
-            },
-            {
-              "src": "assets/frames/upload-79003a3f6922d7eb01b3/frame-05.jpg",
-              "time": "100.9s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧逆光拍摄一只厚实玻璃茶杯，茶汤透亮、杯壁有质感，字幕“简约茶杯，质感厚实，品味生活每一刻”。用光影质感制造高级感，直接抓住注重生活仪式感、爱喝茶、想提升桌面颜值的用户，让人想拥有同款。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到薄玻璃杯易烫手、易碎、杯壁发雾看不清茶色的场景，旁白点出“杯子太薄烫手、还容易碎”。传统薄杯不隔热、不耐用，让用户对喝茶体验打折产生不满，需求被放大为“有没有厚实、透亮、握感好的茶杯”。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，展示加厚杯壁与通透玻璃，边倒热水边口播“质感厚实，品味生活每一刻”。用加厚隔热、通透显茶色的机制回应烫手、易碎、看不清的痛点，把“颜值与质感兼具”的价值锚点立住，强化日常喝茶的仪式感。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍三步：倒入热茶→握杯不烫手→茶汤透亮可见。用握感和透光做效果证据，再补一个办公桌、茶席、待客多场景镜头，强化“自用待客都体面”，让用户相信它既好看又实用。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“简约、厚实、透亮”核心利益，叠加“品味生活”的情绪价值和限时优惠，给出“点链接拍同款”的行动指令。承接CID链路，用生活质感提升的向往推动用户下单。"
-            }
-          },
-          "materialId": "79003a3f6922d7eb01b3",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 13,
-          "sourceId": "S1R14",
-          "title": "通用去核器·剥虾取虾线去核神器",
-          "product": "通用去核器",
-          "customer": "武汉市新洲区铃构屯生活用品馆(个体工商户)",
-          "chain": "CID",
-          "tag": "厨房神器 · 一器多用",
-          "spend": 21301.52,
-          "ctr": 3.71,
-          "cvr": 20.86,
-          "cpm": 165.77,
-          "duration": "约174s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qmae6aaamyak4hculrurvayej6bqat2a.f0.mp4?dis_k=63c78908dcb94e0907998ac9be93d455&dis_t=1789024388&m=fa3878b455af76ca2e301c487a0b79f8&sha256=bd25ba269db02535fa44a03cc716833b9403e92a7a90a29a656ead54bd266b7e",
-          "frames": [
-            {
-              "src": "assets/frames/upload-76effe81b16502334063/frame-01.jpg",
-              "time": "10.4s"
-            },
-            {
-              "src": "assets/frames/upload-76effe81b16502334063/frame-02.jpg",
-              "time": "41.8s"
-            },
-            {
-              "src": "assets/frames/upload-76effe81b16502334063/frame-03.jpg",
-              "time": "74.9s"
-            },
-            {
-              "src": "assets/frames/upload-76effe81b16502334063/frame-04.jpg",
-              "time": "108.0s"
-            },
-            {
-              "src": "assets/frames/upload-76effe81b16502334063/frame-05.jpg",
-              "time": "142.8s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧一只手用去核器“一挑”就把虾线整条拉出，字幕“这款爆款大家都在抢购，你还不心动？”。用“一挑出虾线”的爽感动作加从众话术制造冲击，直接抓住爱吃虾、怕处理虾线麻烦的家庭用户，让人想看它还能干什么。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到徒手剥虾、挑虾线挑半天、弄得满手腥、去果核挖得稀烂的场景，旁白点出“剥虾挑线费劲、去核挖得烂”。传统徒手处理又慢又脏，让用户对处理生鲜产生厌烦，需求被放大为“有没有一器多用、干净利落的工具”。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，展示不锈钢尖头与挖勺结构，边操作边口播“剥虾器取虾线去核去虾皮虾壳，不锈钢神器”。用不锈钢一体、多功能刀头的机制逐项回应剥虾、挑线、去核的痛点，把“一器多用、干净省事”的价值锚点立住。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍三步：挑虾线→剥虾壳→去果核，再演示开背、挖虾脑多场景。用“整条虾线拉出”的对照做效果证据，补一个冲洗即净的镜头，强化“好用又好洗”，让用户相信它比徒手快得多。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“剥虾、取线、去核一器多用”核心利益，叠加“爆款大家都在抢购”的从众紧迫和限时优惠，给出“点链接拍同款”的行动指令。承接CID链路，用厨房省事的确定感推动用户下单。"
-            }
-          },
-          "materialId": "76effe81b16502334063",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 14,
-          "sourceId": "S1R15",
-          "title": "不锈钢锅勺·压挤丸子神器",
-          "product": "不锈钢锅勺",
-          "customer": "郑州市郑东新区岷沣百货商行(个体工商户)",
-          "chain": "CID",
-          "tag": "促销口播 · 限时抢购",
-          "spend": 20321.87,
-          "ctr": 2.3,
-          "cvr": 22.78,
-          "cpm": 103.14,
-          "duration": "约141s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53uicvwaaf5iao3mfn2rvb7iqelorakw2a.f0.mp4?dis_k=a31caa892ca14a900d2e4dc6db360e73&dis_t=1789809796&m=9e7c98f4e3d90358fd41368b4fdf719f&sha256=ed70b74ce0d8ccc380af2039aa351937eb246904daadcad2f81af837e49584fc",
-          "frames": [
-            {
-              "src": "assets/frames/upload-0d88a3041456149a825b/frame-01.jpg",
-              "time": "8.4s"
-            },
-            {
-              "src": "assets/frames/upload-0d88a3041456149a825b/frame-02.jpg",
-              "time": "33.8s"
-            },
-            {
-              "src": "assets/frames/upload-0d88a3041456149a825b/frame-03.jpg",
-              "time": "60.5s"
-            },
-            {
-              "src": "assets/frames/upload-0d88a3041456149a825b/frame-04.jpg",
-              "time": "87.2s"
-            },
-            {
-              "src": "assets/frames/upload-0d88a3041456149a825b/frame-05.jpg",
-              "time": "115.4s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧一只手用丸子勺一挤一挖，一个个圆润丸子“噗噗”落进锅里，字幕“快来抢购！热卖商品疯狂降价，限时抢购！”。用成型爽感加限时降价制造紧迫，直接抓住爱做丸子、炸丸子、给孩子做饭的家庭用户，让人想立刻拥有。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到徒手捏丸子大小不一、粘手、下锅散开的场景，旁白点出“手捏丸子大小不匀、还粘手散锅”。传统徒手做丸子费时费力、成品难看，让用户对做丸子失败产生挫败，需求被放大为“有没有一挤就成型、不粘手的工具”。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，展示不锈钢勺身与压挤结构，边挤边口播“不锈钢肉丸勺压挤丸子神器，制作鱼丸家用模具”。用不锈钢易清洗、压挤成型的机制回应粘手、大小不匀、散锅的痛点，把“一挤成型、省事好看”的价值锚点立住。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍三步：舀肉馅→一挤压出圆丸→下锅不散。用丸子圆润度和下锅不散的对照做效果证据，再补一个做鱼丸、做肉丸、做素丸多场景镜头，强化“一勺多用”，让用户相信新手也能做出好看丸子。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“不锈钢、压挤成型、做丸子省事”核心利益，叠加“疯狂降价、限时抢购”的紧迫福利，给出“点链接赶紧拍”的行动指令。承接CID链路，用限时低价推动用户立即下单。"
-            }
-          },
-          "materialId": "0d88a3041456149a825b",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 15,
-          "sourceId": "S1R16",
-          "title": "带封口保鲜袋·自带提手出门一拎",
-          "product": "带封口保鲜袋",
-          "customer": "武汉成锦立商贸有限公司",
-          "chain": "CID",
-          "tag": "痛点种草 · 便携密封",
-          "spend": 19281.49,
-          "ctr": 1.81,
-          "cvr": 21.32,
-          "cpm": 231.6,
-          "duration": "约59s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53meadqaaawiabhknbtjvbuyiehbqqaoca.f0.mp4?dis_k=ae2d7a6bbe9be245ea1c44da182778d2&dis_t=1788947475&m=3de772f2029d81c733cf89f2aa056143&sha256=facc3027fec883d68cdbf1c5befe43f3d3fce193b5d96671b455ff3b4e62a4be",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fbb6441589250c18d4de/frame-01.jpg",
-              "time": "3.5s"
-            },
-            {
-              "src": "assets/frames/upload-fbb6441589250c18d4de/frame-02.jpg",
-              "time": "14.2s"
-            },
-            {
-              "src": "assets/frames/upload-fbb6441589250c18d4de/frame-03.jpg",
-              "time": "25.4s"
-            },
-            {
-              "src": "assets/frames/upload-fbb6441589250c18d4de/frame-04.jpg",
-              "time": "36.6s"
-            },
-            {
-              "src": "assets/frames/upload-fbb6441589250c18d4de/frame-05.jpg",
-              "time": "48.4s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧一只手拎着带提手的密封保鲜袋直接出门，字幕“总算有商家做了自带提手的密封保鲜袋了，出门直接一拎真很方便”。用“总算有商家做了”的惊喜口吻加拎袋动作制造新鲜感，直接抓住带饭、带水果、出门装东西的用户，让人想看它多方便。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "画面切到用普通保鲜袋装东西漏汤、没提手只能捧、放包里被压破的场景，旁白点出“普通袋没提手、易漏、不好带”。传统保鲜袋不密封、不便携，让用户对带东西出门的狼狈产生共鸣，需求被放大为“有没有能密封又能拎着走的袋子”。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "商品出场，展示自带提手与密封封口结构，边装水果边口播“自带提手、密封保鲜、出门一拎就走”。用提手便携、密封防漏的机制回应没提手、易漏、不好带的痛点，把“保鲜+便携二合一”的价值锚点立住。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "可实拍三步：装带汤食物→封口倒置不漏→拎着出门。用倒置不漏和拎提做效果证据，再补一个装水果、装零食、放冰箱多场景镜头，强化“一袋多用”，让用户相信它比普通袋更实用。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述“自带提手、密封防漏、出门便携”核心利益，叠加“总算有商家做了”的新鲜感和限时优惠，给出“点链接拍同款”的行动指令。承接CID链路，用便携密封的确定感推动用户下单。"
-            }
-          },
-          "materialId": "fbb6441589250c18d4de",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "218494a1492c8d7f583d",
+          "frameStatus": "pending"
         }
       ]
     },
