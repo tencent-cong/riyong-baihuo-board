@@ -3,7 +3,7 @@
 window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
-    "dataUpdatedAt": "2026-11-03",
+    "dataUpdatedAt": "2026-11-09",
     "frameUpdatedAt": "2026-11-09T02:06:53.386000+00:00",
     "owner": "创意分析组"
   },
@@ -3273,13 +3273,13 @@ window.CREATIVE_DATA = {
       "name": "餐厨水具-厨具",
       "key": "kitchen-cookware",
       "owner": "",
-      "uploadedAt": "2026-10-09T03:40:20.052Z",
+      "uploadedAt": "2026-11-09T04:15:11.758Z",
       "metrics": {
-        "creativeCount": 98,
-        "ctr": 3.29,
-        "play3s": 75.42,
-        "cvr": 3.87,
-        "cpm": 42.1
+        "creativeCount": 89,
+        "ctr": 3.28,
+        "play3s": 31.5,
+        "cvr": 5.6,
+        "cpm": 110
       },
       "sellingWords": [
         {
@@ -3287,767 +3287,532 @@ window.CREATIVE_DATA = {
           "weight": 100
         },
         {
-          "word": "不粘少油烟",
+          "word": "无涂层不粘",
           "weight": 96
         },
         {
-          "word": "斩切两用",
+          "word": "深层氮化防锈",
           "weight": 92
         },
         {
-          "word": "纯钛健康",
+          "word": "物理不粘",
           "weight": 88
         },
         {
-          "word": "深层氮化防锈",
+          "word": "纯钛/钛合金",
           "weight": 84
         },
         {
-          "word": "手工锻打",
+          "word": "干烧不裂",
           "weight": 80
         },
         {
-          "word": "拍一发二",
+          "word": "耐高温",
           "weight": 76
         },
         {
-          "word": "干烧不裂",
+          "word": "一冲即净",
           "weight": 72
         },
         {
-          "word": "整木无拼接",
+          "word": "少油烟",
           "weight": 68
         },
         {
-          "word": "抗菌防霉",
+          "word": "手工锻打",
           "weight": 64
         },
         {
-          "word": "一锅多用",
+          "word": "斩切两用",
           "weight": 60
         },
         {
-          "word": "锋利耐用",
+          "word": "轻量易握",
           "weight": 56
-        },
-        {
-          "word": "上蒸下煮",
-          "weight": 52
-        },
-        {
-          "word": "轻量省油",
-          "weight": 48
-        },
-        {
-          "word": "耐砍耐剁",
-          "weight": 44
-        },
-        {
-          "word": "易清洗",
-          "weight": 40
         }
       ],
       "painWords": [
         {
           "word": "涂层脱落吃进肚",
-          "weight": 95
+          "weight": 92
         },
         {
-          "word": "炒菜油烟呛人",
-          "weight": 90
+          "word": "铁锅生锈粘锅",
+          "weight": 88
         },
         {
-          "word": "铁锅生锈难打理",
-          "weight": 85
+          "word": "炖肉久炖不烂",
+          "weight": 82
+        },
+        {
+          "word": "砂锅一烧就裂",
+          "weight": 76
         },
         {
           "word": "菜刀钝了切不动",
-          "weight": 80
-        },
-        {
-          "word": "菜板发霉开裂",
-          "weight": 75
-        },
-        {
-          "word": "炖肉等两小时",
           "weight": 70
+        },
+        {
+          "word": "大锅占地方难清洗",
+          "weight": 64
         }
       ],
       "sellingContext": [
         {
           "driver": "日常爆炒·涂层锅掉漆焦虑",
-          "need": "想要一口无化学涂层、爆炒不粘又不生锈的锅，吃得放心",
+          "need": "想要一口无化学涂层、煎炒不粘还防锈的安心炒锅",
           "words": [
             "0涂层",
-            "不粘少油烟",
-            "深层氮化防锈"
+            "无涂层不粘",
+            "深层氮化防锈",
+            "物理不粘"
           ]
         },
         {
-          "driver": "备菜剁骨·刀具钝了费劲",
-          "need": "一把能切能斩、锋利耐用、拍一发二更划算的厨房刀",
+          "driver": "煲汤炖肉·久炖不烂费时间",
+          "need": "想要十几分钟把肉炖烂、锁住营养又不爆裂的锅",
           "words": [
-            "斩切两用",
+            "干烧不裂",
+            "耐高温",
+            "纯钛/钛合金"
+          ]
+        },
+        {
+          "driver": "厨房备菜·刀钝切肉费劲",
+          "need": "想要一把锋利耐用、斩切两用还省力的菜刀或磨刀器",
+          "words": [
             "手工锻打",
-            "拍一发二"
-          ]
-        },
-        {
-          "driver": "梅雨回南天·菜板发霉",
-          "need": "一块整木无拼接、抗菌防霉、耐砍耐剁的实木菜板",
-          "words": [
-            "整木无拼接",
-            "抗菌防霉",
-            "耐砍耐剁"
+            "斩切两用",
+            "轻量易握"
           ]
         }
       ],
       "scripts": [
-        "工资允许一定要买！这款不锈钢菜板太好用了",
-        "家里涂层锅快扔了吧，大家都用传承铁锅，深层氮化防锈",
-        "纯钛材质健康安心，轻巧设计适合单人用餐",
-        "这口不粘锅干烧不黑，钢丝球铁铲随便用，煎炒烹炸都很顺滑",
-        "炖肉还在等2小时？高压锅，10分钟软烂脱骨",
-        "实木实心，整木整切，不发霉，不开裂，快来直播间"
+        "家里涂层锅快扔了吧，换这口0涂层铁锅，深层氮化不生锈",
+        "无涂层还物理不粘，钢铲随便刮，煎炒炸烙都不粘底",
+        "煲汤炖肉十来分钟就烂，锁住营养不流失，安全又耐用",
+        "干烧不裂的砂锅，焖饭炖汤一锅全能，比铁锅还入味",
+        "手工锻打斩切两用，切菜切肉省力，一把刀搞定厨房",
+        "一人食小锅不占地，一冲就干净，大锅难洗的烦恼没了"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场3秒用'旧锅涂层掉漆 vs 新锅丝滑煎蛋'的强对比画面抓眼球，配'家里涂层锅快扔了吧'制造认知冲突，锁定正在用旧锅、担心涂层健康的家庭主厨人群。"
+          "desc": "开场摔涂层锅或钢铲刮锅底，用「涂层掉了吃进肚」制造焦虑，再亮0涂层不粘对照"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定梅雨回南天菜板发霉、秋冬炖肉煲汤、春节备菜剁骨等节点，放大'发霉开裂''炖两小时''刀钝切不动'的场景痛点，让用户对号入座。"
+          "desc": "绑定秋冬煲汤炖肉、春节家宴爆炒场景，放大久炖不烂、油烟大、锅裂的痛点"
         },
         {
           "title": "福利/紧迫",
-          "desc": "用'拍一发二''拍1发5到手五件套''直播间立减200''送蒸笼/送汤锅'做价格锚点，叠加'限时特惠''厂家直销''清仓才这价'制造紧迫感，推动立即下单。"
+          "desc": "直播间立减200、送锅盖锅铲蒸屉、限时补贴价，用赠品堆叠和倒计时催单"
         },
         {
           "title": "明星/IP",
-          "desc": "借张小泉、康巴赫等品牌口碑与'冯唐出品''郭涛推荐''达人同款'背书，用'百年品牌+好工艺''直播间同款'建立信任链，降低决策门槛。"
+          "desc": "借张小泉、康巴赫、三禾等品牌直播间同款背书，达人实测+官方正品建立信任链"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "高碳钢菜刀·炮弹钢斩切刀",
-          "product": "高碳钢菜刀",
-          "customer": "永州市冷水滩区御匠网络信息科技有限公司",
-          "chain": "直播",
-          "tag": "匠心锻造 · 斩切两用",
-          "spend": 69076.06,
-          "ctr": 2.24,
-          "cvr": 3.05,
-          "cpm": 51.79,
-          "duration": "约154s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53paarkaabq4ajts34c5vbu6aecv4acfka.f0.mp4?dis_k=df7a1343280a38783ca8a3095efe3f62&dis_t=1787301498&m=e3fba49dad7faa0fe931e569387103da&sha256=e88d635f50f3ae47503527942c4c19331f2b9869703f9b3e21894645182a9a7e",
-          "frames": [
-            {
-              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-01.jpg",
-              "time": "9.2s"
-            },
-            {
-              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-02.jpg",
-              "time": "36.9s"
-            },
-            {
-              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-03.jpg",
-              "time": "66.2s"
-            },
-            {
-              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-04.jpg",
-              "time": "95.4s"
-            },
-            {
-              "src": "assets/frames/upload-8e493686c88b0e07b0a3/frame-05.jpg",
-              "time": "126.2s"
-            }
-          ],
+          "title": "铁炒锅·家人拦着也要买的精铁无涂层锅",
+          "product": "铁炒锅",
+          "customer": "长沙青柠智慧数字科技有限公司",
+          "chain": "CID",
+          "tag": "反常识种草·0涂层不粘",
+          "spend": 60195.65,
+          "ctr": 3.03,
+          "cvr": 3.54,
+          "cpm": 200,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b533ia56aabf4ai3iw57nvbxwqe37nadx2a.f0.mp4?dis_k=7ba01a02c60891273cd4770c8697d33f&dis_t=1792824084&m=974a0f581ed7b31f615835ffc9d48f61&sha256=01710ce7a957c70c0fc10092c2679c9a4744b896ee0d950802d899beea18f64d",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧特写一把锻纹清晰、刀背加厚的菜刀立在案板上，字幕'炮弹钢斩切刀'，主播一句'这把刀，切菜剁骨一把搞定'，用'炮弹钢'反常识材质勾起好奇，锁定嫌家里刀钝、备菜费劲的下厨人群。"
+              "desc": "首帧家人伸手拦锅，字幕「家人拦着也要买」，制造被反对的反差，抓住怕涂层锅人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "画面切到旧刀切番茄压烂、剁排骨刀口卷刃的窘境，主播吐槽'刀钝了切啥都费劲，剁个骨头还怕崩口'，放大'备菜半小时、切菜五分钟'的焦虑，暗示普通薄刀根本扛不住中式厨房的硬活。"
+              "desc": "镜头拍旧锅涂层起皮脱落，旁白「涂层掉了还敢用？」，放大吃进肚的焦虑，逼出换锅需求。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，镜头推近刀身展示手工锻打纹理与加厚刀背，主播边演示边讲'炮弹钢锻打，前切后斩，实木手柄握感舒适'，把'锋利耐用'落到材质与结构上，给出'一把顶三把'的价值锚点。"
+              "desc": "精铁锅上灶爆炒，强调无涂层靠氮化防锈，钢铲刮擦无痕，回应不粘不生锈痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍连续切土豆片薄如纸、剁鸡骨一刀两断，再切番茄不流汁，前后对照展示锋利度；补一句'已开刃，收到就能用'，用多食材测试强化'斩切一体'的信任感。"
+              "desc": "煎蛋滑锅、清水一冲即净的前后对照，展示免开锅即用，强化省心证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'匠心锻造斩切刀，厨房料理得心应手'，给出直播间下单加赠福利与限时价，明确'点下方小黄车/进直播间'的行动指令，承接直播链路促成转化。"
+              "desc": "复述无涂层健康，喊「点下方链接领券下单」，承接CID链路促转化。"
             }
           },
-          "materialId": "8e493686c88b0e07b0a3",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "7286cc91094a92889a62",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
           "sourceId": "S1R2",
-          "title": "不锈钢菜板·工资允许一定要买",
-          "product": "不锈钢菜板",
-          "customer": "金橙科技",
-          "chain": "CID",
-          "tag": "反常识材质 · 不发霉",
-          "spend": 52724.37,
-          "ctr": 3.07,
-          "cvr": 10.6,
-          "cpm": 511.11,
-          "duration": "约180s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3aeakuaaaaiaar52rljvbuaieviaqbksa.f0.mp4?dis_k=6f5826431d65f3ddb73cb0a0ed18dc4f&dis_t=1788146797&m=cba7abcc2c48cfe74e258e4ed5a12114&sha256=9823969da9c5e9c407ca1e7b541241bd8ffda1b8ca0ba23a66a7ed8073598765",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-01.jpg",
-              "time": "10.8s"
-            },
-            {
-              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-02.jpg",
-              "time": "43.1s"
-            },
-            {
-              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-03.jpg",
-              "time": "77.3s"
-            },
-            {
-              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-04.jpg",
-              "time": "111.4s"
-            },
-            {
-              "src": "assets/frames/upload-e4497087df4ebfd01634/frame-05.jpg",
-              "time": "147.4s"
-            }
-          ],
+          "title": "钛合金炒锅·0涂层纯钛物理不粘",
+          "product": "钛合金炒锅",
+          "customer": "三禾经销",
+          "chain": "直播",
+          "tag": "材质背书·物理不粘",
+          "spend": 38486.6,
+          "ctr": 2.83,
+          "cvr": 3.96,
+          "cpm": 206.96,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qycfaaaeleaaw3xf6jvb5bqekcdaiuca.f0.mp4?dis_k=bece2250389d1d3e04640024a09eacef&dis_t=1793154051&m=8d08666996b7bbb88c286295f38a35a9&sha256=207440ad3eac2103544260a1727098cc31233d2fc37484a574bea009300c29e7",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一块不锈钢面板菜板在灯光下反光，字幕'工资允许一定要买！'，主播语气笃定'这款不锈钢菜板太好用了'，用'不锈钢做菜板'的反常识材质制造好奇，锁定被木菜板发霉困扰的家庭用户。"
+              "desc": "首帧纯钛板特写，字幕「0涂层纯钛」，用材质稀缺感抓住注重健康的家庭主厨。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到旧木菜板边缘发黑、刀痕里藏污的画面，主播皱眉'木菜板用久了发霉开裂，洗都洗不干净'，放大'霉斑吃进肚'的不适感，暗示传统木菜板在潮湿环境下根本没法用。"
+              "desc": "对比普通涂层锅刮花掉漆画面，旁白「化学涂层敢天天用？」，放大健康焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播把不锈钢菜板立起展示双面可用与和面案板功能，敲击发出清脆声'整块不锈钢，不发霉不开裂，还能直接和面'，把'抗菌防霉'落到材质上，给出'一块顶三块'的价值锚点。"
+              "desc": "纯钛锅上灶煎炒，讲物理不粘不靠涂层，钢铲随便刮，回应耐用与安心需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍在菜板上切菜、剁肉、和面，冲水一冲即净，对比木菜板残留污渍；补一句'生熟分开、双面可用'，用清洁前后对照强化'好打理'的信任感。"
+              "desc": "无油煎蛋滑落、冲水即净的实拍对照，证明不粘效果，强化可信度。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'不锈钢菜板太好用了'，给出厂家直销限时价与'拍下即发'的紧迫信息，明确'点链接下单'的行动指令，承接CID链路完成转化。"
+              "desc": "复述纯钛健康，喊「进直播间抢双11价」，承接直播链路。"
             }
           },
-          "materialId": "e4497087df4ebfd01634",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "c65f0e13b4c3839064f6",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
           "sourceId": "S1R3",
-          "title": "炒锅·陶瓷不粘少油烟小方锅",
-          "product": "炒锅",
-          "customer": "欧洛德",
+          "title": "铁高压锅·十来分钟炖烂肉的微压锅",
+          "product": "铁高压锅",
+          "customer": "辣小娘",
           "chain": "直播",
-          "tag": "耐磨不粘 · 少油烟",
-          "spend": 47250.7,
-          "ctr": 4.02,
-          "cvr": 6.01,
-          "cpm": 190.2,
-          "duration": "约57s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3vyaaiaaa6qalbg3b6fvbvlqeasxaabca.f0.mp4?dis_k=badb0ef1a9128d4dd1f76fb2122266f5&dis_t=1784788060&m=d58a51a15e80080d234ed340a9272707",
-          "frames": [
-            {
-              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-01.jpg",
-              "time": "3.4s"
-            },
-            {
-              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-02.jpg",
-              "time": "13.8s"
-            },
-            {
-              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-03.jpg",
-              "time": "24.7s"
-            },
-            {
-              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-04.jpg",
-              "time": "35.6s"
-            },
-            {
-              "src": "assets/frames/upload-c8affb0c578fa21325b3/frame-05.jpg",
-              "time": "47.0s"
-            }
-          ],
+          "tag": "效率对比·快炖锁鲜",
+          "spend": 33769.9,
+          "ctr": 2.4,
+          "cvr": 12.67,
+          "cpm": 162.76,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3jaagaaaaxqacwjwmovvbusaembeaayca.f0.mp4?dis_k=45c280d0616eca3380b3f5fd4776870a&dis_t=1791773996&m=c0a368113926fd2e4c640b84628088c6&sha256=21a9ebf36c50620c070270fe6807056152c47eb5edea8b608f82318367c414a1",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一口浅色小方锅在灶上煎蛋，蛋液丝滑滑动不粘，字幕'耐磨不粘易清洁'，主播一句'健康爆炒更省油'，用'小方锅+带蒸笼'的差异造型抓眼球，锁定怕油烟、想少油健康炒菜的家庭用户。"
+              "desc": "首帧掀盖热气腾腾的炖肉，字幕「这不是普通炖煮锅」，用香气画面勾住煲汤人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到旧锅炒菜油烟弥漫、锅底粘锅糊底的画面，主播捂鼻'炒个菜满屋油烟，锅还粘得一塌糊涂'，放大'油烟伤肺、刷锅费劲'的焦虑，暗示普通锅解决不了中式爆炒的油烟与粘锅问题。"
+              "desc": "拍普通锅炖两小时肉还硬，旁白「炖不烂还费燃气」，放大时间与口感双重痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示陶瓷不粘涂层与轻量锅身，边炒边讲'陶瓷不粘，少油烟，轻量小方锅带蒸笼，上蒸下煮'，把'耐磨不粘易清洁'落到涂层与结构上，给出'一锅多用'的价值锚点。"
+              "desc": "微压锅上灶，讲加厚双耳锁压，十来分钟炖烂，回应快炖锁营养需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍无油煎蛋、炒饭不粘、蒸笼蒸包子，冲水一冲即净，前后对照展示不粘效果；补一句'燃气电磁炉通用'，用多场景测试强化'省油好清洁'的信任感。"
+              "desc": "计时器对照，筷子一夹肉脱骨，汤汁浓郁特写，给出软烂证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'健康爆炒更省油'，给出直播间下单送蒸笼与限时立减福利，明确'进直播间抢购'的行动指令，承接直播链路促成转化。"
+              "desc": "复述安全耐用，喊「直播间下单送福利」，承接直播转化。"
             }
           },
-          "materialId": "c8affb0c578fa21325b3",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "fe98cdcde3fbf9c46fb0",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
           "sourceId": "S1R4",
-          "title": "不锈钢菜刀·拍一发二斩切刀",
-          "product": "不锈钢菜刀",
-          "customer": "杭州放量",
-          "chain": "CID",
-          "tag": "拍一发二 · 锋利耐用",
-          "spend": 43436.61,
-          "ctr": 6.38,
-          "cvr": 4.47,
-          "cpm": 28.5,
-          "duration": "约162s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53omad4aaa4mahdbv3jzvbu4yehzzqapsa.f0.mp4?dis_k=ea8785cd95eb82b7ee52fbf3d5bddfa0&dis_t=1790660517&m=851aafda2677d45998ac034d46c0b702&sha256=cb722bed893f396d6ae7c3bbf3cb31a8a0f8b3054ec6f8dbf7a92ab78d2ee0f1",
-          "frames": [
-            {
-              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-01.jpg",
-              "time": "9.7s"
-            },
-            {
-              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-02.jpg",
-              "time": "38.8s"
-            },
-            {
-              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-03.jpg",
-              "time": "69.6s"
-            },
-            {
-              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-04.jpg",
-              "time": "100.3s"
-            },
-            {
-              "src": "assets/frames/upload-cce5792f7e1781b38cc1/frame-05.jpg",
-              "time": "132.7s"
-            }
-          ],
+          "title": "油纸·空气炸锅加厚防油免洗锡纸盘",
+          "product": "油纸",
+          "customer": "云亿达洛阳商贸有限公司",
+          "chain": "小店",
+          "tag": "懒人省事·免洗防漏",
+          "spend": 28685.32,
+          "ctr": 2.21,
+          "cvr": 20.97,
+          "cpm": 17.59,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3dmae2aaa3aagptf2dvvbwgyejunqatka.f0.mp4?dis_k=9d0c9f89b3595a487f8080fc54175e76&dis_t=1790585557",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧两把菜刀并排立在案板上，字幕'拍一发二'，主播一句'手工改锻打斩切刀，锋利又耐用'，用'花一把钱得两把'的强利益点抓眼球，锁定想换刀又图划算的家庭用户。"
+              "desc": "首帧空气炸锅拉出油污底盘，字幕「炸锅洗到崩溃？」，戳中懒人清洗痛点。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到旧刀切肉拉锯、切番茄压烂的画面，主播吐槽'刀钝了切啥都费劲，切个肉跟锯木头似的'，放大'备菜费劲、影响做饭心情'的焦虑，暗示普通刀不耐用、切斩不能兼顾。"
+              "desc": "拍刷锅费劲、油渍难清画面，旁白「每次炸完都要刷半天」，放大清洗焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示锻打刀身与锋利刃口，边演示边讲'手工改锻打，斩切两用，能轻松处理多种食材'，把'锋利耐用'落到锻打工艺上，给出'拍一发二'的价值锚点。"
+              "desc": "垫入加厚锡纸盘，讲防油防漏可重复用，炸完直接端出，回应免洗需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍切土豆片、剁鸡骨、切肉片，前后对照展示锋利度；补一句'已开刃，收到就能用'，用多食材测试强化'斩切一体'的信任感。"
+              "desc": "炸鸡出锅底盘干净如新，一撕即弃的对照，给出免洗证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'锋利又耐用'，给出'拍一发二'限时特价与厂家直销紧迫信息，明确'点下方链接抢购'的行动指令，承接CID链路完成转化。"
+              "desc": "复述免洗省事，喊「拍一发多，点购物车」，承接小店链路。"
             }
           },
-          "materialId": "cce5792f7e1781b38cc1",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "5dba8b8be6a1bd498d14",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
           "sourceId": "S1R5",
-          "title": "砂锅·老味道炖肉煲汤",
+          "title": "砂锅·耐高温干烧不裂的天然砂锅",
           "product": "砂锅",
           "customer": "荣事达厨具",
-          "chain": "小店",
-          "tag": "耐高温干烧不裂 · 锁鲜",
-          "spend": 33947.83,
-          "ctr": 2.51,
-          "cvr": 7.55,
-          "cpm": 62.19,
-          "duration": "约75s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3naaiwaaalianandiqfvbu2aernuabc2a.f0.mp4?dis_k=2dcf18aeef2cdc6346e7f8c8ad73f140&dis_t=1786364928&m=27948cafc4b528006cff804a79a404c5&sha256=6f026645292a8230710993b79e38a1d3ef2e52fb26ec699ce7929531802a2d0b",
-          "frames": [
-            {
-              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-01.jpg",
-              "time": "4.5s"
-            },
-            {
-              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-02.jpg",
-              "time": "18.0s"
-            },
-            {
-              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-03.jpg",
-              "time": "32.2s"
-            },
-            {
-              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-04.jpg",
-              "time": "46.5s"
-            },
-            {
-              "src": "assets/frames/upload-bafb2c393fa524b4f028/frame-05.jpg",
-              "time": "61.5s"
-            }
-          ],
+          "chain": "直播",
+          "tag": "材质信任·干烧不裂",
+          "spend": 28635.32,
+          "ctr": 1.87,
+          "cvr": 9.34,
+          "cpm": 57.82,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3naaiwaaalianandiqfvbu2aernuabc2a.f0.mp4?dis_k=ae7cad3de81f027e2fa9d26a42fb2e46&dis_t=1785588866&m=27948cafc4b528006cff804a79a404c5&sha256=6f026645292a8230710993b79e38a1d3ef2e52fb26ec699ce7929531802a2d0b",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧砂锅在灶上咕嘟冒泡，热气腾腾，字幕'老味道离不开砂锅'，主播一句'炖肉煲汤鲜香浓郁，吃一口就忘不了的家常味'，用'老味道'的情感钩子抓眼球，锁定怀念家常味、爱煲汤炖肉的用户。"
+              "desc": "首帧空锅干烧冒火，字幕「砂锅敢干烧？」，用危险画面制造好奇与质疑。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到铁锅炖肉汤色浑浊、肉柴不烂的画面，主播摇头'铁锅炖肉总差点意思，汤不浓肉不烂'，放大'炖不出老味道'的遗憾，暗示普通锅具锁不住鲜味、受热不均。"
+              "desc": "拍旧砂锅一烧就裂、汤汁漏灶台，旁白「砂锅裂了多糟心」，放大焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示砂锅陶瓷锅身与浅口设计，边炖边讲'陶瓷锅，耐高温干烧不裂，炖肉煲汤鲜香浓郁'，把'锁鲜'落到材质与结构上，给出'一锅传家'的价值锚点。"
+              "desc": "天然砂锅上灶，讲耐高温不易变形、健康无涂层，回应耐用与安心需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍砂锅炖排骨、煲仔饭，开盖瞬间热气与汤色对比铁锅；补一句'燃气专用，耐冷热交替'，用多菜品测试强化'锁鲜不裂'的信任感。"
+              "desc": "干烧后直接倒冷水不裂的实拍对照，给出耐高温硬证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'吃一口就忘不了的家常味'，给出小店下单限时价与'拍下即发'的紧迫信息，明确'点链接下单'的行动指令，承接小店链路完成转化。"
+              "desc": "复述干烧不裂，喊「直播间限时价，速抢」，承接直播链路。"
             }
           },
-          "materialId": "bafb2c393fa524b4f028",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "a168466e0e69718b9784",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
           "sourceId": "S1R6",
-          "title": "煎锅·陶瓷不粘全能锅",
+          "title": "煎锅·钛金大口径轻量不粘方锅",
           "product": "煎锅",
-          "customer": "武汉瑄铎商贸有限公司",
-          "chain": "CID",
-          "tag": "煎炒炖煮 · 一锅搞定",
-          "spend": 31416.14,
-          "ctr": 8.05,
-          "cvr": 3.4,
-          "cpm": 41.16,
-          "duration": "约275s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53seaiuaaayaab74nlzbvbveierkiqbcsa.f0.mp4?dis_k=6f1b50e5e401f03890dabaf028fadab6&dis_t=1789629781&m=4359a15816114e7fbe9822020f7ed243",
-          "frames": [
-            {
-              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-01.jpg",
-              "time": "16.5s"
-            },
-            {
-              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-02.jpg",
-              "time": "66.0s"
-            },
-            {
-              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-03.jpg",
-              "time": "118.2s"
-            },
-            {
-              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-04.jpg",
-              "time": "170.5s"
-            },
-            {
-              "src": "assets/frames/upload-0174c16e1e1b5b41071e/frame-05.jpg",
-              "time": "225.5s"
-            }
-          ],
+          "customer": "佛山市禅城区大潮百货商行",
+          "chain": "直播",
+          "tag": "材质卖点·轻量多用",
+          "spend": 20140.34,
+          "ctr": 5.2,
+          "cvr": 3.6,
+          "cpm": 103.79,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53cabikaac4eah4wxh7vvbseaequiafbka.f0.mp4?dis_k=b5f6fbe61233ec775025aa053d83591d&dis_t=1793457167",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一口陶瓷不粘锅在灶上煎鱼不破皮，字幕'抢购德国陶瓷不粘锅'，主播一句'煎炒炖煮全能锅，一锅搞定'，用'全能锅'的强功能点抓眼球，锁定厨房小、想少买锅的用户。"
+              "desc": "首帧单手颠锅，字幕「女生也能轻松颠」，用轻量反差抓住怕重锅人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到厨房堆满各种锅、煎鱼粘锅破皮的画面，主播叹气'锅买一堆，煎个鱼还粘得稀烂'，放大'占地方、费钱、还不好用'的焦虑，暗示普通锅功能单一、不粘效果差。"
+              "desc": "拍旧锅厚重端不动、粘底难翻，旁白「炒个菜手都酸」，放大费力痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示陶瓷不粘涂层与深锅身，边演示边讲'陶瓷锅，蒸煮煎炒一锅搞定，不粘少油烟'，把'全能'落到涂层与结构上，给出'一锅顶多锅'的价值锚点。"
+              "desc": "钛金方锅上灶，讲大口径轻量、耐磨抗刮，回应省力与多用需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍煎鱼、炒菜、炖汤、蒸包子，冲水一冲即净，前后对照展示不粘效果；补一句'燃气电磁炉通用'，用多场景测试强化'全能好清洁'的信任感。"
+              "desc": "煎炒炖煮连续演示，钢铲刮擦无痕，给出耐用证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'一锅搞定'，给出限时抢购价与厂家直销紧迫信息，明确'点链接抢购'的行动指令，承接CID链路完成转化。"
+              "desc": "复述轻量不粘，喊「主播同款进直播间」，承接直播链路。"
             }
           },
-          "materialId": "0174c16e1e1b5b41071e",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "ef660be00daa61f32d04",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
           "sourceId": "S1R7",
-          "title": "高碳钢菜刀·斩切一体刀",
-          "product": "高碳钢菜刀",
-          "customer": "杭州芭荷传媒有限公司",
-          "chain": "直播",
-          "tag": "切斩一体 · 告别繁琐备菜",
-          "spend": 27955.05,
-          "ctr": 3.58,
-          "cvr": 6.67,
-          "cpm": 61.64,
-          "duration": "约83s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53oaaosaaareab6qu3fbvbu4ae5fyab2ka.f0.mp4?dis_k=feb65efdad5744e32e6ee1c806b7f371&dis_t=1788606224&m=ced86265b9725db80911920e84d08176&sha256=c35b7472f0714d09eecd862df205900652ddc35f3330f5035ab4f81595559408",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-01.jpg",
-              "time": "5.0s"
-            },
-            {
-              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-02.jpg",
-              "time": "19.8s"
-            },
-            {
-              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-03.jpg",
-              "time": "35.5s"
-            },
-            {
-              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-04.jpg",
-              "time": "51.2s"
-            },
-            {
-              "src": "assets/frames/upload-e3e15efa4bd788937bbb/frame-05.jpg",
-              "time": "67.7s"
-            }
-          ],
+          "title": "钛合金奶锅·一人食纯钛小锅一冲即净",
+          "product": "钛合金奶锅",
+          "customer": "成事好物",
+          "chain": "小店",
+          "tag": "场景细分·一人食免洗",
+          "spend": 19897.1,
+          "ctr": 4.06,
+          "cvr": 3.93,
+          "cpm": 429.51,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3xeby2aadtuafsz6zkfvbtoierw4qhdka.f0.mp4?dis_k=fd2a9962a7640a31b15982f0e1b43796&dis_t=1793099852&m=48ef54554c1db18f4501647d2ee38112&sha256=af8c2170c8465e422af4905d773b9a06571e0e418928eff94dd4769ebe565f69",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一把黑刃菜刀在灯光下泛光，字幕'切斩一体刀'，主播一句'一把轻松搞定切菜、剁骨，告别繁琐备菜'，用'一把顶两把'的强功能点抓眼球，锁定嫌换刀麻烦、备菜费时的下厨人群。"
+              "desc": "首帧小锅煮泡面，字幕「一个人也要好好吃饭」，用独居场景抓住年轻租房人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到厨房台面摆满切片刀、砍骨刀，主播吐槽'切菜一把、剁骨一把，换来换去太麻烦'，放大'备菜繁琐、刀具占地方'的焦虑，暗示普通单功能刀满足不了中式厨房。"
+              "desc": "拍大锅占地方、洗半天，旁白「大锅难清洗还占地」，放大独居清洗痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示前切后斩的刃口设计与手工锻打刀身，边演示边讲'斩切两用，超快锋利，手工锻打已开刃'，把'切斩一体'落到刃口结构上，给出'一把搞定'的价值锚点。"
+              "desc": "纯钛小锅出场，讲无涂层不吸味、轻巧易握，回应一人食健康需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍切菜、剁骨、切肉片，前后对照展示锋利度；补一句'防粘防锈，轻松处理食材'，用多食材测试强化'锋利耐用'的信任感。"
+              "desc": "煮面倒出后冲水即净的对照，展示不粘易洗证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'告别繁琐备菜'，给出直播间下单加赠福利与限时价，明确'进直播间抢购'的行动指令，承接直播链路促成转化。"
+              "desc": "复述一锅多用，喊「限时优惠点购物车」，承接小店链路。"
             }
           },
-          "materialId": "e3e15efa4bd788937bbb",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "c6dd0025d268c81994fa",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
           "sourceId": "S1R8",
-          "title": "铁炒锅·黑金刚极铁锅",
-          "product": "铁炒锅",
-          "customer": "浙江省永康市创大厨具有限公司",
+          "title": "高碳钢菜刀·炮弹钢斩切一体手工锻打",
+          "product": "高碳钢菜刀",
+          "customer": "永州市冷水滩区御匠网络信息科技有限公司",
           "chain": "直播",
-          "tag": "0涂层 · 深层氮化防锈",
-          "spend": 22936,
-          "ctr": 2.32,
-          "cvr": 3.39,
-          "cpm": 47.86,
-          "duration": "约51s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53gib2kaadd4ag7hrj55vbsmqeuuzahjka.f0.mp4?dis_k=adafaec0d3670a8331b9ac46ae854b79&dis_t=1781189173&m=c5dd1c34b7e36cef280045aee009f1d4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-01.jpg",
-              "time": "3.1s"
-            },
-            {
-              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-02.jpg",
-              "time": "12.3s"
-            },
-            {
-              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-03.jpg",
-              "time": "22.1s"
-            },
-            {
-              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-04.jpg",
-              "time": "31.8s"
-            },
-            {
-              "src": "assets/frames/upload-5f93068ebf7825d8a9e2/frame-05.jpg",
-              "time": "42.1s"
-            }
-          ],
+          "tag": "工艺背书·斩切两用",
+          "spend": 17391.8,
+          "ctr": 2.16,
+          "cvr": 3.76,
+          "cpm": 65.06,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53paarkaabq4ajts34c5vbu6aecv4acfka.f0.mp4?dis_k=7b63d47604d911196ae0590de5284077&dis_t=1787970334&m=e3fba49dad7faa0fe931e569387103da&sha256=e88d635f50f3ae47503527942c4c19331f2b9869703f9b3e21894645182a9a7e",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一口黑亮铁锅在灶上爆炒，火苗窜起，字幕'极铁锅精铁打造，零涂层'，主播一句'煎炒炸烙皆宜，下单享加赠福利'，用'0涂层'的健康点抓眼球，锁定担心涂层脱落的家庭用户。"
+              "desc": "首帧菜刀劈砍排骨，字幕「炮弹钢锻打」，用硬核画面抓住爱下厨人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到旧涂层锅锅底掉漆、刮花的画面，主播皱眉'涂层锅用久了掉漆，吃进肚里不放心'，放大'涂层脱落'的健康焦虑，暗示普通涂层锅不耐用、有安全隐患。"
+              "desc": "拍旧刀切肉打滑、剁骨卷刃，旁白「刀钝了切菜真费劲」，放大痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示精铁锅身与深层氮化防锈工艺，边演示边讲'精铁打造，零涂层，深层氮化防锈，煎炒炸烙皆宜'，把'0涂层防锈'落到工艺上，给出'一口传家'的价值锚点。"
+              "desc": "展示加厚刀背、实木手柄，讲斩切一体手工锻打，回应锋利耐用需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍爆炒、煎蛋、烙饼，冲水一冲即净，前后对照展示不粘与防锈；补一句'带锅盖铲，燃气电磁炉通用'，用多场景测试强化'耐用'的信任感。"
+              "desc": "切肉剁骨连续实拍，刀口不卷，给出锋利证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'0涂层才够味'，给出直播间立减200与加赠福利的紧迫信息，明确'进直播间抢购'的行动指令，承接直播链路促成转化。"
+              "desc": "复述一把多用，喊「直播间已开刃速抢」，承接直播链路。"
             }
           },
-          "materialId": "5f93068ebf7825d8a9e2",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "9af5d25b6377081e807d",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
-          "sourceId": "S1R9",
-          "title": "钛合金奶锅·纯钛一人食",
-          "product": "钛合金奶锅",
-          "customer": "成事好物",
-          "chain": "小店",
-          "tag": "纯钛健康 · 一人食",
-          "spend": 22456.78,
-          "ctr": 3.28,
-          "cvr": 4.46,
-          "cpm": 335.65,
-          "duration": "约34s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53n4cwiaaf6yabtl5kqzvb63yemrxqkzca.f0.mp4?dis_k=066646e8491c32483f498fd8bfc76ae1&dis_t=1790066072&m=c8a53c52c867bbaf7105d91f97641355&sha256=da1d7d21cd4b37746a0dac471d5fe939d673b6a51901a121fa28cabd74ccb208",
-          "frames": [
-            {
-              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-01.jpg",
-              "time": "2.0s"
-            },
-            {
-              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-02.jpg",
-              "time": "8.2s"
-            },
-            {
-              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-03.jpg",
-              "time": "14.7s"
-            },
-            {
-              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-04.jpg",
-              "time": "21.1s"
-            },
-            {
-              "src": "assets/frames/upload-daebfd7af0ff49949112/frame-05.jpg",
-              "time": "28.0s"
-            }
-          ],
+          "sourceId": "S1R10",
+          "title": "电动磨刀器·全自动快速磨刀神器",
+          "product": "电动磨刀器",
+          "customer": "杭州厨艺宝库科技有限公司",
+          "chain": "直播",
+          "tag": "懒人神器·快速磨刀",
+          "spend": 15656.32,
+          "ctr": 2.04,
+          "cvr": 11.12,
+          "cpm": 83.72,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53habokaacp4almi6qp5vbqoae4u4afzka.f0.mp4?dis_k=04ccfc7d24581c1ca27eef27feb7a673&dis_t=1792168794&m=d9b78ffc451306c836aa2f66a593f50f&sha256=baf1bc72d5769f866ccd6e0d7bf8ed8a93b6b1b5345aeb82abdd48e7fe7e9e36",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一口银色纯钛奶锅在灶上煮泡面，字幕'纯钛材质健康安心'，主播一句'轻巧设计适合单人用餐'，用'纯钛'的稀缺材质抓眼球，锁定独居、注重健康的年轻用户。"
+              "desc": "首帧钝刀切番茄压烂，字幕「刀钝了别扔」，用失败画面抓住持钝刀家庭。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到旧锅涂层脱落、锅身笨重的画面，主播吐槽'涂层锅掉漆不放心，大锅一个人用又太重'，放大'健康焦虑+一人食不便'的痛点，暗示普通锅具不适合独居健康饮食。"
+              "desc": "拍磨刀石磨半天还磨不快，旁白「手磨又累又不锋利」，放大费力痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示99%+纯钛锅身与无涂层设计，边煮边讲'纯钛无涂层，耐酸碱，轻巧适合一人食'，把'健康安心'落到材质上，给出'一人食神器'的价值锚点。"
+              "desc": "电动磨刀器出场，讲全自动快速磨刀，菜刀剪刀都能磨，回应省力需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍煮泡面、煮汤、热奶，冲水一冲即净，前后对照展示轻便与不粘；补一句'简约外观增添生活美感'，用多场景测试强化'健康轻便'的信任感。"
+              "desc": "磨前切纸难、磨后切纸顺滑的对照，给出锋利证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'纯钛材质健康安心'，给出小店下单限时价与'拍下即发'的紧迫信息，明确'点链接下单'的行动指令，承接小店链路完成转化。"
+              "desc": "复述快速省力，喊「厨房必备进直播间」，承接直播链路。"
             }
           },
-          "materialId": "daebfd7af0ff49949112",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1684c0cbf3e18d43cdbe",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
-          "sourceId": "S1R10",
-          "title": "钛合金炒锅·真钛0涂层荷叶不粘",
-          "product": "钛合金炒锅",
-          "customer": "杭州木气电子商务有限公司",
-          "chain": "直播",
-          "tag": "真钛0涂层 · 荷叶仿生不粘",
-          "spend": 19854.95,
-          "ctr": 4.36,
-          "cvr": 3.42,
-          "cpm": 277.01,
-          "duration": "约80s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3nmaxwaabnaahv332wfurw2yepnvqc62a.f0.mp4?dis_k=77c534e4abc78aa4080bc3c368cfe000&dis_t=1769668892&m=21cab4e08bad5c04fdf9751f9a8324c8&sha256=d038fdb1c85e4b849e8911a7255c8b771a7f105f9fb646c32077a41d65f8d697",
-          "frames": [
-            {
-              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-01.jpg",
-              "time": "4.8s"
-            },
-            {
-              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-02.jpg",
-              "time": "19.1s"
-            },
-            {
-              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-03.jpg",
-              "time": "34.2s"
-            },
-            {
-              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-04.jpg",
-              "time": "49.4s"
-            },
-            {
-              "src": "assets/frames/upload-52d4edb1f6d37e82edc0/frame-05.jpg",
-              "time": "65.3s"
-            }
-          ],
+          "sourceId": "S1R11",
+          "title": "304不锈钢蒸锅·可视拱盖多层加厚蒸锅",
+          "product": "304不锈钢蒸锅",
+          "customer": "乐有鑫",
+          "chain": "CID",
+          "tag": "功能演示·可视防烫",
+          "spend": 14995.67,
+          "ctr": 7.33,
+          "cvr": 1.25,
+          "cpm": 29.16,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3tqb5saadhqai2w7hmvvbthae3goahwka.f0.mp4?dis_k=a684e4d23a5623770d5ff5f5ec98b648&dis_t=1793348773&m=26de4bc2dc589624731cc56ce11d4196",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧一口钛锅上水珠像荷叶一样滚落，字幕'真钛0涂层荷叶仿生不粘锅'，主播一句'刚收到货就果断买了第二口，做啥都不粘'，用'荷叶仿生'的视觉奇观抓眼球，锁定怕涂层、追求健康的家庭用户。"
+              "desc": "首帧掀开拱盖热气腾腾，字幕「蒸包子不用掀盖看」，用可视卖点抓住早餐家庭。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头切到旧锅粘锅糊底、涂层刮花的画面，主播皱眉'普通锅涂层一刮就掉，炒个菜还粘得一塌糊涂'，放大'涂层脱落+粘锅'的双重焦虑，暗示传统不粘锅不耐用、有健康隐患。"
+              "desc": "拍旧蒸锅盖烫手、看不清熟没熟，旁白「掀盖跑气还烫手」，放大痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "商品出场，主播展示真钛0涂层锅身与荷叶仿生纹理，边演示边讲'真钛0涂层，荷叶仿生不粘，无涂层不易粘锅'，把'健康不粘'落到材质与仿生结构上，给出'一家老小放心用'的价值锚点。"
+              "desc": "304不锈钢多层蒸锅出场，讲可视拱盖好观察、防烫把手，回应安全需求。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍无油煎蛋、炒饭不粘、钢丝球擦洗不伤锅，前后对照展示不粘与耐刮；补一句'燃气电磁炉通用'，用多场景测试强化'耐用健康'的信任感。"
+              "desc": "多层同时蒸包子玉米，透过拱盖看熟度，给出高效证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "主播复述'真钛0涂层，做啥都不粘'，给出直播间补贴福利与限时价，明确'进直播间抢购'的行动指令，承接直播链路促成转化。"
+              "desc": "复述加厚防烫，喊「点链接领券下单」，承接CID链路。"
             }
           },
-          "materialId": "52d4edb1f6d37e82edc0",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "5aea01fdc0315c5e9f8b",
+          "frameStatus": "pending"
         }
       ]
     },
