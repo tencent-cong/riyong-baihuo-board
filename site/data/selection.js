@@ -17,7 +17,7 @@ window.SELECTION_DATA = {
       {
         "name": "电动车头盔",
         "industry": "居家日用",
-        "image": "assets/products/import-f9f4ae97c63e2117.webp",
+        "image": "assets/products/c2634a2dc602cd0f.jpg",
         "leaf": "摩托车头盔/电动车头盔",
         "price": 39.9,
         "spend": 0,
@@ -35,7 +35,7 @@ window.SELECTION_DATA = {
       {
         "name": "牛奶绒四件套",
         "industry": "居家日用",
-        "image": "assets/products/import-2ac8f2370a59e5c2.webp",
+        "image": "assets/products/da12611c9e8d2595.jpg",
         "leaf": "床品套件/四件套/多件套",
         "price": 139,
         "spend": 0,
@@ -53,7 +53,7 @@ window.SELECTION_DATA = {
       {
         "name": "加厚床单",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/299c6fa3e06ee608.jpg",
         "leaf": "床单/床笠/床裙/隔脏睡袋",
         "price": 29.9,
         "spend": 0,
@@ -71,7 +71,7 @@ window.SELECTION_DATA = {
       {
         "name": "钛炒锅",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/74f5662f85c8d69e.jpg",
         "leaf": "炒锅",
         "price": 399,
         "spend": 0,
@@ -89,7 +89,7 @@ window.SELECTION_DATA = {
       {
         "name": "防水罩衣",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/8bb4e798a95aa3d4.jpg",
         "leaf": "围裙",
         "price": 29.9,
         "spend": 0,
@@ -107,7 +107,7 @@ window.SELECTION_DATA = {
       {
         "name": "五路财神摆件",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/535667708ecd7e99.jpg",
         "leaf": "装饰摆件",
         "price": 29.9,
         "spend": 0,
@@ -125,7 +125,7 @@ window.SELECTION_DATA = {
       {
         "name": "压缩收纳袋",
         "industry": "居家日用",
-        "image": "assets/products/import-619ce751e212232c.webp",
+        "image": "assets/products/5e9fb18834b433ba.jpg",
         "leaf": "压缩袋",
         "price": 16.9,
         "spend": 0,
@@ -143,7 +143,7 @@ window.SELECTION_DATA = {
       {
         "name": "真空收纳袋",
         "industry": "居家日用",
-        "image": "assets/products/import-3a9060767ea00c24.webp",
+        "image": "assets/products/4d6b7a1327989227.jpg",
         "leaf": "收纳袋/收纳包",
         "price": 29.9,
         "spend": 0,
@@ -161,7 +161,7 @@ window.SELECTION_DATA = {
       {
         "name": "菜刀",
         "industry": "居家日用",
-        "image": "assets/products/import-bf01775a81f42024.webp",
+        "image": "assets/products/e372d8a8772e41e3.jpg",
         "leaf": "菜刀",
         "price": 29.9,
         "spend": 0,
@@ -179,7 +179,7 @@ window.SELECTION_DATA = {
       {
         "name": "活络油",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/6bd85ac3e0c4b8a9.jpg",
         "leaf": "身体按摩膏/按摩精油",
         "price": 29.9,
         "spend": 0,
@@ -197,7 +197,7 @@ window.SELECTION_DATA = {
       {
         "name": "纤维拖把",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/133cd3638dd8c099.jpg",
         "leaf": "拖把",
         "price": 29.9,
         "spend": 0,
@@ -215,7 +215,7 @@ window.SELECTION_DATA = {
       {
         "name": "不锈钢保鲜盒",
         "industry": "居家日用",
-        "image": "assets/products/import-9579f7bfe3fd56e4.webp",
+        "image": "assets/products/e4c5c14689ee1ecf.jpg",
         "leaf": "保鲜盒",
         "price": 39.9,
         "spend": 0,
@@ -233,7 +233,7 @@ window.SELECTION_DATA = {
       {
         "name": "透骨贴",
         "industry": "居家日用",
-        "image": "assets/products/2c1aa94445af7eb3.webp",
+        "image": "assets/products/b3f2be4bb928efc9.jpg",
         "leaf": "风湿骨痛",
         "price": 19.9,
         "spend": 0,
@@ -251,7 +251,7 @@ window.SELECTION_DATA = {
       {
         "name": "拉链头",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/0a8dc720e840415b.jpg",
         "leaf": "其他缝纫针织",
         "price": 9.9,
         "spend": 0,
@@ -269,7 +269,7 @@ window.SELECTION_DATA = {
       {
         "name": "止痒膏",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/b8ce5ee3267ba4c6.jpg",
         "leaf": "足霜",
         "price": 19.9,
         "spend": 0,
@@ -287,7 +287,7 @@ window.SELECTION_DATA = {
       {
         "name": "八方来财葫芦摆件",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/93edbf426ba8f714.jpg",
         "leaf": "装饰摆件",
         "price": 19.9,
         "spend": 0,
@@ -305,7 +305,7 @@ window.SELECTION_DATA = {
       {
         "name": "喜居宝地挂画",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/f3e17a043d71737c.jpg",
         "leaf": "装饰画",
         "price": 29.9,
         "spend": 0,
@@ -323,7 +323,7 @@ window.SELECTION_DATA = {
       {
         "name": "青龙牌挂件",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/fe1022b61e5d02a9.jpg",
         "leaf": "装饰摆件",
         "price": 29.9,
         "spend": 0,
@@ -341,7 +341,7 @@ window.SELECTION_DATA = {
       {
         "name": "家务手套",
         "industry": "居家日用",
-        "image": "assets/products/46039fae61c969d9.webp",
+        "image": "assets/products/c50e0814f91d45dc.jpg",
         "leaf": "家务手套",
         "price": 19.9,
         "spend": 0,
@@ -359,7 +359,7 @@ window.SELECTION_DATA = {
       {
         "name": "青龙牌贴",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/ffa1e8bec7ef5ef5.jpg",
         "leaf": "其他家居饰品",
         "price": 29.9,
         "spend": 0,
@@ -377,7 +377,7 @@ window.SELECTION_DATA = {
       {
         "name": "水龙头过滤棉",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/cd80202460fbe076.jpg",
         "leaf": "水龙头过滤器",
         "price": 19.9,
         "spend": 0,
@@ -395,7 +395,7 @@ window.SELECTION_DATA = {
       {
         "name": "多功能切菜器",
         "industry": "居家日用",
-        "image": "assets/products/8b9388e898951b31.webp",
+        "image": "assets/products/8b9388e898951b31.jpg",
         "leaf": "多功能切菜器",
         "price": 19.9,
         "spend": 0,
@@ -413,7 +413,7 @@ window.SELECTION_DATA = {
       {
         "name": "失眠贴",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/6ceb42585f76c224.jpg",
         "leaf": "其他生活用品",
         "price": 19.9,
         "spend": 0,
@@ -431,7 +431,7 @@ window.SELECTION_DATA = {
       {
         "name": "一次性手套",
         "industry": "居家日用",
-        "image": "assets/products/import-7ec4d84918d0436c.webp",
+        "image": "assets/products/2acc7bb37fe0ea51.jpg",
         "leaf": "一次性手套",
         "price": 9.9,
         "spend": 0,
@@ -449,7 +449,7 @@ window.SELECTION_DATA = {
       {
         "name": "葫芦贴纸",
         "industry": "居家日用",
-        "image": "assets/products/gen_hulutiezh.png",
+        "image": "assets/products/9ebac8fdb0747b14.jpg",
         "leaf": "喜字/剪纸/贴纸",
         "price": 19.9,
         "spend": 0,
@@ -467,7 +467,7 @@ window.SELECTION_DATA = {
       {
         "name": "百福葫芦贴",
         "industry": "居家日用",
-        "image": "assets/products/gen_hulutiezh.png",
+        "image": "assets/products/77ebdb847bc4216e.jpg",
         "leaf": "壁饰",
         "price": 19.9,
         "spend": 0,
@@ -485,7 +485,7 @@ window.SELECTION_DATA = {
       {
         "name": "植物种子",
         "industry": "花卉绿植",
-        "image": "",
+        "image": "assets/products/576bcb7170f74551.jpg",
         "leaf": "花卉/绿植盆栽",
         "price": 19.9,
         "spend": 0,
@@ -503,7 +503,7 @@ window.SELECTION_DATA = {
       {
         "name": "卡套包",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/4897bd21592cd8b8.jpg",
         "leaf": "护照包/证件包",
         "price": 29.9,
         "spend": 0,
@@ -521,7 +521,7 @@ window.SELECTION_DATA = {
       {
         "name": "叶黄素眼罩",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/f9a898ee9cfa3b06.jpg",
         "leaf": "眼罩",
         "price": 29.9,
         "spend": 0,
@@ -539,7 +539,7 @@ window.SELECTION_DATA = {
       {
         "name": "除冰铲",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/eeb7c9ea474dc644.jpg",
         "leaf": "其他厨房工具",
         "price": 29.9,
         "spend": 0,
@@ -557,7 +557,7 @@ window.SELECTION_DATA = {
       {
         "name": "玉饰挂件",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/91e0bc339e98177c.jpg",
         "leaf": "包挂件",
         "price": 19.9,
         "spend": 0,
@@ -575,7 +575,7 @@ window.SELECTION_DATA = {
       {
         "name": "粘鼠板",
         "industry": "居家日用",
-        "image": "assets/products/import-3cba77759477d1d6.webp",
+        "image": "assets/products/32ee396da502b6fa.jpg",
         "leaf": "驱鼠/灭鼠用品",
         "price": 19.9,
         "spend": 0,
@@ -593,7 +593,7 @@ window.SELECTION_DATA = {
       {
         "name": "铝箔保鲜袋",
         "industry": "居家日用",
-        "image": "assets/products/import-8ff35296592dd389.webp",
+        "image": "assets/products/874ae360b91c9f11.jpg",
         "leaf": "保鲜袋",
         "price": 19.9,
         "spend": 0,
@@ -611,7 +611,7 @@ window.SELECTION_DATA = {
       {
         "name": "蝶形记忆枕",
         "industry": "居家日用",
-        "image": "assets/products/import-e5ec8c5874a6debc.webp",
+        "image": "assets/products/a035f1fb9c894831.jpg",
         "leaf": "其他枕头",
         "price": 299,
         "spend": 0,
@@ -629,7 +629,7 @@ window.SELECTION_DATA = {
       {
         "name": "保暖护膝",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/e82cdada72e07340.jpg",
         "leaf": "护膝/护腰/护肩/护颈",
         "price": 29.9,
         "spend": 0,
@@ -647,7 +647,7 @@ window.SELECTION_DATA = {
       {
         "name": "挂绳钢丝球",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/1cf285df2b91eab6.jpg",
         "leaf": "其他清洁工具",
         "price": 39.9,
         "spend": 0,
@@ -665,7 +665,7 @@ window.SELECTION_DATA = {
       {
         "name": "暖足贴",
         "industry": "居家日用",
-        "image": "assets/products/import-ecbadb9436c02775.webp",
+        "image": "assets/products/1ace98ec61b7e6ce.jpg",
         "leaf": "暖足贴",
         "price": 29.9,
         "spend": 0,
@@ -683,7 +683,7 @@ window.SELECTION_DATA = {
       {
         "name": "削皮刀",
         "industry": "居家日用",
-        "image": "assets/products/import-8fe5ec8c631f85cd.webp",
+        "image": "assets/products/cd650195e430e627.jpg",
         "leaf": "削皮器/瓜果刨",
         "price": 99,
         "spend": 0,
@@ -701,7 +701,7 @@ window.SELECTION_DATA = {
       {
         "name": "植物营养液",
         "industry": "花卉绿植",
-        "image": "assets/products/import-c1d26cc3f1153aee.webp",
+        "image": "assets/products/7fe5bd44f712751d.jpg",
         "leaf": "家庭园艺肥料/营养土",
         "price": 29.9,
         "spend": 0,
@@ -719,7 +719,7 @@ window.SELECTION_DATA = {
       {
         "name": "置物架小推车",
         "industry": "居家日用",
-        "image": "",
+        "image": "assets/products/c35d64ac6de023bd.jpg",
         "leaf": "置物架",
         "price": 139,
         "spend": 0,
@@ -737,7 +737,7 @@ window.SELECTION_DATA = {
       {
         "name": "增压花洒",
         "industry": "居家日用",
-        "image": "assets/products/import-f8fac567c36d2225.webp",
+        "image": "assets/products/9cacd2752ff64d48.jpg",
         "leaf": "花洒",
         "price": 399,
         "spend": 0,
@@ -755,7 +755,7 @@ window.SELECTION_DATA = {
       {
         "name": "足贴",
         "industry": "居家日用",
-        "image": "assets/products/import-666a256802d76b2c.webp",
+        "image": "assets/products/29f89b5fe1c62673.jpg",
         "leaf": "足贴",
         "price": 89.9,
         "spend": 0,
