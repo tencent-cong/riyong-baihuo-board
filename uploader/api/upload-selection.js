@@ -53,6 +53,31 @@ function relationships(xml, baseDir) {
   return result;
 }
 
+function extractRichValueImages(cfb, sheetXml) {
+  const metadataXml = zipText(cfb, "xl/metadata.xml");
+  const richValueXml = zipText(cfb, "xl/richData/rdrichvalue.xml");
+  const relXml = zipText(cfb, "xl/richData/richValueRel.xml");
+  const rowImages = new Map();
+  if (!metadataXml || !richValueXml || !relXml) return rowImages;
+  const future = metadataXml.match(/<futureMetadata\b[^>]*name="XLRICHVALUE"[^>]*>([\s\S]*?)<\/futureMetadata>/)?.[1] || "";
+  const rvb = [...future.matchAll(/<xlrd:rvb\b[^>]*\bi="(\d+)"/g)].map(m => Number(m[1]));
+  const valueMeta = metadataXml.match(/<valueMetadata\b[^>]*>([\s\S]*?)<\/valueMetadata>/)?.[1] || "";
+  const vmToFuture = [...valueMeta.matchAll(/<bk>\s*<rc\b[^>]*\bv="(\d+)"[^>]*\/>\s*<\/bk>/g)].map(m => Number(m[1]));
+  const richValues = [...richValueXml.matchAll(/<rv\b[^>]*>([\s\S]*?)<\/rv>/g)].map(m => m[1].match(/<v>([^<]*)<\/v>/)?.[1]);
+  const relIds = [...relXml.matchAll(/<rel\b[^>]*\br:id="([^"]+)"/g)].map(m => m[1]);
+  const relMap = relationships(zipText(cfb, "xl/richData/_rels/richValueRel.xml.rels"), "xl/richData");
+  for (const cell of sheetXml.matchAll(/<c\b[^>]*\br="[A-Z]+(\d+)"[^>]*\bvm="(\d+)"/g)) {
+    const row = Number(cell[1]) - 1;
+    if (rowImages.has(row)) continue;
+    const rvIndex = rvb[vmToFuture[Number(cell[2]) - 1]];
+    const relIndex = Number(richValues[rvIndex]);
+    const mediaPath = relMap[relIds[relIndex]];
+    const media = mediaPath && zipEntry(cfb, mediaPath);
+    if (media?.content) rowImages.set(row, { path: mediaPath, content: Buffer.from(media.content) });
+  }
+  return rowImages;
+}
+
 function extractEmbeddedImages(buf, workbook) {
   const cfb = CFB.read(buf, { type: "buffer" });
   const workbookRels = relationships(zipText(cfb, "xl/_rels/workbook.xml.rels"), "xl");
@@ -67,6 +92,9 @@ function extractEmbeddedImages(buf, workbook) {
     const sheetPath = sheetPaths[sheetName];
     if (!sheetPath) continue;
     const sheetXml = zipText(cfb, sheetPath);
+    // 单元格内嵌图（Excel「放置在单元格中」，单元格值显示为 #VALUE!）
+    const richImages = extractRichValueImages(cfb, sheetXml);
+    if (richImages.size) bySheet[sheetName] = richImages;
     const drawingId = sheetXml.match(/<drawing\b[^>]*\br:id="([^"]+)"/)?.[1];
     if (!drawingId) continue;
     const sheetFile = sheetPath.split("/").pop();
@@ -76,7 +104,7 @@ function extractEmbeddedImages(buf, workbook) {
     const drawingFile = drawingPath.split("/").pop();
     const drawingRels = relationships(zipText(cfb, `xl/drawings/_rels/${drawingFile}.rels`), "xl/drawings");
     const drawingXml = zipText(cfb, drawingPath);
-    const rowImages = new Map();
+    const rowImages = bySheet[sheetName] || new Map();
     for (const anchor of drawingXml.matchAll(/<(?:xdr:)?(?:oneCellAnchor|twoCellAnchor)>[\s\S]*?<(?:xdr:)?from>[\s\S]*?<(?:xdr:)?row>(\d+)<\/(?:xdr:)?row>[\s\S]*?<(?:a:)?blip\b[^>]*\br:embed="([^"]+)"[\s\S]*?<\/(?:xdr:)?(?:oneCellAnchor|twoCellAnchor)>/g)) {
       const mediaPath = drawingRels[anchor[2]];
       const media = mediaPath && zipEntry(cfb, mediaPath);
