@@ -1905,7 +1905,7 @@ window.SELECTION_DATA = {
         {
           "name": "足贴",
           "industry": "家居日用",
-          "image": "assets/products/1ace98ec61b7e6ce.webp",
+          "image": "assets/products/29f89b5fe1c62673.jpg",
           "leaf": "足贴",
           "price": 37.64,
           "roi": 3.62,
@@ -2007,7 +2007,7 @@ window.SELECTION_DATA = {
         {
           "name": "粘鼠板",
           "industry": "家居日用",
-          "image": "assets/products/32ee396da502b6fa.webp",
+          "image": "assets/products/32ee396da502b6fa.jpg",
           "leaf": "驱鼠/灭鼠用品",
           "price": 31.55,
           "roi": 2.1,
@@ -2654,7 +2654,7 @@ window.SELECTION_DATA = {
         {
           "name": "不锈钢保鲜盒",
           "industry": "家居日用",
-          "image": "assets/products/e4c5c14689ee1ecf.webp",
+          "image": "assets/products/e4c5c14689ee1ecf.jpg",
           "leaf": "保鲜盒",
           "price": 99.65,
           "spend": 70311.37,
@@ -2834,7 +2834,7 @@ window.SELECTION_DATA = {
         {
           "name": "足贴",
           "industry": "家居日用",
-          "image": "assets/products/1ace98ec61b7e6ce.webp",
+          "image": "assets/products/29f89b5fe1c62673.jpg",
           "leaf": "足贴",
           "price": 39.79,
           "spend": 47343.08,
@@ -2870,7 +2870,7 @@ window.SELECTION_DATA = {
         {
           "name": "粘鼠板",
           "industry": "家居日用",
-          "image": "assets/products/32ee396da502b6fa.webp",
+          "image": "assets/products/32ee396da502b6fa.jpg",
           "leaf": "驱鼠/灭鼠用品",
           "price": 32.36,
           "spend": 40367.78,
@@ -3440,7 +3440,7 @@ window.SELECTION_DATA = {
         {
           "name": "铝箔保鲜袋",
           "industry": "家居日用",
-          "image": "assets/products/874ae360b91c9f11.webp",
+          "image": "assets/products/874ae360b91c9f11.jpg",
           "leaf": "保鲜袋",
           "price": 13.55,
           "spend": 22300,
@@ -3512,7 +3512,7 @@ window.SELECTION_DATA = {
         {
           "name": "不锈钢保鲜盒",
           "industry": "家居日用",
-          "image": "assets/products/e4c5c14689ee1ecf.webp",
+          "image": "assets/products/e4c5c14689ee1ecf.jpg",
           "leaf": "保鲜盒",
           "price": 103.03,
           "spend": 16100,
@@ -3530,7 +3530,7 @@ window.SELECTION_DATA = {
         {
           "name": "菜刀",
           "industry": "家居日用",
-          "image": "assets/products/e372d8a8772e41e3.webp",
+          "image": "assets/products/e372d8a8772e41e3.jpg",
           "leaf": "菜刀",
           "price": 70.07,
           "spend": 16000,
@@ -3986,7 +3986,7 @@ window.SELECTION_DATA = {
         {
           "name": "压缩收纳袋",
           "industry": "家居日用",
-          "image": "assets/products/5e9fb18834b433ba.webp",
+          "image": "assets/products/5e9fb18834b433ba.jpg",
           "leaf": "压缩袋",
           "price": 74.1,
           "spend": 7994,
@@ -4772,7 +4772,7 @@ window.SELECTION_DATA = {
         {
           "name": "千鸟格收纳盒",
           "industry": "家居日用",
-          "image": "assets/products/aca00227d5f5742a.webp",
+          "image": "assets/products/aca00227d5f5742a.jpg",
           "leaf": "收纳箱/收纳盒",
           "price": 60.4,
           "spend": 14528,
@@ -4934,7 +4934,7 @@ window.SELECTION_DATA = {
         {
           "name": "压缩收纳袋",
           "industry": "家居日用",
-          "image": "assets/products/5e9fb18834b433ba.webp",
+          "image": "assets/products/5e9fb18834b433ba.jpg",
           "leaf": "收纳袋/收纳包",
           "price": 94.1,
           "spend": 4055,
@@ -5300,7 +5300,7 @@ window.SELECTION_DATA = {
         {
           "name": "家务手套",
           "industry": "家居日用",
-          "image": "assets/products/46039fae61c969d9.webp",
+          "image": "assets/products/c50e0814f91d45dc.jpg",
           "leaf": "",
           "price": 27.7,
           "spend": 15754,
