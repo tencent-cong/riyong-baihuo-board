@@ -102,6 +102,14 @@ a{color:inherit;text-decoration:none}
 .activity-item i{margin-left:2px;padding:7px 10px;border-radius:18px;background:linear-gradient(135deg,#5f9cff,#3b6fd6);color:#fff;
   font-size:11px;font-weight:800;font-style:normal;white-space:nowrap}
 .activity-item i::before{content:"查看详情 "}
+.activity-thumb{position:relative}
+.activity-thumb em{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(8,12,24,.55);color:#fff;font-style:normal;font-size:12px;font-weight:800;letter-spacing:2px}
+.activity-item.is-ended{border-color:rgba(160,170,190,.18)}
+.activity-item.is-ended .activity-thumb img{filter:grayscale(.85) brightness(.8)}
+.activity-item.is-ended .activity-info b{color:var(--txt2)}
+.activity-info span.ended-tag{margin-right:6px;background:rgba(160,170,190,.18);color:#c3c9d6}
+.activity-item.is-ended i{background:linear-gradient(135deg,#6b7488,#4a5164)}
+.activity-item.is-ended i::before{content:"回顾复盘 "}
 /* 节点作战手册 */
 .playbook-panel{border-color:rgba(245,181,68,.42)}
 .playbook-entry{grid-template-columns:70px minmax(0,1fr) auto;

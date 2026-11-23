@@ -177,18 +177,27 @@ const activityNow = new Date();
 const activities = ACTIVITY && ACTIVITY.enabled
   ? (ACTIVITY.items || (ACTIVITY.link ? [ACTIVITY] : [])).filter(item=>activityIsActive(item, activityNow))
   : [];
+function activityIsEnded(item, now){
+  const e = item && item.eventEndAt ? new Date(item.eventEndAt) : null;
+  return !!e && !Number.isNaN(e.getTime()) && now > e;
+}
 if(activities.length){
-  document.getElementById('activityCount').textContent = activities.length > 1 ? activities.length+' 个活动' : '进行中';
-  document.getElementById('activityList').innerHTML = activities.map((item,i)=>`
-    <a class="activity-item" href="${item.link}" target="_blank" rel="noopener noreferrer">
-      <div class="activity-thumb"><img src="${item.image}" alt="${item.title || '平台活动'}"></div>
+  const endedCount = activities.filter(item=>activityIsEnded(item, activityNow)).length;
+  document.getElementById('activityCount').textContent = endedCount === activities.length
+    ? '已结束 · 可回顾'
+    : (activities.length > 1 ? activities.length+' 个活动' : '进行中');
+  document.getElementById('activityList').innerHTML = activities.map((item,i)=>{
+    const ended = activityIsEnded(item, activityNow);
+    return `
+    <a class="activity-item${ended ? ' is-ended' : ''}" href="${item.link}" target="_blank" rel="noopener noreferrer">
+      <div class="activity-thumb"><img src="${item.image}" alt="${item.title || '平台活动'}">${ended ? '<em>已结束</em>' : ''}</div>
       <div class="activity-info">
-        <span>${item.tag || '限时活动'}</span>
+        ${ended ? '<span class="ended-tag">已结束</span>' : ''}<span>${item.tag || '限时活动'}</span>
         <b>${item.title || item.text}</b>
         ${item.title && item.text ? `<p>${item.text}</p>` : ''}
       </div>
       <i>↗</i>
-    </a>`).join('');
+    </a>`;}).join('');
   document.getElementById('activitySection').hidden = false;
 }
 
