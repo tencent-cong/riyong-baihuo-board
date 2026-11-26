@@ -5026,783 +5026,542 @@ window.CREATIVE_DATA = {
       "name": "家居家纺-家居工艺品",
       "key": "home-crafts",
       "owner": "",
-      "uploadedAt": "2026-11-03T07:27:12.617Z",
+      "uploadedAt": "2026-11-26T03:50:43.951Z",
       "metrics": {
-        "creativeCount": 5001,
-        "ctr": 3.81,
-        "play3s": 89.88,
-        "cvr": 4.25,
-        "cpm": 27.02
+        "creativeCount": 51,
+        "ctr": 3.29,
+        "play3s": 92.71,
+        "cvr": 13.61,
+        "cpm": 23.05
       },
       "sellingWords": [
         {
-          "word": "老师傅推荐",
+          "word": "高度还原天然花香",
           "weight": 100
         },
         {
-          "word": "一撕即贴免胶",
+          "word": "无火冷香仪",
           "weight": 95
         },
         {
-          "word": "寓意招财纳福",
-          "weight": 92
+          "word": "天然无添加",
+          "weight": 90
         },
         {
-          "word": "仿金箔铜质感",
-          "weight": 88
+          "word": "非遗古法线香",
+          "weight": 86
         },
         {
-          "word": "门对门化解",
-          "weight": 84
+          "word": "持久留香不刺鼻",
+          "weight": 82
         },
         {
-          "word": "百福葫芦",
-          "weight": 80
+          "word": "多场景可用",
+          "weight": 78
         },
         {
-          "word": "紫气东来",
-          "weight": 76
+          "word": "平安顺遂寓意",
+          "weight": 74
         },
         {
-          "word": "八方来财",
-          "weight": 72
+          "word": "非遗工艺背书",
+          "weight": 70
         },
         {
-          "word": "新中式挂画",
-          "weight": 68
+          "word": "补充液套装",
+          "weight": 66
         },
         {
-          "word": "天然沉香静心",
-          "weight": 64
+          "word": "防水耐磨鼓皮",
+          "weight": 62
         },
         {
-          "word": "枯草芽孢杆菌壮根",
-          "weight": 60
+          "word": "拿起来就能弹",
+          "weight": 58
         },
         {
-          "word": "冷香仪持久扩香",
-          "weight": 56
-        },
-        {
-          "word": "实木框质感",
-          "weight": 52
-        },
-        {
-          "word": "禅意桌面摆件",
-          "weight": 48
-        },
-        {
-          "word": "9.9发多张",
-          "weight": 44
-        },
-        {
-          "word": "净化空气四季常青",
-          "weight": 40
+          "word": "收藏纪念带证书",
+          "weight": 54
         }
       ],
       "painWords": [
         {
-          "word": "入户门对门心里犯嘀咕",
+          "word": "工业香薰太腻太冲",
           "weight": 92
         },
         {
-          "word": "水龙头靠窗不知怎么破",
-          "weight": 88
+          "word": "买香薰容易踩坑",
+          "weight": 86
         },
         {
-          "word": "床头朝西睡不安稳",
-          "weight": 84
+          "word": "卧室难入眠",
+          "weight": 80
         },
         {
-          "word": "墙面空白没格调",
-          "weight": 78
+          "word": "新手学乐器慢",
+          "weight": 74
         },
         {
-          "word": "绿植黄叶养不活",
-          "weight": 72
-        },
-        {
-          "word": "家里异味空气闷",
-          "weight": 66
+          "word": "送礼没寓意没档次",
+          "weight": 68
         }
       ],
       "sellingContext": [
         {
-          "driver": "乔迁新居/新年换新·入户门面讲究",
-          "need": "想用低成本贴饰把大门、玄关的寓意和体面一次性补齐",
+          "driver": "秋冬室内密闭·空气沉闷异味重",
+          "need": "想要一款不点火、不呛鼻、能还原真实花香的天然香气，让客厅卧室车里都清爽",
           "words": [
-            "老师傅推荐",
-            "一撕即贴免胶",
-            "门对门化解",
-            "寓意招财纳福"
+            "无火冷香仪",
+            "天然无添加",
+            "高度还原天然花香",
+            "多场景可用"
           ]
         },
         {
-          "driver": "床头朝西/水龙头靠窗·居家布局焦虑",
-          "need": "不动装修、不砸墙，用一张隐形贴化解心里那点不安",
+          "driver": "节庆送礼/新店开业·要体面又要好意头",
+          "need": "想找一件带非遗或吉祥寓意、有证书礼盒、拿得出手又不贵的工艺摆件",
           "words": [
-            "百福葫芦",
-            "紫气东来",
-            "仿金箔铜质感"
+            "平安顺遂寓意",
+            "非遗工艺背书",
+            "收藏纪念带证书"
           ]
         },
         {
-          "driver": "回南天/梅雨·室内闷味与绿植黄叶",
-          "need": "想让家里空气清透、绿植常绿，又不想天天打理",
+          "driver": "中年零基础想学乐器·怕难怕丢人",
+          "need": "想找一件不用苦练、拿起来就能上手、还能在亲友面前露一手的乐器",
           "words": [
-            "天然沉香静心",
-            "冷香仪持久扩香",
-            "枯草芽孢杆菌壮根",
-            "净化空气四季常青"
+            "拿起来就能弹",
+            "防水耐磨鼓皮"
           ]
         }
       ],
       "scripts": [
-        "如果你家也是这样，把这款老师傅推荐的xxx带回家，懂得都懂",
-        "真的后悔，没有早点听老师的话安排上这款xxx贴",
-        "一撕即贴无需胶水，仿金箔工艺，贴上门面立马大气",
-        "别忽略家中小细节，这款xxx雅致耐看，朋友都说我眼光好",
-        "卖爆了！错过就没有了，就是它，寓意很好不用我多吹",
-        "一片滋养所有绿植，叶片油绿枝繁叶茂，懒人也能养好"
+        "别用那些太腻太冲的工业香薰了，真正天然还原的香气才是好香气",
+        "高度还原天然桂花香，优雅无火设计，点上整屋都是花香味",
+        "只卖天然香的直播间，买香薰不踩坑，多款香气等着你",
+        "每一只葫芦都是大自然的馈赠，蕴含着平安顺遂的美好寓意",
+        "严选天然草本，经八道工序精心制香，淡雅宜人不上头",
+        "到我们这个年纪学新东西确实慢，这个拿起来就能弹，不用学"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "首帧怼拍门对门、水龙头靠窗的实景，配「如果你家也这样」制造对号入座，再切贴上后的门面特写形成反差。"
+          "desc": "首帧怼脸闻香皱眉，对比冷香仪出雾后舒展表情，配「工业香薰太冲」字幕抓鼻敏感人群"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定乔迁、新年、回南天节点，放大入户门面讲究、室内闷味、绿植黄叶等场景焦虑，逼出即时需求。"
+          "desc": "绑定秋冬关窗、回南天闷味、节庆送礼，放大卧室客厅异味与送礼没面子的场景"
         },
         {
           "title": "福利/紧迫",
-          "desc": "用9.9发多张、拍一发六做价格锚点，叠加限时特价、后台备货闪电发货制造抢购紧迫。"
+          "desc": "套装补充液加量、直播间隐藏福利、限时直降加赠品，用「当场下单还有惊喜」催单"
         },
         {
           "title": "明星/IP",
-          "desc": "以「老师傅推荐」「师傅已走流程」替代明星，用民俗权威+已祝福背书建立信任链，弱化品牌只强化寓意。"
+          "desc": "借非遗传承斫琴师、非遗制香工艺、台湾特有树种做信任背书，弱化品牌强化产地工艺"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "壁饰·老师傅推荐青龙贴带回家",
-          "product": "壁饰",
-          "customer": "恩施市朝行百货店(个体工商户)",
-          "chain": "CID",
-          "tag": "权威背书 · 寓意化解",
-          "spend": 170076.64,
-          "ctr": 3.59,
-          "cvr": 1.75,
-          "cpm": 11.42,
-          "duration": "约48s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xibsyaadkmaktrgwxjvbtoqefs5aglca.f0.mp4?dis_k=cf82e4b3d5700c789e5378821fdea012&dis_t=1793600642&m=26c58b376f80859b8199df94a0f0f4c7&sha256=06b6747ec91d2a001578148f1e0ee3c5925bc1da515f19db0db77652326824d7",
-          "frames": [
-            {
-              "src": "assets/frames/upload-1a4fba5d5c661d6ca6d5/frame-01.jpg",
-              "time": "2.9s"
-            },
-            {
-              "src": "assets/frames/upload-1a4fba5d5c661d6ca6d5/frame-02.jpg",
-              "time": "11.4s"
-            },
-            {
-              "src": "assets/frames/upload-1a4fba5d5c661d6ca6d5/frame-03.jpg",
-              "time": "20.5s"
-            },
-            {
-              "src": "assets/frames/upload-1a4fba5d5c661d6ca6d5/frame-04.jpg",
-              "time": "29.6s"
-            },
-            {
-              "src": "assets/frames/upload-1a4fba5d5c661d6ca6d5/frame-05.jpg",
-              "time": "39.1s"
-            }
-          ],
+          "title": "无火香薰·天然冷香仪还原生活本真",
+          "product": "无火香薰",
+          "customer": "心香堂(深圳)文化发展有限公司",
+          "chain": "直播",
+          "tag": "天然香气 · 冷香仪无火扩香",
+          "spend": 90182.28,
+          "ctr": 3.18,
+          "cvr": 7.03,
+          "cpm": 354.43,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53ombzqaadmyam3pxs4fvbs4yetbzqhgca.f0.mp4?dis_k=93d75fa3dcd75afb0809fe51dbacbff4&dis_t=1794200966&m=0a50ccdec700a214c5f5094c59b6c2dd&sha256=3a7507bfb65ded72e337410a4652e5461887d73d94ea1c28c4268a218bd8a912",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧怼拍厨房水龙头靠窗实景，字幕「如果你家也是这样」，一句话让有同款布局的人对号入座，制造不安。"
+              "desc": "首帧手持工业香薰皱眉捂鼻，字幕「天然香气，冷香仪还原生活本真」，用呛鼻反常识对比抓住鼻敏感与宝妈人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头扫过水槽窗边空荡墙面，旁白压低声音说水龙头靠窗别不当一回事，放大心里那点嘀咕，传统摆件又放不下。"
+              "desc": "镜头扫过闷闭客厅，旁白「太腻太冲的工业香薰闻着头疼」，点出传统点燃式香薰烟大刺鼻，放大对天然香的需求。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "手撕青龙贴对准墙面一贴即牢，特写仿金箔纹路与青龙图案，无需胶水不伤墙，把化解焦虑落到一张贴上。"
+              "desc": "冷香仪出雾特写，滴入金桂补充液，强调无火不点火、天然无添加，一机覆盖客厅茶室卧室车内多场景。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "前后对照：贴前空白单调，贴后门面有质感，手指按压边缘展示服帖，再切卫生间水槽同款复用，证明多场景通用。"
+              "desc": "实拍开机三秒满屋花香，前后对比闻香表情，展示补充液余量与静音出雾，强化天然还原可信度。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述老师傅推荐、懂得都懂，报出限时价与拍多发少福利，引导点小黄车下单，承接CID链路即时转化。"
+              "desc": "复述高度还原桂花香，喊「直播间享优选福利」，引导点购物车进直播间下单套装，完成链路承接。"
             }
           },
-          "materialId": "1a4fba5d5c661d6ca6d5",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "golden5Note": "",
+          "materialId": "c7d91758ec61a2cac4d3",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
-          "sourceId": "S1R61",
-          "title": "壁饰·金色自粘贴遮盖消火栓电井",
-          "product": "壁饰",
-          "customer": "雷州市创想百货中心(个体工商户)",
-          "chain": "小店",
-          "tag": "痛点遮盖 · 实用演示",
-          "spend": 103744.19,
-          "ctr": 1.08,
-          "cvr": 16.53,
-          "cpm": 29.56,
-          "duration": "约22s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b535ea3maab2qabxb353zvbx2iew3uqdnsa.f0.mp4?dis_k=31f7ba669b20ca197d6738f05c078ccf&dis_t=1793433740&m=618a06eff39dfd478047108deb8ec3cc&sha256=3483b8c44d8296cef6c1a5944e49ae03a1d64f0ff673e28a1f37c6b2427d876a",
-          "frames": [
-            {
-              "src": "assets/frames/upload-3c4f18c34c95fd0487d4/frame-01.jpg",
-              "time": "1.3s"
-            },
-            {
-              "src": "assets/frames/upload-3c4f18c34c95fd0487d4/frame-02.jpg",
-              "time": "5.3s"
-            },
-            {
-              "src": "assets/frames/upload-3c4f18c34c95fd0487d4/frame-03.jpg",
-              "time": "9.4s"
-            },
-            {
-              "src": "assets/frames/upload-3c4f18c34c95fd0487d4/frame-04.jpg",
-              "time": "13.6s"
-            },
-            {
-              "src": "assets/frames/upload-3c4f18c34c95fd0487d4/frame-05.jpg",
-              "time": "18.0s"
-            }
-          ],
+          "sourceId": "S1R8",
+          "title": "无火香薰·高度还原桂花香优雅无火",
+          "product": "无火香薰",
+          "customer": "心香堂(深圳)文化发展有限公司",
+          "chain": "直播",
+          "tag": "花香还原 · 无火设计",
+          "spend": 49558.5,
+          "ctr": 3.52,
+          "cvr": 7.81,
+          "cpm": 409.79,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53ombzqaadmyam3pxs4fvbs4yetbzqhgca.f0.mp4?dis_k=93d75fa3dcd75afb0809fe51dbacbff4&dis_t=1794200966&m=0a50ccdec700a214c5f5094c59b6c2dd&sha256=3a7507bfb65ded72e337410a4652e5461887d73d94ea1c28c4268a218bd8a912",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍大门旁突兀的红色消火栓和电井门，字幕「用装饰品巧妙遮盖」，直击入户门面难看的痛点。"
+              "desc": "首帧桂花枝特写转冷香仪出雾，字幕「高度还原天然桂花香」，用真花与机器同框制造还原度反差抓花香爱好者。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头推近消火栓铁皮与管线，旁白说进门第一眼就看到它，客人来了尴尬，传统挂画尺寸对不上还遮不住。"
+              "desc": "对比市面香精瓶刺鼻呛喉，旁白「闻多了头晕」，点出化学香精不天然，放大想要真花香的焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "取出金色自粘贴比对尺寸，撕背胶整张贴合，特写金属质感与吉祥纹样，把丑设施变成门面装饰。"
+              "desc": "展示冷香仪无火结构，滴入20ml金桂补充液，强调不点火无烟灰、天然无添加，客厅卧室都能用。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "贴前贴后同机位对比，消火栓被完整覆盖，手拍边缘展示牢固不翘边，再切电井门同款，证明一贴多用。"
+              "desc": "实拍开机出雾与真桂花并排闻香，展示香气扩散范围与补充液刻度，用对照证明还原度。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "强调金色自粘免打孔、尺寸可选，报活动价与现货速发，引导点购物车下单，承接小店链路成交。"
+              "desc": "复述优雅无火设计，喊「直播间邀您体验」，引导进直播间领金秋特惠套装福利下单。"
             }
           },
-          "materialId": "3c4f18c34c95fd0487d4",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "3ef3202011c2bcf5eeb0",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
           "sourceId": "S1R2",
-          "title": "青龙壁饰·9.9发5张仿金箔一撕即贴",
-          "product": "青龙壁饰",
-          "customer": "东阳市不高电子商务商行(个体工商户)",
-          "chain": "小店",
-          "tag": "低价钩子 · 工艺展示",
-          "spend": 76333.01,
-          "ctr": 2.91,
-          "cvr": 40.1,
-          "cpm": 55.94,
-          "duration": "约38s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nuawoaabxiaktaty5rvbw3iem5wqcz2a.f0.mp4?dis_k=e1c94017770fccb4ed3fe21fb676f9fa&dis_t=1791898890&m=b16cf8a0f8fd3262c2e714f6d73f0d74&sha256=8722b116535c47608c4c164b71e6ff778b1ecc15b4077831882563a3407e5111",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e56457cbc5bab8afc961/frame-01.jpg",
-              "time": "2.3s"
-            },
-            {
-              "src": "assets/frames/upload-e56457cbc5bab8afc961/frame-02.jpg",
-              "time": "9.1s"
-            },
-            {
-              "src": "assets/frames/upload-e56457cbc5bab8afc961/frame-03.jpg",
-              "time": "16.3s"
-            },
-            {
-              "src": "assets/frames/upload-e56457cbc5bab8afc961/frame-04.jpg",
-              "time": "23.4s"
-            },
-            {
-              "src": "assets/frames/upload-e56457cbc5bab8afc961/frame-05.jpg",
-              "time": "31.0s"
-            }
-          ],
+          "title": "线香·椰奶兰花香气宁静时光",
+          "product": "线香",
+          "customer": "仙游县益香居工艺品商行",
+          "chain": "直播",
+          "tag": "香韵氛围 · 天然线香",
+          "spend": 3449.91,
+          "ctr": 3.1,
+          "cvr": 7.17,
+          "cpm": 85.27,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53umabiaaaiualsa3if5vbviyecsrqafca.f0.mp4?dis_k=f68a2b4d1ff6ea54a3c7b8848f103b99&dis_t=1785254900&m=83c22a65f59ae7b1c0d04e18648320b8&sha256=2c4d4c671b4ad0a03768f9e2fbc522fd5c902fd6461b657541fe6d11f0dd72d1",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧手举一叠青龙贴纸，字幕「9.9发5张」，用数量与低价直接砸出停留，抓住想低成本装饰的人群。"
+              "desc": "首帧点燃线香青烟袅袅，字幕「椰奶与兰花香气萦绕」，用烟雾慢镜头营造宁静氛围抓茶室静心人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头拍水龙头窗边空墙，旁白说想贴点讲究又怕胶水留痕、贴歪难看，传统贴纸一撕就破还掉色。"
+              "desc": "镜头切到杂乱桌面与烦躁翻书，旁白「心静不下来」，点出日常焦虑难放松，传统香薰烟大呛人。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "特写仿金箔工艺反光质感，撕开背胶一贴即牢，无需胶水不伤墙面，把低价与工艺同时讲透。"
+              "desc": "展示线香细直匀称、燃烧稳定，强调天然香材椰奶兰花香韵，一支可烧许久，适合喝茶看书。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "同机位贴前贴后对比，手指刮平展示服帖无气泡，再贴卫生间水槽验证防水，多张可贴多处。"
+              "desc": "实拍插香、青烟上升与香灰完整不散，前后对比房间氛围，用烟形与燃烧时长做证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述9.9发5张、一撕即贴，强调库存有限手慢无，引导点小黄车拍下，承接小店链路高转化。"
+              "desc": "复述宁静时光卖点，喊「直播间福利价」，引导点购物车进直播间选香下单。"
             }
           },
-          "materialId": "e56457cbc5bab8afc961",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "cef33b2413167be15ce8",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
-          "sourceId": "S1R3",
-          "title": "装扮用品·百福葫芦贴后悔没早安排",
-          "product": "装扮用品",
-          "customer": "奇麟",
-          "chain": "CID",
-          "tag": "后悔体 · 布局化解",
-          "spend": 58386,
-          "ctr": 1.1,
-          "cvr": 17.12,
-          "cpm": 47.98,
-          "duration": "约103s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53xacb6aae3uafclngcjvb5oaed64aih2a.f0.mp4?dis_k=1990a625c52866c58910de3782f03883&dis_t=1791888745&m=e88f6aa48f68b09d4848b07c7aa31014&sha256=16e4150e4903b8d4dbaecd3a88a2ca41507d6e2244702d4735d814650cb395c4",
-          "frames": [
-            {
-              "src": "assets/frames/upload-fe0cdca740235ccec18a/frame-01.jpg",
-              "time": "6.2s"
-            },
-            {
-              "src": "assets/frames/upload-fe0cdca740235ccec18a/frame-02.jpg",
-              "time": "24.6s"
-            },
-            {
-              "src": "assets/frames/upload-fe0cdca740235ccec18a/frame-03.jpg",
-              "time": "44.1s"
-            },
-            {
-              "src": "assets/frames/upload-fe0cdca740235ccec18a/frame-04.jpg",
-              "time": "63.6s"
-            },
-            {
-              "src": "assets/frames/upload-fe0cdca740235ccec18a/frame-05.jpg",
-              "time": "84.1s"
-            }
-          ],
+          "sourceId": "S1R13",
+          "title": "线香·非遗红楼入梦草本沉香",
+          "product": "线香",
+          "customer": "广州矿本贸易销售有限公司",
+          "chain": "直播",
+          "tag": "非遗工艺 · 助眠香韵",
+          "spend": 2818.48,
+          "ctr": 2.75,
+          "cvr": 7.73,
+          "cpm": 88.22,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53nia3kaaboqadw2y7uzvbu2qewvvadnka.f0.mp4?dis_k=f80986b4d909df46e16cfffa0afa400e&dis_t=1780388763&m=ffac65ddf110604513bc92b9e25ca18c&sha256=7bde907a33d28c0d7833a84c451a638109c5d256a9c8c009cb189d1ee874d5cb",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍床头朝西的卧室墙面，字幕「真的后悔没早点听老师的话」，用后悔体制造好奇与代入。"
+              "desc": "首帧古书旁点燃线香，字幕「非遗红楼入梦香」，用东方草本与烟形抓失眠与国风爱好者。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头扫过空墙与床头，旁白说床头朝西总睡不踏实，想化解又不想大动装修，传统摆件占地还挡路。"
+              "desc": "镜头切到深夜翻来覆去，旁白「越躺越清醒」，点出卧室难入眠、化学香精不敢用的焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "取出百福葫芦隐形贴，撕背胶贴于床头墙面，特写葫芦纹样与金属光泽，薄薄一张不占空间。"
+              "desc": "展示严选天然松塔侧柏叶、八道工序制香，强调淡雅宜人不上头，卧室舒缓伴梦。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "贴前贴后同角度对比，墙面从空白变有讲究，手抚贴面展示平整隐形，再贴门后验证多位置可用。"
+              "desc": "实拍睡前点香、青烟细直与香灰完整，对比普通香呛鼻，用烟形与闻香表情做证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述老师推荐、隐形不突兀，报限时价与拍发福利，引导点购物车下单，承接CID链路转化。"
+              "desc": "复述非遗工艺天然草本，喊「直播间福利价」，引导进直播间选香下单。"
             }
           },
-          "materialId": "fe0cdca740235ccec18a",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1edb014726209f6280d4",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
-          "sourceId": "S1R5",
-          "title": "家庭园艺肥料·枯草芽孢杆菌壮根绿植",
-          "product": "家庭园艺肥料",
-          "customer": "广州市增城区一院春芳商贸商行(个体工商户)",
-          "chain": "小店",
-          "tag": "功能实证 · 养花痛点",
-          "spend": 57751.55,
-          "ctr": 1.9,
-          "cvr": 28.65,
-          "cpm": 188.4,
-          "duration": "约194s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3ficgmaaesiappc42ubvb6kqemyvaizsa.f0.mp4?dis_k=62d5fdbdba05d7e419e0fdf70ff83c8d&dis_t=1788776916",
-          "frames": [
-            {
-              "src": "assets/frames/upload-01750ad1f3ae95a5d998/frame-01.jpg",
-              "time": "11.6s"
-            },
-            {
-              "src": "assets/frames/upload-01750ad1f3ae95a5d998/frame-02.jpg",
-              "time": "46.6s"
-            },
-            {
-              "src": "assets/frames/upload-01750ad1f3ae95a5d998/frame-03.jpg",
-              "time": "83.5s"
-            },
-            {
-              "src": "assets/frames/upload-01750ad1f3ae95a5d998/frame-04.jpg",
-              "time": "120.3s"
-            },
-            {
-              "src": "assets/frames/upload-01750ad1f3ae95a5d998/frame-05.jpg",
-              "time": "159.1s"
-            }
-          ],
+          "sourceId": "S1R3",
+          "title": "植物摆件·龙头大号原皮葫芦平安寓意",
+          "product": "植物摆件",
+          "customer": "永济市胡韵葫芦手工艺制品有限公司",
+          "chain": "直播",
+          "tag": "吉祥寓意 · 原产地工艺",
+          "spend": 2217.94,
+          "ctr": 2.72,
+          "cvr": 1.83,
+          "cpm": 14.56,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53auakuaaahqadoy6bevvbubievicqbksa.f0.mp4?dis_k=e093bddd36316fc64f9ebd44022f0206&dis_t=1791073594&m=72eecc95eaf5b13eff83ffb4559135ba",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍发黄打蔫的绿植叶片，字幕「枯草芽孢杆菌助力」，用病态绿植直击养花人焦虑。"
+              "desc": "首帧手托带龙头大号葫芦摆件，字幕「每一只葫芦都是大自然的馈赠」，用原皮纹理特写抓开业送礼人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头对比黄叶与枯根，旁白说浇水施肥都不见好，土板结根不长，普通肥料越施越烧根。"
+              "desc": "镜头扫过空荡客厅与书房，旁白「新店开业摆什么才体面」，点出送礼没寓意没档次的尴尬。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "取出微生物水溶肥按比例兑水，特写溶解过程，说明改善土壤生根壮苗，把菌剂机制讲清。"
+              "desc": "展示山西原产地原皮葫芦，龙头造型完整、皮质厚实，强调平安顺遂寓意，客厅书房皆可摆。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "同盆绿植使用前后对照，新叶翠绿根系白壮，插牌记录天数，再切花卉盆栽验证通用。"
+              "desc": "实拍摆上玄关与书桌，对比普通摆件，展示尺寸与皮质光泽，用场景对照证明体面感。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述根系强壮叶片翠绿花朵繁茂，报活动价与买赠，引导点小黄车下单，承接小店链路。"
+              "desc": "复述平安顺遂寓意，喊「直播间选款有福利」，引导进直播间挑葫芦下单送礼。"
             }
           },
-          "materialId": "01750ad1f3ae95a5d998",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "48dc6380d3ba07924c53",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
-          "sourceId": "S1R6",
-          "title": "营养液·一瓶满足各类植物爆根旺",
-          "product": "营养液",
-          "customer": "广州鼎盛网络服务有限公司",
-          "chain": "小店",
-          "tag": "通用省心 · 懒人养花",
-          "spend": 56903.04,
-          "ctr": 2.17,
-          "cvr": 9.07,
-          "cpm": 160.88,
-          "duration": "约295s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc34yag6aaaweadbnpe7fvbxzqen7taa32a.f0.mp4?dis_k=d059ba9e45667fe19565da7c2367c858&dis_t=1793351539",
-          "frames": [
-            {
-              "src": "assets/frames/upload-8418e2a2c7b5b6af1685/frame-01.jpg",
-              "time": "17.7s"
-            },
-            {
-              "src": "assets/frames/upload-8418e2a2c7b5b6af1685/frame-02.jpg",
-              "time": "70.8s"
-            },
-            {
-              "src": "assets/frames/upload-8418e2a2c7b5b6af1685/frame-03.jpg",
-              "time": "126.9s"
-            },
-            {
-              "src": "assets/frames/upload-8418e2a2c7b5b6af1685/frame-04.jpg",
-              "time": "182.9s"
-            },
-            {
-              "src": "assets/frames/upload-8418e2a2c7b5b6af1685/frame-05.jpg",
-              "time": "241.9s"
-            }
-          ],
+          "sourceId": "S1R4",
+          "title": "古琴·名家亲斫八宝灰胎收藏级",
+          "product": "古琴",
+          "customer": "焦作云上琴筝文化艺术有限公司",
+          "chain": "直播",
+          "tag": "非遗背书 · 收藏级工艺",
+          "spend": 2200,
+          "ctr": 67.28,
+          "cvr": 0.1,
+          "cpm": 1448.32,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b536qaneaaaumac2malpfvbv5ae2l2abusa.f0.mp4?dis_k=65a644a40c9514668764706e333e0e82&dis_t=1779171163&m=0e9566e97c29a551c138526784a66bb4",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍一排不同绿植，字幕「一瓶满足各类植物」，用通用性抓住养多种花却不会配肥的人。"
+              "desc": "首帧手指拨弦特写，字幕「名家亲斫·八宝灰胎」，用漆面反光与琴音抓古琴收藏与国风爱好者。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头拍东倒西歪的花盆与黄叶，旁白说这盆要这种肥那盆要那种，配错就烧根，养花比上班还累。"
+              "desc": "镜头扫过普通练习琴，旁白「音色散、漆面糙」，点出低价琴音色不集中、难登台收藏的痛点。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "取出小分子营养液滴入喷壶兑水，特写促根膨果增甜说明，一瓶通用免配比，把省心讲透。"
+              "desc": "展示非遗斫琴师亲斫过程与八宝灰胎漆面，强调音色集中松透，收藏级工艺一步到位。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "同批绿植使用前后对照，新芽冒出叶片油亮，喷壶直接浇灌演示操作，多盆复用证明通用。"
+              "desc": "实拍近距离拨弦听音，对比普通琴音色，展示漆面细节与琴身铭牌，用音色对照做证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述一瓶搞定繁茂绿植花卉，报限时特价与囤货装，引导点购物车下单，承接小店链路。"
+              "desc": "复述低价可享收藏级古琴，喊「直播间福利来袭」，引导进直播间咨询下单。"
             }
           },
-          "materialId": "8418e2a2c7b5b6af1685",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "e869e3c4c6814fb4ca53",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
-          "sourceId": "S1R7",
-          "title": "装饰画·喜居宝地千年旺客厅挂画",
-          "product": "装饰画",
-          "customer": "开心集团",
-          "chain": "CID",
-          "tag": "寓意挂画 · 格调提升",
-          "spend": 52755.86,
-          "ctr": 2.86,
-          "cvr": 1.95,
-          "cpm": 13.12,
-          "duration": "约178s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3ouak2aaapiamiy42pbvbu5ievv2qblka.f0.mp4?dis_k=699c28cdfa766590a06284bbecd3b0bd&dis_t=1791892451&m=6c804a5db31cc42cdcf9078756ec2aaa&sha256=efe63a1ccdb62d05b16da0ca7cb8a89f6087fcc45274de86b043f4f713d5fd1c",
-          "frames": [
-            {
-              "src": "assets/frames/upload-743277ffabe4fdff48e0/frame-01.jpg",
-              "time": "10.7s"
-            },
-            {
-              "src": "assets/frames/upload-743277ffabe4fdff48e0/frame-02.jpg",
-              "time": "42.7s"
-            },
-            {
-              "src": "assets/frames/upload-743277ffabe4fdff48e0/frame-03.jpg",
-              "time": "76.6s"
-            },
-            {
-              "src": "assets/frames/upload-743277ffabe4fdff48e0/frame-04.jpg",
-              "time": "110.4s"
-            },
-            {
-              "src": "assets/frames/upload-743277ffabe4fdff48e0/frame-05.jpg",
-              "time": "146.1s"
-            }
-          ],
+          "sourceId": "S1R5",
+          "title": "非洲鼓·防水耐磨鼓皮新手送礼包",
+          "product": "非洲鼓",
+          "customer": "江西诗诺乐器有限公司",
+          "chain": "直播",
+          "tag": "新手友好 · 课程礼包",
+          "spend": 1987.43,
+          "ctr": 5.33,
+          "cvr": 2.44,
+          "cpm": 73.93,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53fialmaaauqaauk75unurukqewyvabnsa.f0.mp4?dis_k=91332a5b641b25ddea126c6eec12133c&dis_t=1778236563&m=d19491e0d7c38a1048ac7232d305f8c9",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍空白客厅沙发背景墙，字幕「客厅挂画有讲究」，用讲究二字勾起对挂画寓意的兴趣。"
+              "desc": "首帧手掌拍击鼓面，字幕「鼓皮升级·防水耐磨」，用复古粉色鼓身与节奏感抓零基础音乐爱好者。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头扫过光秃墙面与随意贴的旧画，旁白说挂错画显廉价还犯忌讳，想换又怕尺寸不合压不住墙。"
+              "desc": "镜头对比普通鼓皮开裂起毛，旁白「拍两下就破音」，点出新手怕买错、调音难、学不会的焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "展开喜居宝地千年旺挂画，特写实木框与书法字体，说明格调与韵味兼得，把寓意与质感同时呈现。"
+              "desc": "展示机械螺母调音结构，一步到位调准音，鼓皮防水耐磨，强调新手也能快速上手。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "上墙前后同机位对比，空白墙变有主景，手敲实木框展示厚实，再切玄关书房验证多空间适配。"
+              "desc": "实拍泼水擦干继续拍、螺母调音前后音色对比，用防水与音准做可验证证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述喜居宝地千年旺、格调韵味兼得，报活动价与包邮，引导点小黄车下单，承接CID链路。"
+              "desc": "复述购鼓享课程礼包，喊「直播间下单送教学」，引导进直播间选色下单。"
             }
           },
-          "materialId": "743277ffabe4fdff48e0",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "b142892e2c60f4ac0ce5",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
-          "sourceId": "S1R8",
-          "title": "贴纸·紫气东来雅致耐看小细节",
-          "product": "贴纸",
-          "customer": "杭州盈阳",
-          "chain": "CID",
-          "tag": "细节装饰 · 寓意贴",
-          "spend": 46628.74,
-          "ctr": 2.82,
-          "cvr": 5.43,
-          "cpm": 23.3,
-          "duration": "约63s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53a4aeeaaaiyajpd54z5vbubyeiidqaqsa.f0.mp4?dis_k=8c99edab79a887e163e8eba493dd1358&dis_t=1791614035&m=2e52528c1b167c5df7a8238a45b99bac&sha256=1aa67482b0e600c9e3d9053edb526dc09bc32f1dd32f6fb259d54f1999812f60",
-          "frames": [
-            {
-              "src": "assets/frames/upload-d1fd9d5e7d5df2258de7/frame-01.jpg",
-              "time": "3.8s"
-            },
-            {
-              "src": "assets/frames/upload-d1fd9d5e7d5df2258de7/frame-02.jpg",
-              "time": "15.1s"
-            },
-            {
-              "src": "assets/frames/upload-d1fd9d5e7d5df2258de7/frame-03.jpg",
-              "time": "27.1s"
-            },
-            {
-              "src": "assets/frames/upload-d1fd9d5e7d5df2258de7/frame-04.jpg",
-              "time": "39.0s"
-            },
-            {
-              "src": "assets/frames/upload-d1fd9d5e7d5df2258de7/frame-05.jpg",
-              "time": "51.6s"
-            }
-          ],
+          "sourceId": "S1R23",
+          "title": "无火香薰·栀子花大瓶持久留香",
+          "product": "无火香薰",
+          "customer": "义乌市誉就电子商务有限公司",
+          "chain": "直播",
+          "tag": "持久留香 · 除臭香氛",
+          "spend": 1509.98,
+          "ctr": 1.31,
+          "cvr": 13.58,
+          "cpm": 81.2,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53mmaaaaaagyaal34yjrvbuyyeabrqaaca.f0.mp4?dis_k=4571c129a37e4d339572a4f0a90e9b38&dis_t=1788347735&m=a6755d74ce3d626c5eb27809fa48fe6d",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧怼拍门框或柜门空白处，字幕「别忽略家中小细节」，用细节提醒勾起对家居完整度的在意。"
+              "desc": "首帧大瓶香薰摆上玄关，字幕「自然植萃无火香薰」，用大容量与栀子花特写抓家居除味人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头扫过单调柜门与空墙，旁白说家里总觉得差点意思，摆件占地方又落灰，传统贴纸花哨不耐看。"
+              "desc": "镜头扫过卫生间与卧室闷味，旁白「香味两天就散」，点出普通香薰留香短、刺鼻不放心。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "取出紫气东来贴撕背胶贴上，特写字体与配色雅致，说明耐看不俗气，把寓意与审美一起给到。"
+              "desc": "展示大瓶精油与藤条扩香结构，强调温和持久不刺鼻，卧室客厅厕所多场景除臭留香。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "贴前贴后同角度对比，空白处变有讲究，手抚贴面展示平整牢固，再贴玄关柜门验证多位置。"
+              "desc": "实拍插藤条后计时，对比普通小瓶一周余量，展示卫生间前后气味变化，用余量做证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述紫气东来福气常伴、雅致耐看，报拍发福利与现货速发，引导点购物车，承接CID链路。"
+              "desc": "复述持久留香更安心，喊「直播间大瓶特惠」，引导进直播间下单囤货。"
             }
           },
-          "materialId": "d1fd9d5e7d5df2258de7",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "42ad2a7b6cdb3cbc88f6",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
-          "sourceId": "S1R9",
-          "title": "金属摆件·黄铜百福缸放零钱招财",
-          "product": "金属摆件",
-          "customer": "禄书意",
-          "chain": "小店",
-          "tag": "招财摆件 · 仪式感",
-          "spend": 37442.91,
-          "ctr": 3.07,
-          "cvr": 8.75,
-          "cpm": 40.63,
-          "duration": "约43s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53sycp6aaetmaowxj2m5vb5fqe76laj72a.f0.mp4?dis_k=ac65cf8743f890c2073045e29b58a192&dis_t=1782453263&m=fe25023b3c2b809f6b6ba21bde303f10",
-          "frames": [
-            {
-              "src": "assets/frames/upload-589d2e8cb156e6c1adb0/frame-01.jpg",
-              "time": "2.6s"
-            },
-            {
-              "src": "assets/frames/upload-589d2e8cb156e6c1adb0/frame-02.jpg",
-              "time": "10.3s"
-            },
-            {
-              "src": "assets/frames/upload-589d2e8cb156e6c1adb0/frame-03.jpg",
-              "time": "18.4s"
-            },
-            {
-              "src": "assets/frames/upload-589d2e8cb156e6c1adb0/frame-04.jpg",
-              "time": "26.5s"
-            },
-            {
-              "src": "assets/frames/upload-589d2e8cb156e6c1adb0/frame-05.jpg",
-              "time": "35.1s"
-            }
-          ],
+          "sourceId": "S1R6",
+          "title": "弦乐器玩具·空气吉他拿起来就能弹",
+          "product": "弦乐器玩具",
+          "customer": "深圳市戴乐体感科技有限公司",
+          "chain": "直播",
+          "tag": "零门槛 · AI互动教学",
+          "spend": 1504.69,
+          "ctr": 0.96,
+          "cvr": 0.63,
+          "cpm": 90.37,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53quc4gaafsmacwxhfpbur7bieyocqlq2a.f0.mp4?dis_k=2163af9cbee10514f89a4a2a9f4d33d8&dis_t=1789989502&m=9234d5fa81d5e61083f7e8465bb52252&sha256=39f1bd1edfbc9cc4108d9465c009d7d65750e3443c69ee8b4e014d3fb2934dac",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍桌面黄铜百福缸特写，字幕「放些零钱长久留存」，用招财仪式感抓住想讨彩头的人。"
+              "desc": "首帧中年人拿起空气吉他随手一挥就出声，字幕「不用学，拿起来就能弹」，用零门槛反差抓想学又怕难的人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头扫过散落零钱与空荡桌面，旁白说零钱到处丢没处放，想摆点招财又怕廉价塑料掉档次。"
+              "desc": "镜头切到落灰的真吉他，旁白「到我们这个年纪学新东西确实慢」，点出练琴枯燥易放弃的挫败。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "特写黄铜百福纹缸体与厚重手感，把零钱投入缸中，说明长久留存寓意，把材质与仪式感讲透。"
+              "desc": "展示自动挡加手动挡双模式，AI互动式教学跟着亮灯弹，强调无痛自学、不用识谱。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "同机位摆前摆后对比，桌面从杂乱变有主景，手转缸体展示纹路清晰，再切玄关书房验证摆放。"
+              "desc": "实拍老人小孩轮流上手，三分钟弹出完整旋律，前后对比学习速度，用真人演示做证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述黄铜百福缸招财寓意、或有惊喜，报限时价与送底座，引导点小黄车下单，承接小店链路。"
+              "desc": "复述双模式无痛自学，喊「双11直降加赠品」，引导进直播间下单到手直接玩。"
             }
           },
-          "materialId": "589d2e8cb156e6c1adb0",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "0833bc35abdfb1c438a1",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
-          "sourceId": "S1R10",
-          "title": "无火香薰·天然金桂如置身树下",
-          "product": "无火香薰",
-          "customer": "心香堂(深圳)文化发展有限公司",
-          "chain": "小店",
-          "tag": "嗅觉场景 · 持久扩香",
-          "spend": 37185.49,
-          "ctr": 2.24,
-          "cvr": 8.86,
-          "cpm": 272.32,
-          "duration": "约48s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3buaegaaavuagemgkinvbudieimgqaq2a.f0.mp4?dis_k=c83d391412e12f4d5289ee414f102abb&dis_t=1791957071&m=70a4a224e2eec9b0192c847143606b14&sha256=813d6e835580d5f73957d85c587ecd7e6e40bcc86560e8fa10d7a2409ed63f62",
-          "frames": [
-            {
-              "src": "assets/frames/upload-f3a7a4181c379cad24fc/frame-01.jpg",
-              "time": "2.9s"
-            },
-            {
-              "src": "assets/frames/upload-f3a7a4181c379cad24fc/frame-02.jpg",
-              "time": "11.5s"
-            },
-            {
-              "src": "assets/frames/upload-f3a7a4181c379cad24fc/frame-03.jpg",
-              "time": "20.6s"
-            },
-            {
-              "src": "assets/frames/upload-f3a7a4181c379cad24fc/frame-04.jpg",
-              "time": "29.6s"
-            },
-            {
-              "src": "assets/frames/upload-f3a7a4181c379cad24fc/frame-05.jpg",
-              "time": "39.2s"
-            }
-          ],
+          "sourceId": "S1R7",
+          "title": "文化创意礼品·999纯银生肖纪念摆件",
+          "product": "文化创意礼品",
+          "customer": "清丰县谚梨百货中心(个体工商户)",
+          "chain": "直播",
+          "tag": "收藏纪念 · 证书礼盒",
+          "spend": 1140.56,
+          "ctr": 3.88,
+          "cvr": 1.52,
+          "cpm": 335.06,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3gabjwaacviaf72hydvvbqmaetmyafg2a.f0.mp4?dis_k=b36907483556da004ee282069deb332d&dis_t=1794819237&m=631cb39078ddc378bf2aae17e8c93398",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧拍桂花枝与冷香仪同框，字幕「如置身树下」，用嗅觉画面勾起对天然花香的向往。"
+              "desc": "首帧打开礼盒露出银砖摆件，字幕「999纯银匠心打造」，用证书与光泽特写抓贺岁送礼收藏人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头拍闷闭卧室与客厅，旁白说家里总有异味，点香薰蜡烛怕烟怕火，喷香水又散得快留不住。"
+              "desc": "镜头对比普通塑料摆件，旁白「送礼没分量没寓意」，点出节庆送礼怕廉价、怕没收藏价值的尴尬。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "取出冷香仪滴入天然香薰补充液，特写雾化扩香过程，说明无火持久扩香，把安全与持久讲清。"
+              "desc": "展示999纯银材质、生肖造型与限量编号，强调带证书带礼盒，收藏纪念两相宜。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "同空间使用前后对比，镜头扫过客厅卧室，字幕标注桂花茉莉多香可选，演示车载便携复用。"
+              "desc": "实拍证书与银砖同框、称重与礼盒包装过程，用证书编号与质感做可信证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述天然金桂芬芳持久、多场景随心换，报套装价与香型可选，引导点购物车，承接小店链路。"
+              "desc": "复述限量发行收藏价值，喊「直播间贺岁价」，引导进直播间下单送礼。"
             }
           },
-          "materialId": "f3a7a4181c379cad24fc",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "56c65c4414b037ef693c",
+          "frameStatus": "pending"
         }
       ]
     }
