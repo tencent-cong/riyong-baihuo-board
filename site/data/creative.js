@@ -2245,13 +2245,13 @@ window.CREATIVE_DATA = {
       "name": "生活日用-收纳用品",
       "key": "daily-storage",
       "owner": "",
-      "uploadedAt": "2026-11-03T06:41:57.804Z",
+      "uploadedAt": "2026-11-26T03:48:31.925Z",
       "metrics": {
-        "creativeCount": 101,
-        "ctr": 2.94,
-        "play3s": 80.48,
-        "cvr": 7.43,
-        "cpm": 35.38
+        "creativeCount": 51,
+        "ctr": 3.05,
+        "play3s": 76.98,
+        "cvr": 8.66,
+        "cpm": 47.28
       },
       "sellingWords": [
         {
@@ -2263,703 +2263,527 @@ window.CREATIVE_DATA = {
           "weight": 95
         },
         {
-          "word": "防潮防霉",
+          "word": "加厚防潮防霉",
           "weight": 90
         },
         {
-          "word": "换季收纳",
+          "word": "一袋装下全部衣物",
           "weight": 86
         },
         {
-          "word": "拍一发五",
+          "word": "立体可折叠",
           "weight": 82
         },
         {
-          "word": "立体加厚",
+          "word": "反复使用",
           "weight": 78
         },
         {
-          "word": "透明可视",
-          "weight": 72
+          "word": "免打孔安装",
+          "weight": 74
         },
         {
-          "word": "免打孔",
-          "weight": 68
+          "word": "分区收纳一目了然",
+          "weight": 70
         },
         {
-          "word": "可折叠",
-          "weight": 64
+          "word": "承重强不伤墙",
+          "weight": 66
         },
         {
-          "word": "防尘防皱",
-          "weight": 60
+          "word": "通风快干",
+          "weight": 62
         },
         {
-          "word": "多层分类",
-          "weight": 55
+          "word": "可坐可收纳",
+          "weight": 58
         },
         {
-          "word": "强力承重",
-          "weight": 50
+          "word": "拍一发多",
+          "weight": 54
         }
       ],
       "painWords": [
         {
-          "word": "换季棉被羽绒服堆成山",
+          "word": "换季衣物堆满衣柜",
           "weight": 92
         },
         {
-          "word": "衣柜塞爆关不上门",
+          "word": "棉被占地方没处放",
           "weight": 88
         },
         {
-          "word": "梅雨回南天返潮发霉",
-          "weight": 84
+          "word": "出差行李箱装不下",
+          "weight": 82
         },
         {
-          "word": "厨房台面锅盖乱放",
-          "weight": 78
+          "word": "厨房水槽台面乱",
+          "weight": 76
         },
         {
-          "word": "床单被套总跑偏",
-          "weight": 72
+          "word": "玄关鞋子杂乱",
+          "weight": 70
         },
         {
-          "word": "抽屉杂物找不到",
-          "weight": 66
+          "word": "空调风扇积灰难罩",
+          "weight": 64
         }
       ],
       "sellingContext": [
         {
-          "driver": "换季收纳·棉被羽绒服下架无处放",
-          "need": "把厚被子厚衣服压到最薄、塞进床底柜顶，腾出衣柜空间",
+          "driver": "换季收纳·棉被衣物堆满衣柜",
+          "need": "用更小的空间装下更多被褥衣物，且防潮防霉不返潮",
           "words": [
             "免抽气压缩",
             "大容量省空间",
-            "换季收纳"
+            "加厚防潮防霉"
           ]
         },
         {
-          "driver": "梅雨回南天·衣物返潮发霉",
-          "need": "密封隔绝湿气，存放一季拿出来不霉不皱不返潮",
+          "driver": "出差旅游·行李箱空间告急",
+          "need": "把整柜衣服压进一个箱子，还能反复用不破袋",
           "words": [
-            "防潮防霉",
-            "防尘防皱",
-            "立体加厚"
+            "一袋装下全部衣物",
+            "立体可折叠",
+            "反复使用"
           ]
         },
         {
-          "driver": "小户型厨房·台面锅盖调料堆满",
-          "need": "免打孔上墙分层，把台面杂物立起来收，做饭不再手忙脚乱",
+          "driver": "厨房/玄关/卫浴·台面地面杂乱",
+          "need": "免打孔上墙、分区归位，让零碎物件有固定位置",
           "words": [
-            "免打孔",
-            "多层分类",
-            "强力承重"
+            "免打孔安装",
+            "分区收纳一目了然",
+            "承重强不伤墙"
           ]
         }
       ],
       "scripts": [
-        "能够扩容两倍的真空压缩袋你见过嘛，免抽气一压就扁",
-        "换季被子衣服太多，试试这款立体压缩袋，超大容量节省空间",
-        "免抽气压缩收纳袋，防潮防尘防霉，拍一发五才29.9元",
-        "后悔没早买！大容量折叠收纳，拍一发十，抽屉瞬间整齐",
-        "厨房小锅盖没地放的，安排一个这样的置物架，整洁收纳",
-        "床单总跑偏？卡扣一夹怎么拽都不掉，拆洗还能反复用"
+        "换季衣物堆满衣柜，免抽气压缩袋让收纳更省空间",
+        "空间大一袋装下全部衣服，微压排气压缩一半，9丝加厚防潮可反复用",
+        "出差旅游用了这个收纳袋，朋友以为我把整个衣柜都搬行李箱里了",
+        "厨房水槽总乱？用这个置物架就能收拾得整整齐齐",
+        "免打孔安装省心省力，网格沥水保持干爽，大容量收纳洗漱好物",
+        "超大容量巨能装，能装一整个夏天的衣服"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "首帧棉被堆成山，一压变薄片塞进床底，配「扩容两倍你见过嘛」抓换季人群"
+          "desc": "开场3秒用塞满的衣柜对比压扁后的袋子，或乱台面对比整齐置物架，制造视觉冲击"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定换季与梅雨回南天，放大棉被无处放、返潮发霉的焦虑，逼出压缩需求"
+          "desc": "绑定换季、梅雨回南天、秋季空调收纳，放大衣物返潮、棉被占地、家电积灰焦虑"
         },
         {
           "title": "福利/紧迫",
-          "desc": "用「拍一发五」「39.9到手5个」「1折包邮」做价格锚点，配闪电发货制造紧迫"
+          "desc": "用拍一发五、3个特大号、29.9元、厂家直发限时特惠做价格锚点，制造抢购紧迫"
         },
         {
           "title": "明星/IP",
-          "desc": "以邻居家宝藏、婆婆真会买等素人口碑替代明星，用真实使用场景建信任链"
+          "desc": "无明星背书，靠真人出镜实测压缩过程、邻居家同款、视频同款商品建立信任链"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "压缩袋·扩容两倍的真空压缩袋",
+          "title": "压缩袋·一袋装下全部衣服微压排气压缩一半",
           "product": "压缩袋",
-          "customer": "太力",
-          "chain": "小店",
-          "tag": "效果对比 · 免抽气压缩",
-          "spend": 147011.04,
-          "ctr": 2.95,
-          "cvr": 10.61,
-          "cpm": 58.11,
-          "duration": "约227s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3aqaamaaaweajlsnlxjvbubaeaycaabsa.f0.mp4?dis_k=05169eaaf4538a49441803d7ce01387c&dis_t=1789900137&m=0e081e8d8827b53446f1bf5b87a3c4b6&sha256=6378c74afcb6543f2223749345af1e2ca08d3156074c0b228021eb6aceaf0ad3",
-          "frames": [
-            {
-              "src": "assets/frames/upload-97c0e5f9f430b70a5afc/frame-01.jpg",
-              "time": "13.6s"
-            },
-            {
-              "src": "assets/frames/upload-97c0e5f9f430b70a5afc/frame-02.jpg",
-              "time": "54.5s"
-            },
-            {
-              "src": "assets/frames/upload-97c0e5f9f430b70a5afc/frame-03.jpg",
-              "time": "97.7s"
-            },
-            {
-              "src": "assets/frames/upload-97c0e5f9f430b70a5afc/frame-04.jpg",
-              "time": "140.9s"
-            },
-            {
-              "src": "assets/frames/upload-97c0e5f9f430b70a5afc/frame-05.jpg",
-              "time": "186.4s"
-            }
-          ],
+          "customer": "上海佰颂物联网科技有限公司",
+          "chain": "直播",
+          "tag": "痛点直击 · 免抽气大容量",
+          "spend": 217611.69,
+          "ctr": 4.7,
+          "cvr": 9.47,
+          "cpm": 239.55,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53laa7uaabumab757kvrvbwwae7jmad6sa.f0.mp4?dis_k=58212ec9593c75d705812a58494c994a&dis_t=1793844764&m=cc6509ced4a59fdc8632c70a982f2600&sha256=8c94b49db11eab7ab1084ac6b2db94e06d7a0a966ba3e1d1ad9fa617d2ac57ab",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧双手抱起鼓胀棉被压向压缩袋，字幕「扩容两倍你见过嘛」，反差在鼓包与扁片之间，抓住换季收被人群。"
+              "desc": "首帧镜头怼着爆满衣柜，旁白「空间大一袋装下全部衣服」，用满柜与空袋反差抓住换季人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "镜头扫过塞爆的衣柜和床底堆被，门关不上、找衣服翻乱，传统叠放占地方，观众焦虑被放大到必须解决。"
+              "desc": "拉开柜门棉被衣物塌落一地，传统叠放占空间还返潮，放大换季收纳焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "压缩袋出场，免抽气直接手压排气，拉链一拉袋体迅速变薄，展示立体加厚材质，价值锚点落在省一半空间。"
+              "desc": "衣物塞入袋中手压排气，体积缩半，9丝加厚材质防潮可反复用，给出省空间锚点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍棉被装袋、压扁、塞进床底的完整步骤，前后同机位对照，再补羽绒服、毛毯多场景，强化一袋多用。"
+              "desc": "实拍装三床被子压一压前后对比，袋子立起不塌，证明加厚耐磨可复用。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述免抽气省空间，叠加拍一发五福利与闪电发货，口播「先到先得」引导点小店下单，承接压缩袋链路。"
+              "desc": "复述一袋装下全部衣服，直播间限时价引导点击下单，承接直播链路。"
             }
           },
-          "materialId": "97c0e5f9f430b70a5afc",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "6ab01872a133d74247c4",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
-          "sourceId": "S1R2",
-          "title": "收纳盒·厂家直销限时特惠",
-          "product": "收纳盒",
-          "customer": "守正出奇",
+          "sourceId": "S1R21",
+          "title": "压缩袋·3个特大号加厚抽压两用换季收纳",
+          "product": "压缩袋",
+          "customer": "义乌市姬皖电子商务有限公司",
           "chain": "CID",
-          "tag": "促销口播 · 大容量折叠",
-          "spend": 49477.81,
-          "ctr": 2.42,
-          "cvr": 8.79,
-          "cpm": 129.23,
-          "duration": "约31s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53oaavkaab5iaitawi5vvbw4aekvyacvka.f0.mp4?dis_k=1afc7cf38d4662b7fd36f193b5dc1aa0&dis_t=1791614114&m=ebad916eca7cff47653ae941a36d1cbe&sha256=7c83ab82d990fb3eaef7bd437dd1a788da819fa3bb9cdef5093b7cdeeaa55427",
-          "frames": [
-            {
-              "src": "assets/frames/upload-2e16b1aee7ef7cbb5c2d/frame-01.jpg",
-              "time": "1.9s"
-            },
-            {
-              "src": "assets/frames/upload-2e16b1aee7ef7cbb5c2d/frame-02.jpg",
-              "time": "7.5s"
-            },
-            {
-              "src": "assets/frames/upload-2e16b1aee7ef7cbb5c2d/frame-03.jpg",
-              "time": "13.4s"
-            },
-            {
-              "src": "assets/frames/upload-2e16b1aee7ef7cbb5c2d/frame-04.jpg",
-              "time": "19.3s"
-            },
-            {
-              "src": "assets/frames/upload-2e16b1aee7ef7cbb5c2d/frame-05.jpg",
-              "time": "25.5s"
-            }
-          ],
+          "tag": "规格促销 · 特大号加厚",
+          "spend": 81249.53,
+          "ctr": 3.84,
+          "cvr": 10.19,
+          "cpm": 25.95,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3xydekaagiuaosbht2nvbzpqeiw7amrka.f0.mp4?dis_k=855b30fa51aa9132ebae7d5523081ce8&dis_t=1794485763&m=2440503622594609b12457a02e2872db&sha256=397364c16a089f3eaf419fbd2f580032fdf743369d9b973fefb43084958d2ee0",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧堆满杂物的抽屉被拉开，字幕「限时特惠厂家直销」，用乱与整的反差抓住爱收纳的家庭主妇。"
+              "desc": "首帧摆出3个特大号袋子并标注「3个特大号」，用规格数量直击换季囤货人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "袜子内衣混作一团，翻找半天找不到，抽屉越理越乱，传统散放没有分区，观众对凌乱的烦躁被点燃。"
+              "desc": "棉被衣物堆满床铺无处安放，普通袋子一压就破，放大容量与耐用焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "折叠收纳盒出场，一撑成型放入抽屉，分格把衣物立起来，展示可折叠省位，价值锚点落在拍一发十。"
+              "desc": "抽压两用设计，塞入衣物后按压排气，加厚袋体不鼓包，突出两用机制。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍衣物卷起竖放进盒、合上抽屉的对照，再展示空盒折叠收起，证明不占空间，多抽屉场景重复强化。"
+              "desc": "实拍抽气与手压两种方式对比，压缩后整齐码放，证明省空间效果。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述大容量折叠收纳，叠加今日特价与拍一发十，口播「速来抢购」引导点CID落地页，承接收纳盒链路。"
+              "desc": "复述3个特大号加厚，限时特惠引导点击，承接CID下单链路。"
             }
           },
-          "materialId": "2e16b1aee7ef7cbb5c2d",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1424d13cfe5ef88f2044",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
-          "sourceId": "S1R3",
-          "title": "收纳包·限时特惠厂家直销",
-          "product": "收纳包",
-          "customer": "守正出奇",
-          "chain": "CID",
-          "tag": "促销口播 · 大容量收纳",
-          "spend": 39411.59,
-          "ctr": 2.24,
-          "cvr": 14.58,
-          "cpm": 199.97,
-          "duration": "约21s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53ria6iaabxuadxroidnvbxcqe4sfadzca.f0.mp4?dis_k=887204b24d22e07900c47ec02806ef13&dis_t=1791614792&m=be2a274273605320da73e48c83a3f44b&sha256=f01b090cefed568b98d25b656441b47bd289746d9b320e7ac6c8a5be43f2e5e0",
-          "frames": [
-            {
-              "src": "assets/frames/upload-326f2b08548b8db0d965/frame-01.jpg",
-              "time": "1.3s"
-            },
-            {
-              "src": "assets/frames/upload-326f2b08548b8db0d965/frame-02.jpg",
-              "time": "5.1s"
-            },
-            {
-              "src": "assets/frames/upload-326f2b08548b8db0d965/frame-03.jpg",
-              "time": "9.1s"
-            },
-            {
-              "src": "assets/frames/upload-326f2b08548b8db0d965/frame-04.jpg",
-              "time": "13.1s"
-            },
-            {
-              "src": "assets/frames/upload-326f2b08548b8db0d965/frame-05.jpg",
-              "time": "17.3s"
-            }
-          ],
+          "sourceId": "S1R22",
+          "title": "压缩袋·免抽气马卡龙换季衣物省空间",
+          "product": "压缩袋",
+          "customer": "太力",
+          "chain": "小店",
+          "tag": "场景痛点 · 免抽气",
+          "spend": 78009,
+          "ctr": 2.4,
+          "cvr": 17.45,
+          "cpm": 69.09,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53yidc6aagsmantgfxjfvbzqqef7baml2a.f0.mp4?dis_k=8dd2174d27116eb7efa416c01bb76330&dis_t=1794032514&m=83888ce778c6a6b3bfb4a6548908819b&sha256=35cba9a872e6d251cf8fcdcf2959b17c4c398170a665f45a220c9492de934b30",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧衣柜门一开衣物倾泻而出，字幕「限时特惠厂家直销」，乱与整的强对比锁定换季整理人群。"
+              "desc": "首帧衣柜爆满，字幕「换季衣物堆满衣柜」，用真实场景抓住换季整理人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "棉被衣物混堆在柜顶落灰，拿一件倒一片，传统塑料袋不透气易受潮，观众对收纳无力的焦虑被放大。"
+              "desc": "棉被衣物塞不下柜门关不上，传统抽气泵费时费力，放大免工具需求。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "收纳包出场，大开口装进整床被子，拉链一合立体成型，展示加厚密封防潮，价值锚点落在省空间。"
+              "desc": "免抽气设计手压即排气，马卡龙配色袋体立起，突出省空间与颜值。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍装被、封口、摞进柜顶的步骤，前后同机位对照，再补衣物分类装袋，证明一袋多用且可叠放。"
+              "desc": "实拍手压排气前后体积对比，袋子整齐叠放，证明免工具也能压扁。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述大容量防潮收纳，叠加今日特价与速来抢购，口播引导点CID落地页，承接收纳包链路转化。"
+              "desc": "复述免抽气省空间，小店限时价引导下单，承接小店链路。"
             }
           },
-          "materialId": "326f2b08548b8db0d965",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "cff00ea7aba999acea8e",
+          "frameStatus": "pending"
         },
         {
           "rank": 4,
-          "sourceId": "S1R4",
-          "title": "塑料袜夹·强力防风不伤衣物",
-          "product": "塑料袜夹",
-          "customer": "义乌市杪炘贸易有限公司",
+          "sourceId": "S1R23",
+          "title": "压缩袋·出差旅游整柜衣服搬进箱子",
+          "product": "压缩袋",
+          "customer": "太力",
           "chain": "小店",
-          "tag": "功能演示 · 防风防滑",
-          "spend": 31445.42,
-          "ctr": 1.73,
-          "cvr": 32.37,
-          "cpm": 29.02,
-          "duration": "约77s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b534ibpgaaccmao7bhd7nurryqe6praf42a.f0.mp4?dis_k=aebf3f1649ed07e1a24aba20088744ca&dis_t=1786904782&m=2f3e2bbfc437cf7896b00b4f2c48f3fb&sha256=00cd9edf671be5e9692d7abf691a77eb1fe7d22fb823c8c6fe764c31db68094c",
-          "frames": [
-            {
-              "src": "assets/frames/upload-34b9d099bca696330f41/frame-01.jpg",
-              "time": "4.6s"
-            },
-            {
-              "src": "assets/frames/upload-34b9d099bca696330f41/frame-02.jpg",
-              "time": "18.4s"
-            },
-            {
-              "src": "assets/frames/upload-34b9d099bca696330f41/frame-03.jpg",
-              "time": "32.9s"
-            },
-            {
-              "src": "assets/frames/upload-34b9d099bca696330f41/frame-04.jpg",
-              "time": "47.5s"
-            },
-            {
-              "src": "assets/frames/upload-34b9d099bca696330f41/frame-05.jpg",
-              "time": "62.8s"
-            }
-          ],
+          "tag": "场景反差 · 行李箱收纳",
+          "spend": 67579.95,
+          "ctr": 3.85,
+          "cvr": 9.93,
+          "cpm": 69.04,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3omafuaaafmam5ynhk5vbu4yeljzqawsa.f0.mp4?dis_k=06233f120af1bfa091c3dda4b589e4f9&dis_t=1792736079&m=12cb2ce99ef4e30be1c56e2ff7494e35&sha256=8f1e505df6b51a33a4c56fe2762df173f2b37499c945c1923b43f4b6cd75a11a",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧大风天袜子被吹落一地，字幕「强力防风不伤衣物」，用掉落与夹牢的反差抓住阳台晾晒人群。"
+              "desc": "首帧打开行李箱塞满衣物，旁白「朋友以为我把整个衣柜搬来了」，制造反差。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "普通夹子夹不紧，袜子被风卷走、被单滑落，晾晒反复重来，传统细夹伤布料留痕，观众烦躁被放大。"
+              "desc": "出差行李装不下衣服，普通袋子鼓胀占位，放大出行收纳焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "大开口袜夹出场，一捏夹住厚被角，展示加宽咬合与防滑齿，说明不伤衣物，价值锚点落在多场景通用。"
+              "desc": "衣物装入免抽气袋手压排气，扁平整齐码入箱，突出立体省空间。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍夹袜子、夹被单迎风抖动不掉，再对比普通夹被吹落，用同场景对照证明夹力，补宿舍阳台多场景。"
+              "desc": "实拍装箱前后对比，箱子合盖轻松，证明压缩后容量翻倍。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述防风不伤衣，叠加居家必备福利价，口播「多囤几板」引导点小店下单，承接袜夹链路转化。"
+              "desc": "复述整柜衣服进箱子，小店限时价引导下单，承接小店链路。"
             }
           },
-          "materialId": "34b9d099bca696330f41",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1fb0d8f89d67f6d230fa",
+          "frameStatus": "pending"
         },
         {
           "rank": 5,
-          "sourceId": "S1R5",
-          "title": "空调防尘罩·全包通用弹力罩",
-          "product": "空调防尘罩",
-          "customer": "昆明底阮商贸有限公司",
+          "sourceId": "S1R2",
+          "title": "收纳盒·抽屉式千鸟格大容量折叠拍一发十",
+          "product": "收纳盒",
+          "customer": "膜尔",
           "chain": "CID",
-          "tag": "场景展示 · 防尘护机",
-          "spend": 31098.87,
-          "ctr": 0.96,
-          "cvr": 15.51,
-          "cpm": 9.77,
-          "duration": "约98s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b537aawiaabviaaohtybbvbx6aemt4aczca.f0.mp4?dis_k=073000ce605448000691db3b991e94a9&dis_t=1786340182&m=c718a0524f131d72558a720fb6590d1f&sha256=6aaa9ee74a5175cabba0fe6a594b6ad65bae7c2a7b325bf5fb54644da3c1f0b6",
-          "frames": [
-            {
-              "src": "assets/frames/upload-179344b6247c790a2d68/frame-01.jpg",
-              "time": "5.9s"
-            },
-            {
-              "src": "assets/frames/upload-179344b6247c790a2d68/frame-02.jpg",
-              "time": "23.5s"
-            },
-            {
-              "src": "assets/frames/upload-179344b6247c790a2d68/frame-03.jpg",
-              "time": "42.1s"
-            },
-            {
-              "src": "assets/frames/upload-179344b6247c790a2d68/frame-04.jpg",
-              "time": "60.7s"
-            },
-            {
-              "src": "assets/frames/upload-179344b6247c790a2d68/frame-05.jpg",
-              "time": "80.3s"
-            }
-          ],
+          "tag": "福利钩子 · 大容量折叠",
+          "spend": 67239.09,
+          "ctr": 1.23,
+          "cvr": 26.24,
+          "cpm": 87.16,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3deb5waade4ak32nzf5ubsgie3mmqhw2a.f0.mp4?dis_k=a7cb8cafff748ca77bd34119e2721414&dis_t=1757560615&m=f2d861937698d2d9fc01eb9d959ed09a&sha256=722f4d706213e9049c36b0182e106cff4c1d445a0d40dd651be1926ef2245dd5",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧闲置空调顶部落满灰，字幕「商品热卖中」，用脏灰与罩净的反差抓住换季停用空调的家庭。"
+              "desc": "首帧抽屉拉出整齐千鸟格收纳盒，字幕「后悔没早买」，用后悔情绪抓眼球。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "空调长期不用积灰进风口，来年开机吹灰、清洗费钱，传统布单盖不严易滑落，观众对麻烦的焦虑被放大。"
+              "desc": "抽屉内衣袜子混作一团翻找费劲，普通盒子不可折叠占地方，放大整理焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "防尘罩出场，弹力全包一套即合，展示加厚面料与通用尺寸，说明挂机柜机都能用，价值锚点落在省清洗费。"
+              "desc": "抽屉式分格设计，衣物分类码放，折叠收纳不占空间，突出大容量机制。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍套罩、拉平、边角包严的步骤，前后对照机身由灰变净，再补立式圆柱机型，证明通用弹力不挑机。"
+              "desc": "实拍分类前后抽屉对比，拉出即取一目了然，证明分格效果。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述全包防尘护机，叠加换季必备与包邮福利，口播引导点CID落地页下单，承接空调罩链路转化。"
+              "desc": "复述拍一发十福利，限时特惠引导点击，承接CID下单链路。"
             }
           },
-          "materialId": "179344b6247c790a2d68",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "59b711c50644e7ae5dfa",
+          "frameStatus": "pending"
         },
         {
           "rank": 6,
-          "sourceId": "S1R6",
-          "title": "排插固定器·免打孔壁挂支架",
-          "product": "排插固定器",
-          "customer": "郑州市郑东新区逛理百货商行(个体工商户)",
+          "sourceId": "S1R3",
+          "title": "金属置物架·乱扔衣服一物多用折叠收纳",
+          "product": "金属置物架",
+          "customer": "道中道",
           "chain": "CID",
-          "tag": "安全痛点 · 免打孔上墙",
-          "spend": 26767.8,
-          "ctr": 1.4,
-          "cvr": 18.85,
-          "cpm": 77.36,
-          "duration": "约288s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53vyaboaaabaan6dontbvbvlqec6xaaf2a.f0.mp4?dis_k=122b828a3e01b0f8f0fcc579bf8dcb5b&dis_t=1793245456&m=ba26440808dd39c50f4a3180c78d4bba&sha256=d4af1fab34a36ac414ad1eba14e0385ea12cb976f548a8386c4d9663f549cbbe",
-          "frames": [
-            {
-              "src": "assets/frames/upload-0825324833dfd07e4c3c/frame-01.jpg",
-              "time": "17.3s"
-            },
-            {
-              "src": "assets/frames/upload-0825324833dfd07e4c3c/frame-02.jpg",
-              "time": "69.1s"
-            },
-            {
-              "src": "assets/frames/upload-0825324833dfd07e4c3c/frame-03.jpg",
-              "time": "123.7s"
-            },
-            {
-              "src": "assets/frames/upload-0825324833dfd07e4c3c/frame-04.jpg",
-              "time": "178.4s"
-            },
-            {
-              "src": "assets/frames/upload-0825324833dfd07e4c3c/frame-05.jpg",
-              "time": "236.0s"
-            }
-          ],
+          "tag": "场景痛点 · 一物多用",
+          "spend": 50518.22,
+          "ctr": 1.16,
+          "cvr": 2.83,
+          "cpm": 14.29,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53tic3yaaf2eamtmxtgbvb7gqexsnalpca.f0.mp4?dis_k=de0ab4532de4757c8698afcb93a84fc6&dis_t=1794536826&m=dc28e51530e3fbca5e9e0b6c59e927ba&sha256=03fbec490233541f20de500a8cdaa529d7a98b9ce7f26b01be3d9d04a9793827",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧地上排插被踩、线缠成一团，字幕「长时间充电会损伤电瓶」，用杂乱与安全的反差抓住有车有娃家庭。"
+              "desc": "首帧沙发上衣服乱扔成堆，字幕「快把你家乱扔的衣服收纳起来」，直击痛点。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "排插落地积灰进水、插头松动反复插拔，充电过夜有隐患，传统摆放无处固定，观众对安全的焦虑被放大。"
+              "desc": "椅子沙发堆满穿过衣服，衣柜塞不下，传统衣架占地不稳，放大杂乱焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "固定器出场，免打孔背胶一贴一卡，排插稳稳上墙离地，展示卡扣锁紧与承重，价值锚点落在安全省地。"
+              "desc": "金属折叠架展开挂衣，一物多用可移动，突出承重与省地机制。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍贴胶、按压、卡入排插的步骤，前后对照地面由乱变空，再挂重物测试不脱落，证明粘力可靠。"
+              "desc": "实拍衣服挂上架子前后对比，地面清空，证明收纳效果。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述免打孔上墙排隐患，叠加今日特价福利，口播「家里都该备一个」引导点CID落地页，承接固定器链路。"
+              "desc": "复述一物多用方便实用，引导点击下单，承接CID链路。"
             }
           },
-          "materialId": "0825324833dfd07e4c3c",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "cd54c52857f1841daba7",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
-          "sourceId": "S1R7",
-          "title": "塑料厨具置物架·锅具带滑轮收纳",
-          "product": "塑料厨具置物架",
-          "customer": "金橙科技",
+          "sourceId": "S1R4",
+          "title": "收纳包·大容量防潮防尘拍一发五29.9元",
+          "product": "收纳包",
+          "customer": "杭州广麦",
           "chain": "CID",
-          "tag": "厨房场景 · 分类归置",
-          "spend": 23633.16,
-          "ctr": 1.94,
-          "cvr": 21.77,
-          "cpm": 435.97,
-          "duration": "约117s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53wqaqiaabuiakhfu64fvbxnaeas2acbca.f0.mp4?dis_k=e9c646133c8ab7d62dfe1b765ffbe11f&dis_t=1788847900&m=dbf14ffba5c08f04cb652a2de0163f39&sha256=4a5df7a3e9d60dc008eb8e19541c9e320e7b7b0c8b24c2a427902c0611359987",
-          "frames": [
-            {
-              "src": "assets/frames/upload-2947eca27cdd44a99a17/frame-01.jpg",
-              "time": "7.0s"
-            },
-            {
-              "src": "assets/frames/upload-2947eca27cdd44a99a17/frame-02.jpg",
-              "time": "28.1s"
-            },
-            {
-              "src": "assets/frames/upload-2947eca27cdd44a99a17/frame-03.jpg",
-              "time": "50.3s"
-            },
-            {
-              "src": "assets/frames/upload-2947eca27cdd44a99a17/frame-04.jpg",
-              "time": "72.5s"
-            },
-            {
-              "src": "assets/frames/upload-2947eca27cdd44a99a17/frame-05.jpg",
-              "time": "95.9s"
-            }
-          ],
+          "tag": "福利促销 · 大容量防潮",
+          "spend": 50331.24,
+          "ctr": 4.37,
+          "cvr": 23,
+          "cpm": 101.34,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc35iabyaaavyaeej5tsrvbv2qedtvaahca.f0.mp4?dis_k=3a87d98dcfbff06bed7eb895950c512f&dis_t=1790140039&m=245349215deaca61bb440a249a414e6a&sha256=27cf06d62494304f29b4bb11629f24585a72067ac5e8ad59215af9841091de6f",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧橱柜里锅具锅盖摞成危楼，一抽就塌，字幕「后悔没早买」，用塌与整的反差抓住下厨人群。"
+              "desc": "首帧堆叠多个收纳袋，字幕「全网爆卖大容量收纳袋」，用销量背书抓眼球。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "锅盖没处放、调料瓶东倒西歪，找锅翻半天，传统平铺占满台面，观众对厨房凌乱的烦躁被放大。"
+              "desc": "衣物棉被受潮发霉，普通袋子不密封，放大防潮防尘需求。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "收纳架出场，分层卡位把锅具立起、锅盖插槽归位，带滑轮一拉即出，价值锚点落在分类归置省台面。"
+              "desc": "免抽气立体袋塞入衣物手压密封，防潮防尘省空间，突出密封机制。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍锅具逐层放入、锅盖插好、滑轮拉出的步骤，前后对照橱柜由乱变整，再补下水槽场景证明多用途。"
+              "desc": "实拍装袋密封前后对比，袋体立起整齐码放，证明大容量。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述大容量分类收纳，叠加当季福利价，口播「告别厨房凌乱」引导点CID落地页，承接置物架链路。"
+              "desc": "复述拍一发五才29.9元，限时抢购引导点击，承接CID链路。"
             }
           },
-          "materialId": "2947eca27cdd44a99a17",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "64b4fe46261c0c4dd938",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
-          "sourceId": "S1R8",
-          "title": "衣架·V型挂钩挂包帽围巾",
-          "product": "衣架",
-          "customer": "瓦房店市正未电子商务商行(个体工商户)",
+          "sourceId": "S1R5",
+          "title": "内衣收纳袋·家用免抽气真空收纳袋",
+          "product": "内衣收纳袋",
+          "customer": "海口风霸清商贸有限公司",
           "chain": "CID",
-          "tag": "省空间 · 一挂多用",
-          "spend": 23337.35,
-          "ctr": 2.51,
-          "cvr": 33.08,
-          "cpm": 180.68,
-          "duration": "约140s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3hebh4aac2iai2uth3rvbqoiepy4qe7sa.f0.mp4?dis_k=5d228e4e0d87e9bff9ee7cad2ee80b2d&dis_t=1791784866&m=67096f273c8c07f574b886c9be3f8d15&sha256=84e722fe1c3027ade00f10bf5c20ce84a2759dfc4e097fdf326ebc5f34ddd461",
-          "frames": [
-            {
-              "src": "assets/frames/upload-b9787b35c787cd0301cf/frame-01.jpg",
-              "time": "8.4s"
-            },
-            {
-              "src": "assets/frames/upload-b9787b35c787cd0301cf/frame-02.jpg",
-              "time": "33.7s"
-            },
-            {
-              "src": "assets/frames/upload-b9787b35c787cd0301cf/frame-03.jpg",
-              "time": "60.3s"
-            },
-            {
-              "src": "assets/frames/upload-b9787b35c787cd0301cf/frame-04.jpg",
-              "time": "87.0s"
-            },
-            {
-              "src": "assets/frames/upload-b9787b35c787cd0301cf/frame-05.jpg",
-              "time": "115.0s"
-            }
-          ],
+          "tag": "爆款热卖 · 免抽气",
+          "spend": 47325.02,
+          "ctr": 1.4,
+          "cvr": 15.75,
+          "cpm": 86.66,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53iqasuaab3eadxshv7vvbwraefjcacksa.f0.mp4?dis_k=e754771cce844f9c226d90cd6c89b1ea&dis_t=1794380340&m=0301346cd771b3331ed50ec35d9a7d12&sha256=21a9271b57b45d66f72ec37c5efc515b5d02f10f7220b46fe776bff99a1a98bc",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧衣柜里包包帽子围巾堆成一坨，字幕「为你排忧解难」，用堆乱与挂齐的反差抓住宿舍与租房人群。"
+              "desc": "首帧内衣袜子散乱抽屉，字幕「爆款热卖中」，用热卖标签吸引整理人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "围巾缠包带、帽子压变形，找一件翻乱整柜，传统衣架挂不住软物，观众对收纳无力的焦虑被放大。"
+              "desc": "内衣混放翻找费劲，普通袋子不密封易返潮，放大分类与防潮焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "V型挂钩衣架出场，多钩分层把包帽围巾各归其位，展示挂钩承重与省位结构，价值锚点在一架顶多架。"
+              "desc": "免抽气袋分装内衣手压排气，密封防潮，突出分类收纳机制。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍挂包、挂帽、挂围巾的步骤，前后对照衣柜由满变空，再并排多架展示省空间，证明宿舍衣柜也适用。"
+              "desc": "实拍分装前后抽屉对比，袋体扁平整齐，证明省空间。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述一挂多用省空间，叠加活动福利价，口播「让生活更开心」引导点CID落地页，承接衣架链路转化。"
+              "desc": "复述免抽气家用收纳，引导点击下单，承接CID链路。"
             }
           },
-          "materialId": "b9787b35c787cd0301cf",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "1620bed5c5b594c1a5fa",
+          "frameStatus": "pending"
         },
         {
-          "sourceId": "S1R9",
-          "title": "车用收纳盒",
-          "product": "车用收纳盒",
-          "customer": "镇平县由甲珠宝玉石店(个体工商户)",
-          "chain": "小店",
-          "tag": "高消耗代表素材",
-          "spend": 19674.24,
-          "ctr": 2.09,
-          "cvr": 18.94,
-          "cpm": 85.18,
-          "duration": "约103s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53fqadeaaapeacosfw3vvbulaegiwaamsa.f0.mp4?dis_k=83039674c9c37ead5a52d8b2ba01b3b2&dis_t=1790317916&m=6c9e9c53b23787538b16dafd63888194",
-          "frames": [
-            {
-              "src": "assets/frames/upload-1228c3c06eb2565208f8/frame-01.jpg",
-              "time": "6.2s"
-            },
-            {
-              "src": "assets/frames/upload-1228c3c06eb2565208f8/frame-02.jpg",
-              "time": "24.7s"
-            },
-            {
-              "src": "assets/frames/upload-1228c3c06eb2565208f8/frame-03.jpg",
-              "time": "44.3s"
-            },
-            {
-              "src": "assets/frames/upload-1228c3c06eb2565208f8/frame-04.jpg",
-              "time": "63.8s"
-            },
-            {
-              "src": "assets/frames/upload-1228c3c06eb2565208f8/frame-05.jpg",
-              "time": "84.4s"
-            }
-          ],
           "rank": 9,
-          "materialId": "1228c3c06eb2565208f8",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "sourceId": "S1R6",
+          "title": "空调防尘罩·轻松套上不挑机型来年洁净",
+          "product": "空调防尘罩",
+          "customer": "义乌市被野电子商务商行(个体工商户)",
+          "chain": "小店",
+          "tag": "季节节点 · 通用防尘",
+          "spend": 40164.3,
+          "ctr": 1.31,
+          "cvr": 28.22,
+          "cpm": 29.58,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qeabwaaawqaml7g6tbvbvaiedoaqag2a.f0.mp4?dis_k=41c74b04694bef0bca2b9ba895660c91&dis_t=1793009705&m=6e191b6fd1004fa926182a39683d4743&sha256=480bc1bbf39791459b017b1c86e0c06398d22b39de1337ea89216b676ec77849",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧挂机空调积灰，字幕「秋季空调防尘好选择」，绑定换季节点抓人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "空调停用后落灰难清理，来年开机吹灰，传统罩子不贴合，放大防尘焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "弹力罩轻松套上不挑机型，全包贴合，突出通用与省心机制。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍套罩前后对比，罩体服帖不滑落，证明通用贴合。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述来年依旧洁净如新，小店限时价引导下单，承接小店链路。"
+            }
+          },
+          "materialId": "bfbd2b09195f23b94a62",
+          "frameStatus": "pending"
         },
         {
-          "sourceId": "S1R10",
-          "title": "无痕衣架",
-          "product": "无痕衣架",
-          "customer": "金橙科技",
-          "chain": "小店",
-          "tag": "高消耗代表素材",
-          "spend": 19452.16,
-          "ctr": 1.83,
-          "cvr": 23.64,
-          "cpm": 94.3,
-          "duration": "约119s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53b4bjaaac5qaigtnamfvbqdyesahqfeca.f0.mp4?dis_k=4eebb555fd267c1ccb4f1e10280792c6&dis_t=1792483267&m=59ae6fd764da7573b46d2b58ff3ac5a5&sha256=945b4c9282c7fbefd1fb7d35fa86bafbdf05f2d6cb1243f9943b375f56a25896",
-          "frames": [
-            {
-              "src": "assets/frames/upload-933a1057ae43ef462bb8/frame-01.jpg",
-              "time": "7.1s"
-            },
-            {
-              "src": "assets/frames/upload-933a1057ae43ef462bb8/frame-02.jpg",
-              "time": "28.6s"
-            },
-            {
-              "src": "assets/frames/upload-933a1057ae43ef462bb8/frame-03.jpg",
-              "time": "51.2s"
-            },
-            {
-              "src": "assets/frames/upload-933a1057ae43ef462bb8/frame-04.jpg",
-              "time": "73.8s"
-            },
-            {
-              "src": "assets/frames/upload-933a1057ae43ef462bb8/frame-05.jpg",
-              "time": "97.6s"
-            }
-          ],
           "rank": 10,
-          "materialId": "933a1057ae43ef462bb8",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "sourceId": "S1R7",
+          "title": "衣帽架·橡胶木可移动收纳整洁上档次",
+          "product": "衣帽架",
+          "customer": "奇麟",
+          "chain": "CID",
+          "tag": "对比升级 · 实木可移动",
+          "spend": 36284.43,
+          "ctr": 1.56,
+          "cvr": 7.43,
+          "cpm": 198.01,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53fmcw2aaf6eacpkhj4rvb6kyenuvqk3ka.f0.mp4?dis_k=d8ba7cfe4cb4e8e232692335f25ecff4&dis_t=1793870580&m=b9e2c0ec7b0a6d835424fde622c81d8a&sha256=d766abd636a27da70ef7583dec8f546dc5de54cf9a7379497019a844ff451aba",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧普通衣架摇晃倾倒，字幕「普通衣架廉价不稳」，用对比制造冲突。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "塑料衣架挂满衣服变形倒塌，玄关杂乱，放大不稳与廉价焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "橡胶木衣帽架出场，可移动承重稳，突出高端耐看与收纳机制。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍挂满衣物推拉移动，架体不晃，证明稳固与可移动。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述收纳整洁上档次，引导点击下单，承接CID链路。"
+            }
+          },
+          "materialId": "422b3fa63aaf5a180ce7",
+          "frameStatus": "pending"
         }
       ]
     },
