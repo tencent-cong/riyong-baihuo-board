@@ -4544,701 +4544,544 @@ window.CREATIVE_DATA = {
       "name": "生活日用-其他",
       "key": "daily-other",
       "owner": "",
-      "uploadedAt": "2026-11-03T06:46:20.304Z",
+      "uploadedAt": "2026-11-26T03:53:18.304Z",
       "metrics": {
-        "creativeCount": 5001,
-        "ctr": 3.16,
-        "play3s": 18.36,
-        "cvr": 5.55,
-        "cpm": 24.31
+        "creativeCount": 51,
+        "ctr": 3.48,
+        "play3s": 89.42,
+        "cvr": 18.6,
+        "cpm": 27.07
       },
       "sellingWords": [
         {
-          "word": "免打孔不伤墙",
+          "word": "100%小山羊绒",
           "weight": 100
         },
         {
-          "word": "加厚加固耐用",
+          "word": "锁温薄磨毛",
           "weight": 95
         },
         {
-          "word": "防水防潮防臭",
-          "weight": 91
+          "word": "强劲动力",
+          "weight": 90
         },
         {
-          "word": "一撕一贴即修",
-          "weight": 87
+          "word": "去皮去筋",
+          "weight": 86
         },
         {
-          "word": "可水洗不怕脏",
-          "weight": 83
+          "word": "双面加厚",
+          "weight": 82
         },
         {
-          "word": "随身携带不占地",
-          "weight": 79
+          "word": "越嚼越香",
+          "weight": 78
         },
         {
-          "word": "寓意吉祥送礼",
-          "weight": 75
+          "word": "持久续航",
+          "weight": 74
         },
         {
-          "word": "静音防滑护地板",
-          "weight": 71
+          "word": "开袋即食",
+          "weight": 70
         },
         {
-          "word": "抗风防晒两用",
-          "weight": 67
+          "word": "无添加",
+          "weight": 66
         },
         {
-          "word": "开袋即食省时",
-          "weight": 63
+          "word": "修身显瘦",
+          "weight": 62
         },
         {
-          "word": "多档调节能坐能躺",
-          "weight": 59
+          "word": "加厚安温",
+          "weight": 58
         },
         {
-          "word": "免穿线免认针",
-          "weight": 55
+          "word": "独立小包装",
+          "weight": 54
         }
       ],
       "painWords": [
         {
-          "word": "墙面打孔掉灰伤墙",
-          "weight": 92
+          "word": "秋冬内搭显臃肿",
+          "weight": 90
         },
         {
-          "word": "管道反臭小飞虫",
-          "weight": 88
+          "word": "嘴馋没味儿",
+          "weight": 86
         },
         {
-          "word": "门底摩擦刮地板",
-          "weight": 84
+          "word": "钻孔没劲效率低",
+          "weight": 82
         },
         {
-          "word": "沙发皮面破损难看",
-          "weight": 80
+          "word": "办公室午睡受凉",
+          "weight": 78
         },
         {
-          "word": "老人穿针认不上",
-          "weight": 76
+          "word": "下饭菜寡淡",
+          "weight": 74
         },
         {
-          "word": "久坐腰酸没处躺",
-          "weight": 72
+          "word": "户外爬山闷汗",
+          "weight": 70
         }
       ],
       "sellingContext": [
         {
-          "driver": "梅雨回南天·厨卫返潮返臭",
-          "need": "想不拆不改、贴一贴堵一堵就把潮气臭味挡在门外",
+          "driver": "秋冬换季·内搭臃肿显胖",
+          "need": "想要一件薄而暖、贴身穿不显胖的打底",
           "words": [
-            "防水防潮防臭",
-            "一撕一贴即修",
-            "免打孔不伤墙"
+            "100%小山羊绒",
+            "锁温薄磨毛",
+            "修身显瘦"
           ]
         },
         {
-          "driver": "租房老房·墙面门框破损不敢动工",
-          "need": "怕打孔扣押金、怕请师傅贵，要自己动手就能修好",
+          "driver": "办公室/沙发·午睡盖膝受凉",
+          "need": "一条能披能盖、双面加厚不占地的保暖毯",
           "words": [
-            "免打孔不伤墙",
-            "加厚加固耐用",
-            "一撕一贴即修"
+            "双面加厚",
+            "加厚安温"
           ]
         },
         {
-          "driver": "换季收纳·钥匙挂件随身带",
-          "need": "既要实用耐用，又要寓意好能送人有面子",
+          "driver": "家常下饭·嘴馋没胃口",
+          "need": "开袋即食、脆嫩爽口的下饭解馋小菜",
           "words": [
-            "寓意吉祥送礼",
-            "随身携带不占地",
-            "加厚加固耐用"
+            "去皮去筋",
+            "开袋即食",
+            "独立小包装"
           ]
         }
       ],
       "scripts": [
-        "免打孔不伤墙，一撕一贴就修好",
-        "脏水一冲就净，可水洗反复用",
-        "不用请师傅，在家自己通管道",
-        "加厚加固，用一年也不松不掉",
-        "寓意好又耐看，随身带着送人也体面",
-        "源头直发今日特价，拍下就发货"
+        "100%小山羊绒，半高领修身打底，薄薄一件就暖",
+        "锁温薄磨毛打底，轻暖不笨重，爬山逛景区防风不闷汗",
+        "强劲动力设计，满足多样钻孔需求，提升工作效率",
+        "去皮去筋口感细腻，独立小包装干净卫生，开袋即食",
+        "双面加厚披肩毯，办公室午睡、沙发盖膝都能用",
+        "传统工艺精制，保留原味无添加，解馋代餐好选择"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "首帧给破损墙面、返臭地漏、刮花地板的特写，再接修复后一擦即净的对比镜头，3秒内制造「原来这么简单」的反差。"
+          "desc": "首帧怼近材质特写或前后对比：薄打底上身不臃肿、钻孔一钻到底，3秒立住反差"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定梅雨回南天、秋冬换季收纳、租房入住三个节点，放大返潮返臭、门底漏风、东西没处放的场景焦虑。"
+          "desc": "绑定秋冬换季与办公室午睡，放大内搭臃肿、盖膝受凉、户外闷汗的具体场景"
         },
         {
           "title": "福利/紧迫",
-          "desc": "用「拍1发6」「买一送一」「19.9元3件套」做价格锚点，配「后台正在备货、闪电发货」制造抢购紧迫。"
+          "desc": "用买三十袋送二十袋、5袋39.9元、两件装等锚点，叠加限时立减制造下单紧迫"
         },
         {
           "title": "明星/IP",
-          "desc": "本赛道少明星背书，主要靠「老师推荐」「普陀推荐」等类权威口吻与老客户复购截图建立信任链。"
+          "desc": "借冯唐同款等人名背书做信任链，口播强调同款同材质，弱化品牌只留功能"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "钥匙包·黄铜百福缸葫芦挂件吉祥寓意",
-          "product": "钥匙包",
-          "customer": "渔歌子",
-          "chain": "小店",
-          "tag": "寓意种草 · 吉祥送礼",
-          "spend": 94924.43,
-          "ctr": 1.31,
-          "cvr": 22.3,
-          "cpm": 81.76,
-          "duration": "约127s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3nac2aaafduaiwavxijvb62aeubualica.f0.mp4?dis_k=500da7bd2d12035efff5707170afaf8f&dis_t=1790061436&m=61474a2ab615b1ddd78a02fa72c7532a",
-          "frames": [
-            {
-              "src": "assets/frames/upload-7e73a9c87630359fc936/frame-01.jpg",
-              "time": "7.6s"
-            },
-            {
-              "src": "assets/frames/upload-7e73a9c87630359fc936/frame-02.jpg",
-              "time": "30.6s"
-            },
-            {
-              "src": "assets/frames/upload-7e73a9c87630359fc936/frame-03.jpg",
-              "time": "54.8s"
-            },
-            {
-              "src": "assets/frames/upload-7e73a9c87630359fc936/frame-04.jpg",
-              "time": "79.0s"
-            },
-            {
-              "src": "assets/frames/upload-7e73a9c87630359fc936/frame-05.jpg",
-              "time": "104.5s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧手持黄铜百福缸怼近镜头，光下泛铜色，口播「黄铜打造百福缸搭配福禄葫芦」，用材质质感与吉祥符号抓住送礼和随身挂件人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "切普通塑料钥匙扣掉色、挂件廉价没寓意的画面，点出「送人拿不出手、自己戴没意思」，把选购焦虑放大到必须换一件有讲究的。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "手指转动葫芦展示开合结构与福字刻纹，口播「自带吉祥寓意，男女随身百搭耐看」，用黄铜实心与百搭外观回应耐看耐用需求。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍挂上钥匙串、挂包、挂车钥匙三个场景，镜头扫过刻字细节与铜面光泽，证明不挑人群不挑场合，强化复购与送礼信心。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述「寓意好又耐看，随身带着送人也体面」，接小店限时价与闪电发货指令，引导点购物车直接下单承接小店链路。"
-            }
-          },
-          "materialId": "7e73a9c87630359fc936",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 2,
-          "sourceId": "S1R2",
-          "title": "镇宅挂件·生活用品·青龙高万丈铜牌",
-          "product": "镇宅挂件",
-          "customer": "武汉瑄铎商贸有限公司",
-          "chain": "CID",
-          "tag": "权威口吻 · 场景化解焦虑",
-          "spend": 89795.49,
-          "ctr": 1.79,
-          "cvr": 3.42,
-          "cpm": 10.59,
-          "duration": "约100s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53v4alwaaapyaavy54k5vbvlyexoxqbo2a.f0.mp4?dis_k=217096a06a3a07ad26f7c24158740ad7&dis_t=1790751859&m=bc8ff95343f544aa967abfb9fda0cc1c&sha256=ca532bf28302f378556d0a41f7696a533d96df2aab46a06f852100855efe2d0b",
-          "frames": [
-            {
-              "src": "assets/frames/upload-c06de70c41f0d354b93a/frame-01.jpg",
-              "time": "6.0s"
-            },
-            {
-              "src": "assets/frames/upload-c06de70c41f0d354b93a/frame-02.jpg",
-              "time": "24.0s"
-            },
-            {
-              "src": "assets/frames/upload-c06de70c41f0d354b93a/frame-03.jpg",
-              "time": "42.9s"
-            },
-            {
-              "src": "assets/frames/upload-c06de70c41f0d354b93a/frame-04.jpg",
-              "time": "61.9s"
-            },
-            {
-              "src": "assets/frames/upload-c06de70c41f0d354b93a/frame-05.jpg",
-              "time": "81.9s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧铜牌挂上门框特写，口播「先到先得，活动是真的，别私信了」，用抢购口吻和实物铜面反光抓住讲究家居摆放的中老年人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "镜头扫过空荡门厅与邻居门口摆件对比，暗示「位置没选对、心里不踏实」，把传统讲究转成必须马上安排一件的焦虑。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "双手托起铜牌展示双龙太极八卦纹路与厚度，口播「选对位置摆在家里」，用铜合金彩绘工艺回应耐用与仪式感双重需求。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍室内门框、玄关、外墙三个悬挂位置，演示挂扣安装一步到位，证明不挑墙面、装上即稳，降低下单顾虑。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述「后台正在备货，闪电发货」，叠加限时活动价与先到先得指令，引导点击进入CID落地页完成下单承接。"
-            }
-          },
-          "materialId": "c06de70c41f0d354b93a",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "sourceId": "S1R61",
-          "title": "生活用品",
-          "product": "生活用品",
-          "customer": "石首市淡家商贸有限公司",
-          "chain": "CID",
-          "tag": "高消耗代表素材",
-          "spend": 73906.4,
-          "ctr": 3.21,
-          "cvr": 3.06,
-          "cpm": 19.9,
-          "duration": "约117s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53kebciaacxmally6trzvbquieeriqejca.f0.mp4?dis_k=d8ae4c3658b8727d2b6f0ac3b7efebbd&dis_t=1792119291&m=dea61c9265a517894ccd94eb65e5e688&sha256=e1d629d2d03f42e80756ceb30129fa7380b9f5be12472b0b5925b27a8cb629b2",
-          "frames": [
-            {
-              "src": "assets/frames/upload-f0c78e1c3122ca7095d3/frame-01.jpg",
-              "time": "7.0s"
-            },
-            {
-              "src": "assets/frames/upload-f0c78e1c3122ca7095d3/frame-02.jpg",
-              "time": "28.0s"
-            },
-            {
-              "src": "assets/frames/upload-f0c78e1c3122ca7095d3/frame-03.jpg",
-              "time": "50.2s"
-            },
-            {
-              "src": "assets/frames/upload-f0c78e1c3122ca7095d3/frame-04.jpg",
-              "time": "72.3s"
-            },
-            {
-              "src": "assets/frames/upload-f0c78e1c3122ca7095d3/frame-05.jpg",
-              "time": "95.6s"
-            }
-          ],
-          "rank": 3,
-          "materialId": "f0c78e1c3122ca7095d3",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 4,
-          "sourceId": "S1R3",
-          "title": "月亮椅·能坐能躺加棉加厚多档调节",
-          "product": "月亮椅",
-          "customer": "奇麟",
-          "chain": "CID",
-          "tag": "场景演示 · 舒适躺感",
-          "spend": 72584.02,
-          "ctr": 1.2,
-          "cvr": 5.58,
-          "cpm": 59.99,
-          "duration": "约198s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3pyayeaabqyakq26zsvvbw7qeqj7adasa.f0.mp4?dis_k=e23bde6d5923e938d0b1fbcf4a5b25c5&dis_t=1793093321&m=d85cfdb7cacaa6954a4a12e4759254fa&sha256=5b326993f1523f740b3ce7acf259007340a775c884a7225437690f02756b550c",
-          "frames": [
-            {
-              "src": "assets/frames/upload-b13e7dcc160f1067d9a6/frame-01.jpg",
-              "time": "11.9s"
-            },
-            {
-              "src": "assets/frames/upload-b13e7dcc160f1067d9a6/frame-02.jpg",
-              "time": "47.4s"
-            },
-            {
-              "src": "assets/frames/upload-b13e7dcc160f1067d9a6/frame-03.jpg",
-              "time": "85.0s"
-            },
-            {
-              "src": "assets/frames/upload-b13e7dcc160f1067d9a6/frame-04.jpg",
-              "time": "122.5s"
-            },
-            {
-              "src": "assets/frames/upload-b13e7dcc160f1067d9a6/frame-05.jpg",
-              "time": "162.0s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧人物一屁股躺进月亮椅、脚拖自动弹起，口播「可以坐可以躺的月亮椅」，用躺平瞬间的反差抓住露营与居家午休人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "切普通折叠椅硬板硌背、久坐腰酸的画面，点出「露营坐一天腰受不了」，把户外休息不适放大成必须换椅的理由。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "手压加棉靠背展示回弹，演示多档调节与脚拖展开，口播「加棉加厚躺椅带脚拖多档调节」，用结构回应护腰舒适需求。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍露营草地、阳台、办公室午休三个场景，人物从坐到躺完整演示，证明一把椅子多种用途，强化便携实用信任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述「方便又实用，一把椅子多种用途」，接限时价与库存紧张提示，引导点击落地页下单，承接CID转化链路。"
-            }
-          },
-          "materialId": "b13e7dcc160f1067d9a6",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 5,
-          "sourceId": "S1R4",
-          "title": "雨衣·加长加厚防水防污雨季通勤",
-          "product": "雨衣",
-          "customer": "膜尔",
-          "chain": "CID",
-          "tag": "季节痛点 · 功能演示",
-          "spend": 59060.44,
-          "ctr": 1.62,
-          "cvr": 10.53,
-          "cpm": 62.14,
-          "duration": "约248s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b535ebyaaadyeafbg43pbvbt2ieqduqhaca.f0.mp4?dis_k=dd62c1789f3a4a4c307673486fb2f111&dis_t=1792497942&m=227fe127cf45b4222ce5e48aa413c8ae&sha256=886a846a54fd67a74c81fb796b47161c1f21c18256eb95e30d7ea095e517d6e9",
-          "frames": [
-            {
-              "src": "assets/frames/upload-093091aae657a42dc240/frame-01.jpg",
-              "time": "14.9s"
-            },
-            {
-              "src": "assets/frames/upload-093091aae657a42dc240/frame-02.jpg",
-              "time": "59.4s"
-            },
-            {
-              "src": "assets/frames/upload-093091aae657a42dc240/frame-03.jpg",
-              "time": "106.5s"
-            },
-            {
-              "src": "assets/frames/upload-093091aae657a42dc240/frame-04.jpg",
-              "time": "153.5s"
-            },
-            {
-              "src": "assets/frames/upload-093091aae657a42dc240/frame-05.jpg",
-              "time": "203.0s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧暴雨中骑电动车、裤腿湿透的狼狈画面，口播「雨季来临，家里有电动车的」，用真实雨天痛点锁定通勤骑车人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "特写普通雨衣短一截、雨水顺腿流进鞋、前襟渗水，点出「加长不够、防水不行」，把换雨衣需求推到紧迫。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "抖开加长加厚雨衣罩住整车，泼水演示水珠成串滑落，口播「加长加厚，防水防污」，用面料拒水机制回应渗水痛点。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍穿脱全过程与骑行转弯镜头，展示不挡视线、不卷车轮，前后对照干爽裤腿，证明通勤场景真实可用。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述「防水防污，雨季通勤一件搞定」，接今日特价与库存提示，引导点击落地页下单，承接CID链路转化。"
-            }
-          },
-          "materialId": "093091aae657a42dc240",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 6,
-          "sourceId": "S1R5",
-          "title": "剪刀·源头厂家美工剪锋利耐用",
-          "product": "剪刀",
-          "customer": "守正出奇",
-          "chain": "CID",
-          "tag": "源头直供 · 价格钩子",
-          "spend": 51366.47,
-          "ctr": 2.46,
-          "cvr": 14.14,
-          "cpm": 214.06,
-          "duration": "约289s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3iibd6aacjyanolgtxbvbqqqeh5baep2a.f0.mp4?dis_k=c70ceed3a86b1ea59583cff93abeadb8&dis_t=1793329902&m=0231a4e4a68f5734e8eba5678e0d83f8&sha256=a53535c97217ec47d19cc479c1dceeeb3c41ba66f5c1a138b6977fc64e0ad4af",
-          "frames": [
-            {
-              "src": "assets/frames/upload-d3ae0dd4eafccb954c4e/frame-01.jpg",
-              "time": "17.4s"
-            },
-            {
-              "src": "assets/frames/upload-d3ae0dd4eafccb954c4e/frame-02.jpg",
-              "time": "69.5s"
-            },
-            {
-              "src": "assets/frames/upload-d3ae0dd4eafccb954c4e/frame-03.jpg",
-              "time": "124.4s"
-            },
-            {
-              "src": "assets/frames/upload-d3ae0dd4eafccb954c4e/frame-04.jpg",
-              "time": "179.4s"
-            },
-            {
-              "src": "assets/frames/upload-d3ae0dd4eafccb954c4e/frame-05.jpg",
-              "time": "237.3s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧剪刀咔嚓剪开厚纸板与多层布料，口播「源头厂家，厂家直销，今日特价」，用剪切爽感和低价钩子抓住居家手工人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "对比旧剪刀剪布起毛、剪硬物打滑卷刃，点出「家里那把剪啥都费劲」，把换剪需求放大到影响日常缝补手工。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "特写高硬度刃口与铆钉转轴，演示剪厚布、剪花枝、剪胶带不费力，口播「锋利耐用」，用钢材与结构回应耐用需求。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍剪布料切口平整、剪硬卡纸不卷边的前后对照，再握持演示省力手感，证明家用多场景都能胜任。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述「源头厂家今日特价，速来抢购」，叠加限时立减与库存紧张，引导点击落地页下单，承接CID转化链路。"
-            }
-          },
-          "materialId": "d3ae0dd4eafccb954c4e",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 7,
-          "sourceId": "S1R6",
-          "title": "家居服套装·深睡睡衣轻盈贴身",
-          "product": "家居服套装",
-          "customer": "亚朵生活优选",
-          "chain": "直购",
-          "tag": "品牌调性 · 睡眠场景",
-          "spend": 37461.87,
-          "ctr": 2.47,
-          "cvr": 1.34,
-          "cpm": 53.49,
+          "title": "羊毛衫·冯唐同款半高领纯小山羊绒",
+          "product": "羊毛衫",
+          "customer": "成事好物",
+          "chain": "直播",
+          "tag": "人设背书 · 100%小山羊绒",
+          "spend": 0,
+          "ctr": 2.35,
+          "cvr": 1.59,
+          "cpm": 572.81,
           "duration": "未提供",
-          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6ac9ed91000e023514fa3c116e6dbc1e0000008d00004eec?ck=38d7e6cb517a5fadad17f547ccf63ab1&m=38d7e6cb517a5fadad17f547ccf63ab1&sha256=cf03e125133ae4b80f08f359a0547bb0df56e0f50242a3eb0c0d73dba4327fba",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3naam2aaaoiaie775q5vbu2aezvuabtka.f0.mp4?dis_k=3ecd75e02838f714e50b32798122ca25&dis_t=1794985769&m=652010f28ab744a46c4a5ba22ea3b051&sha256=8b4cf871d7370495e42f1847af5e090135e79f47058f8139b120780b9f316073",
           "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧暖光卧室里人物翻身、衣料随动作轻垂，口播「从穿上到躺下，和身体都有默契」，用松弛氛围抓住秋冬睡眠不佳人群。"
+              "desc": "首帧手持羊绒衫怼近镜头，口播「冯唐同款半高领羊绒衫」，用名人同款制造反差，抓住怕冷又怕显胖的秋冬女性。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "切睡衣粗糙扎肤、翻身勒痕、闷热出汗的细节，点出「穿不对睡衣，睡再久也累」，把睡眠焦虑转成换衣需求。"
+              "desc": "画面切到厚毛衣上身臃肿、领口扎脖的尴尬，口播点出普通打底又厚又刺，放大换季内搭难选的焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "手抚面料展示垂坠与轻薄，口播「很轻，也能睡得很沉」，用亲肤轻盈材质回应翻身束缚与闷热痛点。"
+              "desc": "镜头展示半高领贴合颈线、面料轻拉回弹，强调100%小山羊绒薄而暖，逐项回应臃肿与扎肤痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍躺卧、侧翻、起身三个动作，衣料不起皱不勒身，前后对照睡眠状态，强化舒适可信度与复购意愿。"
+              "desc": "实拍上身前后对照：外搭大衣不鼓包，手揉面料不起球，贴近皮肤展示柔软，强化材质可信度。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述「很轻，也能睡得很沉」，接秋冬款限时价与尺码提示，引导点击直购页下单，承接直购链路转化。"
+              "desc": "复述纯羊绒薄暖不臃肿，报出直播价与限时福利，引导点进直播间下单，承接直播链路。"
             }
           },
-          "materialId": "d171460d3705cd86829a",
-          "frameStatus": "failed",
-          "frameError": "range: could not convert string to float: 'N/A' | download: could not convert string to float: 'N/A'",
-          "frameUpdatedAt": "2026-11-26T03:14:02.206976+00:00"
+          "materialId": "ada7dc2b98f8aa76b96d",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 2,
+          "sourceId": "S1R2",
+          "title": "抗皱面部精油·家里常用好物专场",
+          "product": "抗皱面部精油",
+          "customer": "哆哆轻奢",
+          "chain": "直播",
+          "tag": "专场导购 · 抗皱紧致",
+          "spend": 0,
+          "ctr": 1.89,
+          "cvr": 64.55,
+          "cpm": 114.05,
+          "duration": "未提供",
+          "videoUrl": "http://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a4b0c7b00059cc12d9417b39a6ebc1e0000008d00004eec?ck=3699d7c4fef507d09115a3ec740275e4&m=3699d7c4fef507d09115a3ec740275e4&sha256=b2347615440d4efb17391fd57a9a109a8989f537cfd7b24a35a1f2d6baf3a875",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧主播手托多件家用好物，口播「家里常用的都帮你挑好」，以专场导购感抓住爱囤日用品的宝妈。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到面部干纹、上妆卡粉特写，口播点出换季皮肤松垮难打理，放大熟龄肌护理焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "滴出精油在掌心搓热按压面部，强调按摩油质地好推开、紧致抗皱，回应干纹卡粉痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍按摩手法与吸收前后对照，皮肤由干到润有光泽，展示不油腻不闷痘的使用证据。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述抗皱紧致、一瓶多用，报出专场价与赠品，引导点进直播间，承接直播链路。"
+            }
+          },
+          "materialId": "9d51a8683706a6a98b4d",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 3,
+          "sourceId": "S1R3",
+          "title": "冲击钻·强劲动力多样钻孔",
+          "product": "冲击钻",
+          "customer": "广州锦煊贸易有限公司",
+          "chain": "直播",
+          "tag": "功能演示 · 强劲动力",
+          "spend": 0,
+          "ctr": 3.54,
+          "cvr": 3.01,
+          "cpm": 59.67,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53reagoaaahealz4w5bjvbxciem6eqaz2a.f0.mp4?dis_k=38798313269a19ee17a382b95db6325b&dis_t=1792924606",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧电钻钻头高速旋转怼近墙面，口播「强劲动力设计」，用钻穿硬墙的视觉冲击抓住装修男性。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到旧电钻打滑、钻不进墙的窘境，口播点出动力不足耽误工期，放大干活效率低的焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "展示纯铜无刷电机与无极调速结构，强调动力足、续航久，逐项回应打滑与效率痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍连续钻木板、砖墙、金属三种材质，一机多用不卡顿，用多场景对照证明性能。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述强劲动力满足多样钻孔，报活动价与配件福利，引导点进直播间下单，承接直播链路。"
+            }
+          },
+          "materialId": "5e611ab5fb8e4645c83c",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 4,
+          "sourceId": "S1R4",
+          "title": "电钻·双电旗舰120N.M大扭矩",
+          "product": "电钻",
+          "customer": "广州锦煊贸易有限公司",
+          "chain": "直播",
+          "tag": "参数卖点 · 大扭矩",
+          "spend": 0,
+          "ctr": 2.85,
+          "cvr": 2.94,
+          "cpm": 46.93,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53reagoaaahealz4w5bjvbxciem6eqaz2a.f0.mp4?dis_k=38798313269a19ee17a382b95db6325b&dis_t=1792924606",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧双手握电钻拧紧大螺栓，口播「120N.M大扭矩」，用硬核参数与拧动画面抓住工具党。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到单电钻干到一半没电、扭矩不够拧不动，口播点出续航短、没劲，放大干活卡壳的烦躁。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "展示一机两电与纯铜无刷电机，强调换电不断工、扭矩足，逐项回应续航与动力痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍腰挂上阵、连续拧螺丝钻木板，双电轮换不停机，用连续作业证据强化可信度。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述双电旗舰大扭矩、家用多功能，报活动价与赠钻头福利，引导进直播间，承接直播链路。"
+            }
+          },
+          "materialId": "45713d3939b817ad1d67",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 5,
+          "sourceId": "S1R5",
+          "title": "果干·九蒸九晒烤扁黑橄榄",
+          "product": "果干",
+          "customer": "广州五颜六色商贸有限公司",
+          "chain": "直播",
+          "tag": "口感诱惑 · 越嚼越香",
+          "spend": 0,
+          "ctr": 5.44,
+          "cvr": 10.26,
+          "cpm": 112.54,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3jiadmaaaruaac7abwfvrusqegzfaansa.f0.mp4?dis_k=708097380b4e688a8c53503ae84a0252&dis_t=1795401445&m=5eb0be3604de7cb229d59dba51bf1764&sha256=ecc5972873a3d8570c97f9df0c59be46737fad56617cd05df27074de94b0de2b",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧捏起一颗油亮黑橄榄送入口中，口播「嘴馋想吃点有嚼劲的」，用咀嚼声与特写抓住零食党。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到办公桌无聊、嘴里没味儿的场景，口播点出普通零食齁甜腻口，放大解馋需求。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "展示九蒸九晒工艺与咸甜回甘的果肉，强调越嚼越香不齁甜，回应腻口与嘴馋痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍开袋、配粥、办公当零食三种吃法，掰开看果肉紧实，用多场景对照证明耐嚼。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述咸甜回甘、5袋39.9元福利，报限时价引导点进直播间囤货，承接直播链路。"
+            }
+          },
+          "materialId": "6a4a16bbe0b969241fc5",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 6,
+          "sourceId": "S1R6",
+          "title": "披肩·多功能双面加厚披肩毯",
+          "product": "披肩",
+          "customer": "金华市金东区康圆电子商务商行(个体工商户)",
+          "chain": "直播",
+          "tag": "场景种草 · 双面加厚",
+          "spend": 0,
+          "ctr": 2.34,
+          "cvr": 9.26,
+          "cpm": 31.24,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b532ecfyaaenqaiqzhfznvb5uieltiqixca.f0.mp4?dis_k=3fe89a74f9c066e1303390d1b01ae429&dis_t=1793186477&m=0355753238416166b7d0b4e8eeebeb9b&sha256=90d4746049e279d053bfa7437761e3e92702933e02d7e97d639720502c16af24",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧把披肩一抖展开披上肩，口播「多功能披肩毯」，用一物多用的画面抓住办公室与学生人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到午睡趴桌受凉、沙发盖膝漏风的场景，口播点出普通毯子占地难带，放大受凉焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "展示双面加厚材质与披、盖、垫多种用法，强调轻便好收纳，逐项回应受凉与占地痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍办公室午睡披肩、沙发盖膝、旅游当毯三种场景，揉搓展示不掉毛，强化多用证据。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述双面加厚一毯多用，报抢购价与限时福利，引导点进直播间下单，承接直播链路。"
+            }
+          },
+          "materialId": "2e66f9e62ef1b35df63d",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 7,
+          "sourceId": "S1R7",
+          "title": "红薯干·带皮整根软糯代餐",
+          "product": "红薯干",
+          "customer": "蓝灯塔",
+          "chain": "直播",
+          "tag": "健康代餐 · 无添加",
+          "spend": 0,
+          "ctr": 3.03,
+          "cvr": 13.37,
+          "cpm": 73.37,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qeahgaaaeiagx267azvbvaieooaqa42a.f0.mp4?dis_k=45b9c6dba8525868737367cc02eaf5a7&dis_t=1793267706&m=f12ccb54e4002c16fb7d19955ed0da4f&sha256=ce0003a03a876bd6baebc469040d5f993a287007df6d38d6ff77485571c99405",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧手撕一根带皮红薯干拉出软糯纤维，口播「带皮整根软糯香甜」，用拉丝画面抓住代餐人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到下午饿肚子又怕胖、零食高糖的场景，口播点出想吃又不敢吃，放大代餐焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "展示传统工艺整根带皮、无添加配方，强调低脂代餐解馋，逐项回应怕胖与嘴馋痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍开袋即食、掰开看软糯内芯、配茶当下午茶，用真实口感对照证明不干硬。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述无添加更安心、解馋代餐，报直播价与多袋福利，引导点进直播间，承接直播链路。"
+            }
+          },
+          "materialId": "8f7388a079c71004e75e",
+          "frameStatus": "pending"
         },
         {
           "rank": 8,
-          "sourceId": "S1R7",
-          "title": "针线包·磁吸针线盒小巧便携",
-          "product": "针线包",
-          "customer": "守正出奇",
-          "chain": "CID",
-          "tag": "源头直供 · 居家必备",
-          "spend": 31404.04,
-          "ctr": 1.74,
-          "cvr": 15.79,
-          "cpm": 175.56,
-          "duration": "约31s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53biaagaaakeah7k6vfzvbucqeamfaaa2a.f0.mp4?dis_k=da379e179202e65ac8913a9ddbe4052d&dis_t=1793087944&m=e87f869a67923f8ea6fe68ca52ec3dee&sha256=5533bc8f790b5137f3178353d6c5c33fa434d3cdbce27a2beabf66cc6c651064",
-          "frames": [
-            {
-              "src": "assets/frames/upload-19e7f0177f54a57a88f0/frame-01.jpg",
-              "time": "1.9s"
-            },
-            {
-              "src": "assets/frames/upload-19e7f0177f54a57a88f0/frame-02.jpg",
-              "time": "7.6s"
-            },
-            {
-              "src": "assets/frames/upload-19e7f0177f54a57a88f0/frame-03.jpg",
-              "time": "13.5s"
-            },
-            {
-              "src": "assets/frames/upload-19e7f0177f54a57a88f0/frame-04.jpg",
-              "time": "19.5s"
-            },
-            {
-              "src": "assets/frames/upload-19e7f0177f54a57a88f0/frame-05.jpg",
-              "time": "25.8s"
-            }
-          ],
+          "sourceId": "S1R8",
+          "title": "榨菜·去皮去筋脆嫩下饭菜",
+          "product": "榨菜",
+          "customer": "蓝灯塔",
+          "chain": "直播",
+          "tag": "下饭刚需 · 去皮去筋",
+          "spend": 0,
+          "ctr": 2.32,
+          "cvr": 16.85,
+          "cpm": 56.58,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3babbgaacd4aesg4k5bvbqcaecmeaee2a.f0.mp4?dis_k=11d33273d3145a5f9539f5bd201ff7f4&dis_t=1787390293&m=fd762598b5429cedc6ba13382154b106&sha256=558518f254320d2900ba027519720d93e6a6cf5d6e71f9cdd35ac27b761595bf",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧打开磁吸针线盒，针具整齐吸附不掉落，口播「源头厂家，厂家直销，今日特价」，用收纳秩序感抓住居家缝补人群。"
+              "desc": "首帧筷子夹起一撮脆嫩榨菜丝配白粥，口播「去皮去筋口感细腻」，用下饭画面抓住家常做饭人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "对比抽屉里散落针线、找针扎手、线团打结的画面，点出「缝个扣子翻半天」，把收纳混乱放大成必须换一套。"
+              "desc": "画面切到老式榨菜带筋塞牙、齁咸难咽，口播点出下饭菜寡淡难吃，放大吃饭没胃口的烦恼。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "演示磁吸取针、线轴分格、剪刀尺子一盒齐备，口播「小巧便携超实用」，用分格与磁吸结构回应找针难痛点。"
+              "desc": "展示去皮去筋工艺与独立小包装，强调脆嫩爽口咸淡适中，逐项回应塞牙与齁咸痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍缝扣子、补裤脚、宿舍应急三个场景，一盒取用不翻找，前后对照桌面整洁，证明便携与齐全。"
+              "desc": "实拍开袋倒出、配粥配面、夹馒头三种吃法，咬下脆响，用多场景对照证明爽口。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述「家用缝补好帮手，小巧便携」，接今日特价与拍下即发指令，引导点击落地页下单，承接CID链路。"
+              "desc": "复述脆嫩下饭、买三十袋送二十袋福利，报限时价引导点进直播间囤货，承接直播链路。"
             }
           },
-          "materialId": "19e7f0177f54a57a88f0",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "7e7dea5988ec0b604adf",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
-          "sourceId": "S1R8",
-          "title": "包挂件·百福缸葫芦随身挂饰",
-          "product": "包挂件",
-          "customer": "渔歌子",
-          "chain": "小店",
-          "tag": "寓意种草 · 低价冲量",
-          "spend": 27956.42,
-          "ctr": 0.93,
-          "cvr": 20.37,
-          "cpm": 50.3,
-          "duration": "约161s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3rebcsaacdqaoyaef6vvbrciefgeqekka.f0.mp4?dis_k=8de9669b96b941ee2e8eb30b57c9cae4&dis_t=1787282845&m=62d0301d95f35726ef4e69058a9651bc",
-          "frames": [
-            {
-              "src": "assets/frames/upload-a5b24385332af49e4eb3/frame-01.jpg",
-              "time": "9.7s"
-            },
-            {
-              "src": "assets/frames/upload-a5b24385332af49e4eb3/frame-02.jpg",
-              "time": "38.7s"
-            },
-            {
-              "src": "assets/frames/upload-a5b24385332af49e4eb3/frame-03.jpg",
-              "time": "69.4s"
-            },
-            {
-              "src": "assets/frames/upload-a5b24385332af49e4eb3/frame-04.jpg",
-              "time": "100.0s"
-            },
-            {
-              "src": "assets/frames/upload-a5b24385332af49e4eb3/frame-05.jpg",
-              "time": "132.3s"
-            }
-          ],
+          "sourceId": "S1R9",
+          "title": "5档及以上法兰绒电热毯·电热毯·艾灸毯几十块的快乐",
+          "product": "5档及以上法兰绒电热毯",
+          "customer": "通许县清泽百货商行(个体工商户)",
+          "chain": "直播",
+          "tag": "真实推荐 · 加厚安温",
+          "spend": 0,
+          "ctr": 5.62,
+          "cvr": 9.42,
+          "cpm": 171.09,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53zqaikaaadiafks6sezvbvtaeqxgabbka.f0.mp4?dis_k=135c6306a2f71122e7b94f7ce5022264&dis_t=1792200949&m=7e67c719dd07236b295f96a13ce21848&sha256=02dbab3ca14beaab7e089bf0535e9b9d3cadc83bbd63eafe4b3811252637029a",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧手指拎起小米缸造型挂件在光下转动，口播「源头厂家，厂家直销，今日特价」，用复古造型与低价钩子抓住挂饰消费人群。"
+              "desc": "首帧主播把电热毯铺上床、手按发热面，口播「推荐快一年了谁懂啊」，用真实推荐感抓住怕冷人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "切普通挂件掉漆、塑料感强、挂两天就闲置的画面，点出「买回来没质感也送不出手」，把换挂件需求放大。"
+              "desc": "画面切到冬天被窝冰凉、腰背发酸的场景，口播点出普通电热毯硬、升温慢，放大受凉焦虑。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "特写开口葫芦可开盖结构与缸身纹理，口播「复古开口葫芦挂件」，用实心材质与可开盖设计回应质感与趣味需求。"
+              "desc": "展示法兰绒加厚面料与多档调温，强调安温不燥、几十块就能暖，逐项回应冰凉与干燥痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍挂钥匙、挂包、挂车内后视镜三个位置，镜头扫过细节不掉色，证明百搭耐看，强化下单信心。"
+              "desc": "实拍铺床、调档、躺上感受升温，手摸绒面柔软，用真实使用对照证明暖而不烫。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述「寓意好又耐看，随身带着送人也体面」，接限时特价与闪电发货，引导点击小店购物车下单承接。"
+              "desc": "复述加厚安温、几十块钱的快乐，报直播价与限时福利，引导点进直播间，承接直播链路。"
             }
           },
-          "materialId": "a5b24385332af49e4eb3",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "ecfb77edad82a44b0f3e",
+          "frameStatus": "pending"
         },
         {
-          "sourceId": "S1R9",
-          "title": "山村辣妈腌制品",
-          "product": "山村辣妈腌制品",
-          "customer": "汝州市致广大供应链管理有限公司",
-          "chain": "小店",
-          "tag": "高消耗代表素材",
-          "spend": 27789.02,
-          "ctr": 4.47,
-          "cvr": 27.27,
-          "cpm": 52.74,
-          "duration": "约174s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3aebk2aacx4akq5ovefvbsaievuaqflka.f0.mp4?dis_k=130291e75ad79a5cfbabfc24ec82ce5b&dis_t=1792476626",
-          "frames": [
-            {
-              "src": "assets/frames/upload-a1b4ef3c61cdb8d69471/frame-01.jpg",
-              "time": "10.5s"
-            },
-            {
-              "src": "assets/frames/upload-a1b4ef3c61cdb8d69471/frame-02.jpg",
-              "time": "41.8s"
-            },
-            {
-              "src": "assets/frames/upload-a1b4ef3c61cdb8d69471/frame-03.jpg",
-              "time": "74.9s"
-            },
-            {
-              "src": "assets/frames/upload-a1b4ef3c61cdb8d69471/frame-04.jpg",
-              "time": "108.1s"
-            },
-            {
-              "src": "assets/frames/upload-a1b4ef3c61cdb8d69471/frame-05.jpg",
-              "time": "142.9s"
-            }
-          ],
           "rank": 10,
-          "materialId": "a1b4ef3c61cdb8d69471",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "sourceId": "S1R10",
+          "title": "长袖女速干T恤·速干T恤·锁温薄磨毛不闷汗",
+          "product": "长袖女速干T恤",
+          "customer": "郑州市二七区顿拓百货商行(个体工商户)",
+          "chain": "直播",
+          "tag": "户外场景 · 锁温薄磨毛",
+          "spend": 0,
+          "ctr": 1.62,
+          "cvr": 13.12,
+          "cpm": 33.47,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b536magoaaapuaeq5apijurv4yem7zqaz2a.f0.mp4?dis_k=2c1ee9b7d979d12eff4e52b818e51002&dis_t=1792722485&m=eb568236d4e7d415e62887f21d54bac3&sha256=ec2d37e239f88805fc436e9506ba18860e6c06a653fe37cec9bb04e2b16b6dab",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧女生穿速干T恤爬山回头，口播「锁温薄磨毛打底」，用户外场景抓住爱爬山旅游的女性。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "画面切到厚打底闷汗贴身、薄衣又透风，口播点出爬山忽冷忽热，放大户外穿衣两难焦虑。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "展示薄磨毛内里与修身版型，强调轻暖不笨重、防风不闷汗，逐项回应闷汗与透风痛点。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍爬山、逛景区、内搭外穿三种场景，抬手不紧绷，用活动自如对照证明舒适。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述锁温不闷汗、两件装更划算，报直播价与限时福利，引导点进直播间，承接直播链路。"
+            }
+          },
+          "materialId": "077a363d31756db3f137",
+          "frameStatus": "pending"
         }
       ]
     },
