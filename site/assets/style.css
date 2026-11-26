@@ -576,6 +576,8 @@ button.btn-sm{font-family:inherit;background:transparent}
 .fx-metrics b{font-size:10px;color:var(--gold)}
 .fx-metrics .wide{grid-column:1/-1}
 .fx-metrics .wide b{color:var(--green)}
+.fx-material{display:block;width:calc(100% - 18px);margin:0 9px 10px;padding:5px;border:1px solid rgba(75,139,245,.45);border-radius:7px;background:rgba(75,139,245,.1);color:#8bb4ff;font:700 10px/1 inherit;cursor:pointer}
+.fx-material:hover{background:rgba(75,139,245,.18);border-color:var(--blue);color:#b6d0ff}
 
 /* 全部节点卡片：当前高亮 + 点击闪烁 */
 .cal-card.now{border-color:var(--gold2);box-shadow:0 0 0 1px rgba(245,181,68,.2)}

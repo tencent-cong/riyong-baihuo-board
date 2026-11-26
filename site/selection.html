@@ -345,6 +345,8 @@ function matchItems(node){
 function focusMini(x, index){
   const imageUrl = productImage(x);
   const img = imageUrl? `<img src="${imageUrl}" loading="lazy" onerror="imgFallback(this)">` : `<span class="ph">图</span>`;
+  const materialUrl = /^(https?:|\/\/)/i.test(String(x.material||'')) ? x.material : '';
+  const material = materialUrl ? `<button class="fx-material" onclick="event.stopPropagation();openMaterial('${encodeURIComponent(materialUrl)}')">素材预览</button>` : '';
   return `<div class="fx-item">
     <div class="fx-img">${img}<span class="fx-rank">TOP ${index+1}</span></div>
     <div class="fx-nm">${esc(x.name)}</div>
@@ -353,6 +355,7 @@ function focusMini(x, index){
       <span>客单<b>¥${fmt(x.price)}</b></span><span>CTR<b>${fmt(x.ctr)}${x.ctr?'%':''}</b></span>
       <span>CVR<b>${fmt(x.cvr)}${x.cvr?'%':''}</b></span><span>ROI<b>${fmt(x.roi)}</b></span>
     </div>
+    ${material}
   </div>`;
 }
 function itemInsights(items){
