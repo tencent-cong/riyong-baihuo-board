@@ -3,7 +3,7 @@
 window.CREATIVE_DATA = {
   "meta": {
     "period": "2026年7月（全量2,494条素材）",
-    "dataUpdatedAt": "2026-11-26",
+    "dataUpdatedAt": "2026-11-27",
     "frameUpdatedAt": "2026-11-27T04:19:47.446207+00:00",
     "owner": "创意分析组"
   },
@@ -1523,33 +1523,33 @@ window.CREATIVE_DATA = {
       "name": "生活日用-功效品",
       "key": "daily-effect",
       "owner": "",
-      "uploadedAt": "2026-10-10T03:43:38.047Z",
+      "uploadedAt": "2026-11-27T08:43:59.331Z",
       "metrics": {
-        "creativeCount": 18,
-        "ctr": 2.92,
-        "play3s": 27.5,
-        "cvr": 8.2,
-        "cpm": 61.5
+        "creativeCount": 12,
+        "ctr": 3.07,
+        "play3s": 16.9,
+        "cvr": 8.55,
+        "cpm": 79.6
       },
       "sellingWords": [
         {
-          "word": "全身通用",
+          "word": "自发热暖身",
           "weight": 100
         },
         {
-          "word": "草本萃取",
+          "word": "草本热敷",
           "weight": 95
         },
         {
-          "word": "一涂一抹",
+          "word": "护膝护腰",
           "weight": 90
         },
         {
-          "word": "持续温养",
+          "word": "哪里痛贴哪里",
           "weight": 86
         },
         {
-          "word": "艾草发热",
+          "word": "透气不闷",
           "weight": 82
         },
         {
@@ -1557,687 +1557,511 @@ window.CREATIVE_DATA = {
           "weight": 78
         },
         {
-          "word": "透气不脱落",
+          "word": "开肩直背",
           "weight": 74
         },
         {
-          "word": "干裂脱皮修护",
+          "word": "折叠便携",
           "weight": 70
         },
         {
-          "word": "舒缓肩颈",
+          "word": "超薄无痕",
           "weight": 66
         },
         {
-          "word": "热敷按摩",
+          "word": "源头厂家直发",
           "weight": 62
         },
         {
-          "word": "源头厂家",
+          "word": "温润舒适",
           "weight": 58
         },
         {
-          "word": "不好用不要钱",
+          "word": "四季可用",
           "weight": 54
         }
       ],
       "painWords": [
         {
-          "word": "膝盖颈椎肩周腰腿痛",
+          "word": "肩颈腰腿酸胀",
           "weight": 92
         },
         {
-          "word": "受凉腰刺痛",
+          "word": "手脚冰凉怕冷",
           "weight": 88
         },
         {
-          "word": "手脚干裂脱皮",
+          "word": "久坐体态差",
           "weight": 84
         },
         {
-          "word": "肩颈僵硬不适",
+          "word": "空调房关节受寒",
           "weight": 80
         },
         {
-          "word": "关节怕冷怕风",
+          "word": "经期腹部不适",
           "weight": 76
         },
         {
-          "word": "季节交替肌肤小状况",
-          "weight": 72
+          "word": "翻来覆去睡不着",
+          "weight": 70
         }
       ],
       "sellingContext": [
         {
-          "driver": "秋冬降温/阴雨天·关节受凉刺痛",
-          "need": "中老年及久坐人群想要一贴即暖、持续温养关节的便捷方案",
+          "driver": "秋冬降温·手脚冰凉难入睡",
+          "need": "想要一贴就热、整夜暖身的自发热贴，替代灌水麻烦的传统热水袋",
           "words": [
-            "艾草发热",
-            "持续温养",
-            "全身通用"
+            "自发热暖身",
+            "温润舒适",
+            "草本热敷"
           ]
         },
         {
-          "driver": "换季干燥·手脚干裂脱皮",
-          "need": "想找草本温和、一涂一抹就能修护干裂的足部手部护理品",
+          "driver": "久坐久站·肩颈腰膝酸胀",
+          "need": "想要贴着不移位、能持续热敷缓解酸胀的护具或贴膏",
           "words": [
-            "干裂脱皮修护",
-            "草本萃取",
-            "一涂一抹"
+            "护膝护腰",
+            "哪里痛贴哪里",
+            "久贴不移"
           ]
         },
         {
-          "driver": "久坐久站·肩颈腰腿酸胀",
-          "need": "希望有能全身通用、哪里不适贴哪里的透骨贴/喷雾",
+          "driver": "空调房与换季·关节受寒",
+          "need": "想要超薄无痕、四季可穿、不闷汗的护膝护腿",
           "words": [
-            "舒缓肩颈",
-            "久贴不移",
-            "透气不脱落"
+            "超薄无痕",
+            "透气不闷",
+            "四季可用"
           ]
         }
       ],
       "scripts": [
-        "膝盖、颈椎、肩周、腰腿，全身都可涂抹，一涂一抹，简单好用",
-        "受凉腰刺痛，内置艾草芯，持续温养腰部",
-        "19.9元100贴！哪里都能贴，好处多多",
-        "舒缓肩颈不适，热敷按摩双重呵护",
-        "草本炮制植物萃取，干裂脱皮一涂一抹",
-        "不好用不要钱，七天不满意就退"
+        "贴上一会就热了，那几天不舒服的姐妹们试试",
+        "19.9元100贴，哪里不舒服贴哪里",
+        "源头厂家直发，今日特价，手慢无",
+        "每天2小时，坚持一个多月，体态真的不一样",
+        "超薄无痕，空调房护膝穿一天也不闷",
+        "睡前贴一贴，暖到天亮不折腾"
       ],
       "keyPoints": [
         {
           "title": "钩子/强对比",
-          "desc": "开场用关节红肿/干裂脚后跟特写，配'后悔没早买'制造反差"
+          "desc": "首帧怼近酸胀关节或冰凉手脚，配「后悔没早买」，用前后体感反差抓怕冷人群"
         },
         {
           "title": "节点/季节痛点",
-          "desc": "绑定秋冬降温、阴雨天、换季干燥，放大受凉刺痛与干裂脱皮"
+          "desc": "绑定秋冬降温、空调房、经期那几天，放大手脚冰凉与关节受寒场景"
         },
         {
           "title": "福利/紧迫",
-          "desc": "19.9元100贴、工厂搬迁清仓、限时特价，价格锚点直给"
+          "desc": "用19.9元100贴、源头厂家今日特价做价格锚点，限时抢购催单"
         },
         {
           "title": "明星/IP",
-          "desc": "以'国货品牌''源头厂家'替代明星，用不好用不要钱建信任"
+          "desc": "以国货品牌、韩国进口、源头工厂做信任背书，弱化明星依赖"
         }
       ],
       "topMaterials": [
         {
           "rank": 1,
           "sourceId": "S1R1",
-          "title": "艾灸贴·全身涂抹一涂一抹",
-          "product": "艾灸贴",
-          "customer": "开封叮宸电子商务有限公司",
+          "title": "足浴桶·一天疲惫交给双脚",
+          "product": "足浴桶",
+          "customer": "海大",
           "chain": "直播",
-          "tag": "功能演示 · 全身通用",
-          "spend": 57518.95,
-          "ctr": 1.81,
-          "cvr": 10.6,
-          "cpm": 74.08,
-          "duration": "约133s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3jaalcaaapiacyxm2mrvbusaewfeabmka.f0.mp4?dis_k=3532d359611df1fd4bf82690e670c8c2&dis_t=1789630180&m=d88a65aefe1de9923d934b33fd7885c4&sha256=efb2ec244fffae52d24c88617a31a83ac7bc0d253243493c91b9828c42074c45",
-          "frames": [
-            {
-              "src": "assets/frames/upload-db843573154002f8ec12/frame-01.jpg",
-              "time": "8.0s"
-            },
-            {
-              "src": "assets/frames/upload-db843573154002f8ec12/frame-02.jpg",
-              "time": "31.9s"
-            },
-            {
-              "src": "assets/frames/upload-db843573154002f8ec12/frame-03.jpg",
-              "time": "57.2s"
-            },
-            {
-              "src": "assets/frames/upload-db843573154002f8ec12/frame-04.jpg",
-              "time": "82.5s"
-            },
-            {
-              "src": "assets/frames/upload-db843573154002f8ec12/frame-05.jpg",
-              "time": "109.1s"
-            }
-          ],
+          "tag": "场景共鸣 · 折叠便携泡脚",
+          "spend": 48611.63,
+          "ctr": 1.94,
+          "cvr": 11.07,
+          "cpm": 45.66,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53jqadqaaahaacru2fpfvbwtaehbgaaoca.f0.mp4?dis_k=29b45c69d64d7f73e7ebd698deb60538&dis_t=1782911105&m=64a14b3b81a30b99ce46944423c48544",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧特写膝盖发红，主播手指按压痛点，喊'膝盖颈椎肩周腰腿'，用全身痛点清单抓中老年人群。"
+              "desc": "首帧下班回家瘫坐沙发、双脚发凉的近景，字幕「一天疲惫交给双脚」，戳中久站久走人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示阴雨天关节僵硬、上下楼扶墙细节，传统膏药贴不牢易掉，放大'贴了白贴'的焦虑。"
+              "desc": "镜头拍灌水倒水、桶重难搬的狼狈，水凉得快、弯腰累，传统泡脚麻烦被放大。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "拿出艾灸贴撕开背胶，草本药芯对准膝盖，说明全身通用、一涂一抹，替代多部位膏药。"
+              "desc": "折叠足浴桶一拉成型，加固不倒结构登场，倒水不洒、收纳不占地，解决搬抬痛点。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍贴后弯腰、下蹲、爬楼动作，前后对比活动幅度，证明久贴不移、透气不脱落。"
+              "desc": "实拍注水泡脚、脚底按摩凸点特写，对比普通盆水凉快，展示保温与稳固证据。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述全身可用，强调七天不满意就退，引导点购物车下单，承接直播链路。"
+              "desc": "复述在家轻松足浴，口播直播间今日价，引导点购物袋下单，承接直播链路。"
             }
           },
-          "materialId": "db843573154002f8ec12",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "d55e2c23eb7f4ea68252",
+          "frameStatus": "pending"
         },
         {
           "rank": 2,
           "sourceId": "S1R2",
-          "title": "足部洗护产品·足部乳膏·源头厂家特价",
-          "product": "足部洗护产品",
-          "customer": "广州市天河区宜洁安百货商行(个体工商户)",
+          "title": "风湿骨痛·19.9元100贴哪里都能贴",
+          "product": "风湿骨痛",
+          "customer": "膜尔",
           "chain": "CID",
-          "tag": "价格钩子 · 草本修护",
-          "spend": 57064.78,
-          "ctr": 2.38,
-          "cvr": 3.36,
-          "cpm": 15.07,
-          "duration": "约79s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53suaeaaaamiajcov4zzvbvfieickqaqca.f0.mp4?dis_k=8a7811922dbc263caecb9262c165339f&dis_t=1790759418&m=98aced2af91b441c55ab426b711f01af",
-          "frames": [
-            {
-              "src": "assets/frames/upload-d6ef5b89d7ec63f57307/frame-01.jpg",
-              "time": "4.7s"
-            },
-            {
-              "src": "assets/frames/upload-d6ef5b89d7ec63f57307/frame-02.jpg",
-              "time": "18.9s"
-            },
-            {
-              "src": "assets/frames/upload-d6ef5b89d7ec63f57307/frame-03.jpg",
-              "time": "33.9s"
-            },
-            {
-              "src": "assets/frames/upload-d6ef5b89d7ec63f57307/frame-04.jpg",
-              "time": "48.9s"
-            },
-            {
-              "src": "assets/frames/upload-d6ef5b89d7ec63f57307/frame-05.jpg",
-              "time": "64.7s"
-            }
-          ],
+          "tag": "价格冲击 · 多部位贴敷",
+          "spend": 24375.54,
+          "ctr": 3.33,
+          "cvr": 13.47,
+          "cpm": 44.52,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3kqbyyaadc4am2ansvzvbsvaerrkahdca.f0.mp4?dis_k=3a583f35ea377a10131016cb01a5dc54&dis_t=1790001908&m=35df31b7b3eef7c1c3fb85b939bfb37b&sha256=e0cead5ce38bfc6db90719792741d747ecbc3da5abe26a6921ed5cfebfa626c8",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧脚后跟干裂特写，字幕'源头厂家直销今日特价'，用低价+痛点双钩抓价格敏感人群。"
+              "desc": "首帧手撕开贴膏贴向膝盖，字幕「后悔没早买！19.9元100贴」，低价直击怕贵人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示脱皮掉屑、穿袜勾丝、走路刺痛的日常，普通润肤霜涂了不吸收，需求被放大。"
+              "desc": "拍中老年揉膝、扶腰起身的吃力动作，阴雨天关节发僵，普通膏药贵且贴不牢。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "挤出草本乳膏涂抹干裂处，强调植物萃取、炮制工艺，说明手部足部都能用。"
+              "desc": "透骨贴撕开即贴，展示贴面服帖、可贴颈肩腰膝多部位，一贴多用放大价值。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍涂抹后按摩吸收，对比前后干裂纹路变淡，展示不油腻、不粘袜的质地。"
+              "desc": "实拍贴后弯腰、下蹲活动自如，对比贴前僵硬，强调久贴不移、温润舒适。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述厂家直销今日特价，催促速来抢购，引导点击下单，承接CID链路。"
+              "desc": "复述19.9元100贴超值，口播限时抢购，引导点击链接下单，承接CID链路。"
             }
           },
-          "materialId": "d6ef5b89d7ec63f57307",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "f804fee0aa95c42d083e",
+          "frameStatus": "pending"
         },
         {
           "rank": 3,
           "sourceId": "S1R3",
-          "title": "足浴桶·折叠泡脚解乏",
-          "product": "足浴桶",
-          "customer": "海大",
-          "chain": "直播",
-          "tag": "场景种草 · 折叠收纳",
-          "spend": 56423.2,
-          "ctr": 1.97,
-          "cvr": 10.25,
-          "cpm": 43.18,
-          "duration": "约128s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53jqadqaaahaacru2fpfvbwtaehbgaaoca.f0.mp4?dis_k=29b45c69d64d7f73e7ebd698deb60538&dis_t=1782911105&m=64a14b3b81a30b99ce46944423c48544",
-          "frames": [
-            {
-              "src": "assets/frames/upload-f52cad578b655e3e4939/frame-01.jpg",
-              "time": "7.7s"
-            },
-            {
-              "src": "assets/frames/upload-f52cad578b655e3e4939/frame-02.jpg",
-              "time": "30.6s"
-            },
-            {
-              "src": "assets/frames/upload-f52cad578b655e3e4939/frame-03.jpg",
-              "time": "54.9s"
-            },
-            {
-              "src": "assets/frames/upload-f52cad578b655e3e4939/frame-04.jpg",
-              "time": "79.1s"
-            },
-            {
-              "src": "assets/frames/upload-f52cad578b655e3e4939/frame-05.jpg",
-              "time": "104.6s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧下班回家瘫坐沙发揉脚，字幕'一天疲惫交给双脚'，用打工人共鸣抓久站人群。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示脚底酸胀、泡脚盆占地方、倒水麻烦的细节，传统木桶笨重难收纳，痛点被放大。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "拿出折叠足浴桶展开，注水泡脚，强调升级加固不倒、在家轻松享受足浴。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍泡脚时桶身稳固不晃，泡完折叠挂墙收纳，对比传统桶占地，证明省空间。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述在家轻松足浴，引导直播间下单，承接直播链路。"
-            }
-          },
-          "materialId": "f52cad578b655e3e4939",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "sourceId": "S1R12",
-          "title": "百年扁氏艾灸贴",
-          "product": "百年扁氏艾灸贴",
-          "customer": "开封叮宸电子商务有限公司",
-          "chain": "直播",
-          "tag": "高消耗代表素材",
-          "spend": 43914.17,
-          "ctr": 4.06,
-          "cvr": 5.77,
-          "cpm": 89.94,
-          "duration": "约194s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53eacfaaaefiamqa46gzvb4iaekaqaiuca.f0.mp4?dis_k=1ff4ddb6fce3bbc2565d47b709e9afa6&dis_t=1789995099&m=43020f26696ba957024e5e39b9e446c0&sha256=61aadfb1e094bd4a90b5c7944d3fa8d3e4565b9512b48c9197b9e609bc24c694",
-          "frames": [
-            {
-              "src": "assets/frames/upload-e31c08e537ffe5bef1b1/frame-01.jpg",
-              "time": "11.7s"
-            },
-            {
-              "src": "assets/frames/upload-e31c08e537ffe5bef1b1/frame-02.jpg",
-              "time": "46.6s"
-            },
-            {
-              "src": "assets/frames/upload-e31c08e537ffe5bef1b1/frame-03.jpg",
-              "time": "83.6s"
-            },
-            {
-              "src": "assets/frames/upload-e31c08e537ffe5bef1b1/frame-04.jpg",
-              "time": "120.5s"
-            },
-            {
-              "src": "assets/frames/upload-e31c08e537ffe5bef1b1/frame-05.jpg",
-              "time": "159.3s"
-            }
-          ],
-          "rank": 4,
-          "materialId": "e31c08e537ffe5bef1b1",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 5,
-          "sourceId": "S1R4",
-          "title": "透骨贴·19.9元100贴",
-          "product": "透骨贴",
-          "customer": "膜尔",
-          "chain": "CID",
-          "tag": "价格冲击 · 全身可贴",
-          "spend": 40852.59,
-          "ctr": 5.71,
-          "cvr": 3.41,
-          "cpm": 19.68,
-          "duration": "约111s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3uybbyaackiainh5junvbrjqedstaehca.f0.mp4?dis_k=b590f8d45296318fe361f37ef06e7860&dis_t=1789632189&m=6afda350df91f60aeb4bac8740be7f6b&sha256=7dbd0ba8f5bbc5c3ce0ead1b976a48b10d1e0e9217a4808a938bc7508b440da0",
-          "frames": [
-            {
-              "src": "assets/frames/upload-8d10d373dd1a3cb7751a/frame-01.jpg",
-              "time": "6.6s"
-            },
-            {
-              "src": "assets/frames/upload-8d10d373dd1a3cb7751a/frame-02.jpg",
-              "time": "26.6s"
-            },
-            {
-              "src": "assets/frames/upload-8d10d373dd1a3cb7751a/frame-03.jpg",
-              "time": "47.6s"
-            },
-            {
-              "src": "assets/frames/upload-8d10d373dd1a3cb7751a/frame-04.jpg",
-              "time": "68.7s"
-            },
-            {
-              "src": "assets/frames/upload-8d10d373dd1a3cb7751a/frame-05.jpg",
-              "time": "90.9s"
-            }
-          ],
-          "golden5": {
-            "hook": {
-              "time": "0-3S",
-              "desc": "首帧手抓一大把透骨贴，字幕'后悔没早买19.9元100贴'，用数量+低价制造视觉冲击。"
-            },
-            "pain": {
-              "time": "3-10S",
-              "desc": "展示腰肩膝盖多处酸痛，普通膏药一盒没几贴、贴几次就没了，用量焦虑被放大。"
-            },
-            "cure": {
-              "time": "10-20S",
-              "desc": "撕开透骨贴贴到腰部，强调多功能、哪里都能贴，草本成分持续作用。"
-            },
-            "demo": {
-              "time": "20-27S",
-              "desc": "实拍贴后弯腰、抬腿动作，展示久贴不移、不卷边，证明日常活动不掉。"
-            },
-            "ending": {
-              "time": "27-30S",
-              "desc": "复述19.9元100贴好处多多，催促快抢，引导点击下单，承接CID链路。"
-            }
-          },
-          "materialId": "8d10d373dd1a3cb7751a",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "rank": 6,
-          "sourceId": "S1R5",
-          "title": "热水袋·凸点热敷肩颈",
+          "title": "热水袋·热敷按摩双重呵护肩颈",
           "product": "热水袋",
           "customer": "义乌市孜馨电子商务商行",
           "chain": "小店",
-          "tag": "功能演示 · 热敷按摩",
-          "spend": 40782.64,
-          "ctr": 2.59,
-          "cvr": 7.91,
-          "cpm": 13.43,
-          "duration": "约80s",
+          "tag": "传统暖具 · 凸点热敷",
+          "spend": 22873.03,
+          "ctr": 2.68,
+          "cvr": 7.6,
+          "cpm": 12.84,
+          "duration": "未提供",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc37uaccaaafmaiocmzn5vbv7ieeh6qaika.f0.mp4?dis_k=00a1705acf256ea7c4ce8c5aab6a1949&dis_t=1788454617&m=07e42df4b234cc50e5a73974a5a93bf1",
-          "frames": [
-            {
-              "src": "assets/frames/upload-575d0e3d1543ed6d1839/frame-01.jpg",
-              "time": "4.8s"
-            },
-            {
-              "src": "assets/frames/upload-575d0e3d1543ed6d1839/frame-02.jpg",
-              "time": "19.1s"
-            },
-            {
-              "src": "assets/frames/upload-575d0e3d1543ed6d1839/frame-03.jpg",
-              "time": "34.3s"
-            },
-            {
-              "src": "assets/frames/upload-575d0e3d1543ed6d1839/frame-04.jpg",
-              "time": "49.4s"
-            },
-            {
-              "src": "assets/frames/upload-575d0e3d1543ed6d1839/frame-05.jpg",
-              "time": "65.4s"
-            }
-          ],
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧脖子僵硬转头困难，字幕'舒缓肩颈不适'，用办公族常见动作抓久坐人群。"
+              "desc": "首帧把热水袋贴上脖颈，字幕「舒缓肩颈不适」，暖光近景抓住久坐低头族。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示肩颈酸胀、热敷毛巾凉得快、普通热水袋太烫的细节，传统方案体验差被放大。"
+              "desc": "拍办公久坐揉脖子、肩颈僵硬，普通暖贴凉得快、面积小，热敷不到位。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "拿出圆珠凸点热水袋注水，凸点贴合颈椎，强调热敷按摩双重呵护、加厚防烫。"
+              "desc": "圆珠凸点热水袋出场，凸点贴合颈椎腰椎，注水加厚保温，热敷按摩二合一。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍枕在颈后热敷，展示凸点按压穴位，前后对比肩颈放松，证明可枕可敷。"
+              "desc": "实拍注水后贴敷颈肩、腰背，凸点按压特写，展示贴合曲线与持久温热。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述传统热水袋温暖相伴，引导小店下单，承接小店链路。"
+              "desc": "复述温暖相伴、双重呵护，口播小店今日价，引导进店下单，承接小店链路。"
             }
           },
-          "materialId": "575d0e3d1543ed6d1839",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "c1233cbeec5088cc2f8d",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 4,
+          "sourceId": "S1R4",
+          "title": "护肩用品·每天2小时开肩直背",
+          "product": "护肩用品",
+          "customer": "开心集团",
+          "chain": "CID",
+          "tag": "体态焦虑 · 矫姿对比",
+          "spend": 16776.49,
+          "ctr": 2.56,
+          "cvr": 1.56,
+          "cpm": 9.92,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53qmcgcaaefqap2ym75fvb5ayemgbqiyka.f0.mp4?dis_k=5542ff719b1d8ea10fe05c1ceaf904bd&dis_t=1788761408&m=13823909bb0847a5b316e30b58346f1b&sha256=36d44f105149bd86fabd721f2f68e735ba07655211c1b742a14681d7dd42ec2a",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧侧面拍含胸驼背，字幕「开肩直背神器」，体态反差直击久坐上班族。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "拍低头刷手机、圆肩探颈，穿衣显壮、气质差，靠意志挺直坚持不了几分钟。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "矫姿带穿上身，肩带向后轻拉，物理提醒开肩，每天2小时不耽误做事。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍穿戴前后侧面体态对比，一个多月打卡记录，展示肩线打开的变化证据。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述拥有好体态，口播限时价与赠品，引导点击下单，承接CID链路。"
+            }
+          },
+          "materialId": "26e3cdedfdb744e749a3",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 5,
+          "sourceId": "S1R5",
+          "title": "暖足贴·源头厂家今日特价",
+          "product": "暖足贴",
+          "customer": "宁波臻志电子商务有限公司",
+          "chain": "CID",
+          "tag": "低价直销 · 穿戴式暖脚",
+          "spend": 15445.56,
+          "ctr": 4.58,
+          "cvr": 3.69,
+          "cpm": 33.01,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b5364ad6aaabmaivwv4ibvbv5yeh73qap2a.f0.mp4?dis_k=da373dd5743adaaa8fd0a506ba2dc7c8&dis_t=1792372933&m=7a4b81e30ab67417d2c7eacb75985864&sha256=d25067c2812911ac81dee5c623889ca50108ff5648b31c1efd436d5ecf603d64",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧撕开暖足贴套上脚踝，字幕「源头厂家今日特价」，低价加直发抓怕冷人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "拍冬天脚冰到睡不着、穿袜也不暖，普通暖贴贴脚底易掉、面积不够。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "穿戴式加长脚套出场，包住脚踝自发热，蒸汽热敷持续保暖，走路不掉。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍套上后走动、久坐办公，脚部温热特写，对比贴片式易滑落的问题。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述厂家直销便宜好用，口播今日特价速抢，引导点击下单，承接CID链路。"
+            }
+          },
+          "materialId": "97e409b33d34f35a85b9",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 6,
+          "sourceId": "S1R6",
+          "title": "孕妇护腰枕·久坐不累刷剧好帮手",
+          "product": "孕妇护腰枕",
+          "customer": "合肥网优科技有限公司",
+          "chain": "直播",
+          "tag": "居家场景 · 护颈护腰",
+          "spend": 15225.78,
+          "ctr": 3.79,
+          "cvr": 4.86,
+          "cpm": 33.03,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53aadmgaag64ap6bxj3ruryaaeymaanq2a.f0.mp4?dis_k=be7680400414221cf5e81248ef1b67bd&dis_t=1785654128&m=a42415b4beabba8b8ae96b74114665e9&sha256=e9f5de25a77684211f85273619dbb620127642fb49ed9b853d2f06d680f8b05b",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧靠床头刷手机，字幕「久坐不累的护腰靠枕」，居家放松画面抓孕妈与宅家族。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "拍沙发靠背太软、腰悬空发酸，久坐追剧起身扶腰，普通抱枕撑不住腰。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "特大号护腰枕出场，贴合腰颈曲线，床头沙发两用，孕妇待产也能靠。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍靠上后腰背贴合、手插不进缝隙，对比普通靠垫塌陷，展示支撑证据。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述护颈护腰真舒服，口播直播间专属价，引导进直播间下单，承接直播链路。"
+            }
+          },
+          "materialId": "22bddfa77f3e5139bd8f",
+          "frameStatus": "pending"
         },
         {
           "rank": 7,
-          "sourceId": "S1R6",
-          "title": "暖腹宝·草本蒸汽热敷",
+          "sourceId": "S1R7",
+          "title": "暖宝宝·那几天贴上一会就热",
+          "product": "暖宝宝",
+          "customer": "牧火",
+          "chain": "小店",
+          "tag": "经期共情 · 自发热暖宫",
+          "spend": 14575.33,
+          "ctr": 2.22,
+          "cvr": 19.62,
+          "cpm": 107.43,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53jqcomaaeseapes5gxbvb4tae4zgajzsa.f0.mp4?dis_k=bdb6bfa3621cbc96e90d3b12a43cdd20&dis_t=1789007079&m=14546009a5f3ba92c865a801d1e15223&sha256=6e6aa10058ce4f94aa5a9d1733e78bfebc73ed6e2b722436445cf63976bb8b0d",
+          "frames": [],
+          "golden5": {
+            "hook": {
+              "time": "0-3S",
+              "desc": "首帧女生捂小腹皱眉，字幕「那几天不舒服的姐妹们」，经期共情直击女性人群。"
+            },
+            "pain": {
+              "time": "3-10S",
+              "desc": "拍经期腹痛蜷缩、热水袋要灌水还凉得快，出门上班没法带，难受无处缓解。"
+            },
+            "cure": {
+              "time": "10-20S",
+              "desc": "暖宝宝撕开贴内衣外侧，一会就发热，暖宫暖身，薄薄一片不显形。"
+            },
+            "demo": {
+              "time": "20-27S",
+              "desc": "实拍贴后温度上升、外出通勤一整天仍温热，对比灌水袋笨重，展示持久证据。"
+            },
+            "ending": {
+              "time": "27-30S",
+              "desc": "复述用一次就喜欢，口播小店优惠价，引导进店下单，承接小店链路。"
+            }
+          },
+          "materialId": "2977ed54cd36f386185e",
+          "frameStatus": "pending"
+        },
+        {
+          "rank": 8,
+          "sourceId": "S1R8",
+          "title": "暖腹宝·国货草本腰腹贴",
           "product": "暖腹宝",
           "customer": "古宛堂2",
           "chain": "直播",
-          "tag": "国货信任 · 草本温养",
-          "spend": 39930.81,
-          "ctr": 2.54,
-          "cvr": 13.64,
-          "cpm": 259.11,
-          "duration": "约85s",
+          "tag": "国货信任 · 草本蒸汽热敷",
+          "spend": 13844.45,
+          "ctr": 2.55,
+          "cvr": 14.48,
+          "cpm": 261.08,
+          "duration": "未提供",
           "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc36qbwiaadmqaeef4sznvbt5aemt2agzca.f0.mp4?dis_k=44494f1a61e79f6dd0b663768d6b9ebc&dis_t=1787897598&m=d4f9e1d1bfa23c8c275f48416be9ad5e&sha256=50716df5b2fd71b8d6d3544f174be51763be06132488855657047944a9a2f66e",
-          "frames": [
-            {
-              "src": "assets/frames/upload-feb97aaaa4075f53ba42/frame-01.jpg",
-              "time": "5.1s"
-            },
-            {
-              "src": "assets/frames/upload-feb97aaaa4075f53ba42/frame-02.jpg",
-              "time": "20.5s"
-            },
-            {
-              "src": "assets/frames/upload-feb97aaaa4075f53ba42/frame-03.jpg",
-              "time": "36.7s"
-            },
-            {
-              "src": "assets/frames/upload-feb97aaaa4075f53ba42/frame-04.jpg",
-              "time": "52.9s"
-            },
-            {
-              "src": "assets/frames/upload-feb97aaaa4075f53ba42/frame-05.jpg",
-              "time": "69.9s"
-            }
-          ],
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧手捂小腹皱眉，字幕'因为不懂宣传而鲜为人知的国货品牌'，用国货情怀抓女性人群。"
+              "desc": "首帧手捧腰腹贴，字幕「不懂宣传的国货品牌」，反差人设勾起好奇与同情。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示经期腰腹发凉、普通暖宝宝只热不养、贴久发痒的细节，传统方案局限被放大。"
+              "desc": "拍久坐腰腹发凉、经期坠胀，普通暖贴只发热不养，贴一会就凉透。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "拿出苁蓉腰腹贴，展示银杏叶苁蓉草本植物蒸汽热敷，说明持续温养腰腹。"
+              "desc": "腰腹带出场，银杏叶苁蓉草本配方蒸汽热敷，环绕包裹腰腹，暖而不烫。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍贴于腰腹，蒸汽微热感，展示弯腰活动不移位，前后对比腹部温暖舒适。"
+              "desc": "实拍系上腰腹带做家务、办公，贴合不移位，展示草本贴芯与持续温热。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述便宜又好用，引导直播间下单，承接直播链路。"
+              "desc": "复述便宜又好用，口播直播间专属福利，引导进直播间下单，承接直播链路。"
             }
           },
-          "materialId": "feb97aaaa4075f53ba42",
-          "frameStatus": "ready",
-          "sourceType": "video"
-        },
-        {
-          "sourceId": "S1R13",
-          "title": "风湿骨痛",
-          "product": "风湿骨痛",
-          "customer": "膜尔",
-          "chain": "CID",
-          "tag": "高消耗代表素材",
-          "spend": 38508.64,
-          "ctr": 3.41,
-          "cvr": 13.74,
-          "cpm": 46.65,
-          "duration": "约118s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3kqbyyaadc4am2ansvzvbsvaerrkahdca.f0.mp4?dis_k=3a583f35ea377a10131016cb01a5dc54&dis_t=1790001908&m=35df31b7b3eef7c1c3fb85b939bfb37b&sha256=e0cead5ce38bfc6db90719792741d747ecbc3da5abe26a6921ed5cfebfa626c8",
-          "frames": [
-            {
-              "src": "assets/frames/upload-1693bcc37c5454ff6a59/frame-01.jpg",
-              "time": "7.1s"
-            },
-            {
-              "src": "assets/frames/upload-1693bcc37c5454ff6a59/frame-02.jpg",
-              "time": "28.3s"
-            },
-            {
-              "src": "assets/frames/upload-1693bcc37c5454ff6a59/frame-03.jpg",
-              "time": "50.8s"
-            },
-            {
-              "src": "assets/frames/upload-1693bcc37c5454ff6a59/frame-04.jpg",
-              "time": "73.2s"
-            },
-            {
-              "src": "assets/frames/upload-1693bcc37c5454ff6a59/frame-05.jpg",
-              "time": "96.8s"
-            }
-          ],
-          "rank": 8,
-          "materialId": "1693bcc37c5454ff6a59",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "de08eb3e9acaa3df39c8",
+          "frameStatus": "pending"
         },
         {
           "rank": 9,
-          "sourceId": "S1R7",
-          "title": "护腰用品·艾草芯温养",
-          "product": "护腰用品",
-          "customer": "海大",
-          "chain": "小店",
-          "tag": "痛点直击 · 艾草护腰",
-          "spend": 34904.24,
-          "ctr": 3.95,
-          "cvr": 11.81,
-          "cpm": 70.9,
-          "duration": "约125s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53h4dcuaagcqagixfuxvvb2pyefi7qmksa.f0.mp4?dis_k=a185f91ffd6ef60a2135009eca23caff&dis_t=1790070338&m=1523bc840bab3b05089eebb872536a6b",
-          "frames": [
-            {
-              "src": "assets/frames/upload-f883a358af1d519e85df/frame-01.jpg",
-              "time": "7.5s"
-            },
-            {
-              "src": "assets/frames/upload-f883a358af1d519e85df/frame-02.jpg",
-              "time": "30.0s"
-            },
-            {
-              "src": "assets/frames/upload-f883a358af1d519e85df/frame-03.jpg",
-              "time": "53.7s"
-            },
-            {
-              "src": "assets/frames/upload-f883a358af1d519e85df/frame-04.jpg",
-              "time": "77.5s"
-            },
-            {
-              "src": "assets/frames/upload-f883a358af1d519e85df/frame-05.jpg",
-              "time": "102.5s"
-            }
-          ],
+          "sourceId": "S1R9",
+          "title": "护膝用品·春夏超薄无痕护腿套",
+          "product": "护膝用品",
+          "customer": "杭州萧山火雾服饰商行(个体工商户)",
+          "chain": "CID",
+          "tag": "季节反差 · 空调房防寒",
+          "spend": 12801.01,
+          "ctr": 1.51,
+          "cvr": 3.56,
+          "cpm": 99.6,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0bc3pias6aab74aiib2urnvbw6qef55acl2a.f0.mp4?dis_k=5734c3fc99c58fa6e2fda3b2c23f369f&dis_t=1783999402&m=df4c4f068afe4ff1812d3b8ff3166855&sha256=cbe65a9c06719ac4eba35fc069d96af095bacf42d7408edc639fccffd8872c83",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧手扶腰表情痛苦，字幕'受凉腰刺痛'，用中老年常见动作抓腰部不适人群。"
+              "desc": "首帧卷起裤腿露出薄护膝，字幕「春夏薄款护膝盖」，反季认知差抓空调房人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示弯腰困难、久坐起身扶腰、普通护腰只勒不暖的细节，传统方案治标不治本被放大。"
+              "desc": "拍办公室空调直吹膝盖发凉、老寒腿怕风，厚护膝闷热穿不住、外露尴尬。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "拿出艾草护腰，展示内置艾草芯，说明持续温养腰部，中老年男女通用。"
+              "desc": "超薄无痕护腿套出场，内穿隐形不勒，透气面料锁温，男女通用四季可穿。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍穿戴护腰后弯腰、走路，展示外穿不尴尬，前后对比腰部温暖放松。"
+              "desc": "实拍穿在裤内看不出痕迹，蹲起不滑落，对比厚款臃肿，展示防滑与透气。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述艾草温养腰部，引导小店下单，承接小店链路。"
+              "desc": "复述空调房防寒不闷汗，口播限时价，引导点击下单，承接CID链路。"
             }
           },
-          "materialId": "f883a358af1d519e85df",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "7439fa01ea21ea2e4ca6",
+          "frameStatus": "pending"
         },
         {
           "rank": 10,
-          "sourceId": "S1R8",
-          "title": "身体洗护产品·身体护理膏·换季止痒修护",
-          "product": "身体洗护产品",
-          "customer": "广州市天河区宜洁安百货商行(个体工商户)",
-          "chain": "CID",
-          "tag": "季节痛点 · 草本护理",
-          "spend": 33494.87,
-          "ctr": 2.12,
-          "cvr": 8.75,
-          "cpm": 45.59,
-          "duration": "约28s",
-          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53rqdfiaagouao6652lvvbzdaeksgamvca.f0.mp4?dis_k=4c23b18630055753df931b9beb8d0491&dis_t=1790753787&m=c40cb2d27c21c84bb9bb4fa5c9c7c305",
-          "frames": [
-            {
-              "src": "assets/frames/upload-bb7a0a6bdbe765cc716d/frame-01.jpg",
-              "time": "1.7s"
-            },
-            {
-              "src": "assets/frames/upload-bb7a0a6bdbe765cc716d/frame-02.jpg",
-              "time": "6.8s"
-            },
-            {
-              "src": "assets/frames/upload-bb7a0a6bdbe765cc716d/frame-03.jpg",
-              "time": "12.2s"
-            },
-            {
-              "src": "assets/frames/upload-bb7a0a6bdbe765cc716d/frame-04.jpg",
-              "time": "17.6s"
-            },
-            {
-              "src": "assets/frames/upload-bb7a0a6bdbe765cc716d/frame-05.jpg",
-              "time": "23.3s"
-            }
-          ],
+          "sourceId": "S1R10",
+          "title": "外用贴膏或凝胶·睡前贴助眠",
+          "product": "外用贴膏或凝胶",
+          "customer": "乐比眼贴",
+          "chain": "小店",
+          "tag": "睡眠痛点 · 植萃精油",
+          "spend": 9894.07,
+          "ctr": 4.56,
+          "cvr": 11.45,
+          "cpm": 238.21,
+          "duration": "未提供",
+          "videoUrl": "http://adsmind.gdtimg.com/ads_svp_video__0b53jqaqiaabdaafulksv5vbwtaeargacbca.f0.mp4?dis_k=4d44daad8c7587156ef91f3c1d72f655&dis_t=1783848583&m=3eea325cd64557463e9cbfc07710d5fb&sha256=bcfb4addec7bef4965d3bb08ac80eca8b4e45045e0b73427edfa3bf63f658fee",
+          "frames": [],
           "golden5": {
             "hook": {
               "time": "0-3S",
-              "desc": "首帧手臂抓挠红痕特写，字幕'季节交替肌肤小状况'，用换季瘙痒抓敏感肌人群。"
+              "desc": "首帧深夜床上翻来覆去，字幕「翻来覆去睡不着」，失眠场景直击熬夜人群。"
             },
             "pain": {
               "time": "3-10S",
-              "desc": "展示手脚干痒、越挠越红、普通润肤露止不住的细节，传统方案无效被放大。"
+              "desc": "拍数羊、刷手机越刷越清醒，第二天顶着黑眼圈，褪黑素又担心依赖。"
             },
             "cure": {
               "time": "10-20S",
-              "desc": "拿出草本植萃护理膏，涂抹手脚肌肤，强调外用护理、日常养护。"
+              "desc": "睡眠贴出场，撕开贴于手腕或枕边，植萃精油缓释，无褪黑素更安心。"
             },
             "demo": {
               "time": "20-27S",
-              "desc": "实拍涂抹后按摩吸收，前后对比红痕消退、皮肤滋润，展示不粘腻。"
+              "desc": "实拍睡前贴上、关灯入睡，次日精神起床，展示使用步骤与舒缓氛围。"
             },
             "ending": {
               "time": "27-30S",
-              "desc": "复述换季试试这款，引导点击下单，承接CID链路。"
+              "desc": "复述植萃精油助眠，口播小店优惠，引导进店下单，承接小店链路。"
             }
           },
-          "materialId": "bb7a0a6bdbe765cc716d",
-          "frameStatus": "ready",
-          "sourceType": "video"
+          "materialId": "dc63c6af92cc5edb307b",
+          "frameStatus": "pending"
         }
       ]
     },
